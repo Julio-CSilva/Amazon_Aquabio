@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Outlet } from 'react-router-dom';
 import EstilosGlobais from "./componentes/EstilosGlobais"
 import Cabecalho from "./componentes/Cabecalho"
 
@@ -27,15 +28,14 @@ function App() {
 
   return (
     <FundoGradiente>
-      <PatternFundo>
         <EstilosGlobais />
-        <AppContainer>
-          <Cabecalho />
-
-        </AppContainer>
-
-      </PatternFundo>
-
+        <Cabecalho />
+        <PatternFundo>
+          <AppContainer>
+            <Outlet/>
+          </AppContainer>
+        </PatternFundo>
+        
     </FundoGradiente>
   )
 }

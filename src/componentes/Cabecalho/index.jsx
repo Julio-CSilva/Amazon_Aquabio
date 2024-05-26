@@ -1,32 +1,34 @@
 import styled from "styled-components"
+import { ButtonGroup } from '@chakra-ui/react'
+import ButtonPersonalizado from "../ButtonPersonalizado";
+
 
 const HeaderEstilizado = styled.header`
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
     width: 100%;
-    height: 90px;
-    justify-content: space-between;
+    height: 70px;
     img {
         max-width: 13.25rem;
+        max-height: 88px;
     }
 `
-const MenuCabecalho = styled.div`
-    display: flex;
-    justify-content: space-between;
-`
+
 
 const Cabecalho = () => {
-    return (<HeaderEstilizado>
+    return (
+    <HeaderEstilizado>
         <img src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" />
-        <MenuCabecalho>
-            <h2>Home</h2>
-            <h2>About</h2>
-            <h2>Metodologia</h2>
-            <h2>Pesquisadores</h2>
-            <h2>Contato</h2>
-        </MenuCabecalho>
-    </HeaderEstilizado>)
+        <ButtonGroup spacing='2rem' mr='2rem'>
+        <ButtonPersonalizado text='Home' route='/' />
+        <ButtonPersonalizado text='About' route='/About' />
+        <ButtonPersonalizado text='Metodologia' route='/Metodologia' />
+        <ButtonPersonalizado text='Pesquisadores' route='/Pesquisadores' />
+        <ButtonPersonalizado text='Contato' route='/Contato' />
+        </ButtonGroup>
+    </HeaderEstilizado>
+    )
 }
 
 export default Cabecalho
