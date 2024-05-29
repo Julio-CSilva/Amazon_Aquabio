@@ -6,12 +6,12 @@ import ButtonPersonalizado from "../ButtonPersonalizado";
 const HeaderEstilizado = styled.header`
     display: flex;
     justify-content: space-between;
-    background-color: #F2F2F2;
+    background: linear-gradient(180deg, #dddddd 0%, #ffffff 100%);
     width: 100%;
     height: 70px;
     img {
-        max-width: 13.25rem;
-        max-height: 88px;
+        max-width: 8rem;
+        height: auto;
     }
 `
 

@@ -20,8 +20,8 @@ const ButtonPersonalizado = ({text, route}) => {
             textDecoration='underline 4px'
             color='#036C6F'
             fontWeight='bold'
-            bg='#F2F2F2'
-            _hover={{ bg: '#ACD8D8' }}
+            bg='linear-gradient(180deg, #dddddd 0%, #ffffff 100%)'
+            _hover={{ bg: 'linear-gradient(180deg, #369F9F 0%, #6BB9B9 32%, #ACD8D8 100%)' }}
             _active={{
             bg: '#036C6F',
             color: '#f2f2f2',
