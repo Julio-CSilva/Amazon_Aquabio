@@ -10,7 +10,6 @@ const FundoGradiente = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
 `
 
 const PatternFundo = styled.div`
@@ -18,17 +17,15 @@ const PatternFundo = styled.div`
   background-repeat: repeat;
   width: 100%;
   flex: 1;
-  background-position: center;
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 `
 
 const AppContainer = styled.div`
   width: 100%;
-  margin: 0 auto;
-  min-height: 100vh;
+  flex: 1; 
   display: flex;
   flex-direction: column;
-  flex: 1;
   overflow-x: hidden;
 `
 

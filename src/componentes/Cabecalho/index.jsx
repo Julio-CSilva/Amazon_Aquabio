@@ -10,8 +10,9 @@ const HeaderEstilizado = styled.header`
     width: 100%;
     height: 70px;
     img {
-        max-width: 8rem;
+        max-width: 7rem;
         height: auto;
+        margin-left: 1%;
     }
 `
 
