@@ -1,35 +1,31 @@
-import { Box, Divider, Image, Text, VStack } from "@chakra-ui/react"
-
+import { Box, VStack, Image, Text } from "@chakra-ui/react"
 
 const Footer = () => {
-    return(
+    return (
         <Box
-            background={'#023C3C'}
-            h={"12rem"}
+            backgroundColor='#ffffff'
+            h={"15rem"}
             w={'100%'}
-            display='flex'
-            alignContent={'center'}
-            alignItems={'center'}
-            justifyContent={'space-around'}
-            p={'0 5%'}
+            p={'2rem 15rem'}
+            color='#365B6D'
+            fontWeight='bold'
         >
-            <Image src="/public/images/footer-logos.svg" alt="logo do BioME, PPG BIOINFO UFRN e da propria UFRN"
-                w={'30rem'}
-                h={'auto'}
-                ml={'1%'}
-            />
-            <Divider orientation="vertical" colorScheme="cyan" h={'10rem'}/>
             <VStack
-                display='flex'
-                alignItems={'center'}
-                textColor={'white'}
+                alignItems="flex-start"
+                spacing={4}
             >
-                <Text>
-                    Created by: J.Silva & Gabriel.V
-                </Text>
-                <Text>
-                    © 2024 Amazon Aquabio Project
-                </Text>
+                <Text fontSize='20px'>Apoio</Text>
+                <Box display="flex" justifyContent="center" width="100%">
+                    <Image 
+                        src="/images/apoiadores.png" 
+                        alt="logos dos apoiadores, da esquerda para direita: PPG Bioinfo, UFRN, Metrópole digital, BIOME"
+                        width="65rem"
+                        height="auto"
+                    />
+                </Box>
+                <Text fontSize='20px'>Criadores</Text>
+                <Text fontSize='18px' fontWeight='normal' ml='1rem'>● J.Silva & Gabriel.V</Text>
+                <Text fontSize='20px' mb='1rem'>© 2024 Amazon Aquabio Project</Text>
             </VStack>
         </Box>
     )

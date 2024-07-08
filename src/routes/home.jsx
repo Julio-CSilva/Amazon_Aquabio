@@ -13,25 +13,30 @@ const Home = () => {
                 templateColumns="1fr"
                 templateRows='repeat(110, 1fr)'
                 h="auto"
-                w='90%'
+                w='100%'
                 gap={5}
-                mt='15px'
-                ml='5%'
+                mt='5rem'
             >
-                <GridItem rowSpan={20}>
-                    <Box 
-                    h='100%'
-                    display={'flex'}
-                    alignItems={'center'}
-                    justifyContent={'center'}
-                    >
-                        <Image 
-                        src="/public/images/aab-logo-home.svg" 
-                        alt="logo da amazon aqua bio"
-                        borderRadius={'50px'}
-                        
-                        />
-                    </Box>
+                <GridItem rowSpan={32}>
+                    <Box background='tomato' h='100%'>inicio</Box>
+                </GridItem>
+                <GridItem rowSpan={32}>
+                    <Box background='yellow' h='100%'>sobre</Box>
+                </GridItem>
+                <GridItem rowSpan={32}>
+                    <Box background='tomato' h='100%'>sobrepeixes</Box>
+                </GridItem>
+                <GridItem rowSpan={32}>
+                    <Box background='yellow' h='100%'>sobremapa</Box>
+                </GridItem>
+                <GridItem rowSpan={32}>
+                    <Box background='tomato' h='100%'>metologia</Box>
+                </GridItem>
+                <GridItem rowSpan={32}>
+                    <Box background='yellow' h='100%'>publicações</Box>
+                </GridItem>
+                <GridItem rowSpan={32}>
+                    <Box background='tomato' h='100%'>pesquisadores</Box>
                 </GridItem>
                 <GridItem rowSpan={4}>
                     <Filtros/>

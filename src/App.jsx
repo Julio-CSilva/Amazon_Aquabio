@@ -13,13 +13,15 @@ const FundoGradiente = styled.div`
 `
 
 const PatternFundo = styled.div`
-  background-image: url(/images/pattern.png);
+  background-image: url(/images/pattern-pequeno.png);
   background-repeat: repeat;
+  background-size: 15%;
   width: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
-`
+  `
+
 
 const AppContainer = styled.div`
   width: 100%;

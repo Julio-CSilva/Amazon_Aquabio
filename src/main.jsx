@@ -9,9 +9,6 @@ import { ChakraProvider } from '@chakra-ui/react'
 import ErrorPage from './routes/error-page';
 import App from './App';
 import Home from './routes/home';
-import About from './routes/about';
-import Metodologia from './routes/metodologia';
-import Pesquisadores from './routes/pesquisadores';
 import Contato from './routes/contato';
 
 const router = createBrowserRouter([
@@ -23,18 +20,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home/>
-      },
-      {
-        path: "/About",
-        element: <About />
-      },
-      {
-        path: "/Metodologia",
-        element: <Metodologia />
-      },
-      {
-        path: "/Pesquisadores",
-        element: <Pesquisadores />
       },
       {
         path: "/Contato",
