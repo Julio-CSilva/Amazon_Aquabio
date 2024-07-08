@@ -3,7 +3,6 @@ import {
     FormControl,
     FormLabel,
   } from '@chakra-ui/react'
-import { useState } from "react"
 
 
 const Contato = () => {

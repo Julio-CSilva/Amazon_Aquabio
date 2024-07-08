@@ -16,16 +16,13 @@ const ButtonPersonalizado = ({text, route}) => {
             width='auto'
             padding='0.5rem'
             border='none'
-            fontSize='24px'
-            textDecoration='underline 4px'
-            color='#036C6F'
+            fontSize='16px'
+            color='#F5F7FA'
             fontWeight='bold'
-            bg='linear-gradient(180deg, #dddddd 0%, #ffffff 100%)'
-            _hover={{ bg: 'linear-gradient(180deg, #369F9F 0%, #6BB9B9 32%, #ACD8D8 100%)' }}
+            _hover={{ textDecoration: 'underline 3px'}}
             _active={{
-            bg: '#036C6F',
-            color: '#f2f2f2',
-            transform: 'scale(0.98)',
+            bg: '#F5F7FA',
+            color: '#365B6D',
             }}
             onClick={handleClick}>
 
