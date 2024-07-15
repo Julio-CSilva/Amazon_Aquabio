@@ -21,7 +21,7 @@ const HeaderEstilizado = styled.header`
 const Cabecalho = () => {
     return (
     <HeaderEstilizado>
-        <Image src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio"/>
+        <Image src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" p='0.5rem'/>
         <Box as='div'
             ml='10rem'
             mr='1rem'
