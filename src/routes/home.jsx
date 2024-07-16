@@ -5,6 +5,7 @@ import fotos from "../fotos.json"
 import { useState } from "react"
 import ApresentacaoB1 from "../Home/ApresentacaoB1"
 import DefinicaoB2 from "../Home/DefinicaoB2"
+import PeixesB3 from "../Home/PeixesB3"
 
 const Home = () => {
     const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos);
@@ -30,7 +31,9 @@ const Home = () => {
                     </Box>
                 </GridItem>
                 <GridItem rowSpan={1}>
-                    <Box background='tomato'>sobrepeixes</Box>
+                <Box background='#365B6D'>
+                        <PeixesB3/>
+                    </Box>
                 </GridItem>
                 <GridItem rowSpan={1}>
                     <Box background='yellow'>sobremapa</Box>
