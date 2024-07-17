@@ -33,7 +33,7 @@ const PeixeGaleria = ({foto, expandida = false, aoZoomSolicitado}) => {
                 >
                     <Text as='i' fontSize={'16px'}>{foto.familia}</Text>
                     <button>
-                        <Image src="/public/icons/expandir.png" alt="Icone de expandir" boxSize='110%' mr={'5px'}/>
+                        <Image src="/icons/expandir.png" alt="Icone de expandir" boxSize='110%' mr={'5px'}/>
                     </button>
                 </HStack>
             </Box>
