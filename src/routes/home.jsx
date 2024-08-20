@@ -7,6 +7,7 @@ import ApresentacaoB1 from "../Home/ApresentacaoB1"
 import DefinicaoB2 from "../Home/DefinicaoB2"
 import PeixesB3 from "../Home/PeixesB3"
 import MapaB4 from "../Home/MapaB4"
+import MetodologiaB5 from "../Home/MetodologiaB5"
 
 const Home = () => {
     const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos);
@@ -37,12 +38,14 @@ const Home = () => {
                     </Box>
                 </GridItem>
                 <GridItem rowSpan={1}>
-                <Box background='#ffffff'>
+                    <Box background='#ffffff'>
                         <MapaB4/>
                     </Box>
                 </GridItem>
                 <GridItem rowSpan={1}>
-                    <Box background='tomato'>metologia</Box>
+                    <Box backgroundColor="rgba(255, 255, 255, 0.1)" /*backdropFilter="blur(0.5px)"*/>
+                        <MetodologiaB5/>
+                    </Box>
                 </GridItem>
                 <GridItem rowSpan={1}>
                     <Box background='yellow'>publicações</Box>

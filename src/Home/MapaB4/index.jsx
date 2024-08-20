@@ -13,6 +13,7 @@ const MapaB4 = () => {
             alignItems='flex-start'
             alignContent='center'
             textAlign='right'
+            justifyContent='space-between'
         >
             <HStack>
                 <Box
