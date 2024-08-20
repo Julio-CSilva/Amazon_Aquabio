@@ -4,9 +4,9 @@ const Footer = () => {
     return (
         <Box
             backgroundColor='#ffffff'
-            h={"15rem"}
-            w={'100%'}
-            p={'2rem 15rem'}
+            h="15rem"
+            w='100%'
+            p='5rem 15rem'
             color='#365B6D'
             fontWeight='bold'
         >
@@ -19,13 +19,13 @@ const Footer = () => {
                     <Image 
                         src="/images/apoiadores.png" 
                         alt="logos dos apoiadores, da esquerda para direita: PPG Bioinfo, UFRN, Metrópole digital, BIOME"
-                        width="65rem"
+                        width="75rem"
                         height="auto"
                     />
                 </Box>
                 <Text fontSize='20px'>Criadores</Text>
                 <Text fontSize='18px' fontWeight='normal' ml='1rem'>● J.Silva & Gabriel.V</Text>
-                <Text fontSize='20px' mb='1rem'>© 2024 Amazon Aquabio Project</Text>
+                <Text fontSize='20px' mb='2rem'>© 2024 Amazon Aquabio Project</Text>
             </VStack>
         </Box>
     )

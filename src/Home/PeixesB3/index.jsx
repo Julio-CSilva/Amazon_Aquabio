@@ -7,9 +7,9 @@ const PeixesB3 = () => {
     <Box
         as="section"
         color='#ffffff'
-        fontSize='3.125rem'
+        fontSize='3rem'
         fontWeight='bold'
-        p='1rem 2rem'
+        p='4rem'
         display='flex'
         position='relative' 
     >
@@ -39,7 +39,7 @@ const PeixesB3 = () => {
                 templateRows='repeat(3, auto)'
                 h="auto"
                 position='absolute'
-                top='50%'
+                top='51%'
                 transform='translateY(-55.5%)'
                 right='3%'
                 zIndex={1}

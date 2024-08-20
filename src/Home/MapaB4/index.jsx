@@ -5,7 +5,7 @@ const MapaB4 = () => {
         <Box
             as="section"
             color='#365B6D'
-            fontSize='1.5rem'
+            fontSize='1.25rem'
             display='flex'
             flexDirection='column'
             p='4rem'
@@ -29,7 +29,7 @@ const MapaB4 = () => {
                     h='auto'
                 >
                     <Text
-                        fontSize='3.125rem'
+                        fontSize='3rem'
                         fontWeight='bold'
 
                     >

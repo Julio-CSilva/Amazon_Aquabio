@@ -62,9 +62,6 @@ const Home = () => {
                         fotos={fotosDaGaleria}
                     />
                 </GridItem>
-                <GridItem rowSpan={1}>
-                    <Box background='tomato'>comparador</Box>
-                </GridItem>
             </Grid>
         </Box>
     )

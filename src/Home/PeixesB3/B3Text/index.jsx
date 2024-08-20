@@ -9,7 +9,7 @@ const B3Text = ({ number, text }) => {
             alignItems='baseline'
         >
             <Text
-                fontSize='5rem'
+                fontSize='4rem'
             >
                 {number}
             </Text>
