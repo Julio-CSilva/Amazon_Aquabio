@@ -15,7 +15,7 @@ const FundoGradiente = styled.div`
 const PatternFundo = styled.div`
   background-image: url(/images/pattern-pequeno.png);
   background-repeat: repeat;
-  background-size: 15%;
+  background-size: 10%;
   width: 100%;
   flex: 1;
   display: flex;
