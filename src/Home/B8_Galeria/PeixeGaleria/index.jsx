@@ -1,4 +1,4 @@
-import { Box, HStack, Image, Text } from "@chakra-ui/react"
+import { Box, Button, HStack, Image, Text } from "@chakra-ui/react"
 
 
 const PeixeGaleria = ({foto, expandida = false, aoZoomSolicitado}) => {
@@ -6,8 +6,9 @@ const PeixeGaleria = ({foto, expandida = false, aoZoomSolicitado}) => {
     return (
         <Box
             as="figure"
-            w={'458px'}
-            h={'379px'}
+            w={expandida ? '100%' : '90%'}
+            maxW="100%"
+            h={'100%'}
             margin={'0'}
             display={'flex'}
             flexDirection={'column'}
@@ -16,25 +17,24 @@ const PeixeGaleria = ({foto, expandida = false, aoZoomSolicitado}) => {
             <Image 
                 src={foto.path}
                 borderRadius={"20px 20px 0 0"}   
-                h={'306px'} 
             />
             <Box
                 backgroundColor={"#037373"}
                 borderRadius={"0px 0px 20px 20px"}
                 color={"white"}
                 boxSizing="border-box"
-                padding={'3%'}
+                padding={'1rem'}
             >
-                <Text as='b' fontSize={'28px'}>{foto.nome}</Text>
+                <Text as='b' fontSize={'1.5rem'}>{foto.nome}</Text>
                 <HStack
                     display={'flex'}
                     justifyContent={'space-between'}
                     alignItems={'center'}
                 >
-                    <Text as='i' fontSize={'16px'}>{foto.familia}</Text>
-                    <button>
-                        <Image src="/icons/expandir.png" alt="Icone de expandir" boxSize='110%' mr={'5px'}/>
-                    </button>
+                    <Text as='i' fontSize={'1rem'}>{foto.familia}</Text>
+                    {!expandida && <Button aria-hidden={expandida} onClick={() => aoZoomSolicitado(foto)} background="none" p={0}>
+                        <Image src="/icons/expandir.png" alt="Icone de expandir" boxSize='20px' />
+                    </Button>}
                 </HStack>
             </Box>
         </Box>

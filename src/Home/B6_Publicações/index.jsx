@@ -12,7 +12,7 @@ const PublicacoesB6 = () => {
         >
             <VStack
                 w='50%'
-                alignItems='flex-start'  
+                alignItems='flex-start'
                 justifyContent='flex-start'
                 gap='1rem'
             >
@@ -27,15 +27,15 @@ const PublicacoesB6 = () => {
                 >
                     Informações do Artigo
                 </Text>
-                <Image src="/images/b6/publicacoes.png" w='50%' ml='10rem'/>
+                <Image src="/images/b6/publicacoes.png" w='50%' ml='10rem' />
             </VStack>
             <VStack
                 w='50%'
             >
-                <Image 
-                    src="/images/b6/pexels-photo-4050347.jpeg" 
-                    alt="Fonte: Vlada Karpovich. Foto mostra uma pessoa com um notebook no colo escrevendo um artigo com revistas ao seu redor" 
-                    w='70%' 
+                <Image
+                    src="/images/b6/pexels-photo-4050347.jpeg"
+                    alt="Fonte: Vlada Karpovich. Foto mostra uma pessoa com um notebook no colo escrevendo um artigo com revistas ao seu redor"
+                    w='70%'
                 />
                 <Text>Imagem ilustrativa, escolher uma apropriada</Text>
             </VStack>

@@ -1,6 +1,4 @@
 import { Box, Grid, GridItem } from "@chakra-ui/react"
-import Filtros from "../Filtros"
-import Galeria from "../Galeria"
 import fotos from "../fotos.json"
 import { useState } from "react"
 import ApresentacaoB1 from "../Home/B1_Apresentacao"
@@ -10,9 +8,13 @@ import MapaB4 from "../Home/B4_Mapa"
 import MetodologiaB5 from "../Home/B5_Metodologia"
 import PublicacoesB6 from "../Home/B6_Publicações"
 import PesquisadoresB7 from "../Home/B7_Pesquisadores"
+import FiltrosB8 from "../Home/B8_Galeria/Filtros"
+import GaleriaB8 from "../Home/B8_Galeria"
+import ModalZoom from "../componentes/ModalZoom"
 
 const Home = () => {
     const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos);
+    const [fotoSelecionada, setFotoSelecionada] = useState(null);
 
     return (
         <Box flex="1" overflowY="auto">
@@ -55,7 +57,7 @@ const Home = () => {
                     </Box>
                 </GridItem>
                 <GridItem rowSpan={1}>
-                    <Box 
+                    <Box
                         as="div"
                         h='7rem'
                         w='auto'
@@ -67,15 +69,19 @@ const Home = () => {
                     </Box>
                 </GridItem>
                 <GridItem rowSpan={1}>
-                    <Filtros />
-                </GridItem>
-                <GridItem rowSpan={1}>
-                    <Galeria
-                        aoFotoSelecionada={foto => setFotoSelecionada(foto)}
-                        fotos={fotosDaGaleria}
-                    />
+                    <Box background='#5A7302' pb='0.5rem'>
+                        <FiltrosB8 />
+                        <GaleriaB8
+                            aoFotoSelecionada={foto => setFotoSelecionada(foto)}
+                            fotos={fotosDaGaleria}
+                        />
+                    </Box>
                 </GridItem>
             </Grid>
+            <ModalZoom
+                foto={fotoSelecionada}
+                aoFechar={() => setFotoSelecionada(null)}
+            />
         </Box>
     )
 }
