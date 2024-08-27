@@ -10,12 +10,12 @@ const B3Image = ({ path }) => {
       overflow="hidden"
       position="relative"
     >
-      <Image 
-        src={path} 
-        alt="Hexagonal image" 
-        objectFit="cover" 
-        width="100%" 
-        height="100%" 
+      <Image
+        src={path}
+        alt="Hexagonal image"
+        objectFit="cover"
+        width="100%"
+        height="100%"
         objectPosition="center 5%"
       />
     </Box>
