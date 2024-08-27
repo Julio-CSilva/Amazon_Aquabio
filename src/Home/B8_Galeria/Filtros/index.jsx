@@ -1,7 +1,13 @@
 import { Box, HStack, Stack, Text, Menu, MenuList, MenuItem, MenuButton, IconButton, Input, CheckboxGroup, Checkbox } from "@chakra-ui/react"
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const FiltrosB8 = () => {
+const FiltrosB8 = ({ searchTerm, setSearchTerm }) => {
+
+    const handleSearchChange = (event) => {
+        setSearchTerm(event.target.value);
+    };
+
+
     return (
         <Box
             background='#5A7302'
@@ -53,6 +59,10 @@ const FiltrosB8 = () => {
                     background={'#ffffff'}
                     mr={'1%'}
                     p='0.5rem 0.5rem 0.5rem 1rem'
+                    color='#000000'
+
+                    value={searchTerm}
+                    onChange={handleSearchChange}
                 />
             </HStack>
 

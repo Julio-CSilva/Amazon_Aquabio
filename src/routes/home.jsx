@@ -70,7 +70,6 @@ const Home = () => {
                 </GridItem>
                 <GridItem rowSpan={1}>
                     <Box background='#5A7302' pb='0.5rem'>
-                        <FiltrosB8 />
                         <GaleriaB8
                             aoFotoSelecionada={foto => setFotoSelecionada(foto)}
                             fotos={fotosDaGaleria}
