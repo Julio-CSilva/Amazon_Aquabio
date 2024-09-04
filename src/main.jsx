@@ -10,6 +10,8 @@ import ErrorPage from './routes/error-page';
 import App from './App';
 import Home from './routes/home';
 import Contato from './routes/contato';
+import theme from './theme';
+import EstilosGlobais from './componentes/EstilosGlobais';
 
 const router = createBrowserRouter([
   {
@@ -34,7 +36,8 @@ const rootElement = document.getElementById('root');
 if (rootElement) {
   ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
-      <ChakraProvider>
+      <EstilosGlobais />
+      <ChakraProvider theme={theme}>
         <RouterProvider router={router} />
       </ChakraProvider> 
     </React.StrictMode>

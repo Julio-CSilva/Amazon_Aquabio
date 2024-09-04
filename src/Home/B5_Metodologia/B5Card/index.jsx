@@ -1,6 +1,16 @@
-import { Image, Text, VStack } from "@chakra-ui/react"
+import { Heading, Image, Text, VStack } from "@chakra-ui/react"
 
-const B5Card = ({ image, titulo, desc }) => {
+const B5Card = ({ image, titulo, desc, language }) => {
+
+  const texts = {
+    pt: {
+        texto: 'Ver mais',
+    },
+    en: {
+        texto: 'See more',
+    }
+}
+
   return (
     <VStack
       background='#365B6D'
@@ -22,9 +32,9 @@ const B5Card = ({ image, titulo, desc }) => {
         h='auto'
 
       />
-      <Text fontSize='18px'>{titulo}</Text>
+      <Heading fontSize='18px'>{titulo}</Heading>
       <Text fontSize='16px' fontWeight='normal'>{desc}</Text>
-      <Text fontSize='12px' mt='2rem'>Ver mais &gt;&gt;&gt;</Text>
+      <Text fontSize='12px' mt='2rem'>{texts[language].texto} &gt;&gt;&gt;</Text>
     </VStack>
   )
 };

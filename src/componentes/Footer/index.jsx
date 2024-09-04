@@ -1,6 +1,21 @@
-import { Box, VStack, Image, Text } from "@chakra-ui/react"
+import { Box, VStack, Image, Text, Heading } from "@chakra-ui/react"
+import { useLanguage } from "../LanguageContext";
 
 const Footer = () => {
+
+    const { language } = useLanguage();
+
+    const texts = {
+        pt: {
+            apoio: 'Apoio',
+            criadores: 'Criadores',
+        },
+        en: {
+            apoio: 'Support',
+            criadores: 'Creators',
+        }
+    }
+
     return (
         <Box
             backgroundColor='#ffffff'
@@ -14,7 +29,7 @@ const Footer = () => {
                 alignItems="flex-start"
                 spacing={4}
             >
-                <Text fontSize='20px'>Apoio</Text>
+                <Heading fontSize='20px'>{texts[language].apoio}</Heading>
                 <Box display="flex" justifyContent="center" width="100%">
                     <Image 
                         src="/images/apoiadores.png" 
@@ -23,9 +38,9 @@ const Footer = () => {
                         height="auto"
                     />
                 </Box>
-                <Text fontSize='20px'>Criadores</Text>
+                <Heading fontSize='20px'>{texts[language].criadores}</Heading>
                 <Text fontSize='18px' fontWeight='normal' ml='1rem'>● J.Silva & Gabriel.V</Text>
-                <Text fontSize='20px' mb='2rem'>© 2024 Amazon Aquabio Project</Text>
+                <Heading fontSize='20px' mb='2rem'>© 2024 Amazon Aquabio Project</Heading>
             </VStack>
         </Box>
     )

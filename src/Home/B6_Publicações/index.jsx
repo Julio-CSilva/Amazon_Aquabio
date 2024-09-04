@@ -1,6 +1,21 @@
-import { Box, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, Heading, Image, Text, VStack } from "@chakra-ui/react";
+import { useLanguage } from "../../componentes/LanguageContext";
 
 const PublicacoesB6 = () => {
+
+    const { language } = useLanguage();
+
+    const texts = {
+        pt: {
+            titulo: 'Publicações',
+            info: 'Informações do Artigo',
+        },
+        en: {
+            titulo: 'Publications',
+            info: 'Article Information',
+        }
+    }
+
     return (
         <Box
             as="section"
@@ -16,16 +31,16 @@ const PublicacoesB6 = () => {
                 justifyContent='flex-start'
                 gap='1rem'
             >
-                <Text
+                <Heading
                     fontSize='3rem'
                     fontWeight='bold'
                 >
-                    Publicações
-                </Text>
+                    {texts[language].titulo}
+                </Heading>
                 <Text
                     fontSize='1.15rem'
                 >
-                    Informações do Artigo
+                    {texts[language].info}
                 </Text>
                 <Image src="/images/b6/publicacoes.png" w='50%' ml='10rem' />
             </VStack>

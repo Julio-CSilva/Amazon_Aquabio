@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { Box, Button, ButtonGroup, Divider, Image } from '@chakra-ui/react'
 import ButtonPersonalizado from "../ButtonPersonalizado";
+import { useLanguage } from "../../componentes/LanguageContext";
 
 
 const HeaderEstilizado = styled.header`
@@ -18,42 +19,77 @@ const HeaderEstilizado = styled.header`
 `
 
 
+
+
 const Cabecalho = () => {
+
+    const { language, toggleLanguage } = useLanguage();
+
+    const texts = {
+        pt: {
+            inicio: 'INICIO',
+            sobre: 'SOBRE',
+            metodologia: 'METODOLOIGA',
+            analises: 'ANÁLISES',
+            publicacoes: 'PUBLICAÇÕES',
+            pesquisadores: 'PESQUISADORES',
+            contato: 'CONTATO',
+        },
+        en: {
+            inicio: 'START',
+            sobre: 'ABOUT',
+            metodologia: 'METHODOLOGY',
+            analises: 'RESEARCH',
+            publicacoes: 'PUBLICATIONS',
+            pesquisadores: 'RESEARCHERS',
+            contato: 'CONTACT',
+        }
+    };
+
     return (
-    <HeaderEstilizado>
-        <Image src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" p='0.5rem'/>
-        <Box as='div'
-            ml='10rem'
-            mr='1rem'
-        >
-            <ButtonGroup 
-                spacing='1.5rem'
+        <HeaderEstilizado>
+            <Image src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" p='0.5rem' />
+            <Box as='div'
+                ml='10rem'
                 mr='1rem'
             >
-                <ButtonPersonalizado text='INICIO' route='/' />
-                <ButtonPersonalizado text='SOBRE' route='/' />
-                <ButtonPersonalizado text='METODOLOIGA' route='/' />
-                <ButtonPersonalizado text='ANÁLISES' route='/' />
-                <ButtonPersonalizado text='PUBLICAÇÕES' route='/' />
-                <ButtonPersonalizado text='PESQUISADORES' route='/' />
-                <ButtonPersonalizado text='CONTATO' route='/Contato' />
-            </ButtonGroup>
-            <ButtonGroup
-                fontWeight='bold'
-                variant='ghost'
-                color='#F5F7FA'
-                colorScheme='Gray'
-            >
-                <Button>EN</Button>
-                <Divider
-                    orientation="vertical"
+                <ButtonGroup
+                    spacing='1rem'
+                    mr='1rem'
+                >
+                    <ButtonPersonalizado text= {texts[language].inicio} route='/' />
+                    <ButtonPersonalizado text={texts[language].sobre} route='/' />
+                    <ButtonPersonalizado text={texts[language].metodologia} route='/' />
+                    <ButtonPersonalizado text={texts[language].analises} route='/' />
+                    <ButtonPersonalizado text={texts[language].publicacoes} route='/' />
+                    <ButtonPersonalizado text={texts[language].pesquisadores} route='/' />
+                    <ButtonPersonalizado text={texts[language].contato} route='/Contato' />
+                </ButtonGroup>
+                <ButtonGroup
+                    fontWeight='bold'
+                    variant='ghost'
                     color='#F5F7FA'
-                />
-                <Button>PT</Button>
-            </ButtonGroup>
-        </Box>
-        
-    </HeaderEstilizado>
+                    colorScheme='Gray'
+                >
+                    <Button
+                        onClick={() => toggleLanguage('pt')}
+                        fontWeight={language === 'pt' ? 'bold' : 'normal'}
+                    >
+                        PT-BR</Button>
+                    <Divider
+                        orientation="vertical"
+                        color='#F5F7FA'
+                        h='10'
+                    />
+                    <Button
+                        onClick={() => toggleLanguage('en')}
+                        fontWeight={language === 'en' ? 'bold' : 'normal'}
+                    >
+                        EN</Button>
+                </ButtonGroup>
+            </Box>
+
+        </HeaderEstilizado>
     )
 }
 

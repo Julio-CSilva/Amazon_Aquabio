@@ -8,7 +8,6 @@ import MapaB4 from "../Home/B4_Mapa"
 import MetodologiaB5 from "../Home/B5_Metodologia"
 import PublicacoesB6 from "../Home/B6_Publicações"
 import PesquisadoresB7 from "../Home/B7_Pesquisadores"
-import FiltrosB8 from "../Home/B8_Galeria/Filtros"
 import GaleriaB8 from "../Home/B8_Galeria"
 import ModalZoom from "../componentes/ModalZoom"
 

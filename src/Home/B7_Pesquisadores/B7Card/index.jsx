@@ -1,4 +1,4 @@
-import { Image, Text, VStack } from "@chakra-ui/react"
+import { Heading, Image, Text, VStack } from "@chakra-ui/react"
 
 const B7Card = ({ image, titulo, desc }) => {
   return (
@@ -21,7 +21,7 @@ const B7Card = ({ image, titulo, desc }) => {
         w='70%'
         h='auto'
       />
-      <Text fontSize='18px'>{titulo}</Text>
+      <Heading fontSize='18px'>{titulo}</Heading>
       <Text fontSize='16px' fontWeight='normal'>{desc}</Text>
     </VStack>
   )

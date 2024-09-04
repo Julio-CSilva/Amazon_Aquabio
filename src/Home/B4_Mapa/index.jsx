@@ -1,6 +1,21 @@
-import { Box, HStack, Image, Text, VStack } from "@chakra-ui/react"
+import { Box, Heading, HStack, Text, VStack } from "@chakra-ui/react"
+import { useLanguage } from "../../componentes/LanguageContext";
 
 const MapaB4 = () => {
+
+    const { language } = useLanguage();
+
+    const texts = {
+        pt: {
+            titulo: 'Localização das espécies na bacia amazônica',
+            corpo1: 'No mapa ao lado você pode visualizar em quais locais da bacia amazônica as 34 espécies de peixes deste trabalho já foram encontradas.',
+        },
+        en: {
+            titulo: 'Location of species in the Amazon basin',
+            corpo1: 'In the map on the side, you can see the locations within the Amazon basin where the 34 fish species from this study have been found.',
+        }
+    }
+
     return (
         <Box
             as="section"
@@ -22,21 +37,21 @@ const MapaB4 = () => {
                     w='50%'
                     h='auto'
                 >
-                    Mapa
+                    Mapa aqui
                 </Box>
                 <VStack
                     w='50%'
                     h='auto'
                 >
-                    <Text
+                    <Heading
                         fontSize='3rem'
                         fontWeight='bold'
 
                     >
-                        Localização das espécies na bacia amazônica
-                    </Text>
+                        {texts[language].titulo}
+                    </Heading>
                     <Text w='75%' ml='25%'>
-                        No mapa ao lado você pode visualizar em quais locais da bacia amazônica as 34 espécies de peixes deste trabalho já foram encontradas.
+                        {texts[language].corpo1}
                     </Text>
                 </VStack>
             </HStack>
