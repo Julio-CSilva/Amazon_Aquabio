@@ -8,7 +8,7 @@ const PeixeGaleria = ({foto, expandida = false, aoZoomSolicitado}) => {
             as="figure"
             w={expandida ? '120%' : '100%'}
             maxW="100%"
-            maxH='100%'
+            h='auto'
             margin='0'
             display='flex'
             flexDirection='column'

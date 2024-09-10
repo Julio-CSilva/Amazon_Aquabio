@@ -11,7 +11,7 @@ const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
     );
 
     return (
-        <Box>
+        <Box p='1rem 4rem'>
             <FiltrosB8 searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
             <Box
                 background='#f2f2f2'

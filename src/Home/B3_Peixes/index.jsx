@@ -28,7 +28,7 @@ const PeixesB3 = () => {
             color='#ffffff'
             fontSize='3rem'
             fontWeight='bold'
-            p='4rem'
+            p='7rem 4rem'
             display='flex'
             position='relative'
         >
@@ -59,7 +59,7 @@ const PeixesB3 = () => {
                     h="auto"
                     position='absolute'
                     top='51%'
-                    transform='translateY(-55.5%)'
+                    transform='translateY(-48%)'
                     right='3%'
                     zIndex={1}
                 >

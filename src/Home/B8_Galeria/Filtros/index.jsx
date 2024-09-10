@@ -32,7 +32,7 @@ const FiltrosB8 = ({ searchTerm, setSearchTerm }) => {
             background='#5A7302'
             h='100%'
             border={'none'}
-            p='0.75rem 0.5rem 0 0.5rem'
+            p='0.75rem 0.5rem 0.5rem 0.5rem'
             color='#ffffff'
         >
             <HStack
