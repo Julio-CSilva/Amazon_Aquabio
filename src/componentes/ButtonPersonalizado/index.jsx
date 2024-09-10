@@ -1,16 +1,33 @@
 import { Box } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 
-const ButtonPersonalizado = ({text, route}) => {
+const ButtonPersonalizado = ({ text, route, scrollToSection, section }) => {
     const navigate = useNavigate();
+    const location = useLocation();
 
     const handleClick = () => {
-        navigate(route);
+        if (route === '/') {
+            // Verifica se a página já está em '/'
+            if (location.pathname === '/') {
+                // Se já está na rota '/', apenas rola para a seção
+                scrollToSection(section);
+            } else {
+                // Se não está na rota '/', navega para '/' e depois rola para a seção
+                navigate(route);
+                // Usa um timeout para garantir que a navegação seja concluída antes de rolar
+                setTimeout(() => {
+                    scrollToSection(section);
+                }, 0);
+            }
+        } else {
+            // Caso contrário, navega para a rota especificada
+            navigate(route);
+        }
     };
 
     return (
-            <Box
+        <Box
             as='button'
             height='70px'
             width='auto'
@@ -19,16 +36,17 @@ const ButtonPersonalizado = ({text, route}) => {
             fontSize='16px'
             color='#F5F7FA'
             fontWeight='bold'
-            _hover={{ textDecoration: 'underline 3px'}}
+            _hover={{ textDecoration: 'underline 3px' }}
             _active={{
-            bg: '#F5F7FA',
-            color: '#365B6D',
+                bg: '#F5F7FA',
+                color: '#365B6D',
             }}
-            onClick={handleClick}>
+            onClick={handleClick}
+        >
 
             {text}
-        
-            </Box>      
+
+        </Box>
     )
 }
 

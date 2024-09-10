@@ -1,7 +1,40 @@
-import { Box, HStack, Text } from "@chakra-ui/react";
+import { Box, Heading, HStack, Text } from "@chakra-ui/react";
 import B5Card from "./B5Card";
+import { useLanguage } from "../../componentes/LanguageContext";
 
 const MetodologiaB5 = () => {
+
+    const { language } = useLanguage();
+
+    const texts = {
+        pt: {
+            titulo: 'Metodologia',
+            cardTitulo1: 'Seleção da amostra',
+            cardText1: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo2: 'Montagem',
+            cardText2: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo3: 'Anotação',
+            cardText3: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo4: 'Análise de sintenia',
+            cardText4: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo5: 'Análise de códons',
+            cardText5: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+        },
+        en: {
+            titulo: 'Methodology',
+            cardTitulo1: 'Sample selection',
+            cardText1: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo2: 'Assembly',
+            cardText2: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo3: 'Annotation',
+            cardText3: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo4: 'Synteny analysis',
+            cardText4: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+            cardTitulo5: 'Codon analysis',
+            cardText5: 'TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO',
+        }
+    }
+
     return (
         <Box
             as="section"
@@ -16,22 +49,22 @@ const MetodologiaB5 = () => {
             alignContent='center'
             textAlign='right'
         >
-            <Text
+            <Heading
                 background='#ffffff'
                 p='0.1rem 0.75rem'
                 borderRadius='25px'
                 mb='4rem'
             >
-                Metodologia
-            </Text>
+                {texts[language].titulo}
+            </Heading>
             <HStack
                 gap='3rem'
             >
-                <B5Card image='/icons/search-square-svgrepo-com.svg' titulo='Seleção da amostra' desc='TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO' />
-                <B5Card image='/icons/puzzle-svgrepo-com.svg' titulo='Montagem' desc='TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO' />
-                <B5Card image='/icons/notepad-1-svgrepo-com.svg' titulo='Anotação' desc='TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO' />
-                <B5Card image='/icons/notepad-1-svgrepo-com.svg' titulo='Análise de sintenia' desc='TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO' />
-                <B5Card image='/icons/notepad-1-svgrepo-com.svg' titulo='Análise de códons' desc='TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO' />
+                <B5Card image='/icons/search-square-svgrepo-com.svg' titulo={texts[language].cardTitulo1} desc={texts[language].cardText1} language={language} />
+                <B5Card image='/icons/puzzle-svgrepo-com.svg' titulo={texts[language].cardTitulo2} desc={texts[language].cardText2} language={language} />
+                <B5Card image='/icons/notepad-1-svgrepo-com.svg' titulo={texts[language].cardTitulo3} desc={texts[language].cardText3} language={language} />
+                <B5Card image='/icons/notepad-1-svgrepo-com.svg' titulo={texts[language].cardTitulo4} desc={texts[language].cardText4} language={language} />
+                <B5Card image='/icons/notepad-1-svgrepo-com.svg' titulo={texts[language].cardTitulo5} desc={texts[language].cardText5} language={language} />
             </HStack>
 
         </Box>

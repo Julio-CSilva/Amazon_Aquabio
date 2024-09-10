@@ -1,10 +1,18 @@
 import { createGlobalStyle } from "styled-components";
 
 const EstilosGlobais = createGlobalStyle`
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('/Fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/Fonts/Helvetica.ttf') format('truetype');
+}
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
-  font-family: GandhiSansRegular;
 }
 body {
   margin: 0;

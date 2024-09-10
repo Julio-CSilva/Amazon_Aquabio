@@ -1,8 +1,9 @@
 import styled from "styled-components"
 import { Outlet } from 'react-router-dom';
-import EstilosGlobais from "./componentes/EstilosGlobais"
+import { useRef } from "react";
 import Cabecalho from "./componentes/Cabecalho"
 import Footer from "./componentes/Footer";
+import { LanguageProvider } from "./componentes/LanguageContext";
 
 const FundoGradiente = styled.div`
   background: linear-gradient(180deg, #2E838C 0%, #037373 20%, #061721 80%, #080412 100%);
@@ -32,16 +33,30 @@ const AppContainer = styled.div`
 `
 
 function App() {
+
+   // Referências das seções
+   const sectionRefs = {
+    apresentacao: useRef(null),
+    definicao: useRef(null),
+    peixes: useRef(null),
+    mapa: useRef(null),
+    metodologia: useRef(null),
+    publicacoes: useRef(null),
+    pesquisadores: useRef(null),
+    galeria: useRef(null),
+  };
+
   return (
     <FundoGradiente>
-      <EstilosGlobais />
-      <Cabecalho />
-      <PatternFundo>
-        <AppContainer>
-          <Outlet/>
-        </AppContainer>
-      </PatternFundo>
-      <Footer />
+      <LanguageProvider>
+        <Cabecalho sectionRefs={sectionRefs}/>
+        <PatternFundo>
+          <AppContainer>
+            <Outlet context={{sectionRefs}}/>
+          </AppContainer>
+        </PatternFundo>
+        <Footer />
+      </LanguageProvider>
     </FundoGradiente>
   )
 }
