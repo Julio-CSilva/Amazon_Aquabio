@@ -13,7 +13,7 @@ import {
   Divider,
   Image
 } from "@chakra-ui/react";
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Grid, GridItem } from '@chakra-ui/react'
+import { Tabs, TabList, TabPanels, Tab, TabPanel, Grid, GridItem } from '@chakra-ui/react';
 
 const ModalZoom = ({ foto, aoFechar }) => {
   const { isOpen, onClose } = useDisclosure({
@@ -34,7 +34,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
         maxH='100%'
       >
         <ModalHeader display="flex" alignItems="center" justifyContent="space-between">
-          {foto ? foto.nome : 'null'}
+          {foto ? foto.especie : 'null'}
           <ModalCloseButton position="relative" top="auto" right="auto" />
         </ModalHeader>
         {foto && (
@@ -42,7 +42,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
             <Divider mb='1rem' />
             <VStack className="ModelBody" p='0.25rem'>
               <HStack className="UpperBody"
-                alignItems='flex-start'
+                alignItems='center'
                 justifyContent='center'
                 gap='1.5rem'
                 pb='1rem'
@@ -52,8 +52,13 @@ const ModalZoom = ({ foto, aoFechar }) => {
                   display='flex'
                   flexDirection='column'
                 >
-                  <Text as="b" fontSize="2.5rem">{foto.nome}</Text>
-                  <Text as="i" fontSize="1.5rem">{foto.familia}</Text>
+                  <Text as="i" fontSize="2.5rem">{foto.especie}</Text>
+                  <Text as="b" fontSize="1.5rem">{foto.nome}</Text>
+                  <Text as="i" fontSize="1.5rem">{foto.descricao}</Text>
+                  <HStack spacing={2} alignItems="center">
+                    <Image src="public/images/by-nc-sa.png" alt="CC-NC-SA License" width="80px" />
+                    <Text as="u" fontSize="sm">{foto.by}</Text>
+                  </HStack>
                 </Box>
               </HStack>
               <Box className="BottonBody"
@@ -64,90 +69,42 @@ const ModalZoom = ({ foto, aoFechar }) => {
               >
                 <Tabs variant='enclosed'>
                   <TabList>
-                    <Tab>Peixe 1</Tab>
-                    <Tab>Peixe 2</Tab>
+                    {/* Renderizando abas dinamicamente com base nas amostras */}
+                    {foto.amostras.map((amostra, index) => (
+                      <Tab key={amostra.id}>{`Sample ${index + 1}`}</Tab>
+                    ))}
                   </TabList>
                   <TabPanels>
-                    <TabPanel
-                      display='flex'
-                      flexDirection='column'
-                    >
-                      <Text>● SRA: bh1b421b2iu4b12h4bh12b4h2</Text>
-                      <Grid
-                        templateColumns="repeat(3, 1fr)"
-                        gap={4}
-                        h='auto'
-                        w="100%"
-                      >
-                        <GridItem>
-                          <Image
-                            src="/images/galeria/graficos/ERR10768188_Heros_notatus_Contig1_page_1.png"
-                            objectFit="cover"
-                            width="100%"
-                            height="100%"
-                          />
-                        </GridItem>
-
-                        <GridItem>
-                          <Image
-                            src="/images/galeria/graficos/ERR10768297_Satanoperca_lilith_Contig1_page_1.png"
-                            objectFit="cover"
-                            width="100%"
-                            height="100%"
-                          />
-                        </GridItem>
-
-                        <GridItem>
-                          <Image
-                            src="/images/galeria/graficos/ERR10789884_Heros_efasciatus_Contig1_page_1.png"
-                            alt="Peixe bonito"
-                            objectFit="cover"
-                            width="100%"
-                            height="100%"
-                          />
-                        </GridItem>
-                      </Grid>
-                    </TabPanel>
-                    <TabPanel
-                      display='flex'
-                      flexDirection='column'
-                    >
-                      <Text>● SRA: kjnrnj23rnj23bnkjrb23hbrb</Text>
-                      <Grid
-                        templateColumns="repeat(3, 1fr)"
-                        gap={4}
-                        h='auto'
-                        w="100%"
-                      >
-                        <GridItem>
-                          <Image
-                            src="/images/galeria/graficos/ERR10768297_Satanoperca_lilith_Contig1_page_1.png"
-                            objectFit="cover"
-                            width="100%"
-                            height="100%"
-                          />
-                        </GridItem>
-
-                        <GridItem>
-                          <Image
-                            src="/images/galeria/graficos/ERR10789884_Heros_efasciatus_Contig1_page_1.png"
-                            objectFit="cover"
-                            width="100%"
-                            height="100%"
-                          />
-                        </GridItem>
-
-                        <GridItem>
-                          <Image
-                            src="/images/galeria/graficos/ERR10768188_Heros_notatus_Contig1_page_1.png"
-                            alt="Peixe bonito"
-                            objectFit="cover"
-                            width="100%"
-                            height="100%"
-                          />
-                        </GridItem>
-                      </Grid>
-                    </TabPanel>
+                    {/* Renderizando conteúdo das abas dinamicamente */}
+                    {foto.amostras.map((amostra, index) => (
+                      <TabPanel key={amostra.id} display='flex' flexDirection='column'>
+                        <Text>● SRA: {amostra.sra}</Text>
+                        <Grid
+                          templateColumns="repeat(3, 1fr)"
+                          gap={4}
+                          h='auto'
+                          w="100%"
+                        >
+                          {/* Renderizando imagens dinamicamente dentro de cada painel */}
+                          {Object.keys(amostra).map((key) => {
+                            if (key.startsWith('path_')) {
+                              return (
+                                <GridItem key={key}>
+                                  <Image
+                                    src={amostra[key]}
+                                    objectFit="cover"
+                                    width="100%"
+                                    height="100%"
+                                    alt={`Imagem de ${key}`}
+                                  />
+                                </GridItem>
+                              );
+                            }
+                            return null;
+                          })}
+                        </Grid>
+                      </TabPanel>
+                    ))}
                   </TabPanels>
                 </Tabs>
               </Box>

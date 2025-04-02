@@ -5,7 +5,8 @@ const LanguageContext = createContext();
 export const useLanguage = () => useContext(LanguageContext);
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('pt'); // Estado do idioma
+  // Definindo o idioma padrão como 'en'
+  const [language, setLanguage] = useState('en');
 
   const toggleLanguage = (lang) => {
     setLanguage(lang); // Atualiza o idioma

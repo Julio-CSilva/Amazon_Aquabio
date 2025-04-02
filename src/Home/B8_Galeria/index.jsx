@@ -7,7 +7,7 @@ const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
     const [searchTerm, setSearchTerm] = useState("");
 
     const filteredFotos = fotos.filter((foto) =>    
-        foto.nome.toLowerCase().includes(searchTerm.toLowerCase())
+        foto.especie.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     return (

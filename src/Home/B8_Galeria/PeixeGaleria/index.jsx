@@ -25,13 +25,13 @@ const PeixeGaleria = ({foto, expandida = false, aoZoomSolicitado}) => {
                 boxSizing="border-box"
                 padding='1rem'
             >
-                <Text as='b' fontSize='1.5rem'>{foto.nome}</Text>
+                <Text as='i' fontSize='1.2rem'>{foto.especie}</Text>
                 <HStack
                     display='flex'
                     justifyContent='space-between'
                     alignItems='center'
                 >
-                    <Text as='i' fontSize={'1rem'}>{foto.familia}</Text>
+                    <Text as='b' fontSize={'1rem'}>{foto.nome}</Text>
                     {!expandida && <Button aria-hidden={expandida} onClick={() => aoZoomSolicitado(foto)} background="none" p={0}>
                         <Image src="/icons/expandir.png" alt="Icone de expandir" boxSize='20px' />
                     </Button>}

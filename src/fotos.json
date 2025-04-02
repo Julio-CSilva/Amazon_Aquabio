@@ -1,161 +1,1376 @@
 [
     {
+        "especie": "Acarichthys heckelii",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Acarichthys_heckelii_by(Nilsson_Kjell).jpg",
+        "by": "by(Nilsson_Kjell)",
+        "descricao": "Peixe bonito e colorido",
         "id": "0",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768189",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789881",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768230",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
-        "nome": "Peixe bonito1",
-        "familia": "Pterophyllum scalare1",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "especie": "Acaronia nassa",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Acaronia_nassa_by(Teigler_Frank).jpg",
+        "by": "by(Teigler_Frank)",
+        "descricao": "Peixe bonito e colorido",
         "id": "1",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789892",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768270",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768281",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Aequidens pallidus",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Aequidens_pallidus_by(Stawikowski_Rainer).jpg",
+        "by": "by(Stawikowski_Rainer)",
+        "descricao": "Peixe bonito e colorido",
         "id": "2",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789849",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768305",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768320",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Apistogramma sp Cuieiras",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Apistogramma_parcial",
+        "by": "Apistogramma_parcial",
+        "descricao": "Peixe bonito e colorido",
         "id": "3",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768272",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789840",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789854",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Arapaima gigas",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Arapaima_gigas_by(tanya_dewey-animal-diversity_web-cc_by_nc_sa_3.0).jpg",
+        "by": "by(tanya_dewey-animal-diversity_web)",
+        "descricao": "Peixe bonito e colorido",
         "id": "4",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "SRR23574205",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR2143719",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR2143721",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Astronotus ocellatus",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Astronotus_ocellatus_by(Edson_Rechi).jpg",
+        "by": "by(Edson_Rechi)",
+        "descricao": "Peixe bonito e colorido",
         "id": "5",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789860",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789886",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789889",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Australoheros barbosae",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Australoheros_barbosae_by(Felipe_Polvanov_Ottoni).png",
+        "by": "by(Felipe_Polvanov_Ottoni)",
+        "descricao": "Peixe bonito e colorido",
         "id": "6",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768340",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789837",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768346",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Biotodoma cupido",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Biotodoma_cupido_by(Teigler_Frank).jpg",
+        "by": "by(Teigler_Frank)",
+        "descricao": "Peixe bonito e colorido",
         "id": "7",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768338",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789847",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768339",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Chaetobranchopsis orbicularis",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Chaetobranchopsis_orbicularis_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
+        "by": "by(Delgado_Assad&Maria_Luiza_IBAMA)",
+        "descricao": "Peixe bonito e colorido",
         "id": "8",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789905",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768232",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768240",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Chaetobranchus flavescens",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Chaetobranchus_flavescens_by(Stawikowski_Rainer).jpg",
+        "by": "by(Stawikowski_Rainer)",
+        "descricao": "Peixe bonito e colorido",
         "id": "9",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768282",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789908",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768309",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Cichla monoculus",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Cichla_monoculus_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
+        "by": "by(Delgado_Assad&Maria_Luiza_IBAMA)",
+        "descricao": "Peixe bonito e colorido",
         "id": "10",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789866",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768224",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789888",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Cichla temensis",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Cichla_temensis_by(Fürderer_Heike).jpg",
+        "by": "by(Fürderer_Heike)",
+        "descricao": "Peixe bonito e colorido",
         "id": "11",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768276",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789842",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768283",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Cichlasoma amazonarum",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Cichlasoma_amazonarum_by(Lo_Polo&Juan_Carlos).jpg",
+        "by": "by(Lo_Polo&Juan_Carlos)",
+        "descricao": "Peixe bonito e colorido",
         "id": "12",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789914",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768222",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789901",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Cichlasoma bimaculatum",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Cichlasoma_bimaculatum_by(Teigler_Frank).jpg",
+        "by": "by(Teigler_Frank)",
+        "descricao": "Peixe bonito e colorido",
         "id": "13",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768191",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789865",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789870",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Colossoma macropomum",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Colossoma_macropomum_by(Frank_M_Greco).jpg",
+        "by": "by(Frank_M_Greco)",
+        "descricao": "Peixe bonito e colorido",
         "id": "14",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "SRR10738555",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "SRR22219024",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "SRR13734555",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Crenicichla lenticulata",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Crenicichla_lenticulata_by(C_H_EON).jpg",
+        "by": "by(C_H_EON)",
+        "descricao": "Peixe bonito e colorido",
         "id": "15",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768262",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768277",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789917",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Crenicichla lugubris",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Crenicichla_lugubris_by(Fürderer_Heike).jpg",
+        "by": "by(Fürderer_Heike)",
+        "descricao": "Peixe bonito e colorido",
         "id": "16",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768333",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789841",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789853",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Crenicichla macrophthalma",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Crenicichla_macrophthalma_by(Vidal_W).jpg",
+        "by": "by(Vidal_W)",
+        "descricao": "Peixe bonito e colorido",
         "id": "17",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789836",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768295",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768303",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Crenicichla marmorata",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Crenicichla_marmorata_by(Muséum-Aquarium_de_Nancy).jpg",
+        "by": "by(Muséum-Aquarium_de_Nancy)",
+        "descricao": "Peixe bonito e colorido",
         "id": "18",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768251",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768289",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768323",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     },
-
     {
+        "especie": "Crenicichla notophthalmus",
         "nome": "Peixe bonito",
-        "familia": "Pterophyllum scalare",
-        "path": "/images/galeria/Pterophyllum-scalare.png",
+        "path": "public/images/peixes/Crenicichla_notophthalmus_by(sneegas_G_W).jpg",
+        "by": "by(sneegas_G_W)",
+        "descricao": "Peixe bonito e colorido",
         "id": "19",
-        "tagId": 2
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768256",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768237",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768241",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Geophagus dicrozoster",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Geophagus_dicrozoster_by(Andreas_jekel).jpg",
+        "by": "by(Andreas_jekel)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "20",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768304",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768273",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789910",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Gymnogeophagus labiatus",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Gymnogeophagus_labiatus_by(Casacuberta_M).jpg",
+        "by": "by(Casacuberta_M)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "21",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768322",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768329",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Gymnogeophagus rhabdotus",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Gymnogeophagus_rhabdotus_by(Dubosc_J).jpg",
+        "by": "by(Dubosc_J)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "22",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789856",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768358",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Heros efasciatus",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Heros_efasciatus_by(Stawikowski_Rainer).jpg",
+        "by": "by(Stawikowski_Rainer)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "23",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789876",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789903",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789884",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Heros notatus",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Heros_notatus_by(Jensen_Jhonny).jpg",
+        "by": "by(Jensen_Jhonny)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "24",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789863",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768188",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789877",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Hypselecara temporalis",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Hypselecara_temporalis_by(J_Bukkems).jpg",
+        "by": "by(J_Bukkems)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "25",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768200",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789868",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768195",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Mesonauta festivus",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Mesonauta_festivus_by(Stawikowski_Rainer).jpg",
+        "by": "by(Stawikowski_Rainer)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "26",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789875",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10789898",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789899",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Osteoglossum bicirrhosum",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Osteoglossum_bicirrhosum_by(Qwertzy2_cc).jpg",
+        "by": "by(Qwertzy_cc)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "27",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "SRR21777680",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "SRR21777685",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "SRR21782675",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Pterophyllum scalare",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Pterophyllum_scalare_by(Dan_Olsen).png",
+        "by": "by(Dan_Olsen)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "28",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768190",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768225",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768226",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Pygocentrus nattereri",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Pygocentrus_nattereri_by(Østergaard_Thorke_A_S).jpg",
+        "by": "by(Østergaard_Thorke_A_S)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "29",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "SRR25740028",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "SRR25740016",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "SRR25740019",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Satanoperca jurupari",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Satanoperca_jurupari_by(Irtz_peter).jpg",
+        "by": "by(Irtz_peter)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "30",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789861",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768202",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789859",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Satanoperca lilith",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Satanoperca_lilith_by(Jensen_Jhonny).jpg",
+        "by": "by(Jensen_Jhonny)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "31",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768249",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768297",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789846",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Symphysodon discus",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Symphysodon_discus_by(Stawikowski_Rainer).jpg",
+        "by": "by(Stawikowski_Rainer)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "32",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10789913",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768259",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10768279",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
+    },
+    {
+        "especie": "Uaru amphiacanthoides",
+        "nome": "Peixe bonito",
+        "path": "public/images/peixes/Uaru_amphiacanthoides_by(Muséum-Aquarium_de_Nancy).jpg",
+        "by": "by(Muséum-Aquarium_de_Nancy)",
+        "descricao": "Peixe bonito e colorido",
+        "id": "33",
+        "tagId": 2,
+        "amostras": [
+            {
+                "id": 1,
+                "sra": "ERR10768252",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 2,
+                "sra": "ERR10768291",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            },
+            {
+                "id": 3,
+                "sra": "ERR10789835",
+                "path_mito_circularized": "/images/galeria/Pterophyllum-scalare.png",
+                "path_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_gens": "/images/galeria/Pterophyllum-scalare.png",
+                "path_sintenia_trna": "/images/galeria/Pterophyllum-scalare.png",
+                "path_rscu": "/images/galeria/Pterophyllum-scalare.png",
+                "path_dloop": "/images/galeria/Pterophyllum-scalare.png"
+            }
+        ]
     }
 ]

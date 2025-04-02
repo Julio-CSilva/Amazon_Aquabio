@@ -37,7 +37,7 @@ const Cabecalho = ({ sectionRefs }) => {
             mapa: 'MAPA',
             publicacoes: 'PUBLICAÇÕES',
             pesquisadores: 'PESQUISADORES',
-            galeria: 'GALERIA',
+            galeria: 'AMOSTRAS',
             contato: 'CONTATO',
         },
         en: {
@@ -47,14 +47,14 @@ const Cabecalho = ({ sectionRefs }) => {
             mapa: 'MAP',
             publicacoes: 'PUBLICATIONS',
             pesquisadores: 'RESEARCHERS',
-            galeria: 'GALLERY',
+            galeria: 'SAMPLES',
             contato: 'CONTACT',
         }
     };
 
     const scrollToSection = (section) => {
         sectionRefs[section].current?.scrollIntoView({ behavior: "smooth" });
-      };
+    };
 
     return (
         <HeaderEstilizado>

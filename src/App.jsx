@@ -33,9 +33,8 @@ const AppContainer = styled.div`
 `
 
 function App() {
-
-   // Referências das seções
-   const sectionRefs = {
+  // Referências das seções
+  const sectionRefs = {
     apresentacao: useRef(null),
     definicao: useRef(null),
     peixes: useRef(null),
