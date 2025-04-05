@@ -37,7 +37,17 @@ const MapaB4 = () => {
                     w='50%'
                     h='auto'
                 >
-                    Mapa aqui
+                    <iframe
+                        src="public/mapa_peixes.html"
+                        width="100%"
+                        height="600px"
+                        style={{
+                            border: "2px solid #365B6D",
+                            borderRadius: "12px",
+                            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)"
+                        }}
+                        title="Mapa da Bacia Amazônica"
+                    />
                 </Box>
                 <VStack
                     w='50%'
