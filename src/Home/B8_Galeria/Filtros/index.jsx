@@ -1,4 +1,5 @@
-import { Box, HStack, Stack, Text, Menu, MenuList, MenuItem, MenuButton, IconButton, Input, CheckboxGroup, Checkbox, Heading } from "@chakra-ui/react"
+/* eslint-disable react/prop-types */
+import { Box, HStack, Stack, Menu, MenuList, MenuButton, IconButton, Input, CheckboxGroup, Checkbox, Heading } from "@chakra-ui/react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useLanguage } from "../../../componentes/LanguageContext";
 
