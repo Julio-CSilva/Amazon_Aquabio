@@ -2,7 +2,9 @@ import styled from "styled-components"
 import { Box, Button, ButtonGroup, Divider, Image } from '@chakra-ui/react'
 import ButtonPersonalizado from "../ButtonPersonalizado";
 import { useLanguage } from "../../componentes/LanguageContext";
+import { motion } from 'framer-motion';
 
+const MotionBox = motion(Box);
 
 const HeaderEstilizado = styled.header`
     display: flex;
@@ -21,9 +23,6 @@ const HeaderEstilizado = styled.header`
         margin-left: 1%;
     }
 `
-
-
-
 
 const Cabecalho = ({ sectionRefs }) => {
 
@@ -53,12 +52,35 @@ const Cabecalho = ({ sectionRefs }) => {
     };
 
     const scrollToSection = (section) => {
-        sectionRefs[section].current?.scrollIntoView({ behavior: "smooth" });
+        const yOffset = -80; // Ajuste a posição vertical conforme necessário
+        const element = sectionRefs[section]?.current;
+        if (element) {
+            const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
     };
 
     return (
         <HeaderEstilizado>
-            <Image src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" p='0.5rem' />
+            <MotionBox
+                as="a"
+                href="/"
+                p="0.5rem"
+                whileHover={{
+                    scale: 1.1,
+                    y: -4, // flutuação para cima
+                    rotate: 0.5,
+                }}
+                transition={{
+                    type: "spring",
+                    stiffness: 60,
+                    damping: 10,
+                    duration: 0.6,
+                }}
+            >
+                <Image src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" w="90%" />
+            </MotionBox>
+
             <Box as='div'
                 ml='10rem'
             >

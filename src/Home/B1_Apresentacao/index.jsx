@@ -7,12 +7,12 @@ const ApresentacaoB1 = () => {
 
   const texts = {
     pt: {
-      titulo: 'Explore a diversidade mitogenômica amazônica',
-      corpo: 'Através de um data minning em dados públicos, a partir do NCBI, montamos 101 mitogenomas de 34 espécies de peixes amazônicos. Com esses dados você pode estudar a diversidade genética amazônica para diversos fins, como estruturar populações e promover aconservação sustentável. Descubra como esses dados podem esclarecer relações evolutivas e guiar políticas ambientais eficazes.',
+      titulo: 'Explore a diversidade mitogenômica da Amazônia',
+      corpo: 'Por meio de data mining em bancos públicos de dados do NCBI, reconstruímos 100 mitogenomas de 34 espécies de peixes amazônicos. Este conjunto de dados oferece uma base sólida para investigações sobre a diversidade genética da região, permitindo estudos de estrutura populacional, conservação sustentável e muito mais. Descubra como essas informações podem revelar relações evolutivas e contribuir para políticas ambientais mais eficazes.',
     },
     en: {
-      titulo: 'Explore Amazonian mitogenomic diversity',
-      corpo: 'Through data mining of public data from NCBI, we assembled 101 mitogenomes of 34 Amazonian fish species. With this data, you can study Amazonian genetic diversity for a variety of purposes, such as structuring populations and promoting sustainable conservation. Discover how this data can shed light on evolutionary relationships and guide effective environmental policies.',
+      titulo: 'Explore the Mitogenomic Diversity of the Amazon',
+      corpo: 'Through data mining of public NCBI repositories, we reconstructed 100 mitogenomes from 34 species of Amazonian fish. This dataset provides a solid foundation for exploring the region’s genetic diversity, enabling studies on population structure, sustainable conservation, and more. Discover how these data can illuminate evolutionary relationships and support the development of effective environmental policies.',
     },
     
   };
@@ -21,10 +21,11 @@ const ApresentacaoB1 = () => {
     <Box
       as="section"
       display='flex'
-      p='4rem'
+      p='6rem'
     >
       <VStack
         color='#f7f7f7'
+        spacing="2.5rem" 
       >
         <Heading
           as='header'
@@ -34,7 +35,7 @@ const ApresentacaoB1 = () => {
           {texts[language].titulo}
         </Heading>
         <Text
-          fontSize='1.15rem'
+          fontSize='1.5rem'
         >
           {texts[language].corpo}
         </Text>

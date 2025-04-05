@@ -1,133 +1,57 @@
-import { Box, Grid, GridItem, Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Heading, VStack } from "@chakra-ui/react";
 import B3Text from "./B3Text";
-import B3Image from "./B3Image";
+import fotos from "/src/fotos.json";
 import { useLanguage } from "../../componentes/LanguageContext";
+import ImageCarousel from "./B3Image/index.jsx";
 
 const PeixesB3 = () => {
-
     const { language } = useLanguage();
 
     const texts = {
         pt: {
-            titulo: 'Mitocôndrias inéditas de peixes amazônicos',
-            dado1: 'Mitocôndrias montadas',
-            dado2: 'Mitocôndrias inéditas',
-            dado3: 'Espécies de peixes',
+        titulo: "Mitogenomas amazônicos em números:",
+        dado1: "🔬 mitogenomas montados",
+        dado2: "🧬 mitogenomas inéditos",
+        dado3: "🐟 espécies de peixes analisadas",
         },
         en: {
-            titulo: 'New mitochondria from Amazonian fish',
-            dado1: 'Assembled mitochondria',
-            dado2: 'New mitochondria',
-            dado3: 'Fish species',
-        }
-    }
+        titulo: "Amazonian Mitogenomes in Numbers:",
+        dado1: "🔬 assembled mitogenomes",
+        dado2: "🧬 novel mitogenomes",
+        dado3: "🐟 fish species analyzed",
+        },
+    };
+
+    const imagePaths = fotos.map((f) => f.path);
 
     return (
         <Box
-            as="section"
-            color='#ffffff'
-            fontSize='3rem'
-            fontWeight='bold'
-            p='7rem 4rem'
-            display='flex'
-            position='relative'
+        as="section"
+        bgGradient="linear(to-br, blue.900, teal.800)"
+        color="white"
+        fontSize="3rem"
+        fontWeight="bold"
+        p="7rem 4rem"
+        display="flex"
+        position="relative"
         >
-            <VStack
-                w='40%'
-                display='flex'
-                justifyContent='start'
-                alignItems='flex-start'
+        <VStack w="40%" align="flex-start" spacing={6}>
+            <Heading
+            fontSize="4xl"
+            bgGradient="linear(to-r, teal.300, green.400)"
+            bgClip="text"
             >
-                <Heading>
-                    {texts[language].titulo}
-                </Heading>
-                <B3Text number={101} text={texts[language].dado1} />
-                <B3Text number={27} text={texts[language].dado2} />
-                <B3Text number={34} text={texts[language].dado3} />
-
-            </VStack>
-            <Box
-                as="div"
-                w='60%'
-                display='flex'
-                alignContent='center'
-                justifyContent='center'
-            >
-                <Grid
-                    templateColumns="1fr"
-                    templateRows='repeat(3, auto)'
-                    h="auto"
-                    position='absolute'
-                    top='51%'
-                    transform='translateY(-48%)'
-                    right='3%'
-                    zIndex={1}
-                >
-                    <GridItem rowSpan={1}
-                        display='flex'
-                    >
-                        <Box
-                            as="div"
-                            transform='translateX(22%) translateY(45%)'
-                        >
-                            <B3Image path={'/images/galeria/Pterophyllum-scalare.png'} />
-                        </Box>
-                        <Box
-                            as="div"
-                            transform='translateY(0%)'
-                            right='50%'
-                        >
-                            <B3Image path={'/images/galeria/Pterophyllum-scalare.png'} />
-                        </Box>
-                        <Box
-                            as="div"
-
-                            transform='translateX(-22%) translateY(45%)'
-                        >
-                            <B3Image path={'/images/galeria/Pterophyllum-scalare.png'} />
-                        </Box>
-                    </GridItem>
-                    <GridItem rowSpan={1}
-                        display='flex'
-                        justifyContent='center'
-                    >
-                        <Box
-                            as="div"
-                            transform='translateY(-9%)'
-                            right='50%'
-                        >
-                            <B3Image path={'/images/galeria/Pterophyllum-scalare.png'} />
-                        </Box>
-                    </GridItem>
-                    <GridItem rowSpan={1}
-                        display='flex'
-                        transform='translateY(-10%)'
-                    >
-                        <Box
-                            as="div"
-                            transform='translateX(22%) translateY(-54%)'
-                        >
-                            <B3Image path={'/images/galeria/Pterophyllum-scalare.png'} />
-                        </Box>
-                        <Box
-                            as="div"
-                            transform='translateY(-8%)'
-                            right='50%'
-                        >
-                            <B3Image path={'/images/galeria/Pterophyllum-scalare.png'} />
-                        </Box>
-                        <Box
-                            as="div"
-
-                            transform='translateX(-22%) translateY(-54%)'
-                        >
-                            <B3Image path={'/images/galeria/Pterophyllum-scalare.png'} />
-                        </Box>
-                    </GridItem>
-                </Grid>
-            </Box>
+            {texts[language].titulo}
+            </Heading>
+            <B3Text number={100} text={texts[language].dado1} delay={0} />
+            <B3Text number={27} text={texts[language].dado2} delay={0.3} />
+            <B3Text number={34} text={texts[language].dado3} delay={0.6} />
+        </VStack>
+        <Box w="60%" display="flex" justifyContent="center" alignItems="center">
+            <ImageCarousel images={imagePaths} />
         </Box>
-    )
+        </Box>
+    );
 };
 
 export default PeixesB3;

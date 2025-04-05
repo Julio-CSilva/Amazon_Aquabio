@@ -10,13 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/react": "^2.8.2",
+    "framer-motion": "^12.6.3",
+    "keen-slider": "^6.8.6",
     "react": "^18.2.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
+    "react-intersection-observer": "^9.16.0",
     "react-router": "^6.23.1",
     "react-router-dom": "^6.23.1",
-    "styled-components": "^6.1.9"
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.9",
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
