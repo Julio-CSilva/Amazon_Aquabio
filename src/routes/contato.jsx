@@ -51,7 +51,7 @@ const Contato = () => {
                     </FormControl>
                 </Box>
                 <Box background={'#D9D9D9'} w={'50%'}>
-                    info contato
+                    info contato teste julio branch omg
                 </Box>
             </Box>
             <Box background={'#F2F2F2'} w={'100%'}>
