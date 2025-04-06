@@ -56,7 +56,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
                   <Text as="b" fontSize="1.5rem">{foto.nome}</Text>
                   <Text as="i" fontSize="1.5rem">{foto.descricao}</Text>
                   <HStack spacing={2} alignItems="center">
-                    <Image src="public/images/by-nc-sa.png" alt="CC-NC-SA License" width="80px" />
+                    <Image src="images/by-nc-sa.png" alt="CC-NC-SA License" width="80px" />
                     <Text as="u" fontSize="sm">{foto.by}</Text>
                   </HStack>
                 </Box>

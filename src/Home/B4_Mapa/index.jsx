@@ -8,11 +8,11 @@ const MapaB4 = () => {
     const texts = {
         pt: {
             titulo: 'Localização das espécies na bacia amazônica',
-            corpo1: 'No mapa ao lado você pode visualizar em quais locais da bacia amazônica as 34 espécies de peixes deste trabalho já foram encontradas.',
+            corpo1: 'O mapa ao lado mostra as regiões da bacia amazônica onde as 34 espécies de peixes analisadas neste estudo já foram registradas. Essa visualização espacial contribui para compreender a distribuição das espécies e suas possíveis relações com fatores ecológicos e evolutivos.',
         },
         en: {
-            titulo: 'Location of species in the Amazon basin',
-            corpo1: 'In the map on the side, you can see the locations within the Amazon basin where the 34 fish species from this study have been found.',
+            titulo: 'Species Distribution in the Amazon Basin',
+            corpo1: 'The map displays the regions of the Amazon Basin where the 34 fish species analyzed in this study have been recorded. This spatial visualization helps in understanding species distribution and its potential links to ecological and evolutionary factors.',
         }
     }
 
@@ -20,14 +20,14 @@ const MapaB4 = () => {
         <Box
             as="section"
             color='#365B6D'
-            fontSize='1.25rem'
+            fontSize='1.5rem'
             display='flex'
             flexDirection='column'
-            p='4rem'
+            p='6rem'
             h='100%'
             alignItems='flex-start'
             alignContent='center'
-            textAlign='right'
+            textAlign='left'
             justifyContent='space-between'
         >
             <HStack>
@@ -38,9 +38,9 @@ const MapaB4 = () => {
                     h='auto'
                 >
                     <iframe
-                        src="public/mapa_peixes.html"
+                        src="mapa_peixes.html"
                         width="100%"
-                        height="600px"
+                        height="700px"
                         style={{
                             border: "2px solid #365B6D",
                             borderRadius: "12px",
@@ -56,11 +56,13 @@ const MapaB4 = () => {
                     <Heading
                         fontSize='3rem'
                         fontWeight='bold'
+                        padding={[0,0,0,'2rem']}
+                        align="center"
 
                     >
                         {texts[language].titulo}
                     </Heading>
-                    <Text w='75%' ml='25%'>
+                    <Text w='75%' ml='0%'>
                         {texts[language].corpo1}
                     </Text>
                 </VStack>
