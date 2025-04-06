@@ -18,8 +18,8 @@ const DefinicaoB2 = () => {
     };
 
     const images = {
-        pt: "public/images/about_mitocondria.png",
-        en: "public/images/about_mitochondrial.png",
+        pt: "images/about_mitocondria.png",
+        en: "images/about_mitochondrial.png",
     };
 
     return (

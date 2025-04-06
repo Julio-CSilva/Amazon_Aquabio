@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Box, Image } from "@chakra-ui/react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -6,13 +6,25 @@ const MotionImage = motion(Image);
 
 const ImageCarousel = ({ images }) => {
   const [index, setIndex] = useState(0);
+  const intervalRef = useRef(null); // Aqui guardamos o intervalo
 
-  useEffect(() => {
-    const interval = setInterval(() => {
+  const startInterval = () => {
+    intervalRef.current = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
     }, 4000);
-    return () => clearInterval(interval);
+  };
+
+  const stopInterval = () => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
+  };
+
+  useEffect(() => {
+    startInterval();
+    return stopInterval; // limpa o intervalo ao desmontar
   }, [images.length]);
+
+  const handleMouseEnter = () => stopInterval();
+  const handleMouseLeave = () => startInterval();
 
   const getImage = (i) => images[(i + images.length) % images.length];
 
@@ -25,10 +37,11 @@ const ImageCarousel = ({ images }) => {
       width="100%"
       height={["300px", "420px", "550px"]}
       position="relative"
-      //overflow="hidden"
       display="flex"
       justifyContent="center"
       alignItems="center"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <AnimatePresence initial={false} mode="wait">
         {/* Esquerda */}
