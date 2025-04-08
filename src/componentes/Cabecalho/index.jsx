@@ -32,7 +32,7 @@ const Cabecalho = ({ sectionRefs }) => {
         pt: {
             inicio: 'INICIO',
             sobre: 'SOBRE',
-            metodologia: 'METODOLOIGA',
+            metodologia: 'METODOLOGIA',
             mapa: 'MAPA',
             publicacoes: 'PUBLICAÇÕES',
             pesquisadores: 'PESQUISADORES',

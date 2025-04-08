@@ -2,7 +2,7 @@
     {
         "especie": "Acarichthys heckelii",
         "nome": "Ciclídeo cabeça de ouro",
-        "path": "images/peixes/Acarichthys_heckelii_by(Nilsson_Kjell).jpg",
+        "path": "images/b3/Acarichthys_heckelii_by(Nilsson_Kjell).jpg",
         "by": "by(Nilsson_Kjell)",
         "descricao": "É encontrado ao longo do curso principal do Rio Amazonas, abrangendo países como Peru, Colômbia, Brasil e Guiana. Habita também os rios Tocantins e Essequibo. Pode atingir até 19,5 cm de comprimento padrão e 276 g de peso. É bastante valorizado no aquarismo por sua aparência distinta e comportamento interessante. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
         "id": "0",
@@ -43,7 +43,7 @@
     {
         "especie": "Acaronia nassa",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Acaronia_nassa_by(Teigler_Frank).jpg",
+        "path": "images/b3/Acaronia_nassa_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
         "descricao": "Peixe bonito e colorido",
         "id": "1",
@@ -84,7 +84,7 @@
     {
         "especie": "Aequidens pallidus",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Aequidens_pallidus_by(Stawikowski_Rainer).jpg",
+        "path": "images/b3/Aequidens_pallidus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "Peixe bonito e colorido",
         "id": "2",
@@ -125,7 +125,7 @@
     {
         "especie": "Apistogramma sp Cuieiras",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Apistogramma_parcial",
+        "path": "images/b3/Apistogramma_parcial",
         "by": "Apistogramma_parcial",
         "descricao": "Peixe bonito e colorido",
         "id": "3",
@@ -166,7 +166,7 @@
     {
         "especie": "Arapaima gigas",
         "nome": "Pirarucu",
-        "path": "images/peixes/Arapaima_gigas_by(tanya_dewey-animal-diversity_web-cc_by_nc_sa_3.0).jpg",
+        "path": "images/b3/Arapaima_gigas_by(tanya_dewey-animal-diversity_web-cc_by_nc_sa_3.0).jpg",
         "by": "by(tanya_dewey-animal-diversity_web)",
         "descricao": "É um peixe nativo da Bacia Amazônica e um dos maiores peixes de água doce do mundo, podendo atingir mais de 3 metros de comprimento e pesar até 200 kg. Além de seu valor econômico, tem importância cultural e ecológica para as comunidades amazônicas. Seu status na Lista Vermelha da IUCN é DD (Dados Deficientes), indicando que ainda faltam informações suficientes para uma avaliação completa do risco de extinção da espécie.",
         "id": "4",
@@ -207,7 +207,7 @@
     {
         "especie": "Astronotus ocellatus",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Astronotus_ocellatus_by(Edson_Rechi).jpg",
+        "path": "images/b3/Astronotus_ocellatus_by(Edson_Rechi).jpg",
         "by": "by(Edson_Rechi)",
         "descricao": "Peixe bonito e colorido",
         "id": "5",
@@ -248,7 +248,7 @@
     {
         "especie": "Australoheros barbosae",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Australoheros_barbosae_by(Felipe_Polvanov_Ottoni).png",
+        "path": "images/b3/Australoheros_barbosae_by(Felipe_Polvanov_Ottoni).png",
         "by": "by(Felipe_Polvanov_Ottoni)",
         "descricao": "Peixe bonito e colorido",
         "id": "6",
@@ -289,7 +289,7 @@
     {
         "especie": "Biotodoma cupido",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Biotodoma_cupido_by(Teigler_Frank).jpg",
+        "path": "images/b3/Biotodoma_cupido_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
         "descricao": "Peixe bonito e colorido",
         "id": "7",
@@ -330,7 +330,7 @@
     {
         "especie": "Chaetobranchopsis orbicularis",
         "nome": "Ciclídeo discoide",
-        "path": "images/peixes/Chaetobranchopsis_orbicularis_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
+        "path": "images/b3/Chaetobranchopsis_orbicularis_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
         "by": "by(Delgado_Assad&Maria_Luiza_IBAMA)",
         "descricao": "É encontrado na bacia do Rio Amazonas, desde a foz do Rio Negro até a Ilha de Marajó e o Amapá, Brasil. Pode atingir até 12 cm de comprimento padrão. É ocasionalmente capturado para pesca. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
         "id": "8",
@@ -371,7 +371,7 @@
     {
         "especie": "Chaetobranchus flavescens",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Chaetobranchus_flavescens_by(Stawikowski_Rainer).jpg",
+        "path": "images/b3/Chaetobranchus_flavescens_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "Peixe bonito e colorido",
         "id": "9",
@@ -412,7 +412,7 @@
     {
         "especie": "Cichla monoculus",
         "nome": "Tucunaré",
-        "path": "images/peixes/Cichla_monoculus_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
+        "path": "images/b3/Cichla_monoculus_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
         "by": "by(Delgado_Assad&Maria_Luiza_IBAMA)",
         "descricao": "É encontrado na bacia do Rio Amazonas, incluindo rios no Peru, Colômbia e Brasil, como o Solimões e o Araguari. Pode atingir até 70 cm de comprimento padrão e pesar até 9 kg. É importante na pesca comercial e esportiva, além de ser mantido em aquários.  É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
         "id": "10",
@@ -453,7 +453,7 @@
     {
         "especie": "Cichla temensis",
         "nome": "Tucunaré-açu",
-        "path": "images/peixes/Cichla_temensis_by(Fürderer_Heike).jpg",
+        "path": "images/b3/Cichla_temensis_by(Fürderer_Heike).jpg",
         "by": "by(Fürderer_Heike)",
         "descricao": "É encontrado na bacia do Rio Negro e afluentes do Rio Amazonas, especialmente no Brasil e na Venezuela. Pode atingir até 100 cm de comprimento padrão e pesar mais de 13 kg. É uma das espécies mais procuradas na pesca esportiva e também presente na aquicultura. É utilizado principalmente no aquarismo. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
         "id": "11",
@@ -494,7 +494,7 @@
     {
         "especie": "Cichlasoma amazonarum",
         "nome": "Ciclídeo amazônico",
-        "path": "images/peixes/Cichlasoma_amazonarum_by(Lo_Polo&Juan_Carlos).jpg",
+        "path": "images/b3/Cichlasoma_amazonarum_by(Lo_Polo&Juan_Carlos).jpg",
         "by": "by(Lo_Polo&Juan_Carlos)",
         "descricao": "É encontrado em pântanos costeiros e áreas alagadas na América do Sul. Pode atingir até 13,5 cm de comprimento padrão. É utilizado principalmente no aquarismo. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
         "id": "12",
@@ -535,7 +535,7 @@
     {
         "especie": "Cichlasoma bimaculatum",
         "nome": "Ciclídeo de dois pontos",
-        "path": "images/peixes/Cichlasoma_bimaculatum_by(Teigler_Frank).jpg",
+        "path": "images/b3/Cichlasoma_bimaculatum_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
         "descricao": "É encontrado nas Guianas e na bacia do Rio Orinoco, incluindo o Rio Essequibo e partes do alto Rio Branco. Pode atingir até 35 cm de comprimento total. É utilizado tanto na pesca esportiva quanto no aquarismo. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
         "id": "13",
@@ -576,7 +576,7 @@
     {
         "especie": "Colossoma macropomum",
         "nome": "Tambaqui",
-        "path": "images/peixes/Colossoma_macropomum_by(Frank_M_Greco).jpg",
+        "path": "images/b3/Colossoma_macropomum_by(Frank_M_Greco).jpg",
         "by": "by(Frank_M_Greco)",
         "descricao": "É um peixe de água doce nativo das bacias dos rios Amazonas e Orinoco, na América do Sul. É conhecido por atingir até 108 cm de comprimento total e pesar até 40 kg, embora o comprimento comum seja de cerca de 70 cm. O tambaqui é valorizado na aquicultura devido à sua capacidade de viver em águas pobres em minerais e à sua resistência a doenças. No mercado, é comercializado tanto fresco quanto congelado. ​​O tambaqui está classificado como Quase Ameaçado (NT) na Lista Vermelha da IUCN, conforme avaliação realizada em 17 de dezembro de 2020.",
         "id": "14",
@@ -617,7 +617,7 @@
     {
         "especie": "Crenicichla lenticulata",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Crenicichla_lenticulata_by(C_H_EON).jpg",
+        "path": "images/b3/Crenicichla_lenticulata_by(C_H_EON).jpg",
         "by": "by(C_H_EON)",
         "descricao": "Peixe bonito e colorido",
         "id": "15",
@@ -658,7 +658,7 @@
     {
         "especie": "Crenicichla lugubris",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Crenicichla_lugubris_by(Fürderer_Heike).jpg",
+        "path": "images/b3/Crenicichla_lugubris_by(Fürderer_Heike).jpg",
         "by": "by(Fürderer_Heike)",
         "descricao": "Peixe bonito e colorido",
         "id": "16",
@@ -699,7 +699,7 @@
     {
         "especie": "Crenicichla macrophthalma",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Crenicichla_macrophthalma_by(Vidal_W).jpg",
+        "path": "images/b3/Crenicichla_macrophthalma_by(Vidal_W).jpg",
         "by": "by(Vidal_W)",
         "descricao": "Peixe bonito e colorido",
         "id": "17",
@@ -740,7 +740,7 @@
     {
         "especie": "Crenicichla marmorata",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Crenicichla_marmorata_by(Muséum-Aquarium_de_Nancy).jpg",
+        "path": "images/b3/Crenicichla_marmorata_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
         "descricao": "Peixe bonito e colorido",
         "id": "18",
@@ -781,7 +781,7 @@
     {
         "especie": "Crenicichla notophthalmus",
         "nome": "Jacundá-anão",
-        "path": "images/peixes/Crenicichla_notophthalmus_by(sneegas_G_W).jpg",
+        "path": "images/b3/Crenicichla_notophthalmus_by(sneegas_G_W).jpg",
         "by": "by(sneegas_G_W)",
         "descricao": "É encontrado na bacia do Rio Amazonas, especialmente na parte inferior do Rio Negro. Pode atingir até 7,6 cm de comprimento padrão. Seu uso econômico ou ornamental não é amplamente documentado. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
         "id": "19",
@@ -822,7 +822,7 @@
     {
         "especie": "Geophagus dicrozoster",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Geophagus_dicrozoster_by(Andreas_jekel).jpg",
+        "path": "images/b3/Geophagus_dicrozoster_by(Andreas_jekel).jpg",
         "by": "by(Andreas_jekel)",
         "descricao": "Peixe bonito e colorido",
         "id": "20",
@@ -863,7 +863,7 @@
     {
         "especie": "Gymnogeophagus labiatus",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Gymnogeophagus_labiatus_by(Casacuberta_M).jpg",
+        "path": "images/b3/Gymnogeophagus_labiatus_by(Casacuberta_M).jpg",
         "by": "by(Casacuberta_M)",
         "descricao": "Peixe bonito e colorido",
         "id": "21",
@@ -894,7 +894,7 @@
     {
         "especie": "Gymnogeophagus rhabdotus",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Gymnogeophagus_rhabdotus_by(Dubosc_J).jpg",
+        "path": "images/b3/Gymnogeophagus_rhabdotus_by(Dubosc_J).jpg",
         "by": "by(Dubosc_J)",
         "descricao": "Peixe bonito e colorido",
         "id": "22",
@@ -925,7 +925,7 @@
     {
         "especie": "Heros efasciatus",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Heros_efasciatus_by(Stawikowski_Rainer).jpg",
+        "path": "images/b3/Heros_efasciatus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "Peixe bonito e colorido",
         "id": "23",
@@ -966,7 +966,7 @@
     {
         "especie": "Heros notatus",
         "nome": "Acará-Severo",
-        "path": "images/peixes/Heros_notatus_by(Jensen_Jhonny).jpg",
+        "path": "images/b3/Heros_notatus_by(Jensen_Jhonny).jpg",
         "by": "by(Jensen_Jhonny)",
         "descricao": "Heros notatus é um ciclídeo nativo da Bacia do Rio Amazonas, especialmente da região do Rio Negro, no Brasil. Pode atingir cerca de 15 cm de comprimento padrão e é amplamente conhecido no aquarismo devido à sua coloração atrativa e comportamento relativamente pacífico. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
         "id": "24",
@@ -1007,7 +1007,7 @@
     {
         "especie": "Hypselecara temporalis",
         "nome": "Ciclídeo chocolate",
-        "path": "images/peixes/Hypselecara_temporalis_by(J_Bukkems).jpg",
+        "path": "images/b3/Hypselecara_temporalis_by(J_Bukkems).jpg",
         "by": "by(J_Bukkems)",
         "descricao": "É encontrado nos rios Ucayali, Solimões e Amazonas, além do Amapá e da Guiana Francesa. Muito apreciado no aquarismo por sua aparência marcante, embora o tamanho máximo não esteja claramente definido. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
         "id": "25",
@@ -1048,7 +1048,7 @@
     {
         "especie": "Mesonauta festivus",
         "nome": "Acarazinho",
-        "path": "images/peixes/Mesonauta_festivus_by(Stawikowski_Rainer).jpg",
+        "path": "images/b3/Mesonauta_festivus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo de água doce nativo da América do Sul. Sua distribuição abrange a bacia do rio Paraná, incluindo a drenagem do rio Paraguai no Brasil e Paraguai, bem como a bacia do rio Amazonas. Este peixe apresenta um corpo moderadamente profundo e comprimido lateralmente, típico dos ciclídeos. Atinge um tamanho máximo de 12,1 cm de comprimento padrão e peso de até 97,4 g. Devido à sua aparência atraente e comportamento interessante, é popular entre aquaristas. De acordo com a Lista Vermelha da IUCN, o Mesonauta festivus está classificado como Pouco Preocupante (LC), indicando que não há ameaças significativas conhecidas que coloquem a espécie em risco de extinção no momento.",
         "id": "26",
@@ -1089,7 +1089,7 @@
     {
         "especie": "Osteoglossum bicirrhosum",
         "nome": "Aruanã-prateado",
-        "path": "images/peixes/Osteoglossum_bicirrhosum_by(Qwertzy2_cc).jpg",
+        "path": "images/b3/Osteoglossum_bicirrhosum_by(Qwertzy2_cc).jpg",
         "by": "by(Qwertzy_cc)",
         "descricao": "É um peixe de água doce nativo da América do Sul, encontrado nas bacias dos rios Amazonas, Rupununi e Oiapoque. Este peixe pode atingir até 90 cm de comprimento total e pesar até 6 kg. No aquarismo, o aruanã-prateado é valorizado por sua aparência distinta e comportamento interessante. De acordo com a Lista Vermelha da IUCN, o aruanã-prateado é classificado como Pouco Preocupante (LC), indicando que atualmente não há grandes ameaças que coloquem a espécie em risco significativo de extinção.",
         "id": "27",
@@ -1130,7 +1130,7 @@
     {
         "especie": "Pterophyllum scalare",
         "nome": "Peixe-anjo",
-        "path": "images/peixes/Pterophyllum_scalare_by(Dan_Olsen).png",
+        "path": "images/b3/Pterophyllum_scalare_by(Dan_Olsen).png",
         "by": "by(Dan_Olsen)",
         "descricao": "É encontrado na bacia do Rio Amazonas, incluindo os rios Ucayali, Solimões, Amazonas e também no Amapá e na Guiana Francesa. Pode alcançar até 15 cm de comprimento total. Muito procurado no aquarismo por sua beleza e elegância. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
         "id": "28",
@@ -1171,7 +1171,7 @@
     {
         "especie": "Pygocentrus nattereri",
         "nome": "Piranha-vermelha",
-        "path": "images/peixes/Pygocentrus_nattereri_by(Østergaard_Thorke_A_S).jpg",
+        "path": "images/b3/Pygocentrus_nattereri_by(Østergaard_Thorke_A_S).jpg",
         "by": "by(Østergaard_Thorke_A_S)",
         "descricao": "É uma espécie de peixe de água doce nativa da América do Sul, amplamente distribuída nas bacias dos rios Amazonas, Paraguai-Paraná e Essequibo, além de rios costeiros do nordeste do Brasil. Essa espécie pode atingir até 50 cm de comprimento padrão e pesar mais de 3,8 kg, sendo reconhecida por sua coloração prateada com a região ventral avermelhada, especialmente em indivíduos adultos. Devido à sua aparência marcante e comportamento, é uma espécie frequentemente mantida em aquários. Atualmente, seu status de conservação, de acordo com a Lista Vermelha da IUCN, é Pouco Preocupante (LC), indicando que a espécie não enfrenta ameaças imediatas de extinção.",
         "id": "29",
@@ -1212,7 +1212,7 @@
     {
         "especie": "Satanoperca jurupari",
         "nome": "Comedora de terra demoníaca",
-        "path": "images/peixes/Satanoperca_jurupari_by(Irtz_peter).jpg",
+        "path": "images/b3/Satanoperca_jurupari_by(Irtz_peter).jpg",
         "by": "by(Irtz_peter)",
         "descricao": "É encontrada em grande parte da bacia amazônica, do Peru e Equador até a Guiana Francesa. Pode atingir até 26 cm de comprimento padrão e 485 g. Bastante popular em aquários e também explorada na pesca. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
         "id": "30",
@@ -1253,7 +1253,7 @@
     {
         "especie": "Satanoperca lilith",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Satanoperca_lilith_by(Jensen_Jhonny).jpg",
+        "path": "images/b3/Satanoperca_lilith_by(Jensen_Jhonny).jpg",
         "by": "by(Jensen_Jhonny)",
         "descricao": "Peixe bonito e colorido",
         "id": "31",
@@ -1294,7 +1294,7 @@
     {
         "especie": "Symphysodon discus",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Symphysodon_discus_by(Stawikowski_Rainer).jpg",
+        "path": "images/b3/Symphysodon_discus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "Peixe bonito e colorido",
         "id": "32",
@@ -1335,7 +1335,7 @@
     {
         "especie": "Uaru amphiacanthoides",
         "nome": "Peixe bonito",
-        "path": "images/peixes/Uaru_amphiacanthoides_by(Muséum-Aquarium_de_Nancy).jpg",
+        "path": "images/b3/Uaru_amphiacanthoides_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
         "descricao": "Peixe bonito e colorido",
         "id": "33",
