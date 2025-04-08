@@ -1,4 +1,4 @@
-import { Box, VStack, Image, Text, Heading } from "@chakra-ui/react"
+import { Box, VStack, Image, Text, Heading, Link } from "@chakra-ui/react"
 import { useLanguage } from "../LanguageContext";
 
 const Footer = () => {
@@ -21,26 +21,51 @@ const Footer = () => {
             backgroundColor='#ffffff'
             h="15rem"
             w='100%'
-            p='5rem 15rem'
+            p='2rem 15rem'
             color='#365B6D'
             fontWeight='bold'
         >
             <VStack
                 alignItems="flex-start"
-                spacing={4}
             >
-                <Heading fontSize='20px'>{texts[language].apoio}</Heading>
-                <Box display="flex" justifyContent="center" width="100%">
-                    <Image 
-                        src="/images/apoiadores.png" 
-                        alt="logos dos apoiadores, da esquerda para direita: PPG Bioinfo, UFRN, Metrópole digital, BIOME"
-                        width="75rem"
-                        height="auto"
-                    />
+                <Heading fontSize='18px'>{texts[language].apoio}</Heading>
+                <Box display="flex" justifyContent="center" alignItems="center" width="100%" gap="3rem">
+                    <Link href="https://bioinfo.imd.ufrn.br/site" isExternal>
+                        <Image 
+                            src="/images/logos/biome-logo.png" 
+                            alt="Centro Multiusuário de Bioinformatica"
+                            height="5rem"
+                            width="auto"
+                        />
+                    </Link>
+                    <Link href="https://imd.ufrn.br/portal/" isExternal>
+                        <Image 
+                            src="/images/logos/portal_imd.png" 
+                            alt="Portal do Instituto Metrópole Digital"
+                            height="5rem"
+                            width="auto"
+                        />
+                    </Link>
+                    <Link href="https://sigaa.ufrn.br/sigaa/public/programa/portal.jsf?id=9814" isExternal>
+                        <Image 
+                            src="/images/logos/ppg.png" 
+                            alt="Programa de Pós-Graduação em Bioinformática"
+                            height="5rem"
+                            width="auto"
+                        />
+                    </Link>
+                    <Link href="https://ufrn.br/" isExternal>
+                        <Image 
+                            src="/images/logos/ufrn.png" 
+                            alt="Universidade Federal do Rio Grande do Norte"
+                            height="10rem"
+                            width="auto"
+                        />
+                    </Link>
                 </Box>
-                <Heading fontSize='20px'>{texts[language].criadores}</Heading>
-                <Text fontSize='18px' fontWeight='normal' ml='1rem'>● J.Silva & Gabriel.V</Text>
-                <Heading fontSize='20px' mb='2rem'>© 2024 Amazon Aquabio Project</Heading>
+                <Heading fontSize='18px'>{texts[language].criadores}</Heading>
+                <Text fontSize='14px' fontWeight='normal' ml='1rem'>● J.Silva & Gabriel.V</Text>
+                <Heading fontSize='18px' mb='0.5rem'>© 2024 Amazon Aquabio Project</Heading>
             </VStack>
         </Box>
     )
