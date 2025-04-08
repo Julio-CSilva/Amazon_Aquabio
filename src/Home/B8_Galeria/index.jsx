@@ -16,7 +16,10 @@ const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
       amostra.sra.toLowerCase().includes(search)
     );
 
-    return especieMatch || sraMatch;
+    const nomeMatch = foto.nome?.toLowerCase().includes(search);
+
+
+    return especieMatch || sraMatch || nomeMatch;
   });
 
   return (

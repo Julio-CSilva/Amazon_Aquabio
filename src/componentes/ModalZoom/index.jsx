@@ -33,7 +33,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
         maxW='90%'
         maxH='100%'
       >
-        <ModalHeader display="flex" alignItems="center" justifyContent="space-between">
+        <ModalHeader as="i" display="flex" alignItems="center" justifyContent="space-between">
           {foto ? foto.especie : 'null'}
           <ModalCloseButton position="relative" top="auto" right="auto" />
         </ModalHeader>
