@@ -91,9 +91,9 @@ const Cabecalho = ({ sectionRefs }) => {
                     <ButtonPersonalizado text={texts[language].sobre} route='/' scrollToSection={scrollToSection} section={'definicao'}/>
                     <ButtonPersonalizado text={texts[language].mapa} route='/' scrollToSection={scrollToSection} section={'mapa'}/>
                     <ButtonPersonalizado text={texts[language].metodologia} route='/' scrollToSection={scrollToSection} section={'metodologia'}/>
+                    <ButtonPersonalizado text={texts[language].galeria} route='/' scrollToSection={scrollToSection} section={'galeria'}/>
                     <ButtonPersonalizado text={texts[language].publicacoes} route='/' scrollToSection={scrollToSection} section={'publicacoes'}/>
                     <ButtonPersonalizado text={texts[language].pesquisadores} route='/' scrollToSection={scrollToSection} section={'pesquisadores'}/>
-                    <ButtonPersonalizado text={texts[language].galeria} route='/' scrollToSection={scrollToSection} section={'galeria'}/>
                     <ButtonPersonalizado text={texts[language].contato} route='/Contato' scrollToSection={scrollToSection} section={''}/>
                 </ButtonGroup>
                 <ButtonGroup

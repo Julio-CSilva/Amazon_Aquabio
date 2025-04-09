@@ -42,10 +42,10 @@
     },
     {
         "especie": "Acaronia nassa",
-        "nome": "Peixe bonito",
+        "nome": "Acará-olho-grande",
         "path": "images/b3/Acaronia_nassa_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É uma espécie de ciclídeo encontrada nas planícies amazônicas do Peru, Brasil e Colômbia, incluindo a bacia do rio Amazonas e seus afluentes. Os machos podem atingir até 16 cm de comprimento padrão e pesar cerca de 189,9 g. Esta espécie tem importância econômica em pescarias comerciais de pequena escala, é apreciada na pesca esportiva e também é comercializada no mercado de aquarismo. De acordo com a Lista Vermelha da IUCN, o Acaronia nassa está classificado como ''Pouco Preocupante'' (LC), indicando que atualmente não enfrenta ameaças significativas de extinção.",
         "id": "1",
         "tagId": 2,
         "amostras": [
@@ -83,10 +83,10 @@
     },
     {
         "especie": "Aequidens pallidus",
-        "nome": "Peixe bonito",
+        "nome": "Acará-de-duas-manchas",
         "path": "images/b3/Aequidens_pallidus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo que habita a bacia do rio Amazonas, especificamente nos rios Negro, Uatumã, Preto da Eva e Puraquequara. Os machos podem alcançar até 14,3 cm de comprimento padrão. Esta espécie possui valor econômico tanto em pescarias comerciais quanto no comércio de aquarismo. Segundo a Lista Vermelha da IUCN, o Aequidens pallidus é classificado como ''Pouco Preocupante'' (LC), indicando uma baixa preocupação em relação à sua conservação no momento",
         "id": "2",
         "tagId": 2,
         "amostras": [
@@ -124,10 +124,10 @@
     },
     {
         "especie": "Apistogramma sp Cuieiras",
-        "nome": "Peixe bonito",
-        "path": "images/b3/Apistogramma_parcial",
+        "nome": "Sem nome popular",
+        "path": "images/peixes-home.png",
         "by": "Apistogramma_parcial",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "O Apistogramma sp. 'Cuieiras' é uma espécie não descrita formalmente, pertencente ao gênero Apistogramma, conhecido por suas diversas espécies de ciclídeos anões. Devido à falta de descrição científica formal, informações específicas sobre peso, uso econômico e status de conservação não estão disponíveis no FishBase. No entanto, espécies do gênero Apistogramma são geralmente populares no comércio de aquarismo devido ao seu tamanho pequeno e cores vibrantes.",
         "id": "3",
         "tagId": 2,
         "amostras": [
@@ -206,10 +206,10 @@
     },
     {
         "especie": "Astronotus ocellatus",
-        "nome": "Peixe bonito",
+        "nome": "Oscar",
         "path": "images/b3/Astronotus_ocellatus_by(Edson_Rechi).jpg",
         "by": "by(Edson_Rechi)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo nativo das bacias dos rios Amazonas e Orinoco. Pode atingir até 45,7 cm de comprimento total e pesar até 1,6 kg, embora o tamanho comum seja em torno de 24 cm. Esta espécie é altamente valorizada tanto na pesca comercial quanto como peixe de aquário, sendo também apreciada na pesca esportiva. Na América do Sul, é considerado um peixe de alimentação de alta estima. ",
         "id": "5",
         "tagId": 2,
         "amostras": [
@@ -247,10 +247,10 @@
     },
     {
         "especie": "Australoheros barbosae",
-        "nome": "Peixe bonito",
+        "nome": "Sem nome popular",
         "path": "images/b3/Australoheros_barbosae_by(Felipe_Polvanov_Ottoni).png",
         "by": "by(Felipe_Polvanov_Ottoni)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É uma espécie de ciclídeo endêmico do Brasil, encontrada principalmente em rios costeiros do sudeste. Ainda não possui um nome popular amplamente conhecido em português. Os indivíduos podem atingir até 9,6 cm de comprimento padrão. Trata-se de uma espécie pouco explorada economicamente, sem registros de uso em pesca comercial ou aquarismo, e até o momento não foi avaliada na Lista Vermelha da IUCN.",
         "id": "6",
         "tagId": 2,
         "amostras": [
@@ -288,10 +288,10 @@
     },
     {
         "especie": "Biotodoma cupido",
-        "nome": "Peixe bonito",
+        "nome": "Acará-cupido",
         "path": "images/b3/Biotodoma_cupido_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo amazônico de pequeno porte, podendo atingir até 11,7 cm de comprimento padrão e pesar cerca de 55,3 g. Esta espécie é valorizada principalmente no comércio de aquarismo por sua coloração delicada e comportamento pacífico, sendo bastante comum em aquários de água doce. Segundo a IUCN, o Biotodoma cupido está classificado como Pouco Preocupante (LC), não havendo indícios de ameaça significativa à sua população.",
         "id": "7",
         "tagId": 2,
         "amostras": [
@@ -370,10 +370,10 @@
     },
     {
         "especie": "Chaetobranchus flavescens",
-        "nome": "Peixe bonito",
+        "nome": "Acará-prata",
         "path": "images/b3/Chaetobranchus_flavescens_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo da bacia amazônica que pode atingir entre 17 e 22 cm de comprimento ao atingir a maturidade. Embora não seja amplamente explorado comercialmente, pode aparecer em pescarias locais e é ocasionalmente mantido em aquários. Sua principal característica é a estrutura das brânquias adaptada à alimentação por filtragem. De acordo com a IUCN, essa espécie também está classificada como Pouco Preocupante (LC).",
         "id": "9",
         "tagId": 2,
         "amostras": [
@@ -616,10 +616,10 @@
     },
     {
         "especie": "Crenicichla lenticulata",
-        "nome": "Peixe bonito",
+        "nome": "Jacundá-lenticulado",
         "path": "images/b3/Crenicichla_lenticulata_by(C_H_EON).jpg",
         "by": "by(C_H_EON)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É uma espécie predadora que habita os rios da bacia amazônica. Pode alcançar até 30 cm de comprimento e é frequentemente capturado por pescadores locais para consumo. Embora não seja amplamente comercializado no aquarismo, é procurado por entusiastas de ciclídeos predadores. Seu status de conservação, segundo a IUCN, é Pouco Preocupante (LC).",
         "id": "15",
         "tagId": 2,
         "amostras": [
@@ -657,10 +657,10 @@
     },
     {
         "especie": "Crenicichla lugubris",
-        "nome": "Peixe bonito",
+        "nome": "Jacundá-vermelho",
         "path": "images/b3/Crenicichla_lugubris_by(Fürderer_Heike).jpg",
         "by": "by(Fürderer_Heike)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É uma espécie amazônica que pode atingir até 32,4 cm de comprimento padrão. Assim como outras do gênero, é uma espécie piscívora (se alimenta de outros peixes) e predadora ativa. Tem importância local na pesca de subsistência e pode ser encontrada ocasionalmente no mercado ornamental. A IUCN também classifica essa espécie como Pouco Preocupante (LC).",
         "id": "16",
         "tagId": 2,
         "amostras": [
@@ -698,10 +698,10 @@
     },
     {
         "especie": "Crenicichla macrophthalma",
-        "nome": "Peixe bonito",
+        "nome": "Jacundá",
         "path": "images/b3/Crenicichla_macrophthalma_by(Vidal_W).jpg",
         "by": "by(Vidal_W)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo da bacia amazônica que pode atingir até 20 cm de comprimento padrão. Embora não seja amplamente utilizado comercialmente, pode ser encontrado na pesca de subsistência e é ocasionalmente apreciado por aquaristas interessados em espécies predadoras. Segundo a IUCN, essa espécie está classificada como Pouco Preocupante (LC), o que indica que atualmente não enfrenta riscos significativos de extinção.",
         "id": "17",
         "tagId": 2,
         "amostras": [
@@ -739,10 +739,10 @@
     },
     {
         "especie": "Crenicichla marmorata",
-        "nome": "Peixe bonito",
+        "nome": "Jacundá-marmore",
         "path": "images/b3/Crenicichla_marmorata_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo de médio porte que pode alcançar até 28 cm de comprimento, sendo caracterizado por seu padrão marmorizado. Embora o nome popular não seja amplamente difundido, é uma espécie presente na bacia amazônica. Seu uso econômico não é claramente estabelecido, mas, como outras espécies do gênero, pode aparecer em aquários especializados. Segundo a IUCN, essa espécie está classificada como Pouco Preocupante (LC), o que indica que atualmente não enfrenta riscos significativos de extinção.",
         "id": "18",
         "tagId": 2,
         "amostras": [
@@ -821,10 +821,10 @@
     },
     {
         "especie": "Geophagus dicrozoster",
-        "nome": "Peixe bonito",
+        "nome": "Acará-terra",
         "path": "images/b3/Geophagus_dicrozoster_by(Andreas_jekel).jpg",
         "by": "by(Andreas_jekel)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "O Geophagus dicrozoster é um ciclídeo amazônico pertencente ao grupo dos “acará-terra”, embora seu nome popular específico não seja bem definido. Essa espécie ainda é pouco estudada em termos de uso econômico, mas é provável que tenha valor no aquarismo, como outros do gênero Geophagus. A IUCN classifica o Geophagus dicrozoster como Pouco Preocupante (LC), sugerindo que suas populações estão em equilíbrio ecológico.",
         "id": "20",
         "tagId": 2,
         "amostras": [
@@ -862,10 +862,10 @@
     },
     {
         "especie": "Gymnogeophagus labiatus",
-        "nome": "Peixe bonito",
+        "nome": "Acará-beiçudo",
         "path": "images/b3/Gymnogeophagus_labiatus_by(Casacuberta_M).jpg",
         "by": "by(Casacuberta_M)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo nativo do sul da América do Sul, encontrado principalmente na bacia do rio Uruguai. Pode atingir até 15,2 cm de comprimento padrão e é facilmente reconhecido pelos lábios proeminentes. Embora o nome popular em português não seja amplamente utilizado, é uma espécie de interesse para aquaristas devido à sua aparência distinta.  A IUCN classifica o Geophagus dicrozoster como Pouco Preocupante (LC), sugerindo que suas populações estão em equilíbrio ecológico.",
         "id": "21",
         "tagId": 2,
         "amostras": [
@@ -893,10 +893,10 @@
     },
     {
         "especie": "Gymnogeophagus rhabdotus",
-        "nome": "Peixe bonito",
+        "nome": "Devorador de terra",
         "path": "images/b3/Gymnogeophagus_rhabdotus_by(Dubosc_J).jpg",
         "by": "by(Dubosc_J)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo encontrado na bacia do rio Uruguai, no Uruguai, e na bacia da Lagoa dos Patos, no Brasil. Os machos podem atingir até 12 cm de comprimento padrão. A fêmea deposita cerca de 300 ovos em uma superfície limpa; após a eclosão, os filhotes são transferidos para depressões previamente construídas no substrato. Esta espécie é utilizada tanto na pesca quanto no aquarismo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC), indicando que não enfrenta ameaças significativas atualmente.",
         "id": "22",
         "tagId": 2,
         "amostras": [
@@ -924,10 +924,10 @@
     },
     {
         "especie": "Heros efasciatus",
-        "nome": "Peixe bonito",
+        "nome": "Acará-preto",
         "path": "images/b3/Heros_efasciatus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo nativo da bacia amazônica. Os machos podem alcançar até 17 cm de comprimento padrão e pesar até 268,2 g. Esta espécie habita ambientes lênticos, como áreas alagadas e estuários com vegetação ribeirinha densa. É um peixe onívoro, com tendência frugívora. O acará-preto é valorizado tanto na pesca quanto no comércio de aquarismo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC), indicando que não enfrenta ameaças significativas atualmente.",
         "id": "23",
         "tagId": 2,
         "amostras": [
@@ -1252,10 +1252,10 @@
     },
     {
         "especie": "Satanoperca lilith",
-        "nome": "Peixe bonito",
+        "nome": "Comedor de terra de uma mancha ou Comedor de terra de Lilith",
         "path": "images/b3/Satanoperca_lilith_by(Jensen_Jhonny).jpg",
         "by": "by(Jensen_Jhonny)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo encontrado na bacia do rio Amazonas, ao longo do rio Solimões-Amazonas, desde o rio Japurá até o rio Trombetas, incluindo o rio Negro e a bacia do rio Branco. Pode atingir até 25,5 cm de comprimento padrão. O nome do gênero, Satanoperca, é derivado do ''príncipe das trevas'', refletindo uma tradição de nomear peixes de cavernas com nomes diabólicos, baseada na ideia do inferno estar subterrâneo. Esta espécie é utilizada no comércio de aquarismo. Segundo a IUCN, seu status de conservação é de Pouco Preocupante (LC).",
         "id": "31",
         "tagId": 2,
         "amostras": [
@@ -1293,10 +1293,10 @@
     },
     {
         "especie": "Symphysodon discus",
-        "nome": "Peixe bonito",
+        "nome": "Disco-vermelho",
         "path": "images/b3/Symphysodon_discus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É um ciclídeo icônico da bacia do rio Amazonas, encontrado no Brasil, próximo à foz do rio Negro, no baixo rio Abacaxis e no baixo rio Trombetas. Alimenta-se de vermes, crustáceos, insetos e matéria vegetal. Durante a reprodução, deposita vários centenas de ovos em pedras ou plantas; ambos os pais defendem os ovos e larvas, que se alimentam de um muco produzido pela pele dos pais nos primeiros dias. Esta espécie é altamente valorizada no aquarismo devido à sua coloração vibrante e comportamento distintivo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC).",
         "id": "32",
         "tagId": 2,
         "amostras": [
@@ -1334,10 +1334,10 @@
     },
     {
         "especie": "Uaru amphiacanthoides",
-        "nome": "Peixe bonito",
+        "nome": "Uaru ou ciclídeo-triângulo",
         "path": "images/b3/Uaru_amphiacanthoides_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
-        "descricao": "Peixe bonito e colorido",
+        "descricao": "É nativo da bacia do rio Amazonas, ao longo do rio Amazonas-Solimões, desde o rio Japurá até o rio Tapajós, incluindo os rios médio e baixo Negro. Pode atingir até 25 cm de comprimento padrão. Habita riachos de águas claras com pH em torno de 6,8 e alimenta-se de vermes, crustáceos, insetos e necessita de suplementação vegetal em sua dieta. Os pais cuidam de até 200 ovos e larvas. Além de sua importância como peixe ornamental no aquarismo, também é utilizado como alimento por populações locais. Seu status de conservação na IUCN é de Pouco Preocupante (LC).",
         "id": "33",
         "tagId": 2,
         "amostras": [
