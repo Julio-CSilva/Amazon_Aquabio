@@ -13,7 +13,7 @@ import GaleriaB8 from "../Home/B8_Galeria";
 import ModalZoom from "../componentes/ModalZoom";
 
 const Home = () => {
-  const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos);
+  const [fotosDaGaleria] = useState(fotos);
   const [fotoSelecionada, setFotoSelecionada] = useState(null);
 
   const { sectionRefs } = useOutletContext();
