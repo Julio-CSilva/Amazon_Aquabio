@@ -28,6 +28,36 @@ const Contato = () => {
     },
   };
 
+  const contactTexts = {
+    pt: {
+      autor: 'Jorge Estefano Santana de Souza',
+      funcao: '(autor correspondente)',
+      afiliacao: 'Bioinformatics Multidisciplinary Environment (BioME), Digital Metropolis Institute, Universidade Federal do Rio Grande do Norte (UFRN), Rio Grande do Norte, Brasil.',
+      emails: ['jorge@imd.ufrn.br'],
+      enderecoInstitucional: 'Universidade Federal do Rio Grande do Norte, Instituto Metrópole Digital',
+      endereco: [
+        'Avenida Odilon Gomes de Lima, 1722',
+        'Capim Macio',
+        '59078-400 - Natal, RN - Brasil'
+      ],
+      telefone: 'Telefone: (84) 99708-5398'
+    },
+    en: {
+      autor: 'Jorge Estefano Santana de Souza',
+      funcao: '(corresponding author)',
+      afiliacao: 'Bioinformatics Multidisciplinary Environment (BioME), Digital Metropolis Institute, Federal University of Rio Grande do Norte (UFRN), Rio Grande do Norte, Brazil.',
+      emails: ['jorge@imd.ufrn.br'],
+      enderecoInstitucional: 'Federal University of Rio Grande do Norte, Digital Metropolis Institute',
+      endereco: [
+        'Avenida Odilon Gomes de Lima, 1722',
+        'Capim Macio',
+        '59078-400 - Natal, RN - Brazil'
+      ],
+      telefone: 'Phone: +55 (84) 99708-5398'
+    }
+  };
+  
+
   // Estados para armazenar os valores do formulário
   const [formData, setFormData] = useState({
     name: '',
@@ -98,7 +128,7 @@ const Contato = () => {
         justifyContent={'center'}
       >
         <Image 
-          src="/public/images/aab-logo-home.svg" 
+          src="images/aab-logo-home.svg" 
           alt="logo da amazon aqua bio"
           borderRadius={'50px'}
         />
@@ -139,8 +169,7 @@ const Contato = () => {
                 isRequired
               />
               <FormLabel>{texts[language].instituicao}</FormLabel>
-              <Input 
-                placeholder="Opcional" 
+              <Input
                 variant='filled' 
                 bgColor="#dfdfdf"
                 name="instituicao"
@@ -164,8 +193,38 @@ const Contato = () => {
           </form>
           {feedback && <Text mt="1rem">{feedback}</Text>}
         </Box>
-        <Box background={'#D9D9D9'} w={'50%'}>
-          info contato teste julio branch omg
+        <Box background={'#D9D9D9'} w={'50%'} p="1.5rem" borderRadius="md">
+          <Text fontSize="lg" mb="1">
+            <span style={{ fontWeight: 'bold' }}>{contactTexts[language].autor}</span>
+            <span style={{ textDecoration: 'underline'}}>{contactTexts[language].funcao}</span>
+          </Text>
+          
+          <Text fontSize="sm" mb="2">
+            <strong>{language === 'pt' ? 'Afiliação:' : 'Affiliation:'}</strong><br />
+            {contactTexts[language].afiliacao}
+          </Text>
+
+          <Text fontSize="sm" mb="2">
+            <strong>{language === 'pt' ? 'Emails:' : 'Emails:'}</strong><br />
+            {contactTexts[language].emails.map((email, idx) => (
+              <span key={idx}>{email}<br /></span>
+            ))}
+          </Text>
+
+          <Text fontSize="sm" mb="2">
+            <strong>{language === 'pt' ? 'Endereço institucional:' : 'Institutional address:'}</strong><br />
+            {contactTexts[language].enderecoInstitucional}
+          </Text>
+
+          <Text fontSize="sm" mb="2">
+            {contactTexts[language].endereco.map((line, idx) => (
+              <span key={idx}>{line}<br /></span>
+            ))}
+          </Text>
+
+          <Text fontSize="sm">
+            <strong>{contactTexts[language].telefone}</strong>
+          </Text>
         </Box>
       </Box>
       <Box background={'#F2F2F2'} w={'100%'}>

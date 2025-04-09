@@ -44,7 +44,7 @@ const PeixesB3 = () => {
             {texts[language].titulo}
             </Heading>
             <B3Text number={100} text={texts[language].dado1} delay={0} />
-            <B3Text number={27} text={texts[language].dado2} delay={0.3} />
+            <B3Text number={64} text={texts[language].dado2} delay={0.3} />
             <B3Text number={34} text={texts[language].dado3} delay={0.6} />
         </VStack>
         <Box w="60%" display="flex" justifyContent="center" alignItems="center">

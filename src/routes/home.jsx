@@ -53,6 +53,14 @@ const Home = () => {
             <MetodologiaB5 />
           </Box>
         </GridItem>
+        <GridItem rowSpan={1} ref={sectionRefs.galeria}>
+          <Box background="#5A7302" pb="1rem">
+            <GaleriaB8
+              aoFotoSelecionada={(foto) => setFotoSelecionada(foto)}
+              fotos={fotosDaGaleria}
+            />
+          </Box>
+        </GridItem>
         <GridItem rowSpan={1} ref={sectionRefs.publicacoes}>
           <Box background="#365B6D">
             <PublicacoesB6 />
@@ -65,14 +73,8 @@ const Home = () => {
           <Box background="#365B6D">
             <PesquisadoresB7 />
           </Box>
-        </GridItem>
-        <GridItem rowSpan={1} ref={sectionRefs.galeria}>
-          <Box background="#5A7302" pb="0.5rem">
-            <GaleriaB8
-              aoFotoSelecionada={(foto) => setFotoSelecionada(foto)}
-              fotos={fotosDaGaleria}
-            />
-          </Box>
+          <GridItem rowSpan={1}>
+          </GridItem>
         </GridItem>
       </Grid>
       <ModalZoom foto={fotoSelecionada} aoFechar={() => setFotoSelecionada(null)} />
