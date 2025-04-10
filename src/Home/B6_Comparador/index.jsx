@@ -42,7 +42,7 @@ const ComparadorB6 = () => {
       </VStack>
 
       <Box
-        w="100vw"
+        w="100%"
         h="12rem"
         backgroundImage="url('/images/aquabio_under_construction.png')"
         backgroundRepeat="repeat-x"
