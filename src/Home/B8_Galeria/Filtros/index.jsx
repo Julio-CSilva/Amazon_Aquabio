@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import { Box, HStack, Stack, Menu, MenuList, MenuButton, IconButton, Input, CheckboxGroup, Checkbox, Heading } from "@chakra-ui/react"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useLanguage } from "../../../componentes/LanguageContext";
@@ -56,15 +57,6 @@ const FiltrosB8 = ({ searchTerm, setSearchTerm }) => {
                             variant='outline'
                             backgroundColor='white'
                         />
-                        <MenuList color='#000000' p='0.75rem'>
-                            <CheckboxGroup colorScheme='green'>
-                                <Stack spacing={[1, 3]} direction={['column']}>
-                                    <Checkbox value='peixe0'>{texts[language].filtro1}</Checkbox>
-                                    <Checkbox value='peixe1'>{texts[language].filtro2}</Checkbox>
-                                    <Checkbox value='peixe2'>{texts[language].filtro3}</Checkbox>
-                                </Stack>
-                            </CheckboxGroup>
-                        </MenuList>
                     </Menu>
                     <Heading fontSize='1.5rem' > {texts[language].titulo} </Heading>
                 </HStack>

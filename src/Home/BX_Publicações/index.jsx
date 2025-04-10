@@ -1,7 +1,7 @@
 import { Box, Heading, Image, Text, VStack } from "@chakra-ui/react";
 import { useLanguage } from "../../componentes/LanguageContext";
 
-const PublicacoesB6 = () => {
+const PublicacoesBX = () => {
 
     const { language } = useLanguage();
 
@@ -58,4 +58,4 @@ const PublicacoesB6 = () => {
     )
 };
 
-export default PublicacoesB6;
+export default PublicacoesBX;
