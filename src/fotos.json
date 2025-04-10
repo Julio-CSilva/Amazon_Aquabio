@@ -5,6 +5,7 @@
         "path": "images/b3/Acarichthys_heckelii_by(Nilsson_Kjell).jpg",
         "by": "by(Nilsson_Kjell)",
         "descricao": "É encontrado ao longo do curso principal do Rio Amazonas, abrangendo países como Peru, Colômbia, Brasil e Guiana. Habita também os rios Tocantins e Essequibo. Pode atingir até 19,5 cm de comprimento padrão e 276 g de peso. É bastante valorizado no aquarismo por sua aparência distinta e comportamento interessante. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
+        "descricao_en": "Commonly known as the golden-headed cichlid, it is distributed along the main course of the Amazon River, spanning countries such as Peru, Colombia, Brazil, and Guyana. It is also found in the Tocantins and Essequibo rivers, attaining up to 19.5 cm in standard length and 276 g in weight. This species is highly esteemed in the aquarium trade due to its distinctive appearance and intriguing behavior, and its conservation status has yet to be evaluated by the IUCN.",
         "id": "0",
         "tagId": 2,
         "amostras": [
@@ -43,6 +44,7 @@
         "path": "images/b3/Acaronia_nassa_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
         "descricao": "É uma espécie de ciclídeo encontrada nas planícies amazônicas do Peru, Brasil e Colômbia, incluindo a bacia do rio Amazonas e seus afluentes. Os machos podem atingir até 16 cm de comprimento padrão e pesar cerca de 189,9 g. Esta espécie tem importância econômica em pescarias comerciais de pequena escala, é apreciada na pesca esportiva e também é comercializada no mercado de aquarismo. De acordo com a Lista Vermelha da IUCN, o Acaronia nassa está classificado como ''Pouco Preocupante'' (LC), indicando que atualmente não enfrenta ameaças significativas de extinção.",
+        "descricao_en": "A cichlid species native to the Amazonian plains of Peru, Brazil, and Colombia, including the entire Amazon River basin and its tributaries. Males can reach up to 16 cm in standard length and weigh approximately 189.9 g. It holds economic significance in small-scale commercial fisheries, is popular in sport fishing, and is also actively traded in the aquarium market. According to the IUCN Red List, it is classified as Least Concern, indicating that it is not currently facing significant extinction threats.",
         "id": "1",
         "tagId": 2,
         "amostras": [
@@ -81,6 +83,7 @@
         "path": "images/b3/Aequidens_pallidus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo que habita a bacia do rio Amazonas, especificamente nos rios Negro, Uatumã, Preto da Eva e Puraquequara. Os machos podem alcançar até 14,3 cm de comprimento padrão. Esta espécie possui valor econômico tanto em pescarias comerciais quanto no comércio de aquarismo. Segundo a Lista Vermelha da IUCN, o Aequidens pallidus é classificado como ''Pouco Preocupante'' (LC), indicando uma baixa preocupação em relação à sua conservação no momento",
+        "descricao_en": "A cichlid inhabiting the Amazon River basin, specifically found in the Negro, Uatumã, Preto da Eva, and Puraquequara rivers. Males can reach a standard length of up to 14.3 cm. It holds economic value in both commercial fisheries and the aquarium trade. According to the IUCN Red List, it is classified as Least Concern, which currently reflects a low conservation priority.",
         "id": "2",
         "tagId": 2,
         "amostras": [
@@ -119,6 +122,7 @@
         "path": "images/b3/Apistogramma_sp_Cuieiras.png",
         "by": "Apistogramma_parcial",
         "descricao": "O Apistogramma sp. 'Cuieiras' é uma espécie não descrita formalmente, pertencente ao gênero Apistogramma, conhecido por suas diversas espécies de ciclídeos anões. Devido à falta de descrição científica formal, informações específicas sobre peso, uso econômico e status de conservação não estão disponíveis no FishBase. No entanto, espécies do gênero Apistogramma são geralmente populares no comércio de aquarismo devido ao seu tamanho pequeno e cores vibrantes.",
+        "descricao_en": "An informally described species within the genus Apistogramma, a group renowned for its diversity of dwarf cichlids. Owing to the absence of a formal scientific description, specific details regarding its weight, economic value, and conservation status are not available on FishBase. Nonetheless, species within this genus are widely appreciated in the aquarium trade for their small stature and vibrant coloration.",
         "id": "3",
         "tagId": 2,
         "amostras": [
@@ -157,6 +161,7 @@
         "path": "images/b3/Arapaima_gigas_by(tanya_dewey-animal-diversity_web-cc_by_nc_sa_3.0).jpg",
         "by": "by(tanya_dewey-animal-diversity_web)",
         "descricao": "É um peixe nativo da Bacia Amazônica e um dos maiores peixes de água doce do mundo, podendo atingir mais de 3 metros de comprimento e pesar até 200 kg. Além de seu valor econômico, tem importância cultural e ecológica para as comunidades amazônicas. Seu status na Lista Vermelha da IUCN é DD (Dados Deficientes), indicando que ainda faltam informações suficientes para uma avaliação completa do risco de extinção da espécie.",
+        "descricao_en": "A freshwater fish native to the Amazon Basin and one of the largest in the world, capable of exceeding 3 meters in length and weighing up to 200 kg. In addition to its economic importance, it holds significant cultural and ecological value for Amazonian communities. Its conservation status is listed as Data Deficient by the IUCN, reflecting the current lack of sufficient data to complete an extinction risk assessment.",
         "id": "4",
         "tagId": 2,
         "amostras": [
@@ -195,6 +200,7 @@
         "path": "images/b3/Astronotus_ocellatus_by(Edson_Rechi).jpg",
         "by": "by(Edson_Rechi)",
         "descricao": "É um ciclídeo nativo das bacias dos rios Amazonas e Orinoco. Pode atingir até 45,7 cm de comprimento total e pesar até 1,6 kg, embora o tamanho comum seja em torno de 24 cm. Esta espécie é altamente valorizada tanto na pesca comercial quanto como peixe de aquário, sendo também apreciada na pesca esportiva. Na América do Sul, é considerado um peixe de alimentação de alta estima. ",
+        "descricao_en": "Native to the Amazon and Orinoco river basins, it can attain a total length of up to 45.7 cm and weigh as much as 1.6 kg, although its common size is around 24 cm. It is highly valued both in commercial fishing and the aquarium trade, and is also popular in sport fishing. In South America, it is esteemed as a high-quality food fish.",
         "id": "5",
         "tagId": 2,
         "amostras": [
@@ -233,6 +239,7 @@
         "path": "images/b3/Australoheros_barbosae_by(Felipe_Polvanov_Ottoni).png",
         "by": "by(Felipe_Polvanov_Ottoni)",
         "descricao": "É uma espécie de ciclídeo endêmico do Brasil, encontrada principalmente em rios costeiros do sudeste. Ainda não possui um nome popular amplamente conhecido em português. Os indivíduos podem atingir até 9,6 cm de comprimento padrão. Trata-se de uma espécie pouco explorada economicamente, sem registros de uso em pesca comercial ou aquarismo, e até o momento não foi avaliada na Lista Vermelha da IUCN.",
+        "descricao_en": "Endemic to Brazil, predominantly found in southeastern coastal rivers. It does not yet possess a widely recognized common name and individuals can reach up to 9.6 cm in standard length. This species has been subject to limited economic exploitation, with no records of use in either commercial fisheries or the aquarium trade, and it has not been evaluated by the IUCN Red List to date.",
         "id": "6",
         "tagId": 2,
         "amostras": [
@@ -309,6 +316,7 @@
         "path": "images/b3/Chaetobranchopsis_orbicularis_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
         "by": "by(Delgado_Assad&Maria_Luiza_IBAMA)",
         "descricao": "É encontrado na bacia do Rio Amazonas, desde a foz do Rio Negro até a Ilha de Marajó e o Amapá, Brasil. Pode atingir até 12 cm de comprimento padrão. É ocasionalmente capturado para pesca. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
+        "descricao_en": "Distributed throughout the Amazon River basin, ranging from the mouth of the Negro River to Marajó Island and Amapá in Brazil. It can reach up to 12 cm in standard length and is occasionally captured for fishing. Its conservation status has not yet been evaluated by the IUCN.",
         "id": "8",
         "tagId": 2,
         "amostras": [
@@ -347,6 +355,7 @@
         "path": "images/b3/Chaetobranchus_flavescens_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo da bacia amazônica que pode atingir entre 17 e 22 cm de comprimento ao atingir a maturidade. Embora não seja amplamente explorado comercialmente, pode aparecer em pescarias locais e é ocasionalmente mantido em aquários. Sua principal característica é a estrutura das brânquias adaptada à alimentação por filtragem. De acordo com a IUCN, essa espécie também está classificada como Pouco Preocupante (LC).",
+        "descricao_en": "A cichlid from the Amazon Basin that reaches between 17 and 22 cm in length at maturity. Although it is not widely exploited commercially, it may be present in local fisheries and is occasionally maintained in aquaria. Its most notable characteristic is its gill structure, which is adapted for filter feeding. According to the IUCN, this species is classified as Least Concern.",
         "id": "9",
         "tagId": 2,
         "amostras": [
@@ -385,6 +394,7 @@
         "path": "images/b3/Cichla_monoculus_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
         "by": "by(Delgado_Assad&Maria_Luiza_IBAMA)",
         "descricao": "É encontrado na bacia do Rio Amazonas, incluindo rios no Peru, Colômbia e Brasil, como o Solimões e o Araguari. Pode atingir até 70 cm de comprimento padrão e pesar até 9 kg. É importante na pesca comercial e esportiva, além de ser mantido em aquários.  É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
+        "descricao_en": "Found in the Amazon River basin, including rivers in Peru, Colombia, and Brazil such as the Solimões and Araguari. It can grow up to 70 cm in standard length and weigh up to 9 kg. Important in both commercial and sport fishing, it is also maintained in aquariums. Listed as Least Concern by the IUCN, indicating no major extinction threats at present.",
         "id": "10",
         "tagId": 2,
         "amostras": [
@@ -423,6 +433,7 @@
         "path": "images/b3/Cichla_temensis_by(Fürderer_Heike).jpg",
         "by": "by(Fürderer_Heike)",
         "descricao": "É encontrado na bacia do Rio Negro e afluentes do Rio Amazonas, especialmente no Brasil e na Venezuela. Pode atingir até 100 cm de comprimento padrão e pesar mais de 13 kg. É uma das espécies mais procuradas na pesca esportiva e também presente na aquicultura. É utilizado principalmente no aquarismo. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
+        "descricao_en": "Distributed in the Negro River basin and Amazon tributaries, especially in Brazil and Venezuela. It can grow up to 100 cm in standard length and weigh more than 13 kg. It is highly prized in sport fishing and also appears in aquaculture and the aquarium trade. It is classified by the IUCN as Least Concern, indicating no current significant extinction risks.",
         "id": "11",
         "tagId": 2,
         "amostras": [
@@ -461,6 +472,7 @@
         "path": "images/b3/Cichlasoma_amazonarum_by(Lo_Polo&Juan_Carlos).jpg",
         "by": "by(Lo_Polo&Juan_Carlos)",
         "descricao": "É encontrado em pântanos costeiros e áreas alagadas na América do Sul. Pode atingir até 13,5 cm de comprimento padrão. É utilizado principalmente no aquarismo. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
+        "descricao_en": "Found in coastal swamps and flooded areas in South America. It can grow up to 13.5 cm in standard length. Mainly used in the aquarium trade. Classified as Least Concern on the IUCN Red List, indicating it does not currently face major threats of extinction.",
         "id": "12",
         "tagId": 2,
         "amostras": [
@@ -499,6 +511,7 @@
         "path": "images/b3/Cichlasoma_bimaculatum_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
         "descricao": "É encontrado nas Guianas e na bacia do Rio Orinoco, incluindo o Rio Essequibo e partes do alto Rio Branco. Pode atingir até 35 cm de comprimento total. É utilizado tanto na pesca esportiva quanto no aquarismo. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
+        "descricao_en": "Found in the Guianas and the Orinoco River basin, including the Essequibo River and parts of the upper Branco River. It can grow up to 35 cm in total length. Used in both sport fishing and the aquarium trade. Listed as Least Concern by the IUCN, suggesting no immediate conservation concerns.",
         "id": "13",
         "tagId": 2,
         "amostras": [
@@ -537,6 +550,7 @@
         "path": "images/b3/Colossoma_macropomum_by(Frank_M_Greco).jpg",
         "by": "by(Frank_M_Greco)",
         "descricao": "É um peixe de água doce nativo das bacias dos rios Amazonas e Orinoco, na América do Sul. É conhecido por atingir até 108 cm de comprimento total e pesar até 40 kg, embora o comprimento comum seja de cerca de 70 cm. O tambaqui é valorizado na aquicultura devido à sua capacidade de viver em águas pobres em minerais e à sua resistência a doenças. No mercado, é comercializado tanto fresco quanto congelado. ​​O tambaqui está classificado como Quase Ameaçado (NT) na Lista Vermelha da IUCN, conforme avaliação realizada em 17 de dezembro de 2020.",
+        "descricao_en": "A freshwater fish native to the Amazon and Orinoco basins in South America. Known to reach up to 108 cm in total length and 40 kg in weight, though more commonly around 70 cm. Valued in aquaculture for its adaptability to low-mineral waters and disease resistance. Sold both fresh and frozen. Classified as Near Threatened by the IUCN (as of December 17, 2020).",
         "id": "14",
         "tagId": 2,
         "amostras": [
@@ -575,6 +589,7 @@
         "path": "images/b3/Crenicichla_lenticulata_by(C_H_EON).jpg",
         "by": "by(C_H_EON)",
         "descricao": "É uma espécie predadora que habita os rios da bacia amazônica. Pode alcançar até 30 cm de comprimento e é frequentemente capturado por pescadores locais para consumo. Embora não seja amplamente comercializado no aquarismo, é procurado por entusiastas de ciclídeos predadores. Seu status de conservação, segundo a IUCN, é Pouco Preocupante (LC).",
+        "descricao_en": "A predatory species inhabiting the rivers of the Amazon Basin. Can reach up to 30 cm in length. Commonly caught by local fishers for consumption. While not heavily featured in the aquarium trade, it is sought after by fans of predatory cichlids. The IUCN lists it as Least Concern.",
         "id": "15",
         "tagId": 2,
         "amostras": [
@@ -613,6 +628,7 @@
         "path": "images/b3/Crenicichla_lugubris_by(Fürderer_Heike).jpg",
         "by": "by(Fürderer_Heike)",
         "descricao": "É uma espécie amazônica que pode atingir até 32,4 cm de comprimento padrão. Assim como outras do gênero, é uma espécie piscívora (se alimenta de outros peixes) e predadora ativa. Tem importância local na pesca de subsistência e pode ser encontrada ocasionalmente no mercado ornamental. A IUCN também classifica essa espécie como Pouco Preocupante (LC).",
+        "descricao_en": "An Amazonian species that can grow up to 32.4 cm in standard length. Like others in its genus, it is piscivorous and an active predator. Holds local significance in subsistence fishing and appears occasionally in the ornamental fish market. Classified by the IUCN as Least Concern.",
         "id": "16",
         "tagId": 2,
         "amostras": [
@@ -651,6 +667,7 @@
         "path": "images/b3/Crenicichla_macrophthalma_by(Vidal_W).jpg",
         "by": "by(Vidal_W)",
         "descricao": "É um ciclídeo da bacia amazônica que pode atingir até 20 cm de comprimento padrão. Embora não seja amplamente utilizado comercialmente, pode ser encontrado na pesca de subsistência e é ocasionalmente apreciado por aquaristas interessados em espécies predadoras. Segundo a IUCN, essa espécie está classificada como Pouco Preocupante (LC), o que indica que atualmente não enfrenta riscos significativos de extinção.",
+        "descricao_en": "A cichlid from the Amazon Basin that can reach up to 20 cm in standard length. Not widely used commercially, but present in subsistence fisheries and occasionally in specialized aquariums. Classified as Least Concern by the IUCN, indicating no current serious extinction risks.",
         "id": "17",
         "tagId": 2,
         "amostras": [
@@ -689,6 +706,7 @@
         "path": "images/b3/Crenicichla_marmorata_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
         "descricao": "É um ciclídeo de médio porte que pode alcançar até 28 cm de comprimento, sendo caracterizado por seu padrão marmorizado. Embora o nome popular não seja amplamente difundido, é uma espécie presente na bacia amazônica. Seu uso econômico não é claramente estabelecido, mas, como outras espécies do gênero, pode aparecer em aquários especializados. Segundo a IUCN, essa espécie está classificada como Pouco Preocupante (LC), o que indica que atualmente não enfrenta riscos significativos de extinção.",
+        "descricao_en": "A medium-sized cichlid reaching up to 28 cm in length, distinguished by its marbled pattern. Found in the Amazon Basin. While not widely recognized by a popular name, it may appear in specialized aquariums. Its economic role is unclear. The IUCN classifies it as Least Concern.",
         "id": "18",
         "tagId": 2,
         "amostras": [
@@ -727,6 +745,7 @@
         "path": "images/b3/Crenicichla_notophthalmus_by(sneegas_G_W).jpg",
         "by": "by(sneegas_G_W)",
         "descricao": "É encontrado na bacia do Rio Amazonas, especialmente na parte inferior do Rio Negro. Pode atingir até 7,6 cm de comprimento padrão. Seu uso econômico ou ornamental não é amplamente documentado. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
+        "descricao_en": "Found in the Amazon Basin, especially the lower Negro River. Can grow up to 7.6 cm in standard length. Its use in fisheries or aquariums is not well documented. The IUCN has not yet evaluated its conservation status.",
         "id": "19",
         "tagId": 2,
         "amostras": [
@@ -765,6 +784,7 @@
         "path": "images/b3/Geophagus_dicrozoster_by(Andreas_jekel).jpg",
         "by": "by(Andreas_jekel)",
         "descricao": "O Geophagus dicrozoster é um ciclídeo amazônico pertencente ao grupo dos “acará-terra”, embora seu nome popular específico não seja bem definido. Essa espécie ainda é pouco estudada em termos de uso econômico, mas é provável que tenha valor no aquarismo, como outros do gênero Geophagus. A IUCN classifica o Geophagus dicrozoster como Pouco Preocupante (LC), sugerindo que suas populações estão em equilíbrio ecológico.",
+        "descricao_en": "An Amazonian cichlid in the 'acará-terra' group. Although lacking a well-known common name, it likely holds value in the aquarium trade like others in the Geophagus genus. Still little-studied in terms of economic use. Listed as Least Concern by the IUCN, indicating population stability.",
         "id": "20",
         "tagId": 2,
         "amostras": [
@@ -803,6 +823,7 @@
         "path": "images/b3/Gymnogeophagus_labiatus_by(Casacuberta_M).jpg",
         "by": "by(Casacuberta_M)",
         "descricao": "É um ciclídeo nativo do sul da América do Sul, encontrado principalmente na bacia do rio Uruguai. Pode atingir até 15,2 cm de comprimento padrão e é facilmente reconhecido pelos lábios proeminentes. Embora o nome popular em português não seja amplamente utilizado, é uma espécie de interesse para aquaristas devido à sua aparência distinta.  A IUCN classifica o Geophagus dicrozoster como Pouco Preocupante (LC), sugerindo que suas populações estão em equilíbrio ecológico.",
+        "descricao_en": "Native to southern South America, mainly the Uruguay River Basin. Grows up to 15.2 cm in standard length and is easily recognized by its prominent lips. Of interest to aquarists due to its unique appearance. Classified as Least Concern by the IUCN.",
         "id": "21",
         "tagId": 2,
         "amostras": [
@@ -832,6 +853,7 @@
         "path": "images/b3/Gymnogeophagus_rhabdotus_by(Dubosc_J).jpg",
         "by": "by(Dubosc_J)",
         "descricao": "É um ciclídeo encontrado na bacia do rio Uruguai, no Uruguai, e na bacia da Lagoa dos Patos, no Brasil. Os machos podem atingir até 12 cm de comprimento padrão. A fêmea deposita cerca de 300 ovos em uma superfície limpa; após a eclosão, os filhotes são transferidos para depressões previamente construídas no substrato. Esta espécie é utilizada tanto na pesca quanto no aquarismo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC), indicando que não enfrenta ameaças significativas atualmente.",
+        "descricao_en": "Found in the Uruguay River Basin (Uruguay) and the Lagoa dos Patos Basin (Brazil). Males reach up to 12 cm in standard length. Females lay about 300 eggs on a clean surface, then transfer fry to pre-dug substrate depressions. Used in fishing and aquariums. IUCN status: Least Concern.",
         "id": "22",
         "tagId": 2,
         "amostras": [
@@ -861,6 +883,7 @@
         "path": "images/b3/Heros_efasciatus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo nativo da bacia amazônica. Os machos podem alcançar até 17 cm de comprimento padrão e pesar até 268,2 g. Esta espécie habita ambientes lênticos, como áreas alagadas e estuários com vegetação ribeirinha densa. É um peixe onívoro, com tendência frugívora. O acará-preto é valorizado tanto na pesca quanto no comércio de aquarismo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC), indicando que não enfrenta ameaças significativas atualmente.",
+        "descricao_en": "Native to the Amazon Basin. Males reach up to 17 cm in standard length and 268.2 g in weight. Found in lentic environments like floodplains and estuaries with dense riparian vegetation. Omnivorous with a tendency toward frugivory. Used in fishing and aquarium trade. IUCN status: Least Concern.",
         "id": "23",
         "tagId": 2,
         "amostras": [
@@ -899,6 +922,7 @@
         "path": "images/b3/Heros_notatus_by(Jensen_Jhonny).jpg",
         "by": "by(Jensen_Jhonny)",
         "descricao": "Heros notatus é um ciclídeo nativo da Bacia do Rio Amazonas, especialmente da região do Rio Negro, no Brasil. Pode atingir cerca de 15 cm de comprimento padrão e é amplamente conhecido no aquarismo devido à sua coloração atrativa e comportamento relativamente pacífico. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
+        "descricao_en": "A cichlid native to the Amazon River Basin, particularly in the Negro River region of Brazil. It can reach approximately 15 cm in standard length and is widely recognized in the aquarium hobby for its attractive coloration and relatively peaceful behavior. It is classified as Least Concern (LC) on the IUCN Red List, indicating that it currently faces no major extinction threats.",
         "id": "24",
         "tagId": 2,
         "amostras": [
@@ -937,6 +961,7 @@
         "path": "images/b3/Hypselecara_temporalis_by(J_Bukkems).jpg",
         "by": "by(J_Bukkems)",
         "descricao": "É encontrado nos rios Ucayali, Solimões e Amazonas, além do Amapá e da Guiana Francesa. Muito apreciado no aquarismo por sua aparência marcante, embora o tamanho máximo não esteja claramente definido. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
+        "descricao_en": "Found in the Ucayali, Solimões, and Amazon rivers, as well as in Amapá and French Guiana. Highly appreciated in the aquarium trade for its striking appearance, although its maximum size has not been clearly defined. It is classified as Least Concern (LC) on the IUCN Red List, meaning it does not currently face significant extinction risks.",
         "id": "25",
         "tagId": 2,
         "amostras": [
@@ -975,6 +1000,7 @@
         "path": "images/b3/Mesonauta_festivus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo de água doce nativo da América do Sul. Sua distribuição abrange a bacia do rio Paraná, incluindo a drenagem do rio Paraguai no Brasil e Paraguai, bem como a bacia do rio Amazonas. Este peixe apresenta um corpo moderadamente profundo e comprimido lateralmente, típico dos ciclídeos. Atinge um tamanho máximo de 12,1 cm de comprimento padrão e peso de até 97,4 g. Devido à sua aparência atraente e comportamento interessante, é popular entre aquaristas. De acordo com a Lista Vermelha da IUCN, o Mesonauta festivus está classificado como Pouco Preocupante (LC), indicando que não há ameaças significativas conhecidas que coloquem a espécie em risco de extinção no momento.",
+        "descricao_en": "A freshwater cichlid native to South America, distributed throughout the Paraná River Basin—including the Paraguay River drainage in Brazil and Paraguay—as well as the Amazon Basin. This fish features a moderately deep, laterally compressed body typical of cichlids. It reaches up to 12.1 cm in standard length and 97.4 g in weight. Due to its attractive appearance and interesting behavior, it is popular among aquarists. According to the IUCN Red List, it is classified as Least Concern (LC), with no known major threats placing the species at risk of extinction.",
         "id": "26",
         "tagId": 2,
         "amostras": [
@@ -1013,6 +1039,7 @@
         "path": "images/b3/Osteoglossum_bicirrhosum_by(Qwertzy2_cc).jpg",
         "by": "by(Qwertzy_cc)",
         "descricao": "É um peixe de água doce nativo da América do Sul, encontrado nas bacias dos rios Amazonas, Rupununi e Oiapoque. Este peixe pode atingir até 90 cm de comprimento total e pesar até 6 kg. No aquarismo, o aruanã-prateado é valorizado por sua aparência distinta e comportamento interessante. De acordo com a Lista Vermelha da IUCN, o aruanã-prateado é classificado como Pouco Preocupante (LC), indicando que atualmente não há grandes ameaças que coloquem a espécie em risco significativo de extinção.",
+        "descricao_en": "A freshwater fish native to South America, found in the Amazon, Rupununi, and Oiapoque river basins. This species can reach up to 90 cm in total length and weigh up to 6 kg. In the aquarium trade, the silver arowana is prized for its unique appearance and fascinating behavior. According to the IUCN Red List, it is classified as Least Concern (LC), indicating that it currently faces no significant extinction threats.",
         "id": "27",
         "tagId": 2,
         "amostras": [
@@ -1051,6 +1078,7 @@
         "path": "images/b3/Pterophyllum_scalare_by(Dan_Olsen).png",
         "by": "by(Dan_Olsen)",
         "descricao": "É encontrado na bacia do Rio Amazonas, incluindo os rios Ucayali, Solimões, Amazonas e também no Amapá e na Guiana Francesa. Pode alcançar até 15 cm de comprimento total. Muito procurado no aquarismo por sua beleza e elegância. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
+        "descricao_en": "Found in the Amazon River Basin, including the Ucayali, Solimões, and Amazon rivers, as well as in Amapá and French Guiana. It can reach up to 15 cm in total length and is highly sought after in the aquarium hobby for its beauty and elegance. Classified as Least Concern (LC) by the IUCN, indicating it currently faces no major threats of extinction.",
         "id": "28",
         "tagId": 2,
         "amostras": [
@@ -1089,6 +1117,7 @@
         "path": "images/b3/Pygocentrus_nattereri_by(Østergaard_Thorke_A_S).jpg",
         "by": "by(Østergaard_Thorke_A_S)",
         "descricao": "É uma espécie de peixe de água doce nativa da América do Sul, amplamente distribuída nas bacias dos rios Amazonas, Paraguai-Paraná e Essequibo, além de rios costeiros do nordeste do Brasil. Essa espécie pode atingir até 50 cm de comprimento padrão e pesar mais de 3,8 kg, sendo reconhecida por sua coloração prateada com a região ventral avermelhada, especialmente em indivíduos adultos. Devido à sua aparência marcante e comportamento, é uma espécie frequentemente mantida em aquários. Atualmente, seu status de conservação, de acordo com a Lista Vermelha da IUCN, é Pouco Preocupante (LC), indicando que a espécie não enfrenta ameaças imediatas de extinção.",
+        "descricao_en": "A freshwater fish species native to South America, widely distributed across the Amazon, Paraguay-Paraná, and Essequibo river basins, as well as in coastal rivers of northeastern Brazil. It can grow up to 50 cm in standard length and weigh more than 3.8 kg. Adults are recognized by their silvery bodies and reddish ventral area. Due to its striking appearance and behavior, it is frequently kept in aquariums. According to the IUCN Red List, it is classified as Least Concern (LC), meaning it currently faces no immediate extinction threats.",
         "id": "29",
         "tagId": 2,
         "amostras": [
@@ -1127,6 +1156,7 @@
         "path": "images/b3/Satanoperca_jurupari_by(Irtz_peter).jpg",
         "by": "by(Irtz_peter)",
         "descricao": "É encontrada em grande parte da bacia amazônica, do Peru e Equador até a Guiana Francesa. Pode atingir até 26 cm de comprimento padrão e 485 g. Bastante popular em aquários e também explorada na pesca. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
+        "descricao_en": "Found throughout much of the Amazon Basin, from Peru and Ecuador to French Guiana. It can grow up to 26 cm in standard length and weigh as much as 485 g. This species is popular in aquariums and also utilized in fisheries. Its conservation status has not yet been evaluated by the IUCN.",
         "id": "30",
         "tagId": 2,
         "amostras": [
@@ -1165,6 +1195,7 @@
         "path": "images/b3/Satanoperca_lilith_by(Jensen_Jhonny).jpg",
         "by": "by(Jensen_Jhonny)",
         "descricao": "É um ciclídeo encontrado na bacia do rio Amazonas, ao longo do rio Solimões-Amazonas, desde o rio Japurá até o rio Trombetas, incluindo o rio Negro e a bacia do rio Branco. Pode atingir até 25,5 cm de comprimento padrão. O nome do gênero, Satanoperca, é derivado do ''príncipe das trevas'', refletindo uma tradição de nomear peixes de cavernas com nomes diabólicos, baseada na ideia do inferno estar subterrâneo. Esta espécie é utilizada no comércio de aquarismo. Segundo a IUCN, seu status de conservação é de Pouco Preocupante (LC).",
+        "descricao_en": "A cichlid found in the Amazon River Basin, along the Solimões-Amazonas River from the Japurá to the Trombetas River, including the Negro and Branco river basins. It can reach up to 25.5 cm in standard length. The genus name Satanoperca derives from the 'prince of darkness,' reflecting a tradition of assigning diabolical names to cavefish based on the association of hell with the underground. This species is used in the aquarium trade. According to the IUCN, it is classified as Least Concern (LC).",
         "id": "31",
         "tagId": 2,
         "amostras": [
@@ -1203,6 +1234,7 @@
         "path": "images/b3/Symphysodon_discus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo icônico da bacia do rio Amazonas, encontrado no Brasil, próximo à foz do rio Negro, no baixo rio Abacaxis e no baixo rio Trombetas. Alimenta-se de vermes, crustáceos, insetos e matéria vegetal. Durante a reprodução, deposita vários centenas de ovos em pedras ou plantas; ambos os pais defendem os ovos e larvas, que se alimentam de um muco produzido pela pele dos pais nos primeiros dias. Esta espécie é altamente valorizada no aquarismo devido à sua coloração vibrante e comportamento distintivo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC).",
+        "descricao_en": "An iconic cichlid of the Amazon River Basin, found in Brazil near the mouth of the Negro River, the lower Abacaxis River, and the lower Trombetas River. It feeds on worms, crustaceans, insects, and plant material. During reproduction, several hundred eggs are laid on rocks or plants; both parents guard the eggs and larvae, which feed on a mucous secretion from the parents' skin during their early days. This species is highly valued in aquariums for its vibrant coloration and distinctive behavior. According to the IUCN, it is classified as Least Concern (LC).",
         "id": "32",
         "tagId": 2,
         "amostras": [
@@ -1241,6 +1273,7 @@
         "path": "images/b3/Uaru_amphiacanthoides_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
         "descricao": "É nativo da bacia do rio Amazonas, ao longo do rio Amazonas-Solimões, desde o rio Japurá até o rio Tapajós, incluindo os rios médio e baixo Negro. Pode atingir até 25 cm de comprimento padrão. Habita riachos de águas claras com pH em torno de 6,8 e alimenta-se de vermes, crustáceos, insetos e necessita de suplementação vegetal em sua dieta. Os pais cuidam de até 200 ovos e larvas. Além de sua importância como peixe ornamental no aquarismo, também é utilizado como alimento por populações locais. Seu status de conservação na IUCN é de Pouco Preocupante (LC).",
+        "descricao_en": "Native to the Amazon Basin, along the Amazonas-Solimões River from the Japurá to the Tapajós River, including the middle and lower Negro River. It can reach up to 25 cm in standard length. It inhabits clearwater streams with a pH around 6.8 and feeds on worms, crustaceans, and insects, requiring additional plant matter in its diet. Parents care for up to 200 eggs and larvae. Besides its ornamental value in the aquarium trade, it is also used as food by local populations. Classified as Least Concern (LC) by the IUCN.",
         "id": "33",
         "tagId": 2,
         "amostras": [

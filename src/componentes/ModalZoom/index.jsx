@@ -29,6 +29,7 @@ import "swiper/css/pagination";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import links from "../../by_links.json";
+import { useLanguage } from "../LanguageContext";
 
 const ModalZoom = ({ foto, aoFechar }) => {
   const { isOpen, onClose } = useDisclosure({
@@ -63,6 +64,18 @@ const ModalZoom = ({ foto, aoFechar }) => {
     const blob = new Blob(byteArrays, { type: mime });
     const blobUrl = URL.createObjectURL(blob);
     window.open(blobUrl, "_blank");
+  };
+
+  const { language } = useLanguage();
+
+  const texts = {
+    pt: {
+      descricao: foto?.descricao || "",
+    },
+    en: {
+      descricao: foto?.descricao_en || "",
+    },
+    
   };
 
   return (
@@ -104,7 +117,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
                     {foto.nome}
                   </Text>
                   <Text as="i" fontSize="1rem">
-                    {foto.descricao}
+                    {texts[language].descricao}
                   </Text>
                   <HStack spacing={2} alignItems="center" mt={"3rem"}>
                     <Image
