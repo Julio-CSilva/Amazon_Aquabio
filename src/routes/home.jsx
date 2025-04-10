@@ -7,7 +7,8 @@ import DefinicaoB2 from "../Home/B2_Definicao";
 import PeixesB3 from "../Home/B3_Peixes";
 import MapaB4 from "../Home/B4_Mapa";
 import MetodologiaB5 from "../Home/B5_Metodologia";
-import PublicacoesB6 from "../Home/B6_Publicações";
+//import PublicacoesBX from "../Home/BX_Publicações";
+import ComparadorB6 from "../Home/B6_Comparador";
 import PesquisadoresB7 from "../Home/B7_Pesquisadores";
 import GaleriaB8 from "../Home/B8_Galeria";
 import ModalZoom from "../componentes/ModalZoom";
@@ -63,7 +64,8 @@ const Home = () => {
         </GridItem>
         <GridItem rowSpan={1} ref={sectionRefs.publicacoes}>
           <Box background="#365B6D">
-            <PublicacoesB6 />
+            {/*<PublicacoesBX />*/}
+            <ComparadorB6 />
           </Box>
         </GridItem>
         <GridItem rowSpan={1}>
