@@ -19,11 +19,15 @@ import {
   TabPanels,
   Tab,
   TabPanel,
-  Grid,
-  GridItem,
-  Link,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 import links from "../../by_links.json";
 
 const ModalZoom = ({ foto, aoFechar }) => {
@@ -32,16 +36,34 @@ const ModalZoom = ({ foto, aoFechar }) => {
     onClose: aoFechar,
   });
 
-  // Estado para armazenar o objeto encontrado no JSON, que contém o campo "links"
   const [linkData, setLinkData] = useState(null);
 
   useEffect(() => {
     if (foto) {
-      // Procura o objeto no JSON que possua o mesmo id do peixe
       const linkEncontrado = links.find((item) => item.id == foto.id);
       setLinkData(linkEncontrado);
     }
   }, [foto]);
+
+  const abrirImagemEmNovaAba = (base64DataUrl) => {
+    const base64 = base64DataUrl.split(",")[1];
+    const mime = base64DataUrl.match(/data:(.*);base64/)[1];
+    const byteCharacters = atob(base64);
+    const byteArrays = [];
+
+    for (let i = 0; i < byteCharacters.length; i += 1024) {
+      const slice = byteCharacters.slice(i, i + 1024);
+      const byteNumbers = new Array(slice.length);
+      for (let j = 0; j < slice.length; j++) {
+        byteNumbers[j] = slice.charCodeAt(j);
+      }
+      byteArrays.push(new Uint8Array(byteNumbers));
+    }
+
+    const blob = new Blob(byteArrays, { type: mime });
+    const blobUrl = URL.createObjectURL(blob);
+    window.open(blobUrl, "_blank");
+  };
 
   return (
     <Modal
@@ -49,126 +71,107 @@ const ModalZoom = ({ foto, aoFechar }) => {
       onClose={onClose}
       isCentered
       closeOnOverlayClick={false}
+      size="6xl"
     >
       <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
-      <ModalContent
-        position="absolute"
-        bg="#ffffff"
-        p="1rem"
-        justifyContent="center"
-        w="90%"
-        maxW="90%"
-        maxH="100%"
-      >
-        <ModalHeader
-          as="i"
-          display="flex"
-          alignItems="center"
-          justifyContent="space-between"
-        >
-          {foto ? foto.especie : "null"}
-          <ModalCloseButton position="relative" top="auto" right="auto" />
+      <ModalContent bg="#ffffff" p="1rem" maxH="100%">
+        <ModalHeader display="flex" justifyContent="space-between" as="i">
+          {foto?.especie || "Detalhes"}
+          <ModalCloseButton />
         </ModalHeader>
+
         {foto && (
-          <ModalBody p="0.5rem 0.25rem" overflowY="auto">
+          <ModalBody overflowY="auto">
             <Divider mb="1rem" />
-            <VStack className="ModelBody" p="0.25rem">
+            <VStack spacing={6}>
               <HStack
-                className="UpperBody"
-                alignItems="center"
+                alignItems="flex-start"
                 justifyContent="center"
-                gap="1.5rem"
-                pb="1rem"
+                gap="2rem"
               >
                 <Image
                   src={foto.path}
-                  w="20rem"
+                  w="30rem"
                   h="auto"
                   alt="Foto do Peixe"
                   borderRadius="15px"
                 />
-                <Box
-                  className="DadosPeixe"
-                  display="flex"
-                  flexDirection="column"
-                >
-                  <Text as="i" fontSize="2.5rem">
+                <Box>
+                  <Text as="i" fontSize="2.5rem" mb={"3rem"}>
                     {foto.especie}
                   </Text>
-                  <Text as="b" fontSize="1.5rem">
+                  <Text as="b" fontSize="1.5rem" mb={2} display="block">
                     {foto.nome}
                   </Text>
-                  <Text as="i" fontSize="1.5rem">
+                  <Text as="i" fontSize="1rem">
                     {foto.descricao}
                   </Text>
-                  <HStack spacing={2} alignItems="center">
+                  <HStack spacing={2} alignItems="center" mt={"3rem"}>
                     <Image
                       src="images/by-nc-sa.png"
                       alt="CC-NC-SA License"
                       width="80px"
                     />
                     {linkData && (
-                      <Link
-                        href={linkData.links}
-                        isExternal
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <Text
+                        as="u"
+                        fontSize="sm"
+                        cursor="pointer"
+                        color="blue.500"
+                        onClick={() => abrirImagemEmNovaAba(linkData.links)}
                       >
-                        <Text as="u" fontSize="sm">
-                          {foto.by}
-                        </Text>
-                      </Link>
+                        {foto.by}
+                      </Text>
                     )}
                   </HStack>
                 </Box>
               </HStack>
-              <Box
-                className="BottonBody"
-                as="section"
-                w="100%"
-                borderWidth="2px"
-                borderRadius="15px"
-              >
+
+              <Box w="100%" borderWidth="2px" borderRadius="15px" p={4}>
                 <Tabs variant="enclosed">
                   <TabList>
-                    {/* Renderizando abas dinamicamente com base nas amostras */}
                     {foto.amostras.map((amostra, index) => (
                       <Tab key={amostra.id}>{`Sample ${index + 1}`}</Tab>
                     ))}
                   </TabList>
                   <TabPanels>
-                    {/* Renderizando conteúdo das abas dinamicamente */}
-                    {foto.amostras.map((amostra, index) => (
-                      <TabPanel
-                        key={amostra.id}
-                        display="flex"
-                        flexDirection="column"
-                      >
-                        <Text>● SRA: {amostra.sra}</Text>
-                        <Grid
-                          templateColumns="repeat(3, 1fr)"
-                          gap={4}
-                          h="auto"
-                          w="100%"
+                    {foto.amostras.map((amostra) => (
+                      <TabPanel key={amostra.id}>
+                        <Text mb={4}>● SRA: {amostra.sra}</Text>
+                        <Swiper
+                          modules={[Navigation, Pagination]}
+                          navigation
+                          pagination={{ clickable: true }}
+                          spaceBetween={30}
+                          slidesPerView={1}
+                          style={{ width: "100%", height: "auto" }}
                         >
-                          {/* Renderizando imagens dinamicamente dentro de cada painel */}
-                          {Object.keys(amostra).map((key) => {
-                            if (key.startsWith("path_")) {
-                              return (
-                                <GridItem key={key}>
-                                  <Image
-                                    src={amostra[key]}
-                                    objectFit="cover"
-                                    width="100%"
-                                    height="100%"
-                                    alt={`Imagem de ${key}`}
-                                  />
-                                </GridItem>
-                              );
-                            }
-                            return null;
-                          })}
-                        </Grid>
+                          {Object.entries(amostra)
+                            .filter(([key]) => key.startsWith("path_"))
+                            .map(([key, path]) => (
+                              <SwiperSlide key={key}>
+                                <Box
+                                  borderRadius="lg"
+                                  overflow="hidden"
+                                  boxShadow="lg"
+                                  maxW="100%"
+                                >
+                                  <Zoom>
+                                    <Image
+                                      src={path}
+                                      objectFit="contain"
+                                      w="100%"
+                                      maxH="600px"
+                                      mx="auto"
+                                      alt={`Imagem ${key}`}
+                                      cursor="zoom-in"
+                                      borderRadius="lg"
+                                    />
+                                  </Zoom>
+                                </Box>
+                              </SwiperSlide>
+                            ))}
+                        </Swiper>
                       </TabPanel>
                     ))}
                   </TabPanels>

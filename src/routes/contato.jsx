@@ -232,7 +232,7 @@ const Contato = () => {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.2917656261782!2d-35.20635186842015!3d-5.832057913959955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff75c341eaaf%3A0x9e690237eaddaf9a!2sMetr%C3%B3pole%20Digital%20-%20IMD%2FUFRN!5e0!3m2!1spt-BR!2sbr!4v1744206397926!5m2!1spt-BR!2sbr"
           width="100%"
-          height="300"
+          height="400"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
