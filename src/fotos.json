@@ -13,28 +13,28 @@
                 "id": 1,
                 "sra": "ERR10768189",
                 "path_mito_circularized": "images/b8/circularized/ERR10768189_Acarichthys_heckelii_mito_circularized.png",
-                "path_trna": "ERR10768189_Acarichthys_heckelii_trna",
+                "path_trna": "images/b8/trna/ERR10768189_Acarichthys_heckelii_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768189_Acarichthys_heckelii_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768189_Acarichthys_heckelii_rscu.png",
-                "path_dloop": "ERR10768189_Acarichthys_heckelii_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768189_Acarichthys_heckelii_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789881",
                 "path_mito_circularized": "images/b8/circularized/ERR10789881_Acarichthys_heckelii_mito_circularized.png",
-                "path_trna": "ERR10789881_Acarichthys_heckelii_trna",
+                "path_trna": "images/b8/trna/ERR10789881_Acarichthys_heckelii_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789881_Acarichthys_heckelii_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789881_Acarichthys_heckelii_rscu.png",
-                "path_dloop": "ERR10789881_Acarichthys_heckelii_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789881_Acarichthys_heckelii_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768230",
                 "path_mito_circularized": "images/b8/circularized/ERR10768230_Acarichthys_heckelii_mito_circularized.png",
-                "path_trna": "ERR10768230_Acarichthys_heckelii_trna",
+                "path_trna": "images/b8/trna/ERR10768230_Acarichthys_heckelii_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768230_Acarichthys_heckelii_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768230_Acarichthys_heckelii_rscu.png",
-                "path_dloop": "ERR10768230_Acarichthys_heckelii_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768230_Acarichthys_heckelii_dloop.png"
             }
         ]
     },
@@ -52,28 +52,28 @@
                 "id": 1,
                 "sra": "ERR10789892",
                 "path_mito_circularized": "images/b8/circularized/ERR10789892_Acaronia_nassa_mito_circularized.png",
-                "path_trna": "ERR10789892_Acaronia_nassa_trna",
+                "path_trna": "images/b8/trna/ERR10789892_Acaronia_nassa_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789892_Acaronia_nassa_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789892_Acaronia_nassa_rscu.png",
-                "path_dloop": "ERR10789892_Acaronia_nassa_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789892_Acaronia_nassa_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768270",
                 "path_mito_circularized": "images/b8/circularized/ERR10768270_Acaronia_nassa_mito_circularized.png",
-                "path_trna": "ERR10768270_Acaronia_nassa_trna",
+                "path_trna": "images/b8/trna/ERR10768270_Acaronia_nassa_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768270_Acaronia_nassa_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768270_Acaronia_nassa_rscu.png",
-                "path_dloop": "ERR10768270_Acaronia_nassa_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768270_Acaronia_nassa_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768281",
                 "path_mito_circularized": "images/b8/circularized/ERR10768281_Acaronia_nassa_mito_circularized.png",
-                "path_trna": "ERR10768281_Acaronia_nassa_trna",
+                "path_trna": "images/b8/trna/ERR10768281_Acaronia_nassa_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768281_Acaronia_nassa_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768281_Acaronia_nassa_rscu.png",
-                "path_dloop": "ERR10768281_Acaronia_nassa_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768281_Acaronia_nassa_dloop.png"
             }
         ]
     },
@@ -91,28 +91,28 @@
                 "id": 1,
                 "sra": "ERR10789849",
                 "path_mito_circularized": "images/b8/circularized/ERR10789849_Aequidens_pallidus_mito_circularized.png",
-                "path_trna": "ERR10789849_Aequidens_pallidus_trna",
+                "path_trna": "images/b8/trna/ERR10789849_Aequidens_pallidus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789849_Aequidens_pallidus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789849_Aequidens_pallidus_rscu.png",
-                "path_dloop": "ERR10789849_Aequidens_pallidus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789849_Aequidens_pallidus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768305",
                 "path_mito_circularized": "images/b8/circularized/ERR10768305_Aequidens_pallidus_mito_circularized.png",
-                "path_trna": "ERR10768305_Aequidens_pallidus_trna",
+                "path_trna": "images/b8/trna/ERR10768305_Aequidens_pallidus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768305_Aequidens_pallidus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768305_Aequidens_pallidus_rscu.png",
-                "path_dloop": "ERR10768305_Aequidens_pallidus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768305_Aequidens_pallidus_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768320",
                 "path_mito_circularized": "images/b8/circularized/ERR10768320_Aequidens_pallidus_mito_circularized.png",
-                "path_trna": "ERR10768320_Aequidens_pallidus_trna",
+                "path_trna": "images/b8/trna/ERR10768320_Aequidens_pallidus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768320_Aequidens_pallidus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768320_Aequidens_pallidus_rscu.png",
-                "path_dloop": "ERR10768320_Aequidens_pallidus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768320_Aequidens_pallidus_dloop.png"
             }
         ]
     },
@@ -130,28 +130,28 @@
                 "id": 1,
                 "sra": "ERR10768272",
                 "path_mito_circularized": "images/b8/circularized/ERR10768272_Apistogramma_sp_Cuieiras_mito_circularized.png",
-                "path_trna": "ERR10768272_Apistogramma_sp_Cuieiras_trna",
+                "path_trna": "images/b8/trna/ERR10768272_Apistogramma_sp_Cuieiras_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768272_Apistogramma_sp_Cuieiras_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768272_Apistogramma_sp_Cuieiras_rscu.png",
-                "path_dloop": "ERR10768272_Apistogramma_sp_Cuieiras_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768272_Apistogramma_sp_Cuieiras_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789840",
                 "path_mito_circularized": "images/b8/circularized/ERR10789840_Apistogramma_sp_Cuieiras_mito_circularized.png",
-                "path_trna": "ERR10789840_Apistogramma_sp_Cuieiras_trna",
+                "path_trna": "images/b8/trna/ERR10789840_Apistogramma_sp_Cuieiras_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789840_Apistogramma_sp_Cuieiras_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789840_Apistogramma_sp_Cuieiras_rscu.png",
-                "path_dloop": "ERR10789840_Apistogramma_sp_Cuieiras_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789840_Apistogramma_sp_Cuieiras_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789854",
                 "path_mito_circularized": "images/b8/circularized/ERR10789854_Apistogramma_sp_Cuieiras_mito_circularized.png",
-                "path_trna": "ERR10789854_Apistogramma_sp_Cuieiras_trna",
+                "path_trna": "images/b8/trna/ERR10789854_Apistogramma_sp_Cuieiras_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789854_Apistogramma_sp_Cuieiras_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789854_Apistogramma_sp_Cuieiras_rscu.png",
-                "path_dloop": "ERR10789854_Apistogramma_sp_Cuieiras_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789854_Apistogramma_sp_Cuieiras_dloop.png"
             }
         ]
     },
@@ -169,28 +169,28 @@
                 "id": 1,
                 "sra": "SRR23574205",
                 "path_mito_circularized": "images/b8/circularized/SRR23574205_Arapaima_gigas_mito_circularized.png",
-                "path_trna": "SRR23574205_Arapaima_gigas_trna",
+                "path_trna": "images/b8/trna/SRR23574205_Arapaima_gigas_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR23574205_Arapaima_gigas_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR23574205_Arapaima_gigas_rscu.png",
-                "path_dloop": "SRR23574205_Arapaima_gigas_dloop"
+                "path_dloop": "images/b8/dloop/SRR23574205_Arapaima_gigas_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR2143719",
                 "path_mito_circularized": "images/b8/circularized/ERR2143719_Arapaima_gigas_mito_circularized.png",
-                "path_trna": "ERR2143719_Arapaima_gigas_trna",
+                "path_trna": "images/b8/trna/ERR2143719_Arapaima_gigas_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR2143719_Arapaima_gigas_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR2143719_Arapaima_gigas_rscu.png",
-                "path_dloop": "ERR2143719_Arapaima_gigas_dloop"
+                "path_dloop": "images/b8/dloop/ERR2143719_Arapaima_gigas_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR2143721",
                 "path_mito_circularized": "images/b8/circularized/ERR2143721_Arapaima_gigas_mito_circularized.png",
-                "path_trna": "ERR2143721_Arapaima_gigas_trna",
+                "path_trna": "images/b8/trna/ERR2143721_Arapaima_gigas_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR2143721_Arapaima_gigas_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR2143721_Arapaima_gigas_rscu.png",
-                "path_dloop": "ERR2143721_Arapaima_gigas_dloop"
+                "path_dloop": "images/b8/dloop/ERR2143721_Arapaima_gigas_dloop.png"
             }
         ]
     },
@@ -208,28 +208,28 @@
                 "id": 1,
                 "sra": "ERR10789860",
                 "path_mito_circularized": "images/b8/circularized/ERR10789860_Astronotus_ocellatus_mito_circularized.png",
-                "path_trna": "ERR10789860_Astronotus_ocellatus_trna",
+                "path_trna": "images/b8/trna/ERR10789860_Astronotus_ocellatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789860_Astronotus_ocellatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789860_Astronotus_ocellatus_rscu.png",
-                "path_dloop": "ERR10789860_Astronotus_ocellatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789860_Astronotus_ocellatus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789886",
                 "path_mito_circularized": "images/b8/circularized/ERR10789886_Astronotus_ocellatus_mito_circularized.png",
-                "path_trna": "ERR10789886_Astronotus_ocellatus_trna",
+                "path_trna": "images/b8/trna/ERR10789886_Astronotus_ocellatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789886_Astronotus_ocellatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789886_Astronotus_ocellatus_rscu.png",
-                "path_dloop": "ERR10789886_Astronotus_ocellatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789886_Astronotus_ocellatus_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789889",
                 "path_mito_circularized": "images/b8/circularized/ERR10789889_Astronotus_ocellatus_mito_circularized.png",
-                "path_trna": "ERR10789889_Astronotus_ocellatus_trna",
+                "path_trna": "images/b8/trna/ERR10789889_Astronotus_ocellatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789889_Astronotus_ocellatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789889_Astronotus_ocellatus_rscu.png",
-                "path_dloop": "ERR10789889_Astronotus_ocellatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789889_Astronotus_ocellatus_dloop.png"
             }
         ]
     },
@@ -247,28 +247,28 @@
                 "id": 1,
                 "sra": "ERR10768340",
                 "path_mito_circularized": "images/b8/circularized/ERR10768340_Australoheros_barbosae_mito_circularized.png",
-                "path_trna": "ERR10768340_Australoheros_barbosae_trna",
+                "path_trna": "images/b8/trna/ERR10768340_Australoheros_barbosae_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768340_Australoheros_barbosae_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768340_Australoheros_barbosae_rscu.png",
-                "path_dloop": "ERR10768340_Australoheros_barbosae_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768340_Australoheros_barbosae_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789837",
                 "path_mito_circularized": "images/b8/circularized/ERR10789837_Australoheros_barbosae_mito_circularized.png",
-                "path_trna": "ERR10789837_Australoheros_barbosae_trna",
+                "path_trna": "images/b8/trna/ERR10789837_Australoheros_barbosae_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789837_Australoheros_barbosae_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789837_Australoheros_barbosae_rscu.png",
-                "path_dloop": "ERR10789837_Australoheros_barbosae_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789837_Australoheros_barbosae_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768346",
                 "path_mito_circularized": "images/b8/circularized/ERR10768346_Australoheros_barbosae_mito_circularized.png",
-                "path_trna": "ERR10768346_Australoheros_barbosae_trna",
+                "path_trna": "images/b8/trna/ERR10768346_Australoheros_barbosae_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768346_Australoheros_barbosae_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768346_Australoheros_barbosae_rscu.png",
-                "path_dloop": "ERR10768346_Australoheros_barbosae_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768346_Australoheros_barbosae_dloop.png"
             }
         ]
     },
@@ -277,7 +277,8 @@
         "nome": "Acará-cupido",
         "path": "images/b3/Biotodoma_cupido_by(Teigler_Frank).jpg",
         "by": "by(Teigler_Frank)",
-        "descricao": "É um ciclídeo amazônico de pequeno porte, podendo atingir até 11,7 cm de comprimento padrão e pesar cerca de 55,3 g. Esta espécie é valorizada principalmente no comércio de aquarismo por sua coloração delicada e comportamento pacífico, sendo bastante comum em aquários de água doce. Segundo a IUCN, o Biotodoma cupido está classificado como Pouco Preocupante (LC), não havendo indícios de ameaça significativa à sua população.",
+        "descricao": "É um ciclídeo amazônico de pequeno porte, podendo atingir até 11,7 cm de comprimento padrão e pesar cerca de 55,3 g. Esta espécie é valorizada principalmente no comércio de aquarismo por sua coloração delicada e comportamento pacífico, sendo bastante comum em aquários de água doce. Segundo a IUCN, está classificado como Pouco Preocupante (LC), não havendo indícios de ameaça significativa à sua população.",
+        "descricao_en": "It is a small-sized Amazonian cichlid, capable of reaching up to 11.7 cm in standard length and weighing around 55.3 g. This species is mainly valued in the aquarium trade for its delicate coloration and peaceful behavior, being quite common in freshwater aquariums. According to the IUCN, is classified as Least Concern (LC), with no evidence of significant threats to its population.",
         "id": "7",
         "tagId": 2,
         "amostras": [
@@ -285,28 +286,28 @@
                 "id": 1,
                 "sra": "ERR10768338",
                 "path_mito_circularized": "images/b8/circularized/ERR10768338_Biotodoma_cupido_mito_circularized.png",
-                "path_trna": "ERR10768338_Biotodoma_cupido_trna",
+                "path_trna": "images/b8/trna/ERR10768338_Biotodoma_cupido_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768338_Biotodoma_cupido_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768338_Biotodoma_cupido_rscu.png",
-                "path_dloop": "ERR10768338_Biotodoma_cupido_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768338_Biotodoma_cupido_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789847",
                 "path_mito_circularized": "images/b8/circularized/ERR10789847_Biotodoma_cupido_mito_circularized.png",
-                "path_trna": "ERR10789847_Biotodoma_cupido_trna",
+                "path_trna": "images/b8/trna/ERR10789847_Biotodoma_cupido_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789847_Biotodoma_cupido_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789847_Biotodoma_cupido_rscu.png",
-                "path_dloop": "ERR10789847_Biotodoma_cupido_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789847_Biotodoma_cupido_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768339",
                 "path_mito_circularized": "images/b8/circularized/ERR10768339_Biotodoma_cupido_mito_circularized.png",
-                "path_trna": "ERR10768339_Biotodoma_cupido_trna",
+                "path_trna": "images/b8/trna/ERR10768339_Biotodoma_cupido_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768339_Biotodoma_cupido_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768339_Biotodoma_cupido_rscu.png",
-                "path_dloop": "ERR10768339_Biotodoma_cupido_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768339_Biotodoma_cupido_dloop.png"
             }
         ]
     },
@@ -324,28 +325,28 @@
                 "id": 1,
                 "sra": "ERR10789905",
                 "path_mito_circularized": "images/b8/circularized/ERR10789905_Chaetobranchopsis_orbicularis_mito_circularized.png",
-                "path_trna": "ERR10789905_Chaetobranchopsis_orbicularis_trna",
+                "path_trna": "images/b8/trna/ERR10789905_Chaetobranchopsis_orbicularis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789905_Chaetobranchopsis_orbicularis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789905_Chaetobranchopsis_orbicularis_rscu.png",
-                "path_dloop": "ERR10789905_Chaetobranchopsis_orbicularis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789905_Chaetobranchopsis_orbicularis_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768232",
                 "path_mito_circularized": "images/b8/circularized/ERR10768232_Chaetobranchopsis_orbicularis_mito_circularized.png",
-                "path_trna": "ERR10768232_Chaetobranchopsis_orbicularis_trna",
+                "path_trna": "images/b8/trna/ERR10768232_Chaetobranchopsis_orbicularis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768232_Chaetobranchopsis_orbicularis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768232_Chaetobranchopsis_orbicularis_rscu.png",
-                "path_dloop": "ERR10768232_Chaetobranchopsis_orbicularis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768232_Chaetobranchopsis_orbicularis_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768240",
                 "path_mito_circularized": "images/b8/circularized/ERR10768240_Chaetobranchopsis_orbicularis_mito_circularized.png",
-                "path_trna": "ERR10768240_Chaetobranchopsis_orbicularis_trna",
+                "path_trna": "images/b8/trna/ERR10768240_Chaetobranchopsis_orbicularis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768240_Chaetobranchopsis_orbicularis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768240_Chaetobranchopsis_orbicularis_rscu.png",
-                "path_dloop": "ERR10768240_Chaetobranchopsis_orbicularis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768240_Chaetobranchopsis_orbicularis_dloop.png"
             }
         ]
     },
@@ -363,28 +364,28 @@
                 "id": 1,
                 "sra": "ERR10768282",
                 "path_mito_circularized": "images/b8/circularized/ERR10768282_Chaetobranchus_flavescens_mito_circularized.png",
-                "path_trna": "ERR10768282_Chaetobranchus_flavescens_trna",
+                "path_trna": "images/b8/trna/ERR10768282_Chaetobranchus_flavescens_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768282_Chaetobranchus_flavescens_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768282_Chaetobranchus_flavescens_rscu.png",
-                "path_dloop": "ERR10768282_Chaetobranchus_flavescens_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768282_Chaetobranchus_flavescens_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789908",
                 "path_mito_circularized": "images/b8/circularized/ERR10789908_Chaetobranchus_flavescens_mito_circularized.png",
-                "path_trna": "ERR10789908_Chaetobranchus_flavescens_trna",
+                "path_trna": "images/b8/trna/ERR10789908_Chaetobranchus_flavescens_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789908_Chaetobranchus_flavescens_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789908_Chaetobranchus_flavescens_rscu.png",
-                "path_dloop": "ERR10789908_Chaetobranchus_flavescens_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789908_Chaetobranchus_flavescens_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768309",
                 "path_mito_circularized": "images/b8/circularized/ERR10768309_Chaetobranchus_flavescens_mito_circularized.png",
-                "path_trna": "ERR10768309_Chaetobranchus_flavescens_trna",
+                "path_trna": "images/b8/trna/ERR10768309_Chaetobranchus_flavescens_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768309_Chaetobranchus_flavescens_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768309_Chaetobranchus_flavescens_rscu.png",
-                "path_dloop": "ERR10768309_Chaetobranchus_flavescens_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768309_Chaetobranchus_flavescens_dloop.png"
             }
         ]
     },
@@ -402,28 +403,28 @@
                 "id": 1,
                 "sra": "ERR10789866",
                 "path_mito_circularized": "images/b8/circularized/ERR10789866_Cichla_monoculus_mito_circularized.png",
-                "path_trna": "ERR10789866_Cichla_monoculus_trna",
+                "path_trna": "images/b8/trna/ERR10789866_Cichla_monoculus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789866_Cichla_monoculus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789866_Cichla_monoculus_rscu.png",
-                "path_dloop": "ERR10789866_Cichla_monoculus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789866_Cichla_monoculus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768224",
                 "path_mito_circularized": "images/b8/circularized/ERR10768224_Cichla_monoculus_mito_circularized.png",
-                "path_trna": "ERR10768224_Cichla_monoculus_trna",
+                "path_trna": "images/b8/trna/ERR10768224_Cichla_monoculus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768224_Cichla_monoculus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768224_Cichla_monoculus_rscu.png",
-                "path_dloop": "ERR10768224_Cichla_monoculus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768224_Cichla_monoculus_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789888",
                 "path_mito_circularized": "images/b8/circularized/ERR10789888_Cichla_monoculus_mito_circularized.png",
-                "path_trna": "ERR10789888_Cichla_monoculus_trna",
+                "path_trna": "images/b8/trna/ERR10789888_Cichla_monoculus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789888_Cichla_monoculus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789888_Cichla_monoculus_rscu.png",
-                "path_dloop": "ERR10789888_Cichla_monoculus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789888_Cichla_monoculus_dloop.png"
             }
         ]
     },
@@ -441,28 +442,28 @@
                 "id": 1,
                 "sra": "ERR10768276",
                 "path_mito_circularized": "images/b8/circularized/ERR10768276_Cichla_temensis_mito_circularized.png",
-                "path_trna": "ERR10768276_Cichla_temensis_trna",
+                "path_trna": "images/b8/trna/ERR10768276_Cichla_temensis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768276_Cichla_temensis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768276_Cichla_temensis_rscu.png",
-                "path_dloop": "ERR10768276_Cichla_temensis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768276_Cichla_temensis_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789842",
                 "path_mito_circularized": "images/b8/circularized/ERR10789842_Cichla_temensis_mito_circularized.png",
-                "path_trna": "ERR10789842_Cichla_temensis_trna",
+                "path_trna": "images/b8/trna/ERR10789842_Cichla_temensis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789842_Cichla_temensis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789842_Cichla_temensis_rscu.png",
-                "path_dloop": "ERR10789842_Cichla_temensis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789842_Cichla_temensis_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768283",
                 "path_mito_circularized": "images/b8/circularized/ERR10768283_Cichla_temensis_mito_circularized.png",
-                "path_trna": "ERR10768283_Cichla_temensis_trna",
+                "path_trna": "images/b8/trna/ERR10768283_Cichla_temensis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768283_Cichla_temensis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768283_Cichla_temensis_rscu.png",
-                "path_dloop": "ERR10768283_Cichla_temensis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768283_Cichla_temensis_dloop.png"
             }
         ]
     },
@@ -480,28 +481,28 @@
                 "id": 1,
                 "sra": "ERR10789914",
                 "path_mito_circularized": "images/b8/circularized/ERR10789914_Cichlasoma_amazonarum_mito_circularized.png",
-                "path_trna": "ERR10789914_Cichlasoma_amazonarum_trna",
+                "path_trna": "images/b8/trna/ERR10789914_Cichlasoma_amazonarum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789914_Cichlasoma_amazonarum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789914_Cichlasoma_amazonarum_rscu.png",
-                "path_dloop": "ERR10789914_Cichlasoma_amazonarum_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789914_Cichlasoma_amazonarum_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768222",
                 "path_mito_circularized": "images/b8/circularized/ERR10768222_Cichlasoma_amazonarum_mito_circularized.png",
-                "path_trna": "ERR10768222_Cichlasoma_amazonarum_trna",
+                "path_trna": "images/b8/trna/ERR10768222_Cichlasoma_amazonarum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768222_Cichlasoma_amazonarum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768222_Cichlasoma_amazonarum_rscu.png",
-                "path_dloop": "ERR10768222_Cichlasoma_amazonarum_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768222_Cichlasoma_amazonarum_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789901",
                 "path_mito_circularized": "images/b8/circularized/ERR10789901_Cichlasoma_amazonarum_mito_circularized.png",
-                "path_trna": "ERR10789901_Cichlasoma_amazonarum_trna",
+                "path_trna": "images/b8/trna/ERR10789901_Cichlasoma_amazonarum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789901_Cichlasoma_amazonarum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789901_Cichlasoma_amazonarum_rscu.png",
-                "path_dloop": "ERR10789901_Cichlasoma_amazonarum_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789901_Cichlasoma_amazonarum_dloop.png"
             }
         ]
     },
@@ -519,28 +520,28 @@
                 "id": 1,
                 "sra": "ERR10768191",
                 "path_mito_circularized": "images/b8/circularized/ERR10768191_Cichlasoma_bimaculatum_mito_circularized.png",
-                "path_trna": "ERR10768191_Cichlasoma_bimaculatum_trna",
+                "path_trna": "images/b8/trna/ERR10768191_Cichlasoma_bimaculatum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768191_Cichlasoma_bimaculatum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768191_Cichlasoma_bimaculatum_rscu.png",
-                "path_dloop": "ERR10768191_Cichlasoma_bimaculatum_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768191_Cichlasoma_bimaculatum_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789865",
                 "path_mito_circularized": "images/b8/circularized/ERR10789865_Cichlasoma_bimaculatum_mito_circularized.png",
-                "path_trna": "ERR10789865_Cichlasoma_bimaculatum_trna",
+                "path_trna": "images/b8/trna/ERR10789865_Cichlasoma_bimaculatum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789865_Cichlasoma_bimaculatum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789865_Cichlasoma_bimaculatum_rscu.png",
-                "path_dloop": "ERR10789865_Cichlasoma_bimaculatum_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789865_Cichlasoma_bimaculatum_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789870",
                 "path_mito_circularized": "images/b8/circularized/ERR10789870_Cichlasoma_bimaculatum_mito_circularized.png",
-                "path_trna": "ERR10789870_Cichlasoma_bimaculatum_trna",
+                "path_trna": "images/b8/trna/ERR10789870_Cichlasoma_bimaculatum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789870_Cichlasoma_bimaculatum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789870_Cichlasoma_bimaculatum_rscu.png",
-                "path_dloop": "ERR10789870_Cichlasoma_bimaculatum_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789870_Cichlasoma_bimaculatum_dloop.png"
             }
         ]
     },
@@ -558,28 +559,28 @@
                 "id": 1,
                 "sra": "SRR10738555",
                 "path_mito_circularized": "images/b8/circularized/SRR10738555_Colossoma_macropomum_mito_circularized.png",
-                "path_trna": "SRR10738555_Colossoma_macropomum_trna",
+                "path_trna": "images/b8/trna/SRR10738555_Colossoma_macropomum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR10738555_Colossoma_macropomum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR10738555_Colossoma_macropomum_rscu.png",
-                "path_dloop": "SRR10738555_Colossoma_macropomum_dloop"
+                "path_dloop": "images/b8/dloop/SRR10738555_Colossoma_macropomum_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "SRR22219024",
                 "path_mito_circularized": "images/b8/circularized/SRR22219024_Colossoma_macropomum_mito_circularized.png",
-                "path_trna": "SRR22219024_Colossoma_macropomum_trna",
+                "path_trna": "images/b8/trna/SRR22219024_Colossoma_macropomum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR22219024_Colossoma_macropomum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR22219024_Colossoma_macropomum_rscu.png",
-                "path_dloop": "SRR22219024_Colossoma_macropomum_dloop"
+                "path_dloop": "images/b8/dloop/SRR22219024_Colossoma_macropomum_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "SRR13734555",
                 "path_mito_circularized": "images/b8/circularized/SRR13734555_Colossoma_macropomum_mito_circularized.png",
-                "path_trna": "SRR13734555_Colossoma_macropomum_trna",
+                "path_trna": "images/b8/trna/SRR13734555_Colossoma_macropomum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR13734555_Colossoma_macropomum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR13734555_Colossoma_macropomum_rscu.png",
-                "path_dloop": "SRR13734555_Colossoma_macropomum_dloop"
+                "path_dloop": "images/b8/dloop/SRR13734555_Colossoma_macropomum_dloop.png"
             }
         ]
     },
@@ -597,28 +598,28 @@
                 "id": 1,
                 "sra": "ERR10768262",
                 "path_mito_circularized": "images/b8/circularized/ERR10768262_Crenicichla_lenticulata_mito_circularized.png",
-                "path_trna": "ERR10768262_Crenicichla_lenticulata_trna",
+                "path_trna": "images/b8/trna/ERR10768262_Crenicichla_lenticulata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768262_Crenicichla_lenticulata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768262_Crenicichla_lenticulata_rscu.png",
-                "path_dloop": "ERR10768262_Crenicichla_lenticulata_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768262_Crenicichla_lenticulata_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768277",
                 "path_mito_circularized": "images/b8/circularized/ERR10768277_Crenicichla_lenticulata_mito_circularized.png",
-                "path_trna": "ERR10768277_Crenicichla_lenticulata_trna",
+                "path_trna": "images/b8/trna/ERR10768277_Crenicichla_lenticulata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768277_Crenicichla_lenticulata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768277_Crenicichla_lenticulata_rscu.png",
-                "path_dloop": "ERR10768277_Crenicichla_lenticulata_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768277_Crenicichla_lenticulata_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789917",
                 "path_mito_circularized": "images/b8/circularized/ERR10789917_Crenicichla_lenticulata_mito_circularized.png",
-                "path_trna": "ERR10789917_Crenicichla_lenticulata_trna",
+                "path_trna": "images/b8/trna/ERR10789917_Crenicichla_lenticulata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789917_Crenicichla_lenticulata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789917_Crenicichla_lenticulata_rscu.png",
-                "path_dloop": "ERR10789917_Crenicichla_lenticulata_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789917_Crenicichla_lenticulata_dloop.png"
             }
         ]
     },
@@ -636,28 +637,28 @@
                 "id": 1,
                 "sra": "ERR10768333",
                 "path_mito_circularized": "images/b8/circularized/ERR10768333_Crenicichla_lugubris_mito_circularized.png",
-                "path_trna": "ERR10768333_Crenicichla_lugubris_trna",
+                "path_trna": "images/b8/trna/ERR10768333_Crenicichla_lugubris_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768333_Crenicichla_lugubris_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768333_Crenicichla_lugubris_rscu.png",
-                "path_dloop": "ERR10768333_Crenicichla_lugubris_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768333_Crenicichla_lugubris_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789841",
                 "path_mito_circularized": "images/b8/circularized/ERR10789841_Crenicichla_lugubris_mito_circularized.png",
-                "path_trna": "ERR10789841_Crenicichla_lugubris_trna",
+                "path_trna": "images/b8/trna/ERR10789841_Crenicichla_lugubris_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789841_Crenicichla_lugubris_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789841_Crenicichla_lugubris_rscu.png",
-                "path_dloop": "ERR10789841_Crenicichla_lugubris_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789841_Crenicichla_lugubris_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789853",
                 "path_mito_circularized": "images/b8/circularized/ERR10789853_Crenicichla_lugubris_mito_circularized.png",
-                "path_trna": "ERR10789853_Crenicichla_lugubris_trna",
+                "path_trna": "images/b8/trna/ERR10789853_Crenicichla_lugubris_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789853_Crenicichla_lugubris_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789853_Crenicichla_lugubris_rscu.png",
-                "path_dloop": "ERR10789853_Crenicichla_lugubris_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789853_Crenicichla_lugubris_dloop.png"
             }
         ]
     },
@@ -675,28 +676,28 @@
                 "id": 1,
                 "sra": "ERR10789836",
                 "path_mito_circularized": "images/b8/circularized/ERR10789836_Crenicichla_macrophthalma_mito_circularized.png",
-                "path_trna": "ERR10789836_Crenicichla_macrophthalma_trna",
+                "path_trna": "images/b8/trna/ERR10789836_Crenicichla_macrophthalma_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789836_Crenicichla_macrophthalma_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789836_Crenicichla_macrophthalma_rscu.png",
-                "path_dloop": "ERR10789836_Crenicichla_macrophthalma_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789836_Crenicichla_macrophthalma_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768295",
                 "path_mito_circularized": "images/b8/circularized/ERR10768295_Crenicichla_macrophthalma_mito_circularized.png",
-                "path_trna": "ERR10768295_Crenicichla_macrophthalma_trna",
+                "path_trna": "images/b8/trna/ERR10768295_Crenicichla_macrophthalma_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768295_Crenicichla_macrophthalma_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768295_Crenicichla_macrophthalma_rscu.png",
-                "path_dloop": "ERR10768295_Crenicichla_macrophthalma_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768295_Crenicichla_macrophthalma_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768303",
                 "path_mito_circularized": "images/b8/circularized/ERR10768303_Crenicichla_macrophthalma_mito_circularized.png",
-                "path_trna": "ERR10768303_Crenicichla_macrophthalma_trna",
+                "path_trna": "images/b8/trna/ERR10768303_Crenicichla_macrophthalma_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768303_Crenicichla_macrophthalma_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768303_Crenicichla_macrophthalma_rscu.png",
-                "path_dloop": "ERR10768303_Crenicichla_macrophthalma_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768303_Crenicichla_macrophthalma_dloop.png"
             }
         ]
     },
@@ -714,28 +715,28 @@
                 "id": 1,
                 "sra": "ERR10768251",
                 "path_mito_circularized": "images/b8/circularized/ERR10768251_Crenicichla_marmorata_mito_circularized.png",
-                "path_trna": "ERR10768251_Crenicichla_marmorata_trna",
+                "path_trna": "images/b8/trna/ERR10768251_Crenicichla_marmorata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768251_Crenicichla_marmorata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768251_Crenicichla_marmorata_rscu.png",
-                "path_dloop": "ERR10768251_Crenicichla_marmorata_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768251_Crenicichla_marmorata_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768289",
                 "path_mito_circularized": "images/b8/circularized/ERR10768289_Crenicichla_marmorata_mito_circularized.png",
-                "path_trna": "ERR10768289_Crenicichla_marmorata_trna",
+                "path_trna": "images/b8/trna/ERR10768289_Crenicichla_marmorata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768289_Crenicichla_marmorata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768289_Crenicichla_marmorata_rscu.png",
-                "path_dloop": "ERR10768289_Crenicichla_marmorata_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768289_Crenicichla_marmorata_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768323",
                 "path_mito_circularized": "images/b8/circularized/ERR10768323_Crenicichla_marmorata_mito_circularized.png",
-                "path_trna": "ERR10768323_Crenicichla_marmorata_trna",
+                "path_trna": "images/b8/trna/ERR10768323_Crenicichla_marmorata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768323_Crenicichla_marmorata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768323_Crenicichla_marmorata_rscu.png",
-                "path_dloop": "ERR10768323_Crenicichla_marmorata_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768323_Crenicichla_marmorata_dloop.png"
             }
         ]
     },
@@ -753,28 +754,28 @@
                 "id": 1,
                 "sra": "ERR10768256",
                 "path_mito_circularized": "images/b8/circularized/ERR10768256_Crenicichla_notophthalmus_mito_circularized.png",
-                "path_trna": "ERR10768256_Crenicichla_notophthalmus_trna",
+                "path_trna": "images/b8/trna/ERR10768256_Crenicichla_notophthalmus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768256_Crenicichla_notophthalmus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768256_Crenicichla_notophthalmus_rscu.png",
-                "path_dloop": "ERR10768256_Crenicichla_notophthalmus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768256_Crenicichla_notophthalmus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768237",
                 "path_mito_circularized": "images/b8/circularized/ERR10768237_Crenicichla_notophthalmus_mito_circularized.png",
-                "path_trna": "ERR10768237_Crenicichla_notophthalmus_trna",
+                "path_trna": "images/b8/trna/ERR10768237_Crenicichla_notophthalmus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768237_Crenicichla_notophthalmus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768237_Crenicichla_notophthalmus_rscu.png",
-                "path_dloop": "ERR10768237_Crenicichla_notophthalmus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768237_Crenicichla_notophthalmus_dloop.png"
             },
             {
                 "id": 3,
-                "sra": "ERR10768241",
-                "path_mito_circularized": "images/b8/circularized/ERR10768241_Crenicichla_notophthalmus_mito_circularized.png",
-                "path_trna": "ERR10768241_Crenicichla_notophthalmus_trna",
-                "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768241_Crenicichla_notophthalmus_sintenia_gens.png",
-                "path_rscu": "images/b8/rscu/ERR10768241_Crenicichla_notophthalmus_rscu.png",
-                "path_dloop": "ERR10768241_Crenicichla_notophthalmus_dloop"
+                "sra": "ERR10768267",
+                "path_mito_circularized": "images/b8/circularized/ERR10768267_Crenicichla_notophthalmus_mito_circularized.png",
+                "path_trna": "images/b8/trna/ERR10768267_Crenicichla_notophthalmus_trna.png",
+                "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768267_Crenicichla_notophthalmus_sintenia_gens.png",
+                "path_rscu": "images/b8/rscu/ERR10768267_Crenicichla_notophthalmus_rscu.png",
+                "path_dloop": "images/b8/dloop/ERR10768267_Crenicichla_notophthalmus_dloop.png"
             }
         ]
     },
@@ -792,28 +793,28 @@
                 "id": 1,
                 "sra": "ERR10768304",
                 "path_mito_circularized": "images/b8/circularized/ERR10768304_Geophagus_dicrozoster_mito_circularized.png",
-                "path_trna": "ERR10768304_Geophagus_dicrozoster_trna",
+                "path_trna": "images/b8/trna/ERR10768304_Geophagus_dicrozoster_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768304_Geophagus_dicrozoster_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768304_Geophagus_dicrozoster_rscu.png",
-                "path_dloop": "ERR10768304_Geophagus_dicrozoster_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768304_Geophagus_dicrozoster_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768273",
                 "path_mito_circularized": "images/b8/circularized/ERR10768273_Geophagus_dicrozoster_mito_circularized.png",
-                "path_trna": "ERR10768273_Geophagus_dicrozoster_trna",
+                "path_trna": "images/b8/trna/ERR10768273_Geophagus_dicrozoster_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768273_Geophagus_dicrozoster_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768273_Geophagus_dicrozoster_rscu.png",
-                "path_dloop": "ERR10768273_Geophagus_dicrozoster_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768273_Geophagus_dicrozoster_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789910",
                 "path_mito_circularized": "images/b8/circularized/ERR10789910_Geophagus_dicrozoster_mito_circularized.png",
-                "path_trna": "ERR10789910_Geophagus_dicrozoster_trna",
+                "path_trna": "images/b8/trna/ERR10789910_Geophagus_dicrozoster_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789910_Geophagus_dicrozoster_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789910_Geophagus_dicrozoster_rscu.png",
-                "path_dloop": "ERR10789910_Geophagus_dicrozoster_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789910_Geophagus_dicrozoster_dloop.png"
             }
         ]
     },
@@ -831,19 +832,19 @@
                 "id": 1,
                 "sra": "ERR10768322",
                 "path_mito_circularized": "images/b8/circularized/ERR10768322_Gymnogeophagus_labiatus_mito_circularized.png",
-                "path_trna": "ERR10768322_Gymnogeophagus_labiatus_trna",
+                "path_trna": "images/b8/trna/ERR10768322_Gymnogeophagus_labiatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768322_Gymnogeophagus_labiatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768322_Gymnogeophagus_labiatus_rscu.png",
-                "path_dloop": "ERR10768322_Gymnogeophagus_labiatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768322_Gymnogeophagus_labiatus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768329",
                 "path_mito_circularized": "images/b8/circularized/ERR10768329_Gymnogeophagus_labiatus_mito_circularized.png",
-                "path_trna": "ERR10768329_Gymnogeophagus_labiatus_trna",
+                "path_trna": "images/b8/trna/ERR10768329_Gymnogeophagus_labiatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768329_Gymnogeophagus_labiatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768329_Gymnogeophagus_labiatus_rscu.png",
-                "path_dloop": "ERR10768329_Gymnogeophagus_labiatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768329_Gymnogeophagus_labiatus_dloop.png"
             }
         ]
     },
@@ -861,19 +862,19 @@
                 "id": 1,
                 "sra": "ERR10789856",
                 "path_mito_circularized": "images/b8/circularized/ERR10789856_Gymnogeophagus_rhabdotus_mito_circularized.png",
-                "path_trna": "ERR10789856_Gymnogeophagus_rhabdotus_trna",
+                "path_trna": "images/b8/trna/ERR10789856_Gymnogeophagus_rhabdotus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789856_Gymnogeophagus_rhabdotus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789856_Gymnogeophagus_rhabdotus_rscu.png",
-                "path_dloop": "ERR10789856_Gymnogeophagus_rhabdotus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789856_Gymnogeophagus_rhabdotus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768358",
                 "path_mito_circularized": "images/b8/circularized/ERR10768358_Gymnogeophagus_rhabdotus_mito_circularized.png",
-                "path_trna": "ERR10768358_Gymnogeophagus_rhabdotus_trna",
+                "path_trna": "images/b8/trna/ERR10768358_Gymnogeophagus_rhabdotus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768358_Gymnogeophagus_rhabdotus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768358_Gymnogeophagus_rhabdotus_rscu.png",
-                "path_dloop": "ERR10768358_Gymnogeophagus_rhabdotus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768358_Gymnogeophagus_rhabdotus_dloop.png"
             }
         ]
     },
@@ -891,28 +892,28 @@
                 "id": 1,
                 "sra": "ERR10789876",
                 "path_mito_circularized": "images/b8/circularized/ERR10789876_Heros_efasciatus_mito_circularized.png",
-                "path_trna": "ERR10789876_Heros_efasciatus_trna",
+                "path_trna": "images/b8/trna/ERR10789876_Heros_efasciatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789876_Heros_efasciatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789876_Heros_efasciatus_rscu.png",
-                "path_dloop": "ERR10789876_Heros_efasciatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789876_Heros_efasciatus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789903",
                 "path_mito_circularized": "images/b8/circularized/ERR10789903_Heros_efasciatus_mito_circularized.png",
-                "path_trna": "ERR10789903_Heros_efasciatus_trna",
+                "path_trna": "images/b8/trna/ERR10789903_Heros_efasciatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789903_Heros_efasciatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789903_Heros_efasciatus_rscu.png",
-                "path_dloop": "ERR10789903_Heros_efasciatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789903_Heros_efasciatus_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789884",
                 "path_mito_circularized": "images/b8/circularized/ERR10789884_Heros_efasciatus_mito_circularized.png",
-                "path_trna": "ERR10789884_Heros_efasciatus_trna",
+                "path_trna": "images/b8/trna/ERR10789884_Heros_efasciatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789884_Heros_efasciatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789884_Heros_efasciatus_rscu.png",
-                "path_dloop": "ERR10789884_Heros_efasciatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789884_Heros_efasciatus_dloop.png"
             }
         ]
     },
@@ -930,28 +931,28 @@
                 "id": 1,
                 "sra": "ERR10789863",
                 "path_mito_circularized": "images/b8/circularized/ERR10789863_Heros_notatus_mito_circularized.png",
-                "path_trna": "ERR10789863_Heros_notatus_trna",
+                "path_trna": "images/b8/trna/ERR10789863_Heros_notatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789863_Heros_notatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789863_Heros_notatus_rscu.png",
-                "path_dloop": "ERR10789863_Heros_notatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789863_Heros_notatus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768188",
                 "path_mito_circularized": "images/b8/circularized/ERR10768188_Heros_notatus_mito_circularized.png",
-                "path_trna": "ERR10768188_Heros_notatus_trna",
+                "path_trna": "images/b8/trna/ERR10768188_Heros_notatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768188_Heros_notatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768188_Heros_notatus_rscu.png",
-                "path_dloop": "ERR10768188_Heros_notatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768188_Heros_notatus_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789877",
                 "path_mito_circularized": "images/b8/circularized/ERR10789877_Heros_notatus_mito_circularized.png",
-                "path_trna": "ERR10789877_Heros_notatus_trna",
+                "path_trna": "images/b8/trna/ERR10789877_Heros_notatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789877_Heros_notatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789877_Heros_notatus_rscu.png",
-                "path_dloop": "ERR10789877_Heros_notatus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789877_Heros_notatus_dloop.png"
             }
         ]
     },
@@ -969,28 +970,28 @@
                 "id": 1,
                 "sra": "ERR10768200",
                 "path_mito_circularized": "images/b8/circularized/ERR10768200_Hypselecara_temporalis_mito_circularized.png",
-                "path_trna": "ERR10768200_Hypselecara_temporalis_trna",
+                "path_trna": "images/b8/trna/ERR10768200_Hypselecara_temporalis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768200_Hypselecara_temporalis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768200_Hypselecara_temporalis_rscu.png",
-                "path_dloop": "ERR10768200_Hypselecara_temporalis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768200_Hypselecara_temporalis_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789868",
                 "path_mito_circularized": "images/b8/circularized/ERR10789868_Hypselecara_temporalis_mito_circularized.png",
-                "path_trna": "ERR10789868_Hypselecara_temporalis_trna",
+                "path_trna": "images/b8/trna/ERR10789868_Hypselecara_temporalis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789868_Hypselecara_temporalis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789868_Hypselecara_temporalis_rscu.png",
-                "path_dloop": "ERR10789868_Hypselecara_temporalis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789868_Hypselecara_temporalis_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768195",
                 "path_mito_circularized": "images/b8/circularized/ERR10768195_Hypselecara_temporalis_mito_circularized.png",
-                "path_trna": "ERR10768195_Hypselecara_temporalis_trna",
+                "path_trna": "images/b8/trna/ERR10768195_Hypselecara_temporalis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768195_Hypselecara_temporalis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768195_Hypselecara_temporalis_rscu.png",
-                "path_dloop": "ERR10768195_Hypselecara_temporalis_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768195_Hypselecara_temporalis_dloop.png"
             }
         ]
     },
@@ -1008,28 +1009,28 @@
                 "id": 1,
                 "sra": "ERR10789875",
                 "path_mito_circularized": "images/b8/circularized/ERR10789875_Mesonauta_festivus_mito_circularized.png",
-                "path_trna": "ERR10789875_Mesonauta_festivus_trna",
+                "path_trna": "images/b8/trna/ERR10789875_Mesonauta_festivus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789875_Mesonauta_festivus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789875_Mesonauta_festivus_rscu.png",
-                "path_dloop": "ERR10789875_Mesonauta_festivus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789875_Mesonauta_festivus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10789898",
                 "path_mito_circularized": "images/b8/circularized/ERR10789898_Mesonauta_festivus_mito_circularized.png",
-                "path_trna": "ERR10789898_Mesonauta_festivus_trna",
+                "path_trna": "images/b8/trna/ERR10789898_Mesonauta_festivus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789898_Mesonauta_festivus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789898_Mesonauta_festivus_rscu.png",
-                "path_dloop": "ERR10789898_Mesonauta_festivus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789898_Mesonauta_festivus_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789899",
                 "path_mito_circularized": "images/b8/circularized/ERR10789899_Mesonauta_festivus_mito_circularized.png",
-                "path_trna": "ERR10789899_Mesonauta_festivus_trna",
+                "path_trna": "images/b8/trna/ERR10789899_Mesonauta_festivus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789899_Mesonauta_festivus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789899_Mesonauta_festivus_rscu.png",
-                "path_dloop": "ERR10789899_Mesonauta_festivus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789899_Mesonauta_festivus_dloop.png"
             }
         ]
     },
@@ -1047,28 +1048,28 @@
                 "id": 1,
                 "sra": "SRR21777680",
                 "path_mito_circularized": "images/b8/circularized/SRR21777680_Osteoglossum_bicirrhosum_mito_circularized.png",
-                "path_trna": "SRR21777680_Osteoglossum_bicirrhosum_trna",
+                "path_trna": "images/b8/trna/SRR21777680_Osteoglossum_bicirrhosum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR21777680_Osteoglossum_bicirrhosum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR21777680_Osteoglossum_bicirrhosum_rscu.png",
-                "path_dloop": "SRR21777680_Osteoglossum_bicirrhosum_dloop"
+                "path_dloop": "images/b8/dloop/SRR21777680_Osteoglossum_bicirrhosum_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "SRR21777685",
                 "path_mito_circularized": "images/b8/circularized/SRR21777685_Osteoglossum_bicirrhosum_mito_circularized.png",
-                "path_trna": "SRR21777685_Osteoglossum_bicirrhosum_trna",
+                "path_trna": "images/b8/trna/SRR21777685_Osteoglossum_bicirrhosum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR21777685_Osteoglossum_bicirrhosum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR21777685_Osteoglossum_bicirrhosum_rscu.png",
-                "path_dloop": "SRR21777685_Osteoglossum_bicirrhosum_dloop"
+                "path_dloop": "images/b8/dloop/SRR21777685_Osteoglossum_bicirrhosum_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "SRR21782675",
                 "path_mito_circularized": "images/b8/circularized/SRR21782675_Osteoglossum_bicirrhosum_mito_circularized.png",
-                "path_trna": "SRR21782675_Osteoglossum_bicirrhosum_trna",
+                "path_trna": "images/b8/trna/SRR21782675_Osteoglossum_bicirrhosum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR21782675_Osteoglossum_bicirrhosum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR21782675_Osteoglossum_bicirrhosum_rscu.png",
-                "path_dloop": "SRR21782675_Osteoglossum_bicirrhosum_dloop"
+                "path_dloop": "images/b8/dloop/SRR21782675_Osteoglossum_bicirrhosum_dloop.png"
             }
         ]
     },
@@ -1086,28 +1087,28 @@
                 "id": 1,
                 "sra": "ERR10768190",
                 "path_mito_circularized": "images/b8/circularized/ERR10768190_Pterophyllum_scalare_mito_circularized.png",
-                "path_trna": "ERR10768190_Pterophyllum_scalare_trna",
+                "path_trna": "images/b8/trna/ERR10768190_Pterophyllum_scalare_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768190_Pterophyllum_scalare_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768190_Pterophyllum_scalare_rscu.png",
-                "path_dloop": "ERR10768190_Pterophyllum_scalare_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768190_Pterophyllum_scalare_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768225",
                 "path_mito_circularized": "images/b8/circularized/ERR10768225_Pterophyllum_scalare_mito_circularized.png",
-                "path_trna": "ERR10768225_Pterophyllum_scalare_trna",
+                "path_trna": "images/b8/trna/ERR10768225_Pterophyllum_scalare_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768225_Pterophyllum_scalare_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768225_Pterophyllum_scalare_rscu.png",
-                "path_dloop": "ERR10768225_Pterophyllum_scalare_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768225_Pterophyllum_scalare_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768226",
                 "path_mito_circularized": "images/b8/circularized/ERR10768226_Pterophyllum_scalare_mito_circularized.png",
-                "path_trna": "ERR10768226_Pterophyllum_scalare_trna",
+                "path_trna": "images/b8/trna/ERR10768226_Pterophyllum_scalare_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768226_Pterophyllum_scalare_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768226_Pterophyllum_scalare_rscu.png",
-                "path_dloop": "ERR10768226_Pterophyllum_scalare_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768226_Pterophyllum_scalare_dloop.png"
             }
         ]
     },
@@ -1125,28 +1126,28 @@
                 "id": 1,
                 "sra": "SRR25740028",
                 "path_mito_circularized": "images/b8/circularized/SRR25740028_Pygocentrus_nattereri_mito_circularized.png",
-                "path_trna": "SRR25740028_Pygocentrus_nattereri_trna",
+                "path_trna": "images/b8/trna/SRR25740028_Pygocentrus_nattereri_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR25740028_Pygocentrus_nattereri_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR25740028_Pygocentrus_nattereri_rscu.png",
-                "path_dloop": "SRR25740028_Pygocentrus_nattereri_dloop"
+                "path_dloop": "images/b8/dloop/SRR25740028_Pygocentrus_nattereri_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "SRR25740016",
                 "path_mito_circularized": "images/b8/circularized/SRR25740016_Pygocentrus_nattereri_mito_circularized.png",
-                "path_trna": "SRR25740016_Pygocentrus_nattereri_trna",
+                "path_trna": "images/b8/trna/SRR25740016_Pygocentrus_nattereri_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR25740016_Pygocentrus_nattereri_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR25740016_Pygocentrus_nattereri_rscu.png",
-                "path_dloop": "SRR25740016_Pygocentrus_nattereri_dloop"
+                "path_dloop": "images/b8/dloop/SRR25740016_Pygocentrus_nattereri_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "SRR25740019",
                 "path_mito_circularized": "images/b8/circularized/SRR25740019_Pygocentrus_nattereri_mito_circularized.png",
-                "path_trna": "SRR25740019_Pygocentrus_nattereri_trna",
+                "path_trna": "images/b8/trna/SRR25740019_Pygocentrus_nattereri_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR25740019_Pygocentrus_nattereri_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR25740019_Pygocentrus_nattereri_rscu.png",
-                "path_dloop": "SRR25740019_Pygocentrus_nattereri_dloop"
+                "path_dloop": "images/b8/dloop/SRR25740019_Pygocentrus_nattereri_dloop.png"
             }
         ]
     },
@@ -1164,28 +1165,28 @@
                 "id": 1,
                 "sra": "ERR10789861",
                 "path_mito_circularized": "images/b8/circularized/ERR10789861_Satanoperca_jurupari_mito_circularized.png",
-                "path_trna": "ERR10789861_Satanoperca_jurupari_trna",
+                "path_trna": "images/b8/trna/ERR10789861_Satanoperca_jurupari_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789861_Satanoperca_jurupari_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789861_Satanoperca_jurupari_rscu.png",
-                "path_dloop": "ERR10789861_Satanoperca_jurupari_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789861_Satanoperca_jurupari_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768202",
                 "path_mito_circularized": "images/b8/circularized/ERR10768202_Satanoperca_jurupari_mito_circularized.png",
-                "path_trna": "ERR10768202_Satanoperca_jurupari_trna",
+                "path_trna": "images/b8/trna/ERR10768202_Satanoperca_jurupari_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768202_Satanoperca_jurupari_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768202_Satanoperca_jurupari_rscu.png",
-                "path_dloop": "ERR10768202_Satanoperca_jurupari_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768202_Satanoperca_jurupari_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789859",
                 "path_mito_circularized": "images/b8/circularized/ERR10789859_Satanoperca_jurupari_mito_circularized.png",
-                "path_trna": "ERR10789859_Satanoperca_jurupari_trna",
+                "path_trna": "images/b8/trna/ERR10789859_Satanoperca_jurupari_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789859_Satanoperca_jurupari_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789859_Satanoperca_jurupari_rscu.png",
-                "path_dloop": "ERR10789859_Satanoperca_jurupari_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789859_Satanoperca_jurupari_dloop.png"
             }
         ]
     },
@@ -1203,28 +1204,28 @@
                 "id": 1,
                 "sra": "ERR10768249",
                 "path_mito_circularized": "images/b8/circularized/ERR10768249_Satanoperca_lilith_mito_circularized.png",
-                "path_trna": "ERR10768249_Satanoperca_lilith_trna",
+                "path_trna": "images/b8/trna/ERR10768249_Satanoperca_lilith_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768249_Satanoperca_lilith_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768249_Satanoperca_lilith_rscu.png",
-                "path_dloop": "ERR10768249_Satanoperca_lilith_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768249_Satanoperca_lilith_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768297",
                 "path_mito_circularized": "images/b8/circularized/ERR10768297_Satanoperca_lilith_mito_circularized.png",
-                "path_trna": "ERR10768297_Satanoperca_lilith_trna",
+                "path_trna": "images/b8/trna/ERR10768297_Satanoperca_lilith_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768297_Satanoperca_lilith_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768297_Satanoperca_lilith_rscu.png",
-                "path_dloop": "ERR10768297_Satanoperca_lilith_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768297_Satanoperca_lilith_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789846",
                 "path_mito_circularized": "images/b8/circularized/ERR10789846_Satanoperca_lilith_mito_circularized.png",
-                "path_trna": "ERR10789846_Satanoperca_lilith_trna",
+                "path_trna": "images/b8/trna/ERR10789846_Satanoperca_lilith_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789846_Satanoperca_lilith_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789846_Satanoperca_lilith_rscu.png",
-                "path_dloop": "ERR10789846_Satanoperca_lilith_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789846_Satanoperca_lilith_dloop.png"
             }
         ]
     },
@@ -1242,28 +1243,28 @@
                 "id": 1,
                 "sra": "ERR10789913",
                 "path_mito_circularized": "images/b8/circularized/ERR10789913_Symphysodon_discus_mito_circularized.png",
-                "path_trna": "ERR10789913_Symphysodon_discus_trna",
+                "path_trna": "images/b8/trna/ERR10789913_Symphysodon_discus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789913_Symphysodon_discus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789913_Symphysodon_discus_rscu.png",
-                "path_dloop": "ERR10789913_Symphysodon_discus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789913_Symphysodon_discus_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768259",
                 "path_mito_circularized": "images/b8/circularized/ERR10768259_Symphysodon_discus_mito_circularized.png",
-                "path_trna": "ERR10768259_Symphysodon_discus_trna",
+                "path_trna": "images/b8/trna/ERR10768259_Symphysodon_discus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768259_Symphysodon_discus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768259_Symphysodon_discus_rscu.png",
-                "path_dloop": "ERR10768259_Symphysodon_discus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768259_Symphysodon_discus_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10768279",
                 "path_mito_circularized": "images/b8/circularized/ERR10768279_Symphysodon_discus_mito_circularized.png",
-                "path_trna": "ERR10768279_Symphysodon_discus_trna",
+                "path_trna": "images/b8/trna/ERR10768279_Symphysodon_discus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768279_Symphysodon_discus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768279_Symphysodon_discus_rscu.png",
-                "path_dloop": "ERR10768279_Symphysodon_discus_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768279_Symphysodon_discus_dloop.png"
             }
         ]
     },
@@ -1281,28 +1282,28 @@
                 "id": 1,
                 "sra": "ERR10768252",
                 "path_mito_circularized": "images/b8/circularized/ERR10768252_Uaru_amphiacanthoides_mito_circularized.png",
-                "path_trna": "ERR10768252_Uaru_amphiacanthoides_trna",
+                "path_trna": "images/b8/trna/ERR10768252_Uaru_amphiacanthoides_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768252_Uaru_amphiacanthoides_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768252_Uaru_amphiacanthoides_rscu.png",
-                "path_dloop": "ERR10768252_Uaru_amphiacanthoides_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768252_Uaru_amphiacanthoides_dloop.png"
             },
             {
                 "id": 2,
                 "sra": "ERR10768291",
                 "path_mito_circularized": "images/b8/circularized/ERR10768291_Uaru_amphiacanthoides_mito_circularized.png",
-                "path_trna": "ERR10768291_Uaru_amphiacanthoides_trna",
+                "path_trna": "images/b8/trna/ERR10768291_Uaru_amphiacanthoides_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768291_Uaru_amphiacanthoides_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768291_Uaru_amphiacanthoides_rscu.png",
-                "path_dloop": "ERR10768291_Uaru_amphiacanthoides_dloop"
+                "path_dloop": "images/b8/dloop/ERR10768291_Uaru_amphiacanthoides_dloop.png"
             },
             {
                 "id": 3,
                 "sra": "ERR10789835",
                 "path_mito_circularized": "images/b8/circularized/ERR10789835_Uaru_amphiacanthoides_mito_circularized.png",
-                "path_trna": "ERR10789835_Uaru_amphiacanthoides_trna",
+                "path_trna": "images/b8/trna/ERR10789835_Uaru_amphiacanthoides_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789835_Uaru_amphiacanthoides_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789835_Uaru_amphiacanthoides_rscu.png",
-                "path_dloop": "ERR10789835_Uaru_amphiacanthoides_dloop"
+                "path_dloop": "images/b8/dloop/ERR10789835_Uaru_amphiacanthoides_dloop.png"
             }
         ]
     }
