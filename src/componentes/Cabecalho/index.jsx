@@ -44,7 +44,7 @@ const Cabecalho = ({ sectionRefs }) => {
             sobre: 'ABOUT',
             metodologia: 'METHODOLOGY',
             mapa: 'MAP',
-            publicacoes: 'COMPARISION TOOL',
+            publicacoes: 'COMPARISON TOOL',
             pesquisadores: 'RESEARCHERS',
             galeria: 'SAMPLES',
             contato: 'CONTACT',

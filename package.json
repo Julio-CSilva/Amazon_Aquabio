@@ -12,6 +12,7 @@
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/react": "^2.8.2",
+    "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.6.3",
     "keen-slider": "^6.8.6",
     "react": "^18.2.0",
@@ -35,6 +36,6 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "vite": "^5.4.16"
+    "vite": "^6.3.5"
   }
 }
