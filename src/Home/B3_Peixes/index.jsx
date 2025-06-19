@@ -22,7 +22,7 @@ const PeixesB3 = () => {
         },
     };
 
-    const imagePaths = fotos.map((f) => f.path);
+    //const imagePaths = fotos.map((f) => f.path);
 
     return (
         <Box
@@ -48,7 +48,7 @@ const PeixesB3 = () => {
             <B3Text number={34} text={texts[language].dado3} delay={0.6} />
         </VStack>
         <Box w="60%" display="flex" justifyContent="center" alignItems="center">
-            <ImageCarousel images={imagePaths} />
+            <ImageCarousel images={fotos} />
         </Box>
         </Box>
     );

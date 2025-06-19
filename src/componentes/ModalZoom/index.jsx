@@ -19,6 +19,7 @@ import {
   TabPanels,
   Tab,
   TabPanel,
+  Link,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -30,12 +31,50 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import links from "../../by_links.json";
 import { useLanguage } from "../LanguageContext";
+import { getIucnGradient } from "../../utils/iucnUtils";
+
+export const abrirImagemEmNovaAba = (base64DataUrl) => {
+  const base64 = base64DataUrl.split(",")[1];
+  const mime = base64DataUrl.match(/data:(.*);base64/)[1];
+  const byteCharacters = atob(base64);
+  const byteArrays = [];
+
+  for (let i = 0; i < byteCharacters.length; i += 1024) {
+    const slice = byteCharacters.slice(i, i + 1024);
+    const byteNumbers = new Array(slice.length);
+    for (let j = 0; j < slice.length; j++) {
+      byteNumbers[j] = slice.charCodeAt(j);
+    }
+    byteArrays.push(new Uint8Array(byteNumbers));
+  }
+
+  const blob = new Blob(byteArrays, { type: mime });
+  const blobUrl = URL.createObjectURL(blob);
+  window.open(blobUrl, "_blank");
+};
 
 const ModalZoom = ({ foto, aoFechar }) => {
   const { isOpen, onClose } = useDisclosure({
     isOpen: !!foto,
     onClose: aoFechar,
   });
+  
+  // Lógica para o status IUCN
+  // PASSO 2: Verifique se a chave 'redlist_status' existe no seu JSON
+  const iucnStatus = foto?.redlist_status;
+  const statusGradient = getIucnGradient(iucnStatus);
+
+  const statusNames = {
+    NE: "Not Evaluated",
+    DD: "Data Deficient",
+    LC: "Least Concern",
+    NT: "Near Threatened",
+    VU: "Vulnerable",
+    EN: "Endangered",
+    CR: "Critically Endangered",
+    EW: "Extinct in the Wild",
+    EX: "Extinct",
+  };
 
   const [linkData, setLinkData] = useState(null);
 
@@ -46,25 +85,6 @@ const ModalZoom = ({ foto, aoFechar }) => {
     }
   }, [foto]);
 
-  const abrirImagemEmNovaAba = (base64DataUrl) => {
-    const base64 = base64DataUrl.split(",")[1];
-    const mime = base64DataUrl.match(/data:(.*);base64/)[1];
-    const byteCharacters = atob(base64);
-    const byteArrays = [];
-
-    for (let i = 0; i < byteCharacters.length; i += 1024) {
-      const slice = byteCharacters.slice(i, i + 1024);
-      const byteNumbers = new Array(slice.length);
-      for (let j = 0; j < slice.length; j++) {
-        byteNumbers[j] = slice.charCodeAt(j);
-      }
-      byteArrays.push(new Uint8Array(byteNumbers));
-    }
-
-    const blob = new Blob(byteArrays, { type: mime });
-    const blobUrl = URL.createObjectURL(blob);
-    window.open(blobUrl, "_blank");
-  };
 
   const { language } = useLanguage();
 
@@ -75,7 +95,6 @@ const ModalZoom = ({ foto, aoFechar }) => {
     en: {
       descricao: foto?.descricao_en || "",
     },
-    
   };
 
   return (
@@ -96,7 +115,26 @@ const ModalZoom = ({ foto, aoFechar }) => {
         {foto && (
           <ModalBody overflowY="auto">
             <Divider mb="1rem" />
-            <VStack spacing={6}>
+            <VStack spacing={6} align="stretch">
+              
+              {iucnStatus && (
+                <Box
+                  w="100%"
+                  h="24px"
+                  bg={statusGradient}
+                  borderRadius="md"
+                  display="flex"
+                  alignItems="center"
+                  justifyContent="center"
+                  color="white"
+                  fontWeight="bold"
+                  fontSize="sm"
+                  textShadow="1px 1px 2px rgba(0,0,0,0.6)"
+                >
+                  The IUCN Red List  Status: {statusNames[iucnStatus] || "Unknown"} ({iucnStatus})
+                </Box>
+              )}
+
               <HStack
                 alignItems="flex-start"
                 justifyContent="center"
@@ -150,7 +188,16 @@ const ModalZoom = ({ foto, aoFechar }) => {
                   <TabPanels>
                     {foto.amostras.map((amostra) => (
                       <TabPanel key={amostra.id}>
-                        <Text mb={4}>● SRA: {amostra.sra}</Text>
+                        <Text mb={4}>
+                          ● SRA:{" "}
+                          <Link
+                            href={`https://www.ncbi.nlm.nih.gov/sra/?term=${amostra.sra}`}
+                            isExternal
+                            color="blue.500"
+                          >
+                            {amostra.sra}
+                          </Link>
+                        </Text>
                         <Swiper
                           modules={[Navigation, Pagination]}
                           navigation
