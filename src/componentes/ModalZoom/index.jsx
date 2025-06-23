@@ -91,9 +91,11 @@ const ModalZoom = ({ foto, aoFechar }) => {
   const texts = {
     pt: {
       descricao: foto?.descricao || "",
+      nome: foto?.nome || "",
     },
     en: {
       descricao: foto?.descricao_en || "",
+      nome: foto?.nome_en || "",
     },
   };
 
@@ -152,7 +154,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
                     {foto.especie}
                   </Text>
                   <Text as="b" fontSize="1.5rem" mb={2} display="block">
-                    {foto.nome}
+                    {texts[language].nome}
                   </Text>
                   <Text as="i" fontSize="1rem">
                     {texts[language].descricao}
