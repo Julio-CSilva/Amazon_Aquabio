@@ -17,7 +17,10 @@
                 "path_trna": "images/b8/trna/ERR10768189_Acarichthys_heckelii_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768189_Acarichthys_heckelii_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768189_Acarichthys_heckelii_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768189_Acarichthys_heckelii_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768189_Acarichthys_heckelii_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768189_Acarichthys_heckelii.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768189_Acarichthys_heckelii.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768189_Acarichthys_heckelii_genes.fa"
             },
             {
                 "id": 2,
@@ -26,7 +29,10 @@
                 "path_trna": "images/b8/trna/ERR10789881_Acarichthys_heckelii_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789881_Acarichthys_heckelii_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789881_Acarichthys_heckelii_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789881_Acarichthys_heckelii_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789881_Acarichthys_heckelii_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789881_Acarichthys_heckelii.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789881_Acarichthys_heckelii.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789881_Acarichthys_heckelii_genes.fa"
             },
             {
                 "id": 3,
@@ -35,7 +41,10 @@
                 "path_trna": "images/b8/trna/ERR10768230_Acarichthys_heckelii_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768230_Acarichthys_heckelii_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768230_Acarichthys_heckelii_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768230_Acarichthys_heckelii_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768230_Acarichthys_heckelii_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768230_Acarichthys_heckelii.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768230_Acarichthys_heckelii.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768230_Acarichthys_heckelii_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -58,7 +67,10 @@
                 "path_trna": "images/b8/trna/ERR10789892_Acaronia_nassa_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789892_Acaronia_nassa_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789892_Acaronia_nassa_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789892_Acaronia_nassa_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789892_Acaronia_nassa_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789892_Acaronia_nassa.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789892_Acaronia_nassa.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789892_Acaronia_nassa_genes.fa"
             },
             {
                 "id": 2,
@@ -67,7 +79,10 @@
                 "path_trna": "images/b8/trna/ERR10768270_Acaronia_nassa_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768270_Acaronia_nassa_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768270_Acaronia_nassa_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768270_Acaronia_nassa_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768270_Acaronia_nassa_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768270_Acaronia_nassa.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768270_Acaronia_nassa.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768270_Acaronia_nassa_genes.fa"
             },
             {
                 "id": 3,
@@ -76,7 +91,10 @@
                 "path_trna": "images/b8/trna/ERR10768281_Acaronia_nassa_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768281_Acaronia_nassa_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768281_Acaronia_nassa_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768281_Acaronia_nassa_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768281_Acaronia_nassa_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768281_Acaronia_nassa.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768281_Acaronia_nassa.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768281_Acaronia_nassa_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -99,7 +117,10 @@
                 "path_trna": "images/b8/trna/ERR10789849_Aequidens_pallidus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789849_Aequidens_pallidus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789849_Aequidens_pallidus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789849_Aequidens_pallidus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789849_Aequidens_pallidus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789849_Aequidens_pallidus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789849_Aequidens_pallidus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789849_Aequidens_pallidus_genes.fa"
             },
             {
                 "id": 2,
@@ -108,7 +129,10 @@
                 "path_trna": "images/b8/trna/ERR10768305_Aequidens_pallidus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768305_Aequidens_pallidus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768305_Aequidens_pallidus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768305_Aequidens_pallidus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768305_Aequidens_pallidus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768305_Aequidens_pallidus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768305_Aequidens_pallidus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768305_Aequidens_pallidus_genes.fa"
             },
             {
                 "id": 3,
@@ -117,7 +141,10 @@
                 "path_trna": "images/b8/trna/ERR10768320_Aequidens_pallidus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768320_Aequidens_pallidus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768320_Aequidens_pallidus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768320_Aequidens_pallidus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768320_Aequidens_pallidus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768320_Aequidens_pallidus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768320_Aequidens_pallidus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768320_Aequidens_pallidus_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -140,7 +167,10 @@
                 "path_trna": "images/b8/trna/ERR10768272_Apistogramma_sp_Cuieiras_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768272_Apistogramma_sp_Cuieiras_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768272_Apistogramma_sp_Cuieiras_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768272_Apistogramma_sp_Cuieiras_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768272_Apistogramma_sp_Cuieiras_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768272_Apistogramma_sp_Cuieiras.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768272_Apistogramma_sp_Cuieiras.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768272_Apistogramma_sp_Cuieiras_genes.fa"
             },
             {
                 "id": 2,
@@ -149,7 +179,10 @@
                 "path_trna": "images/b8/trna/ERR10789840_Apistogramma_sp_Cuieiras_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789840_Apistogramma_sp_Cuieiras_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789840_Apistogramma_sp_Cuieiras_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789840_Apistogramma_sp_Cuieiras_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789840_Apistogramma_sp_Cuieiras_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789840_Apistogramma_sp_Cuieiras.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789840_Apistogramma_sp_Cuieiras.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789840_Apistogramma_sp_Cuieiras_genes.fa"
             },
             {
                 "id": 3,
@@ -158,10 +191,13 @@
                 "path_trna": "images/b8/trna/ERR10789854_Apistogramma_sp_Cuieiras_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789854_Apistogramma_sp_Cuieiras_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789854_Apistogramma_sp_Cuieiras_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789854_Apistogramma_sp_Cuieiras_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789854_Apistogramma_sp_Cuieiras_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789854_Apistogramma_sp_Cuieiras.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789854_Apistogramma_sp_Cuieiras.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789854_Apistogramma_sp_Cuieiras_genes.fa"
             }
         ],
-        "redlist_status": "NA"
+        "redlist_status": "NE"
     },
     {
         "especie": "Arapaima gigas",
@@ -181,7 +217,10 @@
                 "path_trna": "images/b8/trna/SRR23574205_Arapaima_gigas_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR23574205_Arapaima_gigas_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR23574205_Arapaima_gigas_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR23574205_Arapaima_gigas_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR23574205_Arapaima_gigas_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR23574205_Arapaima_gigas.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR23574205_Arapaima_gigas.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR23574205_Arapaima_gigas_genes.fa"
             },
             {
                 "id": 2,
@@ -190,7 +229,10 @@
                 "path_trna": "images/b8/trna/ERR2143719_Arapaima_gigas_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR2143719_Arapaima_gigas_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR2143719_Arapaima_gigas_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR2143719_Arapaima_gigas_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR2143719_Arapaima_gigas_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR2143719_Arapaima_gigas.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR2143719_Arapaima_gigas.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR2143719_Arapaima_gigas_genes.fa"
             },
             {
                 "id": 3,
@@ -199,7 +241,10 @@
                 "path_trna": "images/b8/trna/ERR2143721_Arapaima_gigas_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR2143721_Arapaima_gigas_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR2143721_Arapaima_gigas_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR2143721_Arapaima_gigas_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR2143721_Arapaima_gigas_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR2143721_Arapaima_gigas.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR2143721_Arapaima_gigas.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR2143721_Arapaima_gigas_genes.fa"
             }
         ],
         "redlist_status": "DD"
@@ -222,7 +267,10 @@
                 "path_trna": "images/b8/trna/ERR10789860_Astronotus_ocellatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789860_Astronotus_ocellatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789860_Astronotus_ocellatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789860_Astronotus_ocellatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789860_Astronotus_ocellatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789860_Astronotus_ocellatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789860_Astronotus_ocellatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789860_Astronotus_ocellatus_genes.fa"
             },
             {
                 "id": 2,
@@ -231,7 +279,10 @@
                 "path_trna": "images/b8/trna/ERR10789886_Astronotus_ocellatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789886_Astronotus_ocellatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789886_Astronotus_ocellatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789886_Astronotus_ocellatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789886_Astronotus_ocellatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789886_Astronotus_ocellatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789886_Astronotus_ocellatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789886_Astronotus_ocellatus_genes.fa"
             },
             {
                 "id": 3,
@@ -240,7 +291,10 @@
                 "path_trna": "images/b8/trna/ERR10789889_Astronotus_ocellatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789889_Astronotus_ocellatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789889_Astronotus_ocellatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789889_Astronotus_ocellatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789889_Astronotus_ocellatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789889_Astronotus_ocellatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789889_Astronotus_ocellatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789889_Astronotus_ocellatus_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -263,7 +317,10 @@
                 "path_trna": "images/b8/trna/ERR10768340_Australoheros_barbosae_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768340_Australoheros_barbosae_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768340_Australoheros_barbosae_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768340_Australoheros_barbosae_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768340_Australoheros_barbosae_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768340_Australoheros_barbosae.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768340_Australoheros_barbosae.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768340_Australoheros_barbosae_genes.fa"
             },
             {
                 "id": 2,
@@ -272,7 +329,10 @@
                 "path_trna": "images/b8/trna/ERR10789837_Australoheros_barbosae_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789837_Australoheros_barbosae_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789837_Australoheros_barbosae_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789837_Australoheros_barbosae_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789837_Australoheros_barbosae_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789837_Australoheros_barbosae.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789837_Australoheros_barbosae.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789837_Australoheros_barbosae_genes.fa"
             },
             {
                 "id": 3,
@@ -281,7 +341,10 @@
                 "path_trna": "images/b8/trna/ERR10768346_Australoheros_barbosae_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768346_Australoheros_barbosae_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768346_Australoheros_barbosae_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768346_Australoheros_barbosae_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768346_Australoheros_barbosae_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768346_Australoheros_barbosae.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768346_Australoheros_barbosae.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768346_Australoheros_barbosae_genes.fa"
             }
         ],
         "redlist_status": "DD"
@@ -304,7 +367,10 @@
                 "path_trna": "images/b8/trna/ERR10768338_Biotodoma_cupido_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768338_Biotodoma_cupido_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768338_Biotodoma_cupido_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768338_Biotodoma_cupido_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768338_Biotodoma_cupido_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768338_Biotodoma_cupido.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768338_Biotodoma_cupido.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768338_Biotodoma_cupido_genes.fa"
             },
             {
                 "id": 2,
@@ -313,7 +379,10 @@
                 "path_trna": "images/b8/trna/ERR10789847_Biotodoma_cupido_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789847_Biotodoma_cupido_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789847_Biotodoma_cupido_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789847_Biotodoma_cupido_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789847_Biotodoma_cupido_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789847_Biotodoma_cupido.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789847_Biotodoma_cupido.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789847_Biotodoma_cupido_genes.fa"
             },
             {
                 "id": 3,
@@ -322,7 +391,10 @@
                 "path_trna": "images/b8/trna/ERR10768339_Biotodoma_cupido_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768339_Biotodoma_cupido_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768339_Biotodoma_cupido_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768339_Biotodoma_cupido_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768339_Biotodoma_cupido_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768339_Biotodoma_cupido.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768339_Biotodoma_cupido.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768339_Biotodoma_cupido_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -330,7 +402,7 @@
     {
         "especie": "Chaetobranchopsis orbicularis",
         "nome": "Acará Tucumã",
-        "nome_en": "",
+        "nome_en": "No popular name",
         "path": "images/b3/Chaetobranchopsis_orbicularis_by(Delgado_Assad&Maria_Luiza_IBAMA).jpg",
         "by": "by(Delgado_Assad&Maria_Luiza_IBAMA)",
         "descricao": "É encontrado na bacia do Rio Amazonas, desde a foz do Rio Negro até a Ilha de Marajó e o Amapá, Brasil. Pode atingir até 12 cm de comprimento padrão. É ocasionalmente capturado para pesca. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
@@ -345,7 +417,10 @@
                 "path_trna": "images/b8/trna/ERR10789905_Chaetobranchopsis_orbicularis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789905_Chaetobranchopsis_orbicularis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789905_Chaetobranchopsis_orbicularis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789905_Chaetobranchopsis_orbicularis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789905_Chaetobranchopsis_orbicularis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789905_Chaetobranchopsis_orbicularis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789905_Chaetobranchopsis_orbicularis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789905_Chaetobranchopsis_orbicularis_genes.fa"
             },
             {
                 "id": 2,
@@ -354,7 +429,10 @@
                 "path_trna": "images/b8/trna/ERR10768232_Chaetobranchopsis_orbicularis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768232_Chaetobranchopsis_orbicularis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768232_Chaetobranchopsis_orbicularis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768232_Chaetobranchopsis_orbicularis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768232_Chaetobranchopsis_orbicularis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768232_Chaetobranchopsis_orbicularis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768232_Chaetobranchopsis_orbicularis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768232_Chaetobranchopsis_orbicularis_genes.fa"
             },
             {
                 "id": 3,
@@ -363,7 +441,10 @@
                 "path_trna": "images/b8/trna/ERR10768240_Chaetobranchopsis_orbicularis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768240_Chaetobranchopsis_orbicularis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768240_Chaetobranchopsis_orbicularis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768240_Chaetobranchopsis_orbicularis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768240_Chaetobranchopsis_orbicularis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768240_Chaetobranchopsis_orbicularis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768240_Chaetobranchopsis_orbicularis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768240_Chaetobranchopsis_orbicularis_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -386,7 +467,10 @@
                 "path_trna": "images/b8/trna/ERR10768282_Chaetobranchus_flavescens_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768282_Chaetobranchus_flavescens_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768282_Chaetobranchus_flavescens_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768282_Chaetobranchus_flavescens_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768282_Chaetobranchus_flavescens_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768282_Chaetobranchus_flavescens.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768282_Chaetobranchus_flavescens.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768282_Chaetobranchus_flavescens_genes.fa"
             },
             {
                 "id": 2,
@@ -395,7 +479,10 @@
                 "path_trna": "images/b8/trna/ERR10789908_Chaetobranchus_flavescens_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789908_Chaetobranchus_flavescens_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789908_Chaetobranchus_flavescens_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789908_Chaetobranchus_flavescens_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789908_Chaetobranchus_flavescens_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789908_Chaetobranchus_flavescens.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789908_Chaetobranchus_flavescens.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789908_Chaetobranchus_flavescens_genes.fa"
             },
             {
                 "id": 3,
@@ -404,7 +491,10 @@
                 "path_trna": "images/b8/trna/ERR10768309_Chaetobranchus_flavescens_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768309_Chaetobranchus_flavescens_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768309_Chaetobranchus_flavescens_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768309_Chaetobranchus_flavescens_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768309_Chaetobranchus_flavescens_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768309_Chaetobranchus_flavescens.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768309_Chaetobranchus_flavescens.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768309_Chaetobranchus_flavescens_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -427,7 +517,10 @@
                 "path_trna": "images/b8/trna/ERR10789866_Cichla_monoculus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789866_Cichla_monoculus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789866_Cichla_monoculus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789866_Cichla_monoculus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789866_Cichla_monoculus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789866_Cichla_monoculus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789866_Cichla_monoculus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789866_Cichla_monoculus_genes.fa"
             },
             {
                 "id": 2,
@@ -436,7 +529,10 @@
                 "path_trna": "images/b8/trna/ERR10768224_Cichla_monoculus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768224_Cichla_monoculus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768224_Cichla_monoculus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768224_Cichla_monoculus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768224_Cichla_monoculus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768224_Cichla_monoculus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768224_Cichla_monoculus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768224_Cichla_monoculus_genes.fa"
             },
             {
                 "id": 3,
@@ -445,7 +541,10 @@
                 "path_trna": "images/b8/trna/ERR10789888_Cichla_monoculus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789888_Cichla_monoculus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789888_Cichla_monoculus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789888_Cichla_monoculus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789888_Cichla_monoculus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789888_Cichla_monoculus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789888_Cichla_monoculus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789888_Cichla_monoculus_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -468,7 +567,10 @@
                 "path_trna": "images/b8/trna/ERR10768276_Cichla_temensis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768276_Cichla_temensis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768276_Cichla_temensis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768276_Cichla_temensis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768276_Cichla_temensis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768276_Cichla_temensis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768276_Cichla_temensis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768276_Cichla_temensis_genes.fa"
             },
             {
                 "id": 2,
@@ -477,7 +579,10 @@
                 "path_trna": "images/b8/trna/ERR10789842_Cichla_temensis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789842_Cichla_temensis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789842_Cichla_temensis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789842_Cichla_temensis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789842_Cichla_temensis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789842_Cichla_temensis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789842_Cichla_temensis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789842_Cichla_temensis_genes.fa"
             },
             {
                 "id": 3,
@@ -486,7 +591,10 @@
                 "path_trna": "images/b8/trna/ERR10768283_Cichla_temensis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768283_Cichla_temensis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768283_Cichla_temensis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768283_Cichla_temensis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768283_Cichla_temensis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768283_Cichla_temensis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768283_Cichla_temensis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768283_Cichla_temensis_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -494,7 +602,7 @@
     {
         "especie": "Cichlasoma amazonarum",
         "nome": "Ciclídeo amazônico",
-        "nome_en": "",
+        "nome_en": "No popular name",
         "path": "images/b3/Cichlasoma_amazonarum_by(Lo_Polo&Juan_Carlos).jpg",
         "by": "by(Lo_Polo&Juan_Carlos)",
         "descricao": "É encontrado em pântanos costeiros e áreas alagadas na América do Sul. Pode atingir até 13,5 cm de comprimento padrão. É utilizado principalmente no aquarismo. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
@@ -509,7 +617,10 @@
                 "path_trna": "images/b8/trna/ERR10789914_Cichlasoma_amazonarum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789914_Cichlasoma_amazonarum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789914_Cichlasoma_amazonarum_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789914_Cichlasoma_amazonarum_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789914_Cichlasoma_amazonarum_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789914_Cichlasoma_amazonarum.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789914_Cichlasoma_amazonarum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789914_Cichlasoma_amazonarum_genes.fa"
             },
             {
                 "id": 2,
@@ -518,7 +629,10 @@
                 "path_trna": "images/b8/trna/ERR10768222_Cichlasoma_amazonarum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768222_Cichlasoma_amazonarum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768222_Cichlasoma_amazonarum_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768222_Cichlasoma_amazonarum_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768222_Cichlasoma_amazonarum_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768222_Cichlasoma_amazonarum.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768222_Cichlasoma_amazonarum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768222_Cichlasoma_amazonarum_genes.fa"
             },
             {
                 "id": 3,
@@ -527,7 +641,10 @@
                 "path_trna": "images/b8/trna/ERR10789901_Cichlasoma_amazonarum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789901_Cichlasoma_amazonarum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789901_Cichlasoma_amazonarum_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789901_Cichlasoma_amazonarum_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789901_Cichlasoma_amazonarum_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789901_Cichlasoma_amazonarum.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789901_Cichlasoma_amazonarum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789901_Cichlasoma_amazonarum_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -550,7 +667,10 @@
                 "path_trna": "images/b8/trna/ERR10768191_Cichlasoma_bimaculatum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768191_Cichlasoma_bimaculatum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768191_Cichlasoma_bimaculatum_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768191_Cichlasoma_bimaculatum_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768191_Cichlasoma_bimaculatum_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768191_Cichlasoma_bimaculatum.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768191_Cichlasoma_bimaculatum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768191_Cichlasoma_bimaculatum_genes.fa"
             },
             {
                 "id": 2,
@@ -559,7 +679,10 @@
                 "path_trna": "images/b8/trna/ERR10789865_Cichlasoma_bimaculatum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789865_Cichlasoma_bimaculatum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789865_Cichlasoma_bimaculatum_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789865_Cichlasoma_bimaculatum_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789865_Cichlasoma_bimaculatum_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789865_Cichlasoma_bimaculatum.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789865_Cichlasoma_bimaculatum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789865_Cichlasoma_bimaculatum_genes.fa"
             },
             {
                 "id": 3,
@@ -568,7 +691,10 @@
                 "path_trna": "images/b8/trna/ERR10789870_Cichlasoma_bimaculatum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789870_Cichlasoma_bimaculatum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789870_Cichlasoma_bimaculatum_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789870_Cichlasoma_bimaculatum_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789870_Cichlasoma_bimaculatum_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789870_Cichlasoma_bimaculatum.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789870_Cichlasoma_bimaculatum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789870_Cichlasoma_bimaculatum_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -591,7 +717,10 @@
                 "path_trna": "images/b8/trna/SRR10738555_Colossoma_macropomum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR10738555_Colossoma_macropomum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR10738555_Colossoma_macropomum_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR10738555_Colossoma_macropomum_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR10738555_Colossoma_macropomum_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR10738555_Colossoma_macropomum.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR10738555_Colossoma_macropomum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR10738555_Colossoma_macropomum_genes.fa"
             },
             {
                 "id": 2,
@@ -600,7 +729,10 @@
                 "path_trna": "images/b8/trna/SRR22219024_Colossoma_macropomum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR22219024_Colossoma_macropomum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR22219024_Colossoma_macropomum_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR22219024_Colossoma_macropomum_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR22219024_Colossoma_macropomum_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR22219024_Colossoma_macropomum.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR22219024_Colossoma_macropomum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR22219024_Colossoma_macropomum_genes.fa"
             },
             {
                 "id": 3,
@@ -609,7 +741,10 @@
                 "path_trna": "images/b8/trna/SRR13734555_Colossoma_macropomum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR13734555_Colossoma_macropomum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR13734555_Colossoma_macropomum_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR13734555_Colossoma_macropomum_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR13734555_Colossoma_macropomum_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR13734555_Colossoma_macropomum.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR13734555_Colossoma_macropomum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR13734555_Colossoma_macropomum_genes.fa"
             }
         ],
         "redlist_status": "NT"
@@ -617,7 +752,7 @@
     {
         "especie": "Crenicichla lenticulata",
         "nome": "Jacundá-açu",
-        "nome_en": "",
+        "nome_en": "No popular name",
         "path": "images/b3/Crenicichla_lenticulata_by(C_H_EON).jpg",
         "by": "by(C_H_EON)",
         "descricao": "É uma espécie predadora que habita os rios da bacia amazônica. Pode alcançar até 30 cm de comprimento e é frequentemente capturado por pescadores locais para consumo. Embora não seja amplamente comercializado no aquarismo, é procurado por entusiastas de ciclídeos predadores. Seu status de conservação, segundo a IUCN, é Pouco Preocupante (LC).",
@@ -632,7 +767,10 @@
                 "path_trna": "images/b8/trna/ERR10768262_Crenicichla_lenticulata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768262_Crenicichla_lenticulata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768262_Crenicichla_lenticulata_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768262_Crenicichla_lenticulata_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768262_Crenicichla_lenticulata_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768262_Crenicichla_lenticulata.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768262_Crenicichla_lenticulata.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768262_Crenicichla_lenticulata_genes.fa"
             },
             {
                 "id": 2,
@@ -641,7 +779,10 @@
                 "path_trna": "images/b8/trna/ERR10768277_Crenicichla_lenticulata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768277_Crenicichla_lenticulata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768277_Crenicichla_lenticulata_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768277_Crenicichla_lenticulata_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768277_Crenicichla_lenticulata_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768277_Crenicichla_lenticulata.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768277_Crenicichla_lenticulata.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768277_Crenicichla_lenticulata_genes.fa"
             },
             {
                 "id": 3,
@@ -650,7 +791,10 @@
                 "path_trna": "images/b8/trna/ERR10789917_Crenicichla_lenticulata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789917_Crenicichla_lenticulata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789917_Crenicichla_lenticulata_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789917_Crenicichla_lenticulata_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789917_Crenicichla_lenticulata_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789917_Crenicichla_lenticulata.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789917_Crenicichla_lenticulata.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789917_Crenicichla_lenticulata_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -658,7 +802,7 @@
     {
         "especie": "Crenicichla lugubris",
         "nome": "Jacundá-vermelho",
-        "nome_en": "",
+        "nome_en": "Atabo Red Pike Cichlid",
         "path": "images/b3/Crenicichla_lugubris_by(Fürderer_Heike).jpg",
         "by": "by(Fürderer_Heike)",
         "descricao": "É uma espécie amazônica que pode atingir até 32,4 cm de comprimento padrão. Assim como outras do gênero, é uma espécie piscívora (se alimenta de outros peixes) e predadora ativa. Tem importância local na pesca de subsistência e pode ser encontrada ocasionalmente no mercado ornamental. A IUCN também classifica essa espécie como Pouco Preocupante (LC).",
@@ -673,7 +817,10 @@
                 "path_trna": "images/b8/trna/ERR10768333_Crenicichla_lugubris_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768333_Crenicichla_lugubris_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768333_Crenicichla_lugubris_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768333_Crenicichla_lugubris_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768333_Crenicichla_lugubris_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768333_Crenicichla_lugubris.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768333_Crenicichla_lugubris.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768333_Crenicichla_lugubris_genes.fa"
             },
             {
                 "id": 2,
@@ -682,7 +829,10 @@
                 "path_trna": "images/b8/trna/ERR10789841_Crenicichla_lugubris_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789841_Crenicichla_lugubris_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789841_Crenicichla_lugubris_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789841_Crenicichla_lugubris_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789841_Crenicichla_lugubris_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789841_Crenicichla_lugubris.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789841_Crenicichla_lugubris.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789841_Crenicichla_lugubris_genes.fa"
             },
             {
                 "id": 3,
@@ -691,7 +841,10 @@
                 "path_trna": "images/b8/trna/ERR10789853_Crenicichla_lugubris_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789853_Crenicichla_lugubris_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789853_Crenicichla_lugubris_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789853_Crenicichla_lugubris_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789853_Crenicichla_lugubris_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789853_Crenicichla_lugubris.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789853_Crenicichla_lugubris.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789853_Crenicichla_lugubris_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -699,7 +852,7 @@
     {
         "especie": "Crenicichla macrophthalma",
         "nome": "Jacundá",
-        "nome_en": "",
+        "nome_en": "No popular name",
         "path": "images/b3/Crenicichla_macrophthalma_by(Vidal_W).jpg",
         "by": "by(Vidal_W)",
         "descricao": "É um ciclídeo da bacia amazônica que pode atingir até 20 cm de comprimento padrão. Embora não seja amplamente utilizado comercialmente, pode ser encontrado na pesca de subsistência e é ocasionalmente apreciado por aquaristas interessados em espécies predadoras. Segundo a IUCN, essa espécie está classificada como Pouco Preocupante (LC), o que indica que atualmente não enfrenta riscos significativos de extinção.",
@@ -714,7 +867,10 @@
                 "path_trna": "images/b8/trna/ERR10789836_Crenicichla_macrophthalma_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789836_Crenicichla_macrophthalma_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789836_Crenicichla_macrophthalma_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789836_Crenicichla_macrophthalma_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789836_Crenicichla_macrophthalma_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789836_Crenicichla_macrophthalma.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789836_Crenicichla_macrophthalma.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789836_Crenicichla_macrophthalma_genes.fa"
             },
             {
                 "id": 2,
@@ -723,7 +879,10 @@
                 "path_trna": "images/b8/trna/ERR10768295_Crenicichla_macrophthalma_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768295_Crenicichla_macrophthalma_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768295_Crenicichla_macrophthalma_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768295_Crenicichla_macrophthalma_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768295_Crenicichla_macrophthalma_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768295_Crenicichla_macrophthalma.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768295_Crenicichla_macrophthalma.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768295_Crenicichla_macrophthalma_genes.fa"
             },
             {
                 "id": 3,
@@ -732,7 +891,10 @@
                 "path_trna": "images/b8/trna/ERR10768303_Crenicichla_macrophthalma_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768303_Crenicichla_macrophthalma_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768303_Crenicichla_macrophthalma_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768303_Crenicichla_macrophthalma_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768303_Crenicichla_macrophthalma_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768303_Crenicichla_macrophthalma.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768303_Crenicichla_macrophthalma.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768303_Crenicichla_macrophthalma_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -740,7 +902,7 @@
     {
         "especie": "Crenicichla marmorata",
         "nome": "Jacundá-marmore",
-        "nome_en": "",
+        "nome_en": "Marbled Pike Cichlid",
         "path": "images/b3/Crenicichla_marmorata_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
         "descricao": "É um ciclídeo de médio porte que pode alcançar até 28 cm de comprimento, sendo caracterizado por seu padrão marmorizado. Embora o nome popular não seja amplamente difundido, é uma espécie presente na bacia amazônica. Seu uso econômico não é claramente estabelecido, mas, como outras espécies do gênero, pode aparecer em aquários especializados. Segundo a IUCN, essa espécie está classificada como Pouco Preocupante (LC), o que indica que atualmente não enfrenta riscos significativos de extinção.",
@@ -755,7 +917,10 @@
                 "path_trna": "images/b8/trna/ERR10768251_Crenicichla_marmorata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768251_Crenicichla_marmorata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768251_Crenicichla_marmorata_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768251_Crenicichla_marmorata_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768251_Crenicichla_marmorata_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768251_Crenicichla_marmorata.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768251_Crenicichla_marmorata.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768251_Crenicichla_marmorata_genes.fa"
             },
             {
                 "id": 2,
@@ -764,7 +929,10 @@
                 "path_trna": "images/b8/trna/ERR10768289_Crenicichla_marmorata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768289_Crenicichla_marmorata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768289_Crenicichla_marmorata_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768289_Crenicichla_marmorata_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768289_Crenicichla_marmorata_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768289_Crenicichla_marmorata.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768289_Crenicichla_marmorata.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768289_Crenicichla_marmorata_genes.fa"
             },
             {
                 "id": 3,
@@ -773,7 +941,10 @@
                 "path_trna": "images/b8/trna/ERR10768323_Crenicichla_marmorata_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768323_Crenicichla_marmorata_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768323_Crenicichla_marmorata_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768323_Crenicichla_marmorata_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768323_Crenicichla_marmorata_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768323_Crenicichla_marmorata.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768323_Crenicichla_marmorata.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768323_Crenicichla_marmorata_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -781,7 +952,7 @@
     {
         "especie": "Crenicichla notophthalmus",
         "nome": "Jacundá-anão",
-        "nome_en": "",
+        "nome_en": "dwarf Crenicichla",
         "path": "images/b3/Crenicichla_notophthalmus_by(sneegas_G_W).jpg",
         "by": "by(sneegas_G_W)",
         "descricao": "É encontrado na bacia do Rio Amazonas, especialmente na parte inferior do Rio Negro. Pode atingir até 7,6 cm de comprimento padrão. Seu uso econômico ou ornamental não é amplamente documentado. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
@@ -796,7 +967,10 @@
                 "path_trna": "images/b8/trna/ERR10768256_Crenicichla_notophthalmus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768256_Crenicichla_notophthalmus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768256_Crenicichla_notophthalmus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768256_Crenicichla_notophthalmus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768256_Crenicichla_notophthalmus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768256_Crenicichla_notophthalmus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768256_Crenicichla_notophthalmus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768256_Crenicichla_notophthalmus_genes.fa"
             },
             {
                 "id": 2,
@@ -805,7 +979,10 @@
                 "path_trna": "images/b8/trna/ERR10768237_Crenicichla_notophthalmus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768237_Crenicichla_notophthalmus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768237_Crenicichla_notophthalmus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768237_Crenicichla_notophthalmus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768237_Crenicichla_notophthalmus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768237_Crenicichla_notophthalmus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768237_Crenicichla_notophthalmus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768237_Crenicichla_notophthalmus_genes.fa"
             },
             {
                 "id": 3,
@@ -814,7 +991,10 @@
                 "path_trna": "images/b8/trna/ERR10768267_Crenicichla_notophthalmus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768267_Crenicichla_notophthalmus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768267_Crenicichla_notophthalmus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768267_Crenicichla_notophthalmus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768267_Crenicichla_notophthalmus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768267_Crenicichla_notophthalmus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768267_Crenicichla_notophthalmus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768267_Crenicichla_notophthalmus_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -822,7 +1002,7 @@
     {
         "especie": "Geophagus dicrozoster",
         "nome": "Acará-terra",
-        "nome_en": "",
+        "nome_en": "No popular name",
         "path": "images/b3/Geophagus_dicrozoster_by(Andreas_jekel).jpg",
         "by": "by(Andreas_jekel)",
         "descricao": "O Geophagus dicrozoster é um ciclídeo amazônico pertencente ao grupo dos “acará-terra”, embora seu nome popular específico não seja bem definido. Essa espécie ainda é pouco estudada em termos de uso econômico, mas é provável que tenha valor no aquarismo, como outros do gênero Geophagus. A IUCN classifica o Geophagus dicrozoster como Pouco Preocupante (LC), sugerindo que suas populações estão em equilíbrio ecológico.",
@@ -837,7 +1017,10 @@
                 "path_trna": "images/b8/trna/ERR10768304_Geophagus_dicrozoster_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768304_Geophagus_dicrozoster_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768304_Geophagus_dicrozoster_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768304_Geophagus_dicrozoster_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768304_Geophagus_dicrozoster_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768304_Geophagus_dicrozoster.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768304_Geophagus_dicrozoster.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768304_Geophagus_dicrozoster_genes.fa"
             },
             {
                 "id": 2,
@@ -846,7 +1029,10 @@
                 "path_trna": "images/b8/trna/ERR10768273_Geophagus_dicrozoster_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768273_Geophagus_dicrozoster_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768273_Geophagus_dicrozoster_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768273_Geophagus_dicrozoster_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768273_Geophagus_dicrozoster_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768273_Geophagus_dicrozoster.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768273_Geophagus_dicrozoster.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768273_Geophagus_dicrozoster_genes.fa"
             },
             {
                 "id": 3,
@@ -855,7 +1041,10 @@
                 "path_trna": "images/b8/trna/ERR10789910_Geophagus_dicrozoster_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789910_Geophagus_dicrozoster_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789910_Geophagus_dicrozoster_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789910_Geophagus_dicrozoster_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789910_Geophagus_dicrozoster_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789910_Geophagus_dicrozoster.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789910_Geophagus_dicrozoster.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789910_Geophagus_dicrozoster_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -863,7 +1052,7 @@
     {
         "especie": "Gymnogeophagus labiatus",
         "nome": "Acará-beiçudo",
-        "nome_en": "",
+        "nome_en": "Earth eater",
         "path": "images/b3/Gymnogeophagus_labiatus_by(Casacuberta_M).jpg",
         "by": "by(Casacuberta_M)",
         "descricao": "É um ciclídeo nativo do sul da América do Sul, encontrado principalmente na bacia do rio Uruguai. Pode atingir até 15,2 cm de comprimento padrão e é facilmente reconhecido pelos lábios proeminentes. Embora o nome popular em português não seja amplamente utilizado, é uma espécie de interesse para aquaristas devido à sua aparência distinta.  A IUCN classifica o Geophagus dicrozoster como Pouco Preocupante (LC), sugerindo que suas populações estão em equilíbrio ecológico.",
@@ -878,7 +1067,10 @@
                 "path_trna": "images/b8/trna/ERR10768322_Gymnogeophagus_labiatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768322_Gymnogeophagus_labiatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768322_Gymnogeophagus_labiatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768322_Gymnogeophagus_labiatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768322_Gymnogeophagus_labiatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768322_Gymnogeophagus_labiatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768322_Gymnogeophagus_labiatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768322_Gymnogeophagus_labiatus_genes.fa"
             },
             {
                 "id": 2,
@@ -887,15 +1079,18 @@
                 "path_trna": "images/b8/trna/ERR10768329_Gymnogeophagus_labiatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768329_Gymnogeophagus_labiatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768329_Gymnogeophagus_labiatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768329_Gymnogeophagus_labiatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768329_Gymnogeophagus_labiatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768329_Gymnogeophagus_labiatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768329_Gymnogeophagus_labiatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768329_Gymnogeophagus_labiatus_genes.fa"
             }
         ],
         "redlist_status": "LC"
     },
     {
         "especie": "Gymnogeophagus rhabdotus",
-        "nome": "Devorador de terra",
-        "nome_en": "",
+        "nome": "Cará-Papaterra",
+        "nome_en": "Stripefin eartheater",
         "path": "images/b3/Gymnogeophagus_rhabdotus_by(Dubosc_J).jpg",
         "by": "by(Dubosc_J)",
         "descricao": "É um ciclídeo encontrado na bacia do rio Uruguai, no Uruguai, e na bacia da Lagoa dos Patos, no Brasil. Os machos podem atingir até 12 cm de comprimento padrão. A fêmea deposita cerca de 300 ovos em uma superfície limpa; após a eclosão, os filhotes são transferidos para depressões previamente construídas no substrato. Esta espécie é utilizada tanto na pesca quanto no aquarismo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC), indicando que não enfrenta ameaças significativas atualmente.",
@@ -910,7 +1105,10 @@
                 "path_trna": "images/b8/trna/ERR10789856_Gymnogeophagus_rhabdotus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789856_Gymnogeophagus_rhabdotus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789856_Gymnogeophagus_rhabdotus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789856_Gymnogeophagus_rhabdotus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789856_Gymnogeophagus_rhabdotus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789856_Gymnogeophagus_rhabdotus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789856_Gymnogeophagus_rhabdotus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789856_Gymnogeophagus_rhabdotus_genes.fa"
             },
             {
                 "id": 2,
@@ -919,15 +1117,18 @@
                 "path_trna": "images/b8/trna/ERR10768358_Gymnogeophagus_rhabdotus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768358_Gymnogeophagus_rhabdotus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768358_Gymnogeophagus_rhabdotus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768358_Gymnogeophagus_rhabdotus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768358_Gymnogeophagus_rhabdotus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768358_Gymnogeophagus_rhabdotus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768358_Gymnogeophagus_rhabdotus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768358_Gymnogeophagus_rhabdotus_genes.fa"
             }
         ],
         "redlist_status": "LC"
     },
     {
         "especie": "Heros efasciatus",
-        "nome": "Acará-preto",
-        "nome_en": "",
+        "nome": "Acara piranga, Acará peba, Acará preto",
+        "nome_en": "Severum, Gold Severum",
         "path": "images/b3/Heros_efasciatus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo nativo da bacia amazônica. Os machos podem alcançar até 17 cm de comprimento padrão e pesar até 268,2 g. Esta espécie habita ambientes lênticos, como áreas alagadas e estuários com vegetação ribeirinha densa. É um peixe onívoro, com tendência frugívora. O acará-preto é valorizado tanto na pesca quanto no comércio de aquarismo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC), indicando que não enfrenta ameaças significativas atualmente.",
@@ -942,7 +1143,10 @@
                 "path_trna": "images/b8/trna/ERR10789876_Heros_efasciatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789876_Heros_efasciatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789876_Heros_efasciatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789876_Heros_efasciatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789876_Heros_efasciatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789876_Heros_efasciatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789876_Heros_efasciatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789876_Heros_efasciatus_genes.fa"
             },
             {
                 "id": 2,
@@ -951,7 +1155,10 @@
                 "path_trna": "images/b8/trna/ERR10789903_Heros_efasciatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789903_Heros_efasciatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789903_Heros_efasciatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789903_Heros_efasciatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789903_Heros_efasciatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789903_Heros_efasciatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789903_Heros_efasciatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789903_Heros_efasciatus_genes.fa"
             },
             {
                 "id": 3,
@@ -960,7 +1167,10 @@
                 "path_trna": "images/b8/trna/ERR10789884_Heros_efasciatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789884_Heros_efasciatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789884_Heros_efasciatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789884_Heros_efasciatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789884_Heros_efasciatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789884_Heros_efasciatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789884_Heros_efasciatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789884_Heros_efasciatus_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -968,7 +1178,7 @@
     {
         "especie": "Heros notatus",
         "nome": "Acará-Severo",
-        "nome_en": "",
+        "nome_en": "Spotted Severum",
         "path": "images/b3/Heros_notatus_by(Jensen_Jhonny).jpg",
         "by": "by(Jensen_Jhonny)",
         "descricao": "Heros notatus é um ciclídeo nativo da Bacia do Rio Amazonas, especialmente da região do Rio Negro, no Brasil. Pode atingir cerca de 15 cm de comprimento padrão e é amplamente conhecido no aquarismo devido à sua coloração atrativa e comportamento relativamente pacífico. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
@@ -983,7 +1193,10 @@
                 "path_trna": "images/b8/trna/ERR10789863_Heros_notatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789863_Heros_notatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789863_Heros_notatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789863_Heros_notatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789863_Heros_notatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789863_Heros_notatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789863_Heros_notatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789863_Heros_notatus_genes.fa"
             },
             {
                 "id": 2,
@@ -992,7 +1205,10 @@
                 "path_trna": "images/b8/trna/ERR10768188_Heros_notatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768188_Heros_notatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768188_Heros_notatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768188_Heros_notatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768188_Heros_notatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768188_Heros_notatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768188_Heros_notatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768188_Heros_notatus_genes.fa"
             },
             {
                 "id": 3,
@@ -1001,7 +1217,10 @@
                 "path_trna": "images/b8/trna/ERR10789877_Heros_notatus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789877_Heros_notatus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789877_Heros_notatus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789877_Heros_notatus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789877_Heros_notatus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789877_Heros_notatus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789877_Heros_notatus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789877_Heros_notatus_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -1009,7 +1228,7 @@
     {
         "especie": "Hypselecara temporalis",
         "nome": "Ciclídeo chocolate",
-        "nome_en": "",
+        "nome_en": "Emerald cichlid",
         "path": "images/b3/Hypselecara_temporalis_by(J_Bukkems).jpg",
         "by": "by(J_Bukkems)",
         "descricao": "É encontrado nos rios Ucayali, Solimões e Amazonas, além do Amapá e da Guiana Francesa. Muito apreciado no aquarismo por sua aparência marcante, embora o tamanho máximo não esteja claramente definido. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
@@ -1024,7 +1243,10 @@
                 "path_trna": "images/b8/trna/ERR10768200_Hypselecara_temporalis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768200_Hypselecara_temporalis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768200_Hypselecara_temporalis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768200_Hypselecara_temporalis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768200_Hypselecara_temporalis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768200_Hypselecara_temporalis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768200_Hypselecara_temporalis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768200_Hypselecara_temporalis_genes.fa"
             },
             {
                 "id": 2,
@@ -1033,7 +1255,10 @@
                 "path_trna": "images/b8/trna/ERR10789868_Hypselecara_temporalis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789868_Hypselecara_temporalis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789868_Hypselecara_temporalis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789868_Hypselecara_temporalis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789868_Hypselecara_temporalis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789868_Hypselecara_temporalis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789868_Hypselecara_temporalis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789868_Hypselecara_temporalis_genes.fa"
             },
             {
                 "id": 3,
@@ -1042,7 +1267,10 @@
                 "path_trna": "images/b8/trna/ERR10768195_Hypselecara_temporalis_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768195_Hypselecara_temporalis_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768195_Hypselecara_temporalis_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768195_Hypselecara_temporalis_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768195_Hypselecara_temporalis_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768195_Hypselecara_temporalis.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768195_Hypselecara_temporalis.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768195_Hypselecara_temporalis_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -1050,7 +1278,7 @@
     {
         "especie": "Mesonauta festivus",
         "nome": "Acarazinho",
-        "nome_en": "",
+        "nome_en": "Flag cichlid",
         "path": "images/b3/Mesonauta_festivus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo de água doce nativo da América do Sul. Sua distribuição abrange a bacia do rio Paraná, incluindo a drenagem do rio Paraguai no Brasil e Paraguai, bem como a bacia do rio Amazonas. Este peixe apresenta um corpo moderadamente profundo e comprimido lateralmente, típico dos ciclídeos. Atinge um tamanho máximo de 12,1 cm de comprimento padrão e peso de até 97,4 g. Devido à sua aparência atraente e comportamento interessante, é popular entre aquaristas. De acordo com a Lista Vermelha da IUCN, o Mesonauta festivus está classificado como Pouco Preocupante (LC), indicando que não há ameaças significativas conhecidas que coloquem a espécie em risco de extinção no momento.",
@@ -1065,7 +1293,10 @@
                 "path_trna": "images/b8/trna/ERR10789875_Mesonauta_festivus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789875_Mesonauta_festivus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789875_Mesonauta_festivus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789875_Mesonauta_festivus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789875_Mesonauta_festivus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789875_Mesonauta_festivus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789875_Mesonauta_festivus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789875_Mesonauta_festivus_genes.fa"
             },
             {
                 "id": 2,
@@ -1074,7 +1305,10 @@
                 "path_trna": "images/b8/trna/ERR10789898_Mesonauta_festivus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789898_Mesonauta_festivus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789898_Mesonauta_festivus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789898_Mesonauta_festivus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789898_Mesonauta_festivus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789898_Mesonauta_festivus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789898_Mesonauta_festivus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789898_Mesonauta_festivus_genes.fa"
             },
             {
                 "id": 3,
@@ -1083,7 +1317,10 @@
                 "path_trna": "images/b8/trna/ERR10789899_Mesonauta_festivus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789899_Mesonauta_festivus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789899_Mesonauta_festivus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789899_Mesonauta_festivus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789899_Mesonauta_festivus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789899_Mesonauta_festivus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789899_Mesonauta_festivus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789899_Mesonauta_festivus_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -1091,7 +1328,7 @@
     {
         "especie": "Osteoglossum bicirrhosum",
         "nome": "Aruanã-prateado",
-        "nome_en": "",
+        "nome_en": "Arawana",
         "path": "images/b3/Osteoglossum_bicirrhosum_by(Qwertzy2_cc).jpg",
         "by": "by(Qwertzy_cc)",
         "descricao": "É um peixe de água doce nativo da América do Sul, encontrado nas bacias dos rios Amazonas, Rupununi e Oiapoque. Este peixe pode atingir até 90 cm de comprimento total e pesar até 6 kg. No aquarismo, o aruanã-prateado é valorizado por sua aparência distinta e comportamento interessante. De acordo com a Lista Vermelha da IUCN, o aruanã-prateado é classificado como Pouco Preocupante (LC), indicando que atualmente não há grandes ameaças que coloquem a espécie em risco significativo de extinção.",
@@ -1106,7 +1343,10 @@
                 "path_trna": "images/b8/trna/SRR21777680_Osteoglossum_bicirrhosum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR21777680_Osteoglossum_bicirrhosum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR21777680_Osteoglossum_bicirrhosum_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR21777680_Osteoglossum_bicirrhosum_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR21777680_Osteoglossum_bicirrhosum_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR21777680_Osteoglossum_bicirrhosum.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR21777680_Osteoglossum_bicirrhosum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR21777680_Osteoglossum_bicirrhosum_genes.fa"
             },
             {
                 "id": 2,
@@ -1115,7 +1355,10 @@
                 "path_trna": "images/b8/trna/SRR21777685_Osteoglossum_bicirrhosum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR21777685_Osteoglossum_bicirrhosum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR21777685_Osteoglossum_bicirrhosum_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR21777685_Osteoglossum_bicirrhosum_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR21777685_Osteoglossum_bicirrhosum_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR21777685_Osteoglossum_bicirrhosum.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR21777685_Osteoglossum_bicirrhosum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR21777685_Osteoglossum_bicirrhosum_genes.fa"
             },
             {
                 "id": 3,
@@ -1124,15 +1367,18 @@
                 "path_trna": "images/b8/trna/SRR21782675_Osteoglossum_bicirrhosum_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR21782675_Osteoglossum_bicirrhosum_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR21782675_Osteoglossum_bicirrhosum_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR21782675_Osteoglossum_bicirrhosum_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR21782675_Osteoglossum_bicirrhosum_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR21782675_Osteoglossum_bicirrhosum.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR21782675_Osteoglossum_bicirrhosum.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR21782675_Osteoglossum_bicirrhosum_genes.fa"
             }
         ],
         "redlist_status": "LC"
     },
     {
         "especie": "Pterophyllum scalare",
-        "nome": "Peixe-anjo",
-        "nome_en": "",
+        "nome": "Peixe-anjo, Acará-Bandeira",
+        "nome_en": "Freshwater angelfish",
         "path": "images/b3/Pterophyllum_scalare_by(Dan_Olsen).png",
         "by": "by(Dan_Olsen)",
         "descricao": "É encontrado na bacia do Rio Amazonas, incluindo os rios Ucayali, Solimões, Amazonas e também no Amapá e na Guiana Francesa. Pode alcançar até 15 cm de comprimento total. Muito procurado no aquarismo por sua beleza e elegância. É classificado como “Pouco Preocupante” (LC) na Lista Vermelha da IUCN, indicando que, atualmente, não enfrenta grandes ameaças de extinção.",
@@ -1147,7 +1393,10 @@
                 "path_trna": "images/b8/trna/ERR10768190_Pterophyllum_scalare_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768190_Pterophyllum_scalare_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768190_Pterophyllum_scalare_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768190_Pterophyllum_scalare_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768190_Pterophyllum_scalare_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768190_Pterophyllum_scalare.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768190_Pterophyllum_scalare.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768190_Pterophyllum_scalare_genes.fa"
             },
             {
                 "id": 2,
@@ -1156,7 +1405,10 @@
                 "path_trna": "images/b8/trna/ERR10768225_Pterophyllum_scalare_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768225_Pterophyllum_scalare_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768225_Pterophyllum_scalare_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768225_Pterophyllum_scalare_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768225_Pterophyllum_scalare_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768225_Pterophyllum_scalare.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768225_Pterophyllum_scalare.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768225_Pterophyllum_scalare_genes.fa"
             },
             {
                 "id": 3,
@@ -1165,7 +1417,10 @@
                 "path_trna": "images/b8/trna/ERR10768226_Pterophyllum_scalare_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768226_Pterophyllum_scalare_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768226_Pterophyllum_scalare_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768226_Pterophyllum_scalare_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768226_Pterophyllum_scalare_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768226_Pterophyllum_scalare.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768226_Pterophyllum_scalare.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768226_Pterophyllum_scalare_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -1173,7 +1428,7 @@
     {
         "especie": "Pygocentrus nattereri",
         "nome": "Piranha-vermelha",
-        "nome_en": "",
+        "nome_en": "Red piranha",
         "path": "images/b3/Pygocentrus_nattereri_by(Østergaard_Thorke_A_S).jpg",
         "by": "by(Østergaard_Thorke_A_S)",
         "descricao": "É uma espécie de peixe de água doce nativa da América do Sul, amplamente distribuída nas bacias dos rios Amazonas, Paraguai-Paraná e Essequibo, além de rios costeiros do nordeste do Brasil. Essa espécie pode atingir até 50 cm de comprimento padrão e pesar mais de 3,8 kg, sendo reconhecida por sua coloração prateada com a região ventral avermelhada, especialmente em indivíduos adultos. Devido à sua aparência marcante e comportamento, é uma espécie frequentemente mantida em aquários. Atualmente, seu status de conservação, de acordo com a Lista Vermelha da IUCN, é Pouco Preocupante (LC), indicando que a espécie não enfrenta ameaças imediatas de extinção.",
@@ -1188,7 +1443,10 @@
                 "path_trna": "images/b8/trna/SRR25740028_Pygocentrus_nattereri_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR25740028_Pygocentrus_nattereri_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR25740028_Pygocentrus_nattereri_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR25740028_Pygocentrus_nattereri_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR25740028_Pygocentrus_nattereri_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR25740028_Pygocentrus_nattereri.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR25740028_Pygocentrus_nattereri.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR25740028_Pygocentrus_nattereri_genes.fa"
             },
             {
                 "id": 2,
@@ -1197,7 +1455,10 @@
                 "path_trna": "images/b8/trna/SRR25740016_Pygocentrus_nattereri_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR25740016_Pygocentrus_nattereri_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR25740016_Pygocentrus_nattereri_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR25740016_Pygocentrus_nattereri_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR25740016_Pygocentrus_nattereri_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR25740016_Pygocentrus_nattereri.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR25740016_Pygocentrus_nattereri.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR25740016_Pygocentrus_nattereri_genes.fa"
             },
             {
                 "id": 3,
@@ -1206,7 +1467,10 @@
                 "path_trna": "images/b8/trna/SRR25740019_Pygocentrus_nattereri_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/SRR25740019_Pygocentrus_nattereri_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/SRR25740019_Pygocentrus_nattereri_rscu.png",
-                "path_dloop": "images/b8/dloop/SRR25740019_Pygocentrus_nattereri_dloop.png"
+                "path_dloop": "images/b8/dloop/SRR25740019_Pygocentrus_nattereri_dloop.png",
+                "path_fasta": "docs/b8/fasta/SRR25740019_Pygocentrus_nattereri.fa",
+                "path_NCBI": "docs/b8/NCBI/SRR25740019_Pygocentrus_nattereri.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/SRR25740019_Pygocentrus_nattereri_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -1214,7 +1478,7 @@
     {
         "especie": "Satanoperca jurupari",
         "nome": "Comedora de terra demoníaca",
-        "nome_en": "",
+        "nome_en": "Demon eartheater",
         "path": "images/b3/Satanoperca_jurupari_by(Irtz_peter).jpg",
         "by": "by(Irtz_peter)",
         "descricao": "É encontrada em grande parte da bacia amazônica, do Peru e Equador até a Guiana Francesa. Pode atingir até 26 cm de comprimento padrão e 485 g. Bastante popular em aquários e também explorada na pesca. Seu status na Lista Vermelha da IUCN ainda não foi avaliado.",
@@ -1229,7 +1493,10 @@
                 "path_trna": "images/b8/trna/ERR10789861_Satanoperca_jurupari_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789861_Satanoperca_jurupari_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789861_Satanoperca_jurupari_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789861_Satanoperca_jurupari_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789861_Satanoperca_jurupari_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789861_Satanoperca_jurupari.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789861_Satanoperca_jurupari.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789861_Satanoperca_jurupari_genes.fa"
             },
             {
                 "id": 2,
@@ -1238,7 +1505,10 @@
                 "path_trna": "images/b8/trna/ERR10768202_Satanoperca_jurupari_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768202_Satanoperca_jurupari_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768202_Satanoperca_jurupari_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768202_Satanoperca_jurupari_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768202_Satanoperca_jurupari_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768202_Satanoperca_jurupari.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768202_Satanoperca_jurupari.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768202_Satanoperca_jurupari_genes.fa"
             },
             {
                 "id": 3,
@@ -1247,7 +1517,10 @@
                 "path_trna": "images/b8/trna/ERR10789859_Satanoperca_jurupari_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789859_Satanoperca_jurupari_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789859_Satanoperca_jurupari_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789859_Satanoperca_jurupari_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789859_Satanoperca_jurupari_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789859_Satanoperca_jurupari.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789859_Satanoperca_jurupari.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789859_Satanoperca_jurupari_genes.fa"
             }
         ],
         "redlist_status": "LC"
@@ -1255,7 +1528,7 @@
     {
         "especie": "Satanoperca lilith",
         "nome": "Comedor de terra de uma mancha ou Comedor de terra de Lilith",
-        "nome_en": "",
+        "nome_en": "No popular name",
         "path": "images/b3/Satanoperca_lilith_by(Jensen_Jhonny).jpg",
         "by": "by(Jensen_Jhonny)",
         "descricao": "É um ciclídeo encontrado na bacia do rio Amazonas, ao longo do rio Solimões-Amazonas, desde o rio Japurá até o rio Trombetas, incluindo o rio Negro e a bacia do rio Branco. Pode atingir até 25,5 cm de comprimento padrão. O nome do gênero, Satanoperca, é derivado do ''príncipe das trevas'', refletindo uma tradição de nomear peixes de cavernas com nomes diabólicos, baseada na ideia do inferno estar subterrâneo. Esta espécie é utilizada no comércio de aquarismo. Segundo a IUCN, seu status de conservação é de Pouco Preocupante (LC).",
@@ -1270,7 +1543,10 @@
                 "path_trna": "images/b8/trna/ERR10768249_Satanoperca_lilith_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768249_Satanoperca_lilith_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768249_Satanoperca_lilith_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768249_Satanoperca_lilith_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768249_Satanoperca_lilith_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768249_Satanoperca_lilith.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768249_Satanoperca_lilith.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768249_Satanoperca_lilith_genes.fa"
             },
             {
                 "id": 2,
@@ -1279,7 +1555,10 @@
                 "path_trna": "images/b8/trna/ERR10768297_Satanoperca_lilith_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768297_Satanoperca_lilith_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768297_Satanoperca_lilith_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768297_Satanoperca_lilith_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768297_Satanoperca_lilith_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768297_Satanoperca_lilith.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768297_Satanoperca_lilith.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768297_Satanoperca_lilith_genes.fa"
             },
             {
                 "id": 3,
@@ -1288,15 +1567,18 @@
                 "path_trna": "images/b8/trna/ERR10789846_Satanoperca_lilith_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789846_Satanoperca_lilith_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789846_Satanoperca_lilith_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789846_Satanoperca_lilith_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789846_Satanoperca_lilith_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789846_Satanoperca_lilith.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789846_Satanoperca_lilith.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789846_Satanoperca_lilith_genes.fa"
             }
         ],
         "redlist_status": "LC"
     },
     {
         "especie": "Symphysodon discus",
-        "nome": "Disco-vermelho",
-        "nome_en": "",
+        "nome": "Disco-vermelho, Acará-disco",
+        "nome_en": "Red discus",
         "path": "images/b3/Symphysodon_discus_by(Stawikowski_Rainer).jpg",
         "by": "by(Stawikowski_Rainer)",
         "descricao": "É um ciclídeo icônico da bacia do rio Amazonas, encontrado no Brasil, próximo à foz do rio Negro, no baixo rio Abacaxis e no baixo rio Trombetas. Alimenta-se de vermes, crustáceos, insetos e matéria vegetal. Durante a reprodução, deposita vários centenas de ovos em pedras ou plantas; ambos os pais defendem os ovos e larvas, que se alimentam de um muco produzido pela pele dos pais nos primeiros dias. Esta espécie é altamente valorizada no aquarismo devido à sua coloração vibrante e comportamento distintivo. De acordo com a IUCN, seu status de conservação é de Pouco Preocupante (LC).",
@@ -1311,7 +1593,10 @@
                 "path_trna": "images/b8/trna/ERR10789913_Symphysodon_discus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789913_Symphysodon_discus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789913_Symphysodon_discus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789913_Symphysodon_discus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789913_Symphysodon_discus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789913_Symphysodon_discus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789913_Symphysodon_discus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789913_Symphysodon_discus_genes.fa"
             },
             {
                 "id": 2,
@@ -1320,7 +1605,10 @@
                 "path_trna": "images/b8/trna/ERR10768259_Symphysodon_discus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768259_Symphysodon_discus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768259_Symphysodon_discus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768259_Symphysodon_discus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768259_Symphysodon_discus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768259_Symphysodon_discus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768259_Symphysodon_discus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768259_Symphysodon_discus_genes.fa"
             },
             {
                 "id": 3,
@@ -1329,15 +1617,18 @@
                 "path_trna": "images/b8/trna/ERR10768279_Symphysodon_discus_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768279_Symphysodon_discus_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768279_Symphysodon_discus_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768279_Symphysodon_discus_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768279_Symphysodon_discus_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768279_Symphysodon_discus.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768279_Symphysodon_discus.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768279_Symphysodon_discus_genes.fa"
             }
         ],
         "redlist_status": "LC"
     },
     {
         "especie": "Uaru amphiacanthoides",
-        "nome": "Uaru ou ciclídeo-triângulo",
-        "nome_en": "",
+        "nome": "Bararuá ou ciclídeo-triângulo",
+        "nome_en": "Uaru",
         "path": "images/b3/Uaru_amphiacanthoides_by(Muséum-Aquarium_de_Nancy).jpg",
         "by": "by(Muséum-Aquarium_de_Nancy)",
         "descricao": "É nativo da bacia do rio Amazonas, ao longo do rio Amazonas-Solimões, desde o rio Japurá até o rio Tapajós, incluindo os rios médio e baixo Negro. Pode atingir até 25 cm de comprimento padrão. Habita riachos de águas claras com pH em torno de 6,8 e alimenta-se de vermes, crustáceos, insetos e necessita de suplementação vegetal em sua dieta. Os pais cuidam de até 200 ovos e larvas. Além de sua importância como peixe ornamental no aquarismo, também é utilizado como alimento por populações locais. Seu status de conservação na IUCN é de Pouco Preocupante (LC).",
@@ -1352,7 +1643,10 @@
                 "path_trna": "images/b8/trna/ERR10768252_Uaru_amphiacanthoides_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768252_Uaru_amphiacanthoides_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768252_Uaru_amphiacanthoides_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768252_Uaru_amphiacanthoides_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768252_Uaru_amphiacanthoides_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768252_Uaru_amphiacanthoides.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768252_Uaru_amphiacanthoides.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768252_Uaru_amphiacanthoides_genes.fa"
             },
             {
                 "id": 2,
@@ -1361,7 +1655,10 @@
                 "path_trna": "images/b8/trna/ERR10768291_Uaru_amphiacanthoides_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10768291_Uaru_amphiacanthoides_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10768291_Uaru_amphiacanthoides_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10768291_Uaru_amphiacanthoides_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10768291_Uaru_amphiacanthoides_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10768291_Uaru_amphiacanthoides.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10768291_Uaru_amphiacanthoides.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10768291_Uaru_amphiacanthoides_genes.fa"
             },
             {
                 "id": 3,
@@ -1370,7 +1667,10 @@
                 "path_trna": "images/b8/trna/ERR10789835_Uaru_amphiacanthoides_trna.png",
                 "path_sintenia_gens": "images/b8/sintenia_gens/ERR10789835_Uaru_amphiacanthoides_sintenia_gens.png",
                 "path_rscu": "images/b8/rscu/ERR10789835_Uaru_amphiacanthoides_rscu.png",
-                "path_dloop": "images/b8/dloop/ERR10789835_Uaru_amphiacanthoides_dloop.png"
+                "path_dloop": "images/b8/dloop/ERR10789835_Uaru_amphiacanthoides_dloop.png",
+                "path_fasta": "docs/b8/fasta/ERR10789835_Uaru_amphiacanthoides.fa",
+                "path_NCBI": "docs/b8/NCBI/ERR10789835_Uaru_amphiacanthoides.NCBI.txt",
+                "path_gensFasta": "docs/b8/gens_fasta/ERR10789835_Uaru_amphiacanthoides_genes.fa"
             }
         ],
         "redlist_status": "LC"

@@ -3,21 +3,23 @@ import { Box, Grid } from "@chakra-ui/react";
 import PeixeGaleria from "./PeixeGaleria";
 import FiltrosB8 from "./Filtros";
 import { useState } from "react";
+import { useLanguage } from "../../componentes/LanguageContext";
 
 const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
   const [searchTerm, setSearchTerm] = useState("");
+  const { language } = useLanguage();
 
   const filteredFotos = fotos.filter((foto) => {
     const search = searchTerm.toLowerCase();
+    
+    const nome = language === "en" ? foto.nome_en : foto.nome;
 
+    const nomeMatch = nome?.toLowerCase().includes(search);
     const especieMatch = foto.especie.toLowerCase().includes(search);
-
+    
     const sraMatch = foto.amostras?.some((amostra) =>
       amostra.sra.toLowerCase().includes(search)
-    );
-
-    const nomeMatch = foto.nome?.toLowerCase().includes(search);
-
+  );
 
     return especieMatch || sraMatch || nomeMatch;
   });

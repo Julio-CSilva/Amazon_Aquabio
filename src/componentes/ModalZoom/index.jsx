@@ -10,8 +10,10 @@ import {
   HStack,
   Text,
   Box,
+  Button,
   Divider,
   Image,
+  Flex, // 1. Adicionado Flex à lista de importações
 } from "@chakra-ui/react";
 import {
   Tabs,
@@ -58,9 +60,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
     isOpen: !!foto,
     onClose: aoFechar,
   });
-  
-  // Lógica para o status IUCN
-  // PASSO 2: Verifique se a chave 'redlist_status' existe no seu JSON
+
   const iucnStatus = foto?.redlist_status;
   const statusGradient = getIucnGradient(iucnStatus);
 
@@ -84,7 +84,6 @@ const ModalZoom = ({ foto, aoFechar }) => {
       setLinkData(linkEncontrado);
     }
   }, [foto]);
-
 
   const { language } = useLanguage();
 
@@ -118,7 +117,6 @@ const ModalZoom = ({ foto, aoFechar }) => {
           <ModalBody overflowY="auto">
             <Divider mb="1rem" />
             <VStack spacing={6} align="stretch">
-              
               {iucnStatus && (
                 <Box
                   w="100%"
@@ -133,7 +131,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
                   fontSize="sm"
                   textShadow="1px 1px 2px rgba(0,0,0,0.6)"
                 >
-                  The IUCN Red List  Status: {statusNames[iucnStatus] || "Unknown"} ({iucnStatus})
+                  The IUCN Red List Status: {statusNames[iucnStatus] || "Unknown"} ({iucnStatus})
                 </Box>
               )}
 
@@ -150,7 +148,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
                   borderRadius="15px"
                 />
                 <Box>
-                  <Text as="i" fontSize="2.5rem" mb={"3rem"}>
+                  <Text as="i" fontSize="2.5rem" mb={"3rem"} borderBottom="2px solid #037373">
                     {foto.especie}
                   </Text>
                   <Text as="b" fontSize="1.5rem" mb={2} display="block">
@@ -159,7 +157,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
                   <Text as="i" fontSize="1rem">
                     {texts[language].descricao}
                   </Text>
-                  <HStack spacing={2} alignItems="center" mt={"3rem"}>
+                  <HStack spacing={2} alignItems="center" mt={"1.5rem"}>
                     <Image
                       src="images/by-nc-sa.png"
                       alt="CC-NC-SA License"
@@ -190,16 +188,38 @@ const ModalZoom = ({ foto, aoFechar }) => {
                   <TabPanels>
                     {foto.amostras.map((amostra) => (
                       <TabPanel key={amostra.id}>
-                        <Text mb={4}>
-                          ● SRA:{" "}
-                          <Link
-                            href={`https://www.ncbi.nlm.nih.gov/sra/?term=${amostra.sra}`}
-                            isExternal
-                            color="blue.500"
-                          >
-                            {amostra.sra}
-                          </Link>
-                        </Text>
+                        <Flex justifyContent="space-between" alignItems="center" mb={4}>
+                          <Text>
+                            ● SRA:{" "}
+                            <Link
+                              href={`https://www.ncbi.nlm.nih.gov/sra/?term=${amostra.sra}`}
+                              isExternal
+                              color="blue.500"
+                            >
+                              {amostra.sra}
+                            </Link>
+                          </Text>
+
+                          {/* Agrupando todos os botões à direita */}
+                          <HStack spacing="0.5rem">
+                            <Link href={amostra.path_fasta} download isExternal>
+                              <Button colorScheme="blue" size="sm">
+                                Mito FASTA
+                              </Button>
+                            </Link>
+                            <Link href={amostra.path_NCBI} download isExternal>
+                              <Button colorScheme="blue" size="sm">
+                                NCBI
+                              </Button>
+                            </Link>
+                            <Link href={amostra.path_gensFasta} download isExternal>
+                              <Button colorScheme="green" size="sm">
+                                Gens FASTA
+                              </Button>
+                            </Link>
+                          </HStack>
+                        </Flex>
+
                         <Swiper
                           modules={[Navigation, Pagination]}
                           navigation

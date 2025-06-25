@@ -68,6 +68,7 @@ const ComparadorB6 = () => {
             return (
               <Box key={especie.id} p="1rem" bg="gray.700" borderRadius="md">
                 <Checkbox
+                  as={"i"}
                   isChecked={todosSelecionados}
                   onChange={toggleEspecie}
                   fontWeight="bold"
