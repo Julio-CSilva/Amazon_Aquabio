@@ -7,26 +7,34 @@ import { useLanguage } from "../../componentes/LanguageContext";
 
 const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedStatus, setSelectedStatus] = useState("");
   const { language } = useLanguage();
 
   const filteredFotos = fotos.filter((foto) => {
     const search = searchTerm.toLowerCase();
-    
     const nome = language === "en" ? foto.nome_en : foto.nome;
 
     const nomeMatch = nome?.toLowerCase().includes(search);
     const especieMatch = foto.especie.toLowerCase().includes(search);
-    
     const sraMatch = foto.amostras?.some((amostra) =>
       amostra.sra.toLowerCase().includes(search)
-  );
+    );
 
-    return especieMatch || sraMatch || nomeMatch;
+    const statusMatch =
+      !selectedStatus || foto.redlist_status === selectedStatus;
+
+    return statusMatch && (especieMatch || sraMatch || nomeMatch);
   });
 
   return (
     <Box p="1rem 4rem">
-      <FiltrosB8 searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <FiltrosB8
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        selectedStatus={selectedStatus}
+        setSelectedStatus={setSelectedStatus}
+      />
+
       <Box
         background="#f2f2f2"
         h="100%"
