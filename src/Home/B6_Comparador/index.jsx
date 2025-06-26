@@ -38,7 +38,8 @@ const ComparadorB6 = () => {
     if (selecionados.length === 0) return;
 
     const params = new URLSearchParams({ sras: selecionados.join(",") });
-    const url = `#/comparador-visual?${params.toString()}`;
+    const base = window.location.origin + window.location.pathname.replace(/\/$/, "");
+    const url = `${base}#/comparador-visual?${params.toString()}`;
     window.open(url, "_blank");
   };
 
