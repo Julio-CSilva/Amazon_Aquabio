@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import {
     Box,
     Image,
@@ -16,6 +16,10 @@ const Contato = () => {
     const { language } = useLanguage();
     const [status, setStatus] = useState("");
     const form = useRef();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const texts = {
         pt: {

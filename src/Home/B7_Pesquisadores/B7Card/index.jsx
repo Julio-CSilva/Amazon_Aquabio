@@ -55,7 +55,7 @@ const B7Card = ({ image, titulo, desc, lattes, linkedin, orcid }) => {
         )}
         {linkedin && (
           <Link href={linkedin} isExternal>
-            <Button leftIcon={<FaLinkedin />} colorScheme="linkedin" size="sm">
+            <Button leftIcon={<FaLinkedin />} colorScheme="blue" size="sm">
               LinkedIn
             </Button>
           </Link>

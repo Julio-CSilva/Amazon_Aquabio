@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 //pages
 import ErrorPage from "./routes/error-page";
@@ -14,7 +14,7 @@ import ComparadorVisual from "./Home/B6_Comparador/B6Visualizador/visualizador";
 
 // const isProduction = import.meta.env.PROD;
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     [
         {
         path: "/",
@@ -39,7 +39,7 @@ const router = createBrowserRouter(
     {
         // basename: isProduction ? "/Amazon_Aquabio/" : undefined,
 
-        basename: "/Amazon_Aquabio/",
+        // basename: "/Amazon_Aquabio/",
 
     }
     );

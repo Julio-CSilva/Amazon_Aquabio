@@ -29,7 +29,7 @@ const FiltrosB8 = ({
   const { language } = useLanguage();
 
   const statusLabels = {
-    "": "All Statuses",
+    "": "All Values",
     NE: "Not Evaluated [NE]",
     DD: "Data Deficient [DD]",
     LC: "Least Concern [LC]",

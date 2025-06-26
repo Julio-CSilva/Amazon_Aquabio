@@ -38,7 +38,7 @@ const ComparadorB6 = () => {
     if (selecionados.length === 0) return;
 
     const params = new URLSearchParams({ sras: selecionados.join(",") });
-    const url = `/comparador-visual?${params.toString()}`;
+    const url = `Amazon_Aquabio/#/comparador-visual?${params.toString()}`;
     window.open(url, "_blank");
   };
 
