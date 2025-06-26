@@ -4,7 +4,7 @@ import ButtonPersonalizado from "../ButtonPersonalizado";
 import { useLanguage } from "../../componentes/LanguageContext";
 import { motion } from 'framer-motion';
 
-const MotionBox = motion(Box);
+const MotionBox = motion.create(Box);
 
 const HeaderEstilizado = styled.header`
     display: flex;
@@ -64,7 +64,7 @@ const Cabecalho = ({ sectionRefs }) => {
         <HeaderEstilizado>
             <MotionBox
                 as="a"
-                href="/"
+                href="./"
                 p="0.5rem"
                 whileHover={{
                     scale: 1.1,
@@ -78,7 +78,7 @@ const Cabecalho = ({ sectionRefs }) => {
                     duration: 0.6,
                 }}
             >
-                <Image src="/images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" w="90%" />
+                <Image src="images/logo-sigla-sf.png" alt="Logo com as siglas do Amazon Aquabio" w="90%" />
             </MotionBox>
 
             <Box as='div'

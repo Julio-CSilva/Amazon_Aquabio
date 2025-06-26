@@ -60,7 +60,7 @@ const PeixeGaleria = ({ foto, expandida = false, aoZoomSolicitado }) => {
               p={0}
             >
               <Image
-                src="/icons/expandir.png"
+                src="icons/expandir.png"
                 alt="Icone de expandir"
                 boxSize="20px"
               />

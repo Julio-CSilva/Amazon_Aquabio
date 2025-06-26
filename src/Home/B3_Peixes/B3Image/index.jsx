@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import link from "/src/by_links.json";
 import { abrirImagemEmNovaAba } from "../../../componentes/ModalZoom"; 
 
-const MotionImage = motion(Image);
-const MotionBox = motion(Box);
+const MotionImage = motion.create(Image);
+const MotionBox = motion.create(Box);
 
 const ImageCarousel = ({ images }) => {
   const [index, setIndex] = useState(0);
@@ -107,7 +107,7 @@ const ImageCarousel = ({ images }) => {
                 justifyContent="center"
               >
                 <Image
-                  src="/images/by-nc-sa.png"
+                  src="images/by-nc-sa.png"
                   alt="CC-NC-SA License"
                   width="50px"
                   mr={2}

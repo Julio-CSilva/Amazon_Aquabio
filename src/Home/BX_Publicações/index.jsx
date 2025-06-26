@@ -42,13 +42,13 @@ const PublicacoesBX = () => {
                 >
                     {texts[language].info}
                 </Text>
-                <Image src="/images/b6/publicacoes.png" w='50%' ml='10rem' />
+                <Image src="images/b6/publicacoes.png" w='50%' ml='10rem' />
             </VStack>
             <VStack
                 w='50%'
             >
                 <Image
-                    src="/images/b6/pexels-photo-4050347.jpeg"
+                    src="images/b6/pexels-photo-4050347.jpeg"
                     alt="Fonte: Vlada Karpovich. Foto mostra uma pessoa com um notebook no colo escrevendo um artigo com revistas ao seu redor"
                     w='70%'
                 />

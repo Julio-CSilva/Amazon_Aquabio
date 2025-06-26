@@ -2,7 +2,7 @@ import { Box } from '@chakra-ui/react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-const MotionBox = motion(Box);
+const MotionBox = motion.create(Box);
 
 const ButtonPersonalizado = ({ text, route, scrollToSection, section }) => {
     const navigate = useNavigate();

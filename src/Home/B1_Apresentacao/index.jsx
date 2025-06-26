@@ -43,8 +43,8 @@ const ApresentacaoB1 = () => {
       <VStack
         w='150%'
       >
-        <Image src="/images/amazon-com-fundo-branco.png" alt="logo da 'Amazon Aquabio', possui um dna e o nome do site" w='60%' />
-        <Image src="/images/peixes-home.png" alt="cardume de peixes ilustrativos" />
+        <Image src="images/amazon-com-fundo-branco.png" alt="logo da 'Amazon Aquabio', possui um dna e o nome do site" w='60%' />
+        <Image src="images/peixes-home.png" alt="cardume de peixes ilustrativos" />
       </VStack>
     </Box>
   )

@@ -220,40 +220,41 @@ const ModalZoom = ({ foto, aoFechar }) => {
                           </HStack>
                         </Flex>
 
-                        <Swiper
-                          modules={[Navigation, Pagination]}
-                          navigation
-                          pagination={{ clickable: true }}
-                          spaceBetween={30}
-                          slidesPerView={1}
-                          style={{ width: "100%", height: "auto" }}
-                        >
-                          {Object.entries(amostra)
-                            .filter(([key]) => key.startsWith("path_"))
-                            .map(([key, path]) => (
-                              <SwiperSlide key={key}>
-                                <Box
-                                  borderRadius="lg"
-                                  overflow="hidden"
-                                  boxShadow="lg"
-                                  maxW="100%"
-                                >
-                                  <Zoom>
-                                    <Image
-                                      src={path}
-                                      objectFit="contain"
-                                      w="100%"
-                                      maxH="600px"
-                                      mx="auto"
-                                      alt={`Imagem ${key}`}
-                                      cursor="zoom-in"
-                                      borderRadius="lg"
-                                    />
-                                  </Zoom>
-                                </Box>
-                              </SwiperSlide>
-                            ))}
-                        </Swiper>
+<Swiper
+  modules={[Navigation, Pagination]}
+  navigation
+  pagination={{ clickable: true }}
+  spaceBetween={30}
+  slidesPerView={1}
+  style={{ width: "100%", height: "auto" }}
+>
+  {Object.entries(amostra)
+    .filter(([key]) => key.startsWith("path_"))
+    .slice(0, 5) // Mostra apenas os 5 primeiros
+    .map(([key, path]) => (
+      <SwiperSlide key={key}>
+        <Box
+          borderRadius="lg"
+          overflow="hidden"
+          boxShadow="lg"
+          maxW="100%"
+        >
+          <Zoom>
+            <Image
+              src={path}
+              objectFit="contain"
+              w="100%"
+              maxH="600px"
+              mx="auto"
+              alt={`Imagem ${key}`}
+              cursor="zoom-in"
+              borderRadius="lg"
+            />
+          </Zoom>
+        </Box>
+      </SwiperSlide>
+    ))}
+</Swiper>
                       </TabPanel>
                     ))}
                   </TabPanels>

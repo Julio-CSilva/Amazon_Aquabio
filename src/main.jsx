@@ -11,40 +11,50 @@ import theme from "./theme";
 import EstilosGlobais from "./componentes/EstilosGlobais";
 import ComparadorVisual from "./Home/B6_Comparador/B6Visualizador/visualizador";
 
-const router = createBrowserRouter([
-    {
+
+// const isProduction = import.meta.env.PROD;
+
+const router = createBrowserRouter(
+    [
+        {
         path: "/",
         element: <App />,
         errorElement: <ErrorPage />,
         children: [
             {
-                path: "/",
-                element: <Home />,
+            path: "/",
+            element: <Home />,
             },
             {
-                path: "/Contato",
-                element: <Contato />,
+            path: "/Contato",
+            element: <Contato />,
             },
-            // 🔽 ADICIONE AQUI
             {
-                path: "/comparador-visual",
-                element: <ComparadorVisual />,
+            path: "/comparador-visual",
+            element: <ComparadorVisual />,
             },
         ],
-    },
-]);
+        },
+    ],
+    {
+        // basename: isProduction ? "/Amazon_Aquabio/" : undefined,
 
-const rootElement = document.getElementById("root");
+        basename: "/Amazon_Aquabio/",
 
-if (rootElement) {
+    }
+    );
+
+    const rootElement = document.getElementById("root");
+
+    if (rootElement) {
     ReactDOM.createRoot(rootElement).render(
         <React.StrictMode>
-            <EstilosGlobais />
-            <ChakraProvider theme={theme}>
-                <RouterProvider router={router} />
-            </ChakraProvider>
+        <EstilosGlobais />
+        <ChakraProvider theme={theme}>
+            <RouterProvider router={router} />
+        </ChakraProvider>
         </React.StrictMode>
     );
-} else {
+    } else {
     console.error("Element with id 'root' not found.");
 }

@@ -44,7 +44,7 @@ const Footer = () => {
         >
           <Link href="https://ufrn.br/" isExternal>
             <Image
-              src="/images/logos/ufrn.png"
+              src="images/logos/ufrn.png"
               alt="Universidade Federal do Rio Grande do Norte"
               height="10rem"
               width="auto"
@@ -53,7 +53,7 @@ const Footer = () => {
           <Box height="5rem" width="1px" backgroundColor="#365B6D" />
           <Link href="https://imd.ufrn.br/portal/" isExternal>
             <Image
-              src="/images/logos/portal_imd.png"
+              src="images/logos/portal_imd.png"
               alt="Portal do Instituto Metrópole Digital"
               height="5rem"
               width="auto"
@@ -65,7 +65,7 @@ const Footer = () => {
             isExternal
           >
             <Image
-              src="/images/logos/ppg.png"
+              src="images/logos/ppg.png"
               alt="Programa de Pós-Graduação em Bioinformática"
               height="5rem"
               width="auto"
@@ -74,7 +74,7 @@ const Footer = () => {
           <Box height="5rem" width="1px" backgroundColor="#365B6D" />
           <Link href="https://bioinfo.imd.ufrn.br/site" isExternal>
             <Image
-              src="/images/logos/biome-logo.png"
+              src="images/logos/biome-logo.png"
               alt="Centro Multiusuário de Bioinformatica"
               height="5rem"
               width="auto"
