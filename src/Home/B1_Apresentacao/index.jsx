@@ -36,7 +36,7 @@ const ApresentacaoB1 = () => {
           as="header"
           fontSize={{ base: "1.5rem", md: "3rem" }}
           fontWeight="bold"
-          textAlign="center"
+          textAlign={{base: "center", md: "left"}}
         >
           {texts[language].titulo}
         </Heading>

@@ -1,4 +1,4 @@
-import { Box, Heading, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Box, Heading, Flex, Image, Text, VStack } from "@chakra-ui/react";
 import { useLanguage } from "../../componentes/LanguageContext";
 
 const DefinicaoB2 = () => {
@@ -26,25 +26,41 @@ const DefinicaoB2 = () => {
         <Box
             as="section"
             color='#365B6D'
-            fontSize='1.5rem'
-            display='flex'
-            flexDirection='column'
-            p='4rem'
-            h='100%'
-            alignItems='flex-start'
-            alignContent='center'
+            p={{ base: '2rem 1rem', md: '4rem' }} // Ajusta o padding
         >
-            <HStack alignItems="flex-start" spacing="4rem" w="100%">
-                <Image src={images[language]} w='57%' />
-
-                <VStack align="start" spacing="2.5rem" fontSize='1.5rem' w="60%">
-                    <Heading fontSize='3rem' fontWeight='bold'>
+            <Flex
+                flexDirection={{ base: 'column', md: 'row' }} // Define a direção responsiva
+                alignItems='center'
+                justifyContent='space-between'
+                w='100%'
+                gap={{ base: '2rem', md: '4rem' }} // Define o espaçamento responsivo
+            >
+                <Image
+                    src={images[language]}
+                    w={{ base: '100%', md: '50%' }}
+                    maxW={{ base: '100%', md: '50%' }}
+                    h='auto'
+                    objectFit="contain"
+                    order={{ base: 1, md: 1 }} // Imagem sempre em primeiro
+                />
+                <VStack
+                    align="start"
+                    spacing={{ base: "1rem", md: "2.5rem" }} // Ajusta o espaçamento
+                    fontSize={{ base: '1rem', md: '1.5rem' }} // Ajusta o tamanho da fonte
+                    flex='1' // Torna o VStack flexível
+                    order={{ base: 2, md: 2 }} // Texto em segundo
+                >
+                    <Heading 
+                        fontSize={{ base: '1.5rem', md: '3rem' }} 
+                        fontWeight='bold'
+                        textAlign={{base: "center", md: "left"}}
+                    >
                         {texts[language].titulo}
                     </Heading>
                     <Text>{texts[language].corpo1}</Text>
                     <Text>{texts[language].corpo2}</Text>
                 </VStack>
-            </HStack>
+            </Flex>
         </Box>
     );
 };
