@@ -26,7 +26,6 @@ const Home = () => {
                 templateColumns="1fr"
                 templateRows="repeat(8, auto)"
                 h="auto"
-                w="100%"
                 mt="5rem"
                 gap={0}
             >

@@ -140,7 +140,7 @@ const Cabecalho = ({ sectionRefs }) => {
 
             {/* Ícone do menu hambúrguer para mobile - Exibido apenas em telas pequenas */}
             <Box display={{ base: 'flex', lg: 'none' }} mr="1rem" alignItems="center">
-                <Text color="white" fontWeight="bold">Menu</Text>
+                <Text color="white" fontWeight="bold" >Menu</Text>
                 <IconButton
                     aria-label="Abrir Menu"
                     icon={<HamburgerIcon  boxSize={5}/>}
