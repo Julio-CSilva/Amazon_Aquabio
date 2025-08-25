@@ -39,7 +39,46 @@ const Home = () => {
                         <DefinicaoB2 />
                     </Box>
                 </GridItem>
-                
+                <GridItem rowSpan={1} ref={sectionRefs.peixes}>
+                    <Box background="#365B6D">
+                        <PeixesB3 />
+                    </Box>
+                </GridItem>
+                <GridItem rowSpan={1} ref={sectionRefs.mapa}>
+                    <Box background="#ffffff">
+                        <MapaB4 />
+                    </Box>
+                </GridItem>
+                <GridItem rowSpan={1} ref={sectionRefs.metodologia}>
+                    <Box backgroundColor="rgba(255, 255, 255, 0.1)">
+                        <MetodologiaB5 />
+                    </Box>
+                </GridItem>
+                <GridItem rowSpan={1} ref={sectionRefs.galeria}>
+                    <Box background="#5A7302" pb="1rem">
+                        <GaleriaB8
+                            aoFotoSelecionada={(foto) =>
+                                setFotoSelecionada(foto)
+                            }
+                            fotos={fotosDaGaleria}
+                        />
+                    </Box>
+                </GridItem>
+                <GridItem rowSpan={1} ref={sectionRefs.publicacoes}>
+                    <Box background="#365B6D">
+                        {/*<PublicacoesBX />*/}
+                        <ComparadorB6 />
+                    </Box>
+                </GridItem>
+                <GridItem rowSpan={1}>
+                    <Box as="div" h="7rem" w="auto" />
+                </GridItem>
+                <GridItem rowSpan={1} ref={sectionRefs.pesquisadores}>
+                    <Box background="#365B6D">
+                        <PesquisadoresB7 />
+                    </Box>
+                    <GridItem rowSpan={1}></GridItem>
+                </GridItem>
             </Grid>
             <ModalZoom
                 foto={fotoSelecionada}
