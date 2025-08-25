@@ -26,30 +26,46 @@ const PeixesB3 = () => {
 
     return (
         <Box
-        as="section"
-        bgGradient="linear(to-br, blue.900, teal.800)"
-        color="white"
-        fontSize="3rem"
-        fontWeight="bold"
-        p="7rem 4rem"
-        display="flex"
-        position="relative"
+            as="section"
+            bgGradient="linear(to-br, blue.900, teal.800)"
+            color="white"
+            fontSize={{ base: "1rem", md: "3rem" }}
+            fontWeight="bold"
+            p={{ base: "3rem 1rem", md: "7rem 4rem" }}
+            display="flex"
+            flexDirection={{ base: "column", md: "row" }}
+            position="relative"
+            gap={{ base: "2rem", md: "0" }}
+            alignItems="center"
         >
-        <VStack w="40%" align="flex-start" spacing={6}>
-            <Heading
-            fontSize="4xl"
-            bgGradient="linear(to-r, teal.300, green.400)"
-            bgClip="text"
+            <VStack
+                w={{ base: "100%", md: "40%" }} // Ocupa 100% da largura no mobile
+                align="flex-start"
+                spacing={{ base: "1rem", md: "6" }} // Ajusta o espaçamento
+                textAlign={{ base: "center", md: "left" }} // Centraliza o texto no mobile
+                alignItems={{ base: "center", md: "flex-start" }} // Centraliza os itens no mobile
             >
-            {texts[language].titulo}
-            </Heading>
-            <B3Text number={100} text={texts[language].dado1} delay={0} />
-            <B3Text number={64} text={texts[language].dado2} delay={0.3} />
-            <B3Text number={34} text={texts[language].dado3} delay={0.6} />
-        </VStack>
-        <Box w="60%" display="flex" justifyContent="center" alignItems="center">
-            <ImageCarousel images={fotos} />
-        </Box>
+                <Heading
+                    fontSize={{ base: "2xl", md: "4xl" }} // Ajusta o tamanho da fonte do título
+                    bgGradient="linear(to-r, teal.300, green.400)"
+                    bgClip="text"
+                >
+                    {texts[language].titulo}
+                </Heading>
+                <Box>
+                    <B3Text number={100} text={texts[language].dado1} delay={0} />
+                    <B3Text number={64} text={texts[language].dado2} delay={0.3} />
+                    <B3Text number={34} text={texts[language].dado3} delay={0.6} />
+                </Box>
+            </VStack>
+            <Box
+                w={{ base: "100%", md: "60%" }} // Ocupa 100% da largura no mobile
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+            >
+                <ImageCarousel images={fotos} />
+            </Box>
         </Box>
     );
 };
