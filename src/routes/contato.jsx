@@ -11,7 +11,6 @@ import {
   VStack,
   Heading,
   Flex,
-  Link,
 } from "@chakra-ui/react";
 import { useLanguage } from "../componentes/LanguageContext";
 import emailjs from "@emailjs/browser";
