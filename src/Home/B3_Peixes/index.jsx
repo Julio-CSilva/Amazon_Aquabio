@@ -52,7 +52,7 @@ const PeixesB3 = () => {
                 >
                     {texts[language].titulo}
                 </Heading>
-                <Box>
+                <Box gap={{ base: "1rem", md: "3rem" }} w={{base:"100%", md:"50%"}} display="flex" flexDirection={"column"} justifyContent="space-between">
                     <B3Text number={100} text={texts[language].dado1} delay={0} />
                     <B3Text number={64} text={texts[language].dado2} delay={0.3} />
                     <B3Text number={34} text={texts[language].dado3} delay={0.6} />
