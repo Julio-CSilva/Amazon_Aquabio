@@ -3,6 +3,7 @@ import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
 import B7Card from "./B7Card";
 import { useLanguage } from "../../componentes/LanguageContext";
 import { useState } from "react";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 const PesquisadoresB7 = () => {
   const { language } = useLanguage();
@@ -125,7 +126,7 @@ const PesquisadoresB7 = () => {
     },
   ];
 
-  const cardsPerView = 1; // Ajusta o número de cards visíveis para mobile
+  const cardsPerView = useBreakpointValue({ base: 1, md: 4 });
   const visibleCards = pesquisadores.slice(
     startIndex,
     startIndex + cardsPerView
@@ -144,7 +145,7 @@ const PesquisadoresB7 = () => {
   return (
     <Box
       as="section"
-      p={{ base: "2rem 1rem", md: "5rem" }}
+      p={"2rem 1rem"}
       display="flex"
       flexDirection="column"
       gap="2rem"
