@@ -210,13 +210,13 @@ const MetodologiaB5 = () => {
             <Modal isOpen={isOpen} onClose={onClose} size="full" isCentered>
             <ModalOverlay />
             <ModalContent
-                maxW="70vw"
-                maxH="80vh"
+                maxW={{ base: "90vw", md: "70vw" }}
+                maxH={{ base: "80vh", md: "80vh" }}
                 overflowY="auto"
                 bg="white"
                 borderRadius="2xl"
                 boxShadow="2xl"
-                p={6}
+                p={{ base: 4, md: 6 }}
             >
                 <ModalHeader
                 fontSize="2xl"
