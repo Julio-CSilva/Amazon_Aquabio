@@ -104,163 +104,207 @@ const ModalZoom = ({ foto, aoFechar }) => {
       onClose={onClose}
       isCentered
       closeOnOverlayClick={false}
-      size="6xl"
+      size="full" // Muda o tamanho do modal para "full"
     >
       <ModalOverlay bg="rgba(0, 0, 0, 0.7)" />
-      <ModalContent bg="#ffffff" p="1rem" maxH="100%">
-        <ModalHeader display="flex" justifyContent="space-between" as="i">
+      <ModalContent
+        bg="#ffffff"
+        p={{ base: "1rem", md: "2rem" }}
+        maxH={{ base: "95vh", md: "90vh" }}
+        maxW={{ base: "95vw", md: "70vw" }}
+        borderRadius={{ base: "md", md: "xl" }}
+        overflowY="auto"
+      >
+        <ModalHeader
+          display="flex"
+          justifyContent="space-between"
+          alignItems="center" // Alinha verticalmente
+          as="i"
+          fontSize={{ base: "lg", md: "2xl" }} // Tamanho da fonte responsivo
+        >
           {foto?.especie || "Detalhes"}
           <ModalCloseButton />
         </ModalHeader>
 
         {foto && (
-          <ModalBody overflowY="auto">
-            <Divider mb="1rem" />
-            <VStack spacing={6} align="stretch">
-              {iucnStatus && (
-                <Box
-                  w="100%"
-                  h="24px"
-                  bg={statusGradient}
-                  borderRadius="md"
-                  display="flex"
-                  alignItems="center"
-                  justifyContent="center"
-                  color="white"
-                  fontWeight="bold"
-                  fontSize="sm"
-                  textShadow="1px 1px 2px rgba(0,0,0,0.6)"
-                >
-                  The IUCN Red List Status: {statusNames[iucnStatus] || "Unknown"} ({iucnStatus})
-                </Box>
-              )}
-
-              <HStack
-                alignItems="flex-start"
+          <ModalBody overflowY="auto" p={0}>
+            <Divider mb={{ base: "0.5rem", md: "1rem" }} />
+            {iucnStatus && (
+              <Box
+                w="100%"
+                h="24px"
+                bg={statusGradient}
+                borderRadius="md"
+                display="flex"
+                alignItems="center"
                 justifyContent="center"
-                gap="2rem"
+                color="white"
+                fontWeight="bold"
+                fontSize={{ base: "xs", md: "sm" }}
+                textShadow="1px 1px 2px rgba(0,0,0,0.6)"
+                mb={{ base: "1rem", md: "1rem" }}
               >
+                The IUCN Red List Status: {statusNames[iucnStatus] || "Unknown"}{" "}
+                ({iucnStatus})
+              </Box>
+            )}
+            <Flex
+              flexDirection={{ base: "column", md: "row" }}
+              spacing={{ base: 4, md: 6 }}
+              alignItems="flex-start"
+              gap={{ base: "1rem", md: "2rem" }}
+            >
+              <Box w={{ base: "100%", md: "50%" }}>
                 <Image
                   src={foto.path}
-                  w="30rem"
+                  w="100%"
                   h="auto"
                   alt="Foto do Peixe"
                   borderRadius="15px"
+                  mb={{ base: "1rem", md: "0" }}
                 />
-                <Box>
-                  <Text as="i" fontSize="2.5rem" mb={"3rem"} borderBottom="2px solid #037373">
+              </Box>
+              <VStack
+                w={{ base: "100%", md: "50%" }}
+                align="stretch"
+                spacing={2}
+              >
+                <VStack align="flex-start" spacing={1}>
+                  <Text
+                    as="i"
+                    fontSize={{ base: "lg", md: "2.5rem" }}
+                    borderBottom="2px solid #037373"
+                  >
                     {foto.especie}
                   </Text>
-                  <Text as="b" fontSize="1.5rem" mb={2} display="block">
+                  <Text as="b" fontSize={{ base: "md", md: "1.5rem" }}>
                     {texts[language].nome}
                   </Text>
-                  <Text as="i" fontSize="1rem">
+                  <Text as="i" fontSize={{ base: "sm", md: "1rem" }}>
                     {texts[language].descricao}
                   </Text>
-                  <HStack spacing={2} alignItems="center" mt={"1.5rem"}>
-                    <Image
-                      src="images/by-nc-sa.png"
-                      alt="CC-NC-SA License"
-                      width="80px"
-                    />
-                    {linkData && (
-                      <Text
-                        as="u"
-                        fontSize="sm"
-                        cursor="pointer"
-                        color="blue.500"
-                        onClick={() => abrirImagemEmNovaAba(linkData.links)}
+                </VStack>
+                <HStack
+                  spacing={2}
+                  alignItems="center"
+                  mt={{ base: 2, md: "1.5rem" }}
+                >
+                  <Image
+                    src="images/by-nc-sa.png"
+                    alt="CC-NC-SA License"
+                    width={{ base: "60px", md: "80px" }}
+                  />
+                  {linkData && (
+                    <Text
+                      as="u"
+                      fontSize={{ base: "xs", md: "sm" }}
+                      cursor="pointer"
+                      color="blue.500"
+                      onClick={() => abrirImagemEmNovaAba(linkData.links)}
+                    >
+                      {foto.by}
+                    </Text>
+                  )}
+                </HStack>
+              </VStack>
+            </Flex>
+            <Box w="100%" borderWidth="2px" borderRadius="15px" p={4} mt="1rem">
+              <Tabs variant="enclosed">
+                <TabList>
+                  {foto.amostras.map((amostra, index) => (
+                    <Tab key={amostra.id}>{`Sample ${index + 1}`}</Tab>
+                  ))}
+                </TabList>
+                <TabPanels>
+                  {foto.amostras.map((amostra) => (
+                    <TabPanel key={amostra.id}>
+                      <Flex
+                        flexDirection={{ base: "column", md: "row" }}
+                        justifyContent="space-between"
+                        alignItems="flex-start"
+                        mb={4}
+                        gap={{ base: "1rem", md: "0" }}
                       >
-                        {foto.by}
-                      </Text>
-                    )}
-                  </HStack>
-                </Box>
-              </HStack>
+                        <Text fontSize={{ base: "sm", md: "md" }}>
+                          ● SRA:{" "}
+                          <Link
+                            href={`https://www.ncbi.nlm.nih.gov/sra/?term=${amostra.sra}`}
+                            isExternal
+                            color="blue.500"
+                          >
+                            {amostra.sra}
+                          </Link>
+                        </Text>
 
-              <Box w="100%" borderWidth="2px" borderRadius="15px" p={4}>
-                <Tabs variant="enclosed">
-                  <TabList>
-                    {foto.amostras.map((amostra, index) => (
-                      <Tab key={amostra.id}>{`Sample ${index + 1}`}</Tab>
-                    ))}
-                  </TabList>
-                  <TabPanels>
-                    {foto.amostras.map((amostra) => (
-                      <TabPanel key={amostra.id}>
-                        <Flex justifyContent="space-between" alignItems="center" mb={4}>
-                          <Text>
-                            ● SRA:{" "}
-                            <Link
-                              href={`https://www.ncbi.nlm.nih.gov/sra/?term=${amostra.sra}`}
-                              isExternal
-                              color="blue.500"
-                            >
-                              {amostra.sra}
-                            </Link>
-                          </Text>
-
-                          {/* Agrupando todos os botões à direita */}
-                          <HStack spacing="0.5rem">
-                            <Link href={amostra.path_fasta} download isExternal>
-                              <Button colorScheme="blue" size="sm">
-                                Mito FASTA
-                              </Button>
-                            </Link>
-                            <Link href={amostra.path_NCBI} download isExternal>
-                              <Button colorScheme="blue" size="sm">
-                                NCBI
-                              </Button>
-                            </Link>
-                            <Link href={amostra.path_gensFasta} download isExternal>
-                              <Button colorScheme="green" size="sm">
-                                Gens FASTA
-                              </Button>
-                            </Link>
-                          </HStack>
-                        </Flex>
-
-<Swiper
-  modules={[Navigation, Pagination]}
-  navigation
-  pagination={{ clickable: true }}
-  spaceBetween={30}
-  slidesPerView={1}
-  style={{ width: "100%", height: "auto" }}
->
-  {Object.entries(amostra)
-    .filter(([key]) => key.startsWith("path_"))
-    .slice(0, 5) // Mostra apenas os 5 primeiros
-    .map(([key, path]) => (
-      <SwiperSlide key={key}>
-        <Box
-          borderRadius="lg"
-          overflow="hidden"
-          boxShadow="lg"
-          maxW="100%"
-        >
-          <Zoom>
-            <Image
-              src={path}
-              objectFit="contain"
-              w="100%"
-              maxH="600px"
-              mx="auto"
-              alt={`Imagem ${key}`}
-              cursor="zoom-in"
-              borderRadius="lg"
-            />
-          </Zoom>
-        </Box>
-      </SwiperSlide>
-    ))}
-</Swiper>
-                      </TabPanel>
-                    ))}
-                  </TabPanels>
-                </Tabs>
-              </Box>
-            </VStack>
+                        <HStack
+                          spacing={{ base: "0.5rem", md: "0.5rem" }}
+                          flexWrap="wrap"
+                          justifyContent={{
+                            base: "flex-start",
+                            md: "flex-end",
+                          }}
+                        >
+                          <Link href={amostra.path_fasta} download isExternal>
+                            <Button colorScheme="blue" size="sm">
+                              Mito FASTA
+                            </Button>
+                          </Link>
+                          <Link href={amostra.path_NCBI} download isExternal>
+                            <Button colorScheme="blue" size="sm">
+                              NCBI
+                            </Button>
+                          </Link>
+                          <Link
+                            href={amostra.path_gensFasta}
+                            download
+                            isExternal
+                          >
+                            <Button colorScheme="green" size="sm">
+                              Gens FASTA
+                            </Button>
+                          </Link>
+                        </HStack>
+                      </Flex>
+                      <Swiper
+                        modules={[Navigation, Pagination]}
+                        navigation
+                        pagination={{ clickable: true }}
+                        spaceBetween={30}
+                        slidesPerView={1}
+                        style={{ width: "100%", height: "auto" }}
+                      >
+                        {Object.entries(amostra)
+                          .filter(([key]) => key.startsWith("path_"))
+                          .slice(0, 5)
+                          .map(([key, path]) => (
+                            <SwiperSlide key={key}>
+                              <Box
+                                borderRadius="lg"
+                                overflow="hidden"
+                                boxShadow="lg"
+                                maxW="100%"
+                              >
+                                <Zoom>
+                                  <Image
+                                    src={path}
+                                    objectFit="contain"
+                                    w="100%"
+                                    maxH={{ base: "200px", md: "600px" }}
+                                    mx="auto"
+                                    alt={`Imagem ${key}`}
+                                    cursor="zoom-in"
+                                    borderRadius="lg"
+                                  />
+                                </Zoom>
+                              </Box>
+                            </SwiperSlide>
+                          ))}
+                      </Swiper>
+                    </TabPanel>
+                  ))}
+                </TabPanels>
+              </Tabs>
+            </Box>
           </ModalBody>
         )}
       </ModalContent>

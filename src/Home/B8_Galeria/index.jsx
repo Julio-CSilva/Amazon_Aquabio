@@ -27,7 +27,7 @@ const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
   });
 
   return (
-    <Box p="1rem 4rem">
+    <Box p={{ base: "1rem", md: "1rem 4rem" }}>
       <FiltrosB8
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
@@ -37,7 +37,7 @@ const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
 
       <Box
         background="#f2f2f2"
-        h="100%"
+        h={{ base: "80vh", md: "60rem" }}
         border={"none"}
         borderRadius="15px"
         display={"flex"}
@@ -48,15 +48,18 @@ const GaleriaB8 = ({ fotos = [], aoFotoSelecionada }) => {
           className="SecaoFluida"
           as="section"
           flexGrow="1"
-          height="60rem"
           overflowY="auto"
         >
           <Grid
             className="ImagensContainer"
             as="section"
-            templateColumns="repeat(5, 1fr)"
-            gap="4rem"
-            padding="2%"
+            templateColumns={{
+              base: "repeat(1, 1fr)",
+              md: "repeat(3, 1fr)",
+              lg: "repeat(5, 1fr)",
+            }}
+            gap={{ base: "1rem", md: "4rem" }}
+            padding={{ base: "1rem", md: "2%" }}
           >
             {filteredFotos.map((foto) => (
               <PeixeGaleria

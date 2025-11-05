@@ -12,7 +12,7 @@ import ComparadorB6 from "../Home/B6_Comparador";
 import PesquisadoresB7 from "../Home/B7_Pesquisadores";
 import GaleriaB8 from "../Home/B8_Galeria";
 import ModalZoom from "../componentes/ModalZoom";
-import Visualizador from "../Home/B6_Comparador/B6Visualizador/visualizador";
+//import Visualizador from "../Home/B6_Comparador/B6Visualizador/visualizador";
 
 const Home = () => {
     const [fotosDaGaleria] = useState(fotos);
@@ -26,7 +26,6 @@ const Home = () => {
                 templateColumns="1fr"
                 templateRows="repeat(8, auto)"
                 h="auto"
-                w="100%"
                 mt="5rem"
                 gap={0}
             >

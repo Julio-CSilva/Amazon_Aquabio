@@ -19,25 +19,25 @@ const supporters = [
     name: "Universidade Federal do Rio Grande do Norte",
     href: "https://ufrn.br/",
     logo: "images/logos/ufrn.png",
-    height: { base: "4.5rem", md: "5.5rem" },
+    height: { base: "7rem", md: "5.5rem" },
   },
   {
     name: "Portal do Instituto Metrópole Digital",
     href: "https://imd.ufrn.br/portal/",
     logo: "images/logos/portal_imd.png",
-    height: { base: "3rem", md: "4rem" },
+    height: { base: "5rem", md: "4rem" },
   },
   {
     name: "Programa de Pós-Graduação em Bioinformática",
     href: "https://sigaa.ufrn.br/sigaa/public/programa/portal.jsf?id=9814",
     logo: "images/logos/ppg.png",
-    height: { base: "3rem", md: "4rem" },
+    height: { base: "4rem", md: "4rem" },
   },
   {
     name: "Centro Multiusuário de Bioinformatica",
     href: "https://bioinfo.imd.ufrn.br/site",
     logo: "images/logos/biome-logo.png",
-    height: { base: "3rem", md: "4rem" },
+    height: { base: "4rem", md: "4rem" },
   },
 ];
 
@@ -67,7 +67,7 @@ const Footer = () => {
   };
 
   const siteVersion = import.meta.env.VITE_APP_VERSION || "1.6.6";
-  const lastDataUpdate = "2024/07/25"; // Este valor viria de uma API ou config
+  const lastDataUpdate = "2025/08/26"; // Este valor viria de uma API ou config
 
   return (
     <Box backgroundColor="white" color="#365B6D">
@@ -76,9 +76,10 @@ const Footer = () => {
           
           <VStack align="flex-start" spacing={4} w="100%">
             <Heading fontSize="lg">{texts[language].apoio}</Heading>
-            <HStack
+            <Stack
+              direction={{ base: "column", md: "row" }}
               spacing={{ base: 4, md: 6 }}
-              align="center"
+              align={{ base: "center", md: "center" }}
               justify={{ base: "center", md: "space-between" }}
               w="100%"
               flexWrap="wrap"
@@ -96,7 +97,7 @@ const Footer = () => {
                   />
                 </Link>
               ))}
-            </HStack>
+            </Stack>
           </VStack>
 
           <Stack

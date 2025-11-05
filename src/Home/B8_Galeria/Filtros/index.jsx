@@ -63,17 +63,21 @@ const FiltrosB8 = ({
       background="#5A7302"
       h="100%"
       border={"none"}
-      p="0.75rem 0.5rem 0.5rem 0.5rem"
+      p={{ base: "0.5rem", md: "0.75rem 0.5rem 0.5rem 0.5rem" }} // Padding responsivo
       color="#ffffff"
+      w="100%"
     >
-      <HStack
-        display={"flex"}
+      <Stack
+        direction={"row"}
         justifyContent={"space-between"}
         alignItems={"center"}
-        alignContent={"center"}
-        h={"100%"}
+        spacing={{ base: "0.5rem", md: "0" }} // Espaçamento responsivo
       >
-        <HStack display={"flex"} alignItems={"center"} ml={"1%"}>
+        <HStack
+          display={"flex"}
+          alignItems={"center"}
+          ml={{ base: 0, md: "1%" }}
+        >
           <Menu>
             <MenuButton
               as={IconButton}
@@ -100,23 +104,24 @@ const FiltrosB8 = ({
               </RadioGroup>
             </MenuList>
           </Menu>
-
-          <Heading fontSize="1.5rem"> {texts[language].titulo} </Heading>
+          <Heading fontSize={{ base: "1.2rem", md: "1.5rem" }}>
+            {texts[language].titulo}
+          </Heading>
         </HStack>
         <Input
           placeholder={texts[language].pesquisa}
           h={"auto"}
-          w={"19%"}
+          w={{ base: "100%", md: "19%" }}
           borderRadius={"25px"}
           border={"none"}
           background={"#ffffff"}
-          mr={"1%"}
+          mr={{ base: 0, md: "1%" }}
           p="0.5rem 0.5rem 0.5rem 1rem"
           color="#000000"
           value={searchTerm}
           onChange={handleSearchChange}
         />
-      </HStack>
+      </Stack>
     </Box>
   );
 };
