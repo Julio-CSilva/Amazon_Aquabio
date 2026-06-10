@@ -14,6 +14,7 @@
 ![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)
 ![Chakra UI](https://img.shields.io/badge/Chakra_UI-2-319795?logo=chakraui&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-222?logo=github&logoColor=white)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20634179.svg)](https://doi.org/10.5281/zenodo.20634179)
 ![License: MIT](https://img.shields.io/badge/C%C3%B3digo-MIT-green)
 ![Imagens](https://img.shields.io/badge/Imagens-CC_BY--NC--SA-blue)
 
