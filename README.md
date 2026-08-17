@@ -30,7 +30,7 @@ públicos do **NCBI**, o projeto reconstruiu **100 mitogenomas de 34 espécies**
 disponibiliza, de forma interativa:
 
 - a galeria de espécies com seus dados de conservação (IUCN Red List);
-- os arquivos e visualizações geradas para cada amostra (mitogenoma circularizado, tRNA, sintenia, RSCU, D-loop, *circos*, cobertura);
+- as análises de cada amostra — **sintenia, RSCU e repetições em tandem da D-loop são interativas**, calculadas a partir dos dados publicados no próprio site; mitogenoma circularizado e tRNA seguem como imagem;
 - uma **ferramenta de comparação** lado a lado entre amostras selecionadas;
 - a metodologia completa do pipeline bioinformático;
 - o mapa de distribuição das espécies na bacia amazônica;
@@ -75,6 +75,7 @@ O projeto é mantido pelo grupo **BioME (Bioinformatics Multidisciplinary Enviro
 | **Core** | [React 18](https://react.dev/), [Vite 6](https://vitejs.dev/) |
 | **Roteamento** | [React Router 6](https://reactrouter.com/) (`createHashRouter`) |
 | **UI / Estilo** | [Chakra UI](https://chakra-ui.com/), [styled-components](https://styled-components.com/), [Framer Motion](https://www.framer.com/motion/) |
+| **Gráficos** | [Plotly.js](https://plotly.com/javascript/) (bundle `cartesian`, carregado sob demanda) |
 | **Carrosséis / Zoom** | [Swiper](https://swiperjs.com/), [react-slick](https://react-slick.neostack.com/), [keen-slider](https://keen-slider.io/), [react-medium-image-zoom](https://github.com/rpearce/react-medium-image-zoom) |
 | **Ícones / UX** | [react-icons](https://react-icons.github.io/react-icons/), [react-countup](https://github.com/glennreyes/react-countup), [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) |
 | **Formulário** | [@emailjs/browser](https://www.emailjs.com/) |
@@ -95,17 +96,25 @@ Amazon_Aquabio/
 │   │   └── b8/                 # Análises geradas por amostra:
 │   │       ├── circularized/   #   mitogenoma circularizado
 │   │       ├── trna/           #   estrutura de tRNA
-│   │       ├── sintenia_gens/  #   sintenia gênica
-│   │       ├── rscu/           #   uso relativo de códons sinônimos
-│   │       ├── dloop/          #   região D-loop
 │   │       ├── circos/         #   gráfico Circos
 │   │       └── coverage/       #   análise de cobertura
+│   ├── data/                   # 📊 Dados das análises interativas (gerados)
+│   │   ├── sintenia.json       #   ordem e coordenadas gênicas, 100 amostras
+│   │   ├── rscu.json           #   RSCU por amostra + consensos por grupo
+│   │   └── tandem_repeats.json #   repetições da região controle, 32 espécies
 │   ├── docs/b8/                # Arquivos para download
 │   │   ├── fasta/              #   mitogenomas (.fa)
 │   │   ├── gens_fasta/         #   genes (.fa)
 │   │   └── NCBI/               #   metadados NCBI (.txt)
 │   ├── icons/                  # Ícones e favicons
 │   └── Fonts/                  # Fontes customizadas
+├── pipeline/                   # ⚙️ Geração dos JSON de análise (Python, stdlib)
+│   ├── build_all.py            #   roda os três builds
+│   ├── build_sintenia.py       #   *_genes.fa  -> sintenia.json
+│   ├── build_rscu.py           #   *_genes.fa  -> rscu.json
+│   ├── build_tandem_repeats.py #   tsv_tr/     -> tandem_repeats.json
+│   ├── vendor/                 #   sintenia_io / sintenia_theme (cópia marcada)
+│   └── dados_entrada/          #   TSVs de TRF e consensos de RSCU
 └── src/
     ├── main.jsx                # Entry point: HashRouter + ChakraProvider + tema
     ├── App.jsx                 # Layout: cabeçalho fixo, fundo, footer, LanguageProvider
@@ -116,6 +125,13 @@ Amazon_Aquabio/
     │   ├── home.jsx            # Página inicial (monta as seções B1..B8)
     │   ├── contato.jsx         # Página de contato (EmailJS + mapa)
     │   └── error-page.jsx      # Página de erro de rota
+    ├── analises/               # 📈 Análises interativas (Plotly, sob demanda)
+    │   ├── SinteniaPlot.jsx    #   posição · ordem gênica · comprimento por gene
+    │   ├── RscuPlot.jsx        #   empilhado · mapa de calor · barras por códon
+    │   ├── TandemRepeatsPlot.jsx#  mapa da região controle · cópias × extensão
+    │   ├── AbasDaAmostra.jsx   #   as 5 análises de uma amostra, em abas
+    │   ├── dados.js            #   busca e cache dos JSON de public/data/
+    │   └── tema.js             #   tinta e layout comuns às figuras
     ├── componentes/            # Componentes compartilhados
     │   ├── Cabecalho/          #   Header fixo + navegação + toggle de idioma
     │   ├── Footer/             #   Rodapé
@@ -136,6 +152,32 @@ Amazon_Aquabio/
     └── utils/
         └── iucnUtils.js        # Mapeia status da IUCN → gradiente CSS
 ```
+
+---
+
+## 📈 Análises interativas
+
+Sintenia, RSCU e repetições em tandem da região controle deixaram de ser PNG e
+passaram a ser desenhadas no navegador a partir de dados versionados em
+`public/data/`. O que isso muda:
+
+- **Comparar virou uma figura só.** No comparador, as amostras selecionadas
+  entram no mesmo eixo em vez de virarem N imagens empilhadas.
+- **Cada valor é auditável.** Sintenia e RSCU são calculados dos `_genes.fa`
+  que o site distribui: baixe o arquivo, rode `pipeline/build_rscu.py` e você
+  chega ao mesmo número da tela.
+- **O site ficou mais leve.** Os três JSON somam ~170 KB, contra os 14 MB de
+  PNG que substituíram, e o Plotly (~477 KB gzip) só é baixado por quem abre
+  uma análise.
+
+Para regerar os dados:
+
+```bash
+python3 pipeline/build_all.py --validar
+```
+
+Detalhes de convenção, ressalvas de qualidade e uma divergência encontrada no
+RSCU publicado estão em [`pipeline/README.md`](pipeline/README.md).
 
 ---
 
@@ -162,9 +204,6 @@ lista de **amostras** (`amostras`), e cada amostra referencia as imagens e arqui
       "sra": "ERR10768189",            // código de acesso NCBI SRA
       "path_mito_circularized": "images/b8/circularized/...png",
       "path_trna":              "images/b8/trna/...png",
-      "path_sintenia_gens":     "images/b8/sintenia_gens/...png",
-      "path_rscu":              "images/b8/rscu/...png",
-      "path_dloop":             "images/b8/dloop/...png",
       "path_circos":            "images/b8/circos/...png",
       "path_coverage":          "images/b8/coverage/...png",
       "path_fasta":             "docs/b8/fasta/...fa",       // download: mitogenoma

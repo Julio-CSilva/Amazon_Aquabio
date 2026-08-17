@@ -1,149 +1,218 @@
-import { Box, Image, Text, VStack, HStack, SimpleGrid } from "@chakra-ui/react";
+import {
+  Badge, Box, Heading, Image, Tab, TabList, TabPanel, TabPanels, Tabs,
+  Text, VStack, Wrap, WrapItem,
+} from "@chakra-ui/react";
 import { useSearchParams } from "react-router-dom";
-import fotos from "../../../fotos.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import fotos from "../../../fotos.json";
+import SinteniaPlot from "../../../analises/SinteniaPlot";
+import RscuPlot from "../../../analises/RscuPlot";
+import TandemRepeatsPlot from "../../../analises/TandemRepeatsPlot";
+import { useLanguage } from "../../../componentes/LanguageContext";
 
+const TEXTOS = {
+  pt: {
+    titulo: "Comparação das análises",
+    nenhuma: "Nenhuma amostra selecionada. Volte ao comparador e escolha ao menos uma.",
+    amostras: "amostras",
+    especies: "espécies",
+    sintenia: "Sintenia",
+    rscu: "RSCU",
+    dloop: "D-loop (repetições)",
+    circular: "Mitogenoma",
+    trna: "tRNA",
+    interativo: "interativo",
+    imagem: "imagem",
+    subSintenia: "Todas as amostras no mesmo eixo, alinhadas gene a gene.",
+    subRscu: "Uso de códons sinônimos das amostras selecionadas, lado a lado.",
+    subDloop: "Região controle em escala. A análise é por espécie, então amostras da mesma espécie aparecem uma vez só.",
+    subImagem: "Figuras geradas fora do site, uma por amostra.",
+  },
+  en: {
+    titulo: "Analysis comparison",
+    nenhuma: "No samples selected. Go back to the comparison tool and pick at least one.",
+    amostras: "samples",
+    especies: "species",
+    sintenia: "Synteny",
+    rscu: "RSCU",
+    dloop: "D-loop (repeats)",
+    circular: "Mitogenome",
+    trna: "tRNA",
+    interativo: "interactive",
+    imagem: "image",
+    subSintenia: "Every sample on the same axis, aligned gene by gene.",
+    subRscu: "Synonymous codon usage of the selected samples, side by side.",
+    subDloop: "Control region to scale. The analysis is per species, so samples of the same species appear only once.",
+    subImagem: "Figures generated outside the site, one per sample.",
+  },
+};
 
-const Visualizador = () => {
-  const [params] = useSearchParams();
-  const sras = params.get("sras")?.split(",") || [];
+/** Faixa de imagens estáticas — o comparador antigo, preservado onde ainda cabe. */
+const FaixaDeImagens = ({ amostras, campo, altura }) => (
+  <Swiper
+    modules={[Navigation]}
+    spaceBetween={20}
+    slidesPerView="auto"
+    navigation
+    style={{ paddingBottom: "1rem" }}
+  >
+    {amostras.map((amostra) => (
+      <SwiperSlide key={`${campo}-${amostra.sra}`} style={{ width: "auto" }}>
+        <VStack spacing={2}>
+          <Text fontWeight="medium" fontSize="sm" color="gray.600">
+            {amostra.sra}
+          </Text>
+          <Image
+            src={amostra[campo]}
+            alt={`${campo} ${amostra.sra}`}
+            minW={{ base: "320px", md: "760px" }}
+            height={altura}
+            objectFit="contain"
+            borderRadius="md"
+            boxShadow="md"
+            bg="white"
+          />
+        </VStack>
+      </SwiperSlide>
+    ))}
+  </Swiper>
+);
 
-  const amostrasSelecionadas = fotos.flatMap((especie) =>
-    especie.amostras.filter((amostra) => sras.includes(amostra.sra))
+const Secao = ({ titulo, subtitulo, tipo, children }) => {
+  const { language } = useLanguage();
+  const t = TEXTOS[language];
+  return (
+    <Box>
+      <Heading as="h2" size="md" color="#365B6D" mb={1}>
+        {titulo}{" "}
+        <Badge
+          colorScheme={tipo === "interativo" ? "teal" : "gray"}
+          fontSize="0.6em"
+          verticalAlign="middle"
+        >
+          {tipo === "interativo" ? t.interativo : t.imagem}
+        </Badge>
+      </Heading>
+      <Text fontSize="sm" color="gray.600" mb={3}>
+        {subtitulo}
+      </Text>
+      <Box bg="white" borderRadius="lg" boxShadow="sm" p={{ base: 2, md: 4 }}>
+        {children}
+      </Box>
+    </Box>
   );
+};
+
+/**
+ * Página do comparador.
+ *
+ * As três análises migradas viram **uma figura só** com todas as amostras
+ * dentro — que é o que "comparar" quer dizer. Empilhar N imagens, como a versão
+ * anterior fazia, obriga o leitor a comparar de memória, rolando a página; num
+ * eixo compartilhado a diferença aparece sozinha.
+ *
+ * Mitogenoma circularizado e tRNA continuam como faixa de imagens: ainda não
+ * têm dado publicado, e fingir interatividade sobre um PNG não ajudaria.
+ */
+const Visualizador = () => {
+  const { language } = useLanguage();
+  const t = TEXTOS[language];
+  const [params] = useSearchParams();
+  const sras = params.get("sras")?.split(",").filter(Boolean) || [];
+
+  const amostras = fotos.flatMap((especie) =>
+    especie.amostras
+      .filter((amostra) => sras.includes(amostra.sra))
+      .map((amostra) => ({ ...amostra, especie: especie.especie }))
+  );
+  const especies = [...new Set(amostras.map((a) => a.especie))];
+
+  if (amostras.length === 0) {
+    return (
+      <Box p="2rem" pt="7rem" bg="#f0f0f0" minH="100vh">
+        <Text>{t.nenhuma}</Text>
+      </Box>
+    );
+  }
 
   return (
-    <Box p="2rem" bg="#f0f0f0" minH="100vh">
-      <VStack spacing={8} align="flex-start">
-        <Text fontSize="2xl" fontWeight="bold">
-          Comparação das Análises
-        </Text>
-
-        {/* Linha horizontal: Circularized */}
-        <Box w="100%">
-          <Text fontSize="lg" fontWeight="semibold" mb={2}>
-            Circularized Mitogenome
+    <Box
+      p={{ base: "1rem", md: "2rem" }}
+      pt={{ base: "6rem", md: "7rem" }}
+      bg="#f0f0f0"
+      minH="100vh"
+    >
+      <VStack spacing={4} align="stretch" maxW="1500px" mx="auto">
+        <Box>
+          <Heading size="lg" color="#365B6D">
+            {t.titulo}
+          </Heading>
+          <Text fontSize="sm" color="gray.600" mt={1}>
+            {amostras.length} {t.amostras} · {especies.length} {t.especies}
           </Text>
-          <Swiper
-            modules={[Navigation]}
-            spaceBetween={20}
-            slidesPerView="auto"
-            navigation
-            style={{ paddingBottom: "1rem" }}
-          >
-            {amostrasSelecionadas.map((amostra) => (
-              <SwiperSlide key={`circular-${amostra.sra}`} style={{ width: "auto" }}>
-                <VStack spacing={2}>
-                  <Text fontWeight="medium" fontSize="lg">
-                    {amostra.sra}
+          <Wrap mt={2} spacing={2}>
+            {amostras.map((amostra) => (
+              <WrapItem key={amostra.sra}>
+                <Badge
+                  bg="#037373"
+                  color="white"
+                  px={2}
+                  py={1}
+                  borderRadius="full"
+                  fontWeight="normal"
+                >
+                  {amostra.sra}{" "}
+                  <Text as="i" opacity={0.85}>
+                    {amostra.especie}
                   </Text>
-                  <Image
-                    src={amostra.path_mito_circularized}
-                    alt={`Mitogenoma ${amostra.sra}`}
-                    minW="850px"
-                    height="50rem"
-                    objectFit="contain"
-                    borderRadius="md"
-                    boxShadow="md"
-                  />
-                </VStack>
-              </SwiperSlide>
+                </Badge>
+              </WrapItem>
             ))}
-          </Swiper>
+          </Wrap>
         </Box>
 
-
-        {/* Linha horizontal: tRNA */}
-        <Box w="100%">
-          <Text fontSize="lg" fontWeight="semibold" mb={2}>
-            tRNA
-          </Text>
-          <Swiper
-            modules={[Navigation]}
-            spaceBetween={20}
-            slidesPerView="auto"
-            navigation
-            style={{ paddingBottom: "1rem" }}
-          >
-            {amostrasSelecionadas.map((amostra) => (
-              <SwiperSlide key={'trna-${amostra.sra'} style={{ width: "auto" }}>
-                <VStack spacing={2}>
-                  <Text fontWeight="medium" fontSize="lg">
-                    {amostra.sra}
-                  </Text>
-                  <Image
-                    src={amostra.path_trna}
-                    alt={`tRNA ${amostra.sra}`}
-                    minW="850px"
-                    height="85rem"
-                    objectFit="contain"
-                    borderRadius="md"
-                    boxShadow="md"
-                  />
-                </VStack>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </Box>
-
-
-        {/* Colunas verticais para Synteny, RSCU, D-loop */}
-        <SimpleGrid columns={1} spacing={8} w="100%">
-          <VStack align="flex-start" spacing={0}>
-            <Text fontSize="xl" fontWeight="semibold">
-              Synteny
-            </Text>
-            {amostrasSelecionadas.map((amostra) => (
-              <Image
-                key={`sintenia-${amostra.sra}`}
-                src={amostra.path_sintenia_gens}
-                alt={`Synteny ${amostra.sra}`}
-                width="100%"
-                height="300px"
-                objectFit="contain"
-                borderRadius="md"
-                boxShadow="md"
-              />
-            ))}
-          </VStack>
-          <VStack align="flex-start" spacing={4}>
-            <Text fontSize="xl" fontWeight="semibold">
-              RSCU
-            </Text>
-            {amostrasSelecionadas.map((amostra) => (
-              <Image
-                key={`rscu-${amostra.sra}`}
-                src={amostra.path_rscu}
-                alt={`RSCU ${amostra.sra}`}
-                width="100%"
-                height="350px"
-                objectFit="contain"
-                borderRadius="md"
-                boxShadow="md"
-              />
-            ))}
-          </VStack>
-          <VStack align="flex-start" spacing={4}>
-            <Text fontSize="xl" fontWeight="semibold">
-              D-loop
-            </Text>
-            {amostrasSelecionadas.map((amostra) => (
-              <Image
-                key={`dloop-${amostra.sra}`}
-                src={amostra.path_dloop}
-                alt={`D-loop ${amostra.sra}`}
-                width="100%"
-                height="80px"
-                objectFit="contain"
-                borderRadius="md"
-                boxShadow="md"
-              />
-            ))}
-          </VStack>
-        </SimpleGrid>
+        <Tabs variant="enclosed" colorScheme="teal" bg="white"
+              borderRadius="lg" p={{ base: 2, md: 4 }} boxShadow="sm" isLazy>
+          <TabList flexWrap="wrap">
+            <Tab>{t.sintenia}</Tab>
+            <Tab>{t.rscu}</Tab>
+            <Tab>{t.dloop}</Tab>
+            <Tab>{t.circular}</Tab>
+            <Tab>{t.trna}</Tab>
+          </TabList>
+          <TabPanels>
+            <TabPanel px={0}>
+              <Secao titulo={t.sintenia} subtitulo={t.subSintenia} tipo="interativo">
+                <SinteniaPlot sras={sras} />
+              </Secao>
+            </TabPanel>
+            <TabPanel px={0}>
+              <Secao titulo={t.rscu} subtitulo={t.subRscu} tipo="interativo">
+                <RscuPlot sras={sras} />
+              </Secao>
+            </TabPanel>
+            <TabPanel px={0}>
+              <Secao titulo={t.dloop} subtitulo={t.subDloop} tipo="interativo">
+                <TandemRepeatsPlot sras={sras} especies={especies} />
+              </Secao>
+            </TabPanel>
+            <TabPanel px={0}>
+              <Secao titulo={t.circular} subtitulo={t.subImagem} tipo="imagem">
+                <FaixaDeImagens amostras={amostras}
+                                campo="path_mito_circularized" altura="42rem" />
+              </Secao>
+            </TabPanel>
+            <TabPanel px={0}>
+              <Secao titulo={t.trna} subtitulo={t.subImagem} tipo="imagem">
+                <FaixaDeImagens amostras={amostras} campo="path_trna"
+                                altura="60rem" />
+              </Secao>
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
       </VStack>
     </Box>
   );

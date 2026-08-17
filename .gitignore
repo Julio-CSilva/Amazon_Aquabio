@@ -23,3 +23,13 @@ dist-ssr
 *.sln
 *.sw?
 *.env
+
+# Barra inicial obrigatória: sem ela estes nomes casam em qualquer nível, e
+# `data/` engoliria `public/data/` — os JSON que o site busca em tempo de
+# execução — sem nenhum aviso no build.
+/data/
+/poster/
+
+# pipeline/ é Python
+__pycache__/
+*.pyc

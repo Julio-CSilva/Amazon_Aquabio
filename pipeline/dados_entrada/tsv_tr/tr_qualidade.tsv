@@ -1,0 +1,8 @@
+individuo	arquivo_origem	tipo	gravidade	detalhe
+Cichla_monoculus	div3.txt	comprimento_diverge_da_anotacao	grave	tr_files diz 891 pb; MitoAnnotator, 849–849 pb
+Cichla_temensis		coordenadas_identicas	grave	conjunto de loci idêntico ao de Cichlasoma_bimaculatum
+Cichlasoma_amazonarum	div2.txt	comprimento_diverge_da_anotacao	grave	tr_files diz 849 pb; MitoAnnotator, 891–892 pb
+Cichlasoma_bimaculatum	div2.txt	comprimento_diverge_da_anotacao	grave	tr_files diz 852 pb; MitoAnnotator, 847–847 pb
+Cichlasoma_bimaculatum		coordenadas_identicas	grave	conjunto de loci idêntico ao de Cichla_temensis
+Acaronia nassa		especie_sem_tr_file	atencao	espécie anotada sem bloco em tr_files
+Biotodoma cupido		especie_sem_tr_file	atencao	espécie anotada sem bloco em tr_files
