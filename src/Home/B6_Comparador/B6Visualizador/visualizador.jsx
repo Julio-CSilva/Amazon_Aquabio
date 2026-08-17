@@ -1,12 +1,10 @@
 import {
-  Badge, Box, Heading, Image, Tab, TabList, TabPanel, TabPanels, Tabs,
-  Text, VStack, Wrap, WrapItem,
+  Badge, Box, Heading, HStack, IconButton, Image, Tab, TabList, TabPanel,
+  TabPanels, Tabs, Text, VStack, Wrap, WrapItem,
 } from "@chakra-ui/react";
+import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
+import { useRef } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
 import fotos from "../../../fotos.json";
 import SinteniaPlot from "../../../analises/SinteniaPlot";
 import RscuPlot from "../../../analises/RscuPlot";
@@ -30,6 +28,8 @@ const TEXTOS = {
     subRscu: "Uso de códons sinônimos das amostras selecionadas, lado a lado.",
     subDloop: "Região controle em escala. A análise é por espécie, então amostras da mesma espécie aparecem uma vez só.",
     subImagem: "Figuras geradas fora do site, uma por amostra.",
+    anterior: "Anterior",
+    proximo: "Próxima",
   },
   en: {
     titulo: "Analysis comparison",
@@ -47,39 +47,96 @@ const TEXTOS = {
     subRscu: "Synonymous codon usage of the selected samples, side by side.",
     subDloop: "Control region to scale. The analysis is per species, so samples of the same species appear only once.",
     subImagem: "Figures generated outside the site, one per sample.",
+    anterior: "Previous",
+    proximo: "Next",
   },
 };
 
-/** Faixa de imagens estáticas — o comparador antigo, preservado onde ainda cabe. */
-const FaixaDeImagens = ({ amostras, campo, altura }) => (
-  <Swiper
-    modules={[Navigation]}
-    spaceBetween={20}
-    slidesPerView="auto"
-    navigation
-    style={{ paddingBottom: "1rem" }}
-  >
-    {amostras.map((amostra) => (
-      <SwiperSlide key={`${campo}-${amostra.sra}`} style={{ width: "auto" }}>
-        <VStack spacing={2}>
-          <Text fontWeight="medium" fontSize="sm" color="gray.600">
-            {amostra.sra}
-          </Text>
-          <Image
-            src={amostra[campo]}
-            alt={`${campo} ${amostra.sra}`}
-            minW={{ base: "320px", md: "760px" }}
-            height={altura}
-            objectFit="contain"
-            borderRadius="md"
-            boxShadow="md"
-            bg="white"
+/**
+ * Faixa de imagens estáticas — o comparador antigo, preservado onde ainda cabe.
+ *
+ * Rolagem nativa em vez de biblioteca de carrossel: é uma tira de figuras largas
+ * para percorrer na horizontal, e `overflow-x` com scroll-snap já entrega isso —
+ * no toque sempre foi assim, as setas só repõem o equivalente no mouse. A
+ * dependência que fazia esse trabalho (swiper) carregava um prototype pollution
+ * crítico sem correção dentro do major que usávamos, então saiu do projeto.
+ */
+const FaixaDeImagens = ({ amostras, campo, altura }) => {
+  const { language } = useLanguage();
+  const t = TEXTOS[language];
+  const trilho = useRef(null);
+
+  const rolar = (direcao) => {
+    const el = trilho.current;
+    if (el) el.scrollBy({ left: direcao * el.clientWidth * 0.9, behavior: "smooth" });
+  };
+
+  const seta = {
+    position: "absolute",
+    top: "50%",
+    transform: "translateY(-50%)",
+    zIndex: 1,
+    isRound: true,
+    bg: "whiteAlpha.900",
+    boxShadow: "md",
+    _hover: { bg: "white" },
+  };
+
+  return (
+    <Box position="relative">
+      <HStack
+        ref={trilho}
+        spacing={5}
+        align="flex-start"
+        overflowX="auto"
+        pb={4}
+        sx={{ scrollSnapType: "x mandatory" }}
+      >
+        {amostras.map((amostra) => (
+          <VStack
+            key={`${campo}-${amostra.sra}`}
+            spacing={2}
+            flex="0 0 auto"
+            sx={{ scrollSnapAlign: "start" }}
+          >
+            <Text fontWeight="medium" fontSize="sm" color="gray.600">
+              {amostra.sra}
+            </Text>
+            <Image
+              src={amostra[campo]}
+              alt={`${campo} ${amostra.sra}`}
+              minW={{ base: "320px", md: "760px" }}
+              height={altura}
+              objectFit="contain"
+              borderRadius="md"
+              boxShadow="md"
+              bg="white"
+            />
+          </VStack>
+        ))}
+      </HStack>
+
+      {amostras.length > 1 && (
+        <>
+          <IconButton
+            {...seta}
+            left={2}
+            aria-label={t.anterior}
+            icon={<ChevronLeftIcon boxSize={7} />}
+            onClick={() => rolar(-1)}
           />
-        </VStack>
-      </SwiperSlide>
-    ))}
-  </Swiper>
-);
+          <IconButton
+            {...seta}
+            right={2}
+            aria-label={t.proximo}
+            icon={<ChevronRightIcon boxSize={7} />}
+            onClick={() => rolar(1)}
+          />
+        </>
+      )}
+    </Box>
+  );
+};
 
 const Secao = ({ titulo, subtitulo, tipo, children }) => {
   const { language } = useLanguage();

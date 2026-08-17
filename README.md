@@ -76,7 +76,7 @@ O projeto é mantido pelo grupo **BioME (Bioinformatics Multidisciplinary Enviro
 | **Roteamento** | [React Router 6](https://reactrouter.com/) (`createHashRouter`) |
 | **UI / Estilo** | [Chakra UI](https://chakra-ui.com/), [styled-components](https://styled-components.com/), [Framer Motion](https://www.framer.com/motion/) |
 | **Gráficos** | [Plotly.js](https://plotly.com/javascript/) (bundle `cartesian`, carregado sob demanda) |
-| **Carrosséis / Zoom** | [Swiper](https://swiperjs.com/), [react-slick](https://react-slick.neostack.com/), [keen-slider](https://keen-slider.io/), [react-medium-image-zoom](https://github.com/rpearce/react-medium-image-zoom) |
+| **Zoom de imagem** | [react-medium-image-zoom](https://github.com/rpearce/react-medium-image-zoom) |
 | **Ícones / UX** | [react-icons](https://react-icons.github.io/react-icons/), [react-countup](https://github.com/glennreyes/react-countup), [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) |
 | **Formulário** | [@emailjs/browser](https://www.emailjs.com/) |
 | **Qualidade / Deploy** | [ESLint](https://eslint.org/), [gh-pages](https://github.com/tschaub/gh-pages) |
