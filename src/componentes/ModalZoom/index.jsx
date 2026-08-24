@@ -59,16 +59,17 @@ const ModalZoom = ({ foto, aoFechar }) => {
   const iucnStatus = foto?.redlist_status;
   const statusGradient = getIucnGradient(iucnStatus);
 
-  const statusNames = {
-    NE: "Not Evaluated",
-    DD: "Data Deficient",
-    LC: "Least Concern",
-    NT: "Near Threatened",
-    VU: "Vulnerable",
-    EN: "Endangered",
-    CR: "Critically Endangered",
-    EW: "Extinct in the Wild",
-    EX: "Extinct",
+  const NOMES_IUCN = {
+    pt: {
+      NE: "Não Avaliada", DD: "Dados Insuficientes", LC: "Pouco Preocupante",
+      NT: "Quase Ameaçada", VU: "Vulnerável", EN: "Em Perigo",
+      CR: "Criticamente em Perigo", EW: "Extinta na Natureza", EX: "Extinta",
+    },
+    en: {
+      NE: "Not Evaluated", DD: "Data Deficient", LC: "Least Concern",
+      NT: "Near Threatened", VU: "Vulnerable", EN: "Endangered",
+      CR: "Critically Endangered", EW: "Extinct in the Wild", EX: "Extinct",
+    },
   };
 
   const [linkData, setLinkData] = useState(null);
@@ -86,12 +87,19 @@ const ModalZoom = ({ foto, aoFechar }) => {
     pt: {
       descricao: foto?.descricao || "",
       nome: foto?.nome || "",
+      amostra: "Amostra",
+      statusIucn: "Status na Lista Vermelha da IUCN",
+      desconhecido: "Desconhecido",
     },
     en: {
       descricao: foto?.descricao_en || "",
       nome: foto?.nome_en || "",
+      amostra: "Sample",
+      statusIucn: "The IUCN Red List Status",
+      desconhecido: "Unknown",
     },
   };
+  const statusNames = NOMES_IUCN[language];
 
   return (
     <Modal
@@ -139,7 +147,8 @@ const ModalZoom = ({ foto, aoFechar }) => {
                 textShadow="1px 1px 2px rgba(0,0,0,0.6)"
                 mb={{ base: "1rem", md: "1rem" }}
               >
-                The IUCN Red List Status: {statusNames[iucnStatus] || "Unknown"}{" "}
+                {texts[language].statusIucn}:{" "}
+                {statusNames[iucnStatus] || texts[language].desconhecido}{" "}
                 ({iucnStatus})
               </Box>
             )}
@@ -207,7 +216,7 @@ const ModalZoom = ({ foto, aoFechar }) => {
               <Tabs variant="enclosed">
                 <TabList>
                   {foto.amostras.map((amostra, index) => (
-                    <Tab key={amostra.id}>{`Sample ${index + 1}`}</Tab>
+                    <Tab key={amostra.id}>{`${texts[language].amostra} ${index + 1}`}</Tab>
                   ))}
                 </TabList>
                 <TabPanels>
