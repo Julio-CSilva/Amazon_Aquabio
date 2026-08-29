@@ -22,7 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# `*.env` sozinho NÃO casa com `.env.local` nem `.env.development` — casaria só
+# com nomes como `producao.env`. Um arquivo de ambiente real teria sido
+# versionado sem aviso.
 *.env
+.env
+.env.*
+!.env.example
 
 # Barra inicial obrigatória: sem ela estes nomes casam em qualquer nível, e
 # `data/` engoliria `public/data/` — os JSON que o site busca em tempo de
@@ -33,3 +39,12 @@ dist-ssr
 # pipeline/ é Python
 __pycache__/
 *.pyc
+
+# Variantes de imagem geradas por `scripts/otimizar-imagens.mjs` (55 MB, 924
+# arquivos). São derivadas dos originais em public/images/, e `prebuild` as
+# regenera automaticamente — o manifesto src/data/imagens.json, esse sim, é
+# versionado, porque é o contrato que <Figura> usa para saber o que existe.
+public/images/**/*-[0-9][0-9][0-9].webp
+public/images/**/*-[0-9][0-9][0-9].avif
+public/images/**/*-[0-9][0-9][0-9][0-9].webp
+public/images/**/*-[0-9][0-9][0-9][0-9].avif

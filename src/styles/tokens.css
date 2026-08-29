@@ -1,0 +1,346 @@
+/**
+ * "Águas Escuras" — a fonte única de cor, tipografia e ritmo do Amazon Aquabio.
+ *
+ * ── De onde vem a paleta ──
+ *
+ * Não é inventada: as âncoras são as cores que o site já usava, recuperadas do
+ * código anterior e promovidas a escalas completas.
+ *
+ *   #365B6D  ardósia — a cor mais usada do site antigo (20 ocorrências): faixas
+ *            de seção, cabeçalho, texto sobre branco. Virou a família das
+ *            SUPERFÍCIES.
+ *   #037373  teal — o acento (13 ocorrências): legendas da galeria, botões dos
+ *            gráficos, spinners. Virou a PRIMÁRIA, com #025F5F (o `active`
+ *            original) preservado como river-600.
+ *   #5A7302  oliva — a faixa da galeria. Era a cor mais distintiva do site e a
+ *            que mais se sentiria falta. Volta como acento de seção.
+ *   #B2EBF2  aqua — descrito no código antigo como "tom aquático suave", usado
+ *            no hover do menu. Virou a BIOLUMINESCÊNCIA.
+ *   #061721  abismo — o fundo do gradiente original.
+ *   #080412  o ponto mais fundo dele.
+ *
+ * O que a refatoração acrescentou foi estrutura — escalas, tons intermediários e
+ * verificação de contraste — não um repertório novo de cor.
+ *
+ * ── Duas camadas, e a distinção importa ──
+ *
+ *   1. ESCALAS CRUAS (`--color-river-500`) vivem em `@theme` e geram utilitários
+ *      (`bg-river-500`). São constantes: não mudam com o tema.
+ *   2. TOKENS SEMÂNTICOS (`--bg`, `--fg`, `--primary`) vivem em `:root` e são
+ *      redefinidos em `[data-theme="light"]`. São o que os componentes usam.
+ *
+ * Regra: componente pinta com token semântico. Escala crua só quando a cor é
+ * literalmente aquele pigmento (o oliva da galeria, por exemplo), não quando é
+ * "a cor da superfície".
+ *
+ * O tema padrão é o escuro — é a identidade do site, não uma preferência.
+ */
+
+@import "tailwindcss";
+
+@import "@fontsource-variable/space-grotesk/wght.css";
+@import "@fontsource-variable/inter/wght.css";
+@import "@fontsource-variable/jetbrains-mono/wght.css";
+
+/* O toggle escreve `data-theme` em <html>. Sem isto, `light:` não enxerga o
+   atributo — a variante padrão do Tailwind v4 olha para `prefers-color-scheme`. */
+@custom-variant light (&:where([data-theme="light"], [data-theme="light"] *));
+
+@theme {
+    /* ---- river — o teal #037373 do site antigo, em escala. Primária. ---- */
+    --color-river-50: #e8f5f5;
+    --color-river-100: #c4e6e6;
+    --color-river-200: #8fd2d2;
+    --color-river-300: #2fb3b3;
+    --color-river-400: #149999;
+    --color-river-500: #037373;
+    /* exato do site antigo */
+    --color-river-600: #025f5f;
+    /* exato: era o `_hover` ativo dos gráficos */
+    --color-river-700: #024b4b;
+    --color-river-800: #023a3a;
+    --color-river-900: #012b2b;
+    --color-river-950: #011d1d;
+
+    /* ---- ardósia — o #365B6D do site antigo. Superfícies. ---- */
+    --color-ardosia-100: #dbe7ec;
+    --color-ardosia-200: #b3cbd5;
+    --color-ardosia-300: #7fadbd;
+    --color-ardosia-400: #4f99a6;
+    /* exato: era o fundo do menu mobile */
+    --color-ardosia-500: #3e7387;
+    --color-ardosia-600: #365b6d;
+    /* exato: a cor mais usada do site antigo */
+    --color-ardosia-700: #2b4a58;
+    --color-ardosia-800: #223c48;
+    --color-ardosia-900: #172e38;
+
+    /* ---- abismo — o fim do gradiente original. Fundo. ---- */
+    --color-abismo-800: #0b2733;
+    --color-abismo-900: #061721;
+    /* exato do gradiente antigo */
+    --color-abismo-950: #080412;
+    /* exato: o ponto mais fundo */
+    --color-abismo-975: #050310;
+
+    /* ---- oliva — a faixa da galeria (#5A7302). Acento de seção. ---- */
+    --color-oliva-200: #cfe86a;
+    --color-oliva-300: #9abf12;
+    --color-oliva-400: #7a9a05;
+    --color-oliva-500: #5a7302;
+    /* exato do site antigo */
+    --color-oliva-600: #465a02;
+    --color-oliva-700: #334101;
+
+    /* ---- aqua — o "tom aquático suave" (#B2EBF2). Bioluminescência. ---- */
+    --color-aqua-100: #d8f5f9;
+    --color-aqua-200: #b2ebf2;
+    /* exato: era o hover do menu */
+    --color-aqua-300: #8fe0ec;
+    --color-aqua-400: #6fd5e5;
+
+    /* ---- scale — escama de tucunaré e pirarucu. Acento quente. ---- */
+    --color-scale-100: #fdebbc;
+    --color-scale-300: #f7c453;
+    --color-scale-400: #f0b429;
+    --color-scale-500: #d99a0b;
+    --color-scale-600: #b57a05;
+    --color-scale-700: #8c5c08;
+
+    /* ---- discus — acará-disco e piranha. Alerta. ---- */
+    --color-discus-300: #f0937a;
+    --color-discus-500: #e2582c;
+    --color-discus-600: #c1440e;
+    --color-discus-700: #9a360c;
+
+    /* ---- silt — sedimento. Neutros quentes do tema claro. ---- */
+    --color-silt-50: #faf9f6;
+    --color-silt-100: #f2f2f2;
+    /* exato: painel da galeria antiga */
+    --color-silt-200: #e1ded4;
+    --color-silt-300: #c6c2b4;
+    --color-silt-400: #9c9889;
+    --color-silt-500: #767263;
+    --color-silt-550: #6e6a5c;
+    --color-silt-600: #57544a;
+    --color-silt-700: #3e3c35;
+    --color-silt-900: #1a1917;
+
+    /* ---- tipografia ---- */
+    /*
+     * Space Grotesk no lugar da Fraunces. A Fraunces é uma serif de eixo óptico —
+     * leitura de revista impressa. A Space Grotesk tem desenho de origem técnica,
+     * mantém personalidade nos títulos grandes e conversa com a monoespaçada das
+     * acessões sem parecer a mesma fonte.
+     */
+    --font-display: "Space Grotesk Variable", "Inter Variable", system-ui, sans-serif;
+    --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "JetBrains Mono Variable", ui-monospace, "SFMono-Regular", monospace;
+
+    /* Curvas de saída. A `--ease-water` é sub-amortecida de propósito: dá o
+       leve excesso de um corpo se assentando na água. */
+    --ease-water: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-drift: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/*
+ * Tokens semânticos — `inline` faz o utilitário resolver a variável no ponto de
+ * uso, e não congelar o valor no build. É o que permite `bg-surface` responder à
+ * troca de tema sem recompilar.
+ *
+ * Dois vocabulários apontam para os mesmos valores, de propósito:
+ *
+ *   - Os nomes do shadcn (`--background`, `--muted-foreground`, `--border`,
+ *     `--ring`, `--radius`) são um CONTRATO EXTERNO. Todo componente que vier de
+ *     `npx shadcn add @cult-ui/…` ou `@skiper-ui/…` pinta com eles.
+ *   - Os nomes do projeto (`--bg`, `--fg-muted`, `--line`, `--gold`) leem melhor
+ *     no código nosso.
+ *
+ * Para não haver duas verdades, o valor é escrito UMA vez — no nome do shadcn —
+ * e o nome do projeto é um apelido.
+ *
+ * Um cuidado que não é óbvio: no shadcn, `--accent` é a superfície discreta de
+ * hover, não uma cor de destaque. Os acentos de verdade moram em `--gold` e
+ * `--oliva` — se ocupassem `--accent`, todo hover de componente importado
+ * mudaria de cor.
+ */
+@theme inline {
+    /* Contrato shadcn — não renomear. */
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+    --color-destructive: var(--destructive);
+    --color-destructive-foreground: var(--destructive-foreground);
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+
+    --radius-sm: calc(var(--radius) - 4px);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) + 4px);
+
+    /* Vocabulário do projeto — apelidos dos de cima. */
+    --color-bg: var(--background);
+    --color-fg: var(--foreground);
+    --color-surface: var(--card);
+    --color-surface-2: var(--popover);
+    --color-fg-muted: var(--muted-foreground);
+    --color-fg-subtle: var(--fg-subtle);
+    --color-line: var(--border);
+    --color-line-strong: var(--line-strong);
+    --color-danger: var(--destructive);
+    --color-danger-fg: var(--destructive-foreground);
+
+    /* Os dois acentos de verdade. */
+    --color-gold: var(--gold);
+    --color-gold-fg: var(--gold-foreground);
+    --color-oliva: var(--oliva);
+
+    /* Bioluminescência: só brilho, nunca superfície. */
+    --color-glow: var(--glow);
+
+    /* A superfície das figuras Plotly. Ver nota abaixo. */
+    --color-paper: var(--paper);
+    --color-paper-fg: var(--paper-fg);
+}
+
+:root {
+    color-scheme: dark;
+
+    --background: #061914;
+    --foreground: #f7f7f7;
+    --card: #0d2820;
+    --card-foreground: #f7f7f7;
+    --popover: #0a221b;
+    --popover-foreground: #f7f7f7;
+
+    --primary: var(--color-river-400);
+    --primary-foreground: #061914;
+    --secondary: #0d2820;
+    --secondary-foreground: #f7f7f7;
+    --muted: #0d2820;
+    --muted-foreground: #8cb8a8;
+    /* Superfície de hover, não cor de destaque. */
+    --accent: #143d31;
+    --accent-foreground: #f7f7f7;
+    --destructive: var(--color-discus-500);
+    --destructive-foreground: #ffffff;
+
+    --border: #184235;
+    --input: #184235;
+    --ring: var(--color-river-400);
+    --radius: 0.75rem;
+
+    --fg-subtle: #7ba897;
+    --line-strong: #235947;
+
+    --gold: var(--color-scale-400);
+    --gold-foreground: #061914;
+    --oliva: var(--color-oliva-300);
+
+    --glow: #34d399;
+    --glow-suave: rgb(52 211 153 / 0.28);
+    --glow-tenue: rgb(52 211 153 / 0.1);
+
+    /* Linhas da malha técnica — papel milimetrado, não decoração. */
+    --malha: rgb(52 211 153 / 0.05);
+    --malha-forte: rgb(52 211 153 / 0.1);
+
+    --paper: #ffffff;
+    --paper-fg: #0b0b0b;
+    --paper-teal: #037373;
+    --paper-teal-dark: #365b6d;
+    --paper-teal-hover: #e6f2f2;
+    --paper-bg: #f0f0f0;
+    --paper-soft: #f5f5f2;
+
+    /*
+     * Profundidade: Verde Amazônico (Floresta & Águas da Amazônia).
+     */
+    --depth-0: #134537;
+    --depth-1: #0b2e24;
+    --depth-2: #051a14;
+    --depth-3: #03100c;
+}
+
+[data-theme="light"] {
+    color-scheme: light;
+
+    /* O tema claro reproduz o par que o site antigo usava nas seções brancas:
+       texto ardósia #365B6D sobre branco, com #F2F2F2 como fundo de página. */
+    --background: var(--color-silt-100);
+    --foreground: var(--color-ardosia-600);
+    --card: #ffffff;
+    --card-foreground: var(--color-ardosia-600);
+    --popover: #ffffff;
+    --popover-foreground: var(--color-ardosia-600);
+
+    --primary: var(--color-river-500);
+    --primary-foreground: #ffffff;
+    --secondary: var(--color-silt-100);
+    --secondary-foreground: var(--color-ardosia-600);
+    --muted: var(--color-silt-100);
+    --muted-foreground: var(--color-silt-600);
+    --accent: var(--color-silt-100);
+    --accent-foreground: var(--color-ardosia-600);
+    --destructive: var(--color-discus-600);
+    --destructive-foreground: #ffffff;
+
+    --border: #d9d9d9;
+    /* exato: o painel de contato do site antigo */
+    --input: #d9d9d9;
+    --ring: var(--color-river-500);
+
+    /*
+     * silt-400 dava 2.75:1 e silt-500 dava 4.30:1 — os dois falham sobre o
+     * #F2F2F2, que é mais escuro que o papel branco puro. silt-550 passa em
+     * 4.84:1 e ainda fica visivelmente mais claro que `--fg-muted`, que é o
+     * ponto deste token: ser discreto sem deixar de ser legível.
+     */
+    --fg-subtle: var(--color-silt-550);
+    --line-strong: var(--color-silt-300);
+
+    /* scale-600 dava 3.65:1 — passa para número grande, falha para texto
+       corrente, e o token é usado nos dois. scale-700 passa em 5.75:1. */
+    --gold: var(--color-scale-700);
+    --gold-foreground: #ffffff;
+    --oliva: var(--color-oliva-600);
+
+    /*
+     * Sobre papel o ciano precisa ser muito mais escuro que sobre água preta:
+     * este token pinta o `.indice`, monoespaçado de 11px. As versões
+     * translúcidas continuam vindo do tom claro — elas só fazem halo, nunca
+     * texto, e um halo escuro sujaria o papel em vez de iluminá-lo.
+     */
+    --glow: #0b7a70;
+    --glow-suave: rgb(13 148 136 / 0.22);
+    --glow-tenue: rgb(13 148 136 / 0.08);
+
+    --malha: rgb(54 91 109 / 0.07);
+    --malha-forte: rgb(54 91 109 / 0.13);
+
+    --paper: #ffffff;
+    --paper-fg: #0b0b0b;
+    --paper-teal: #037373;
+    --paper-teal-dark: #365b6d;
+    --paper-teal-hover: #e6f2f2;
+    --paper-bg: #f0f0f0;
+    --paper-soft: #f5f5f2;
+
+    --depth-0: #ffffff;
+    --depth-1: var(--color-silt-50);
+    --depth-2: var(--color-silt-100);
+    --depth-3: var(--color-silt-100);
+}
