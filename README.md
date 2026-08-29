@@ -73,84 +73,101 @@ O projeto é mantido pelo grupo **BioME (Bioinformatics Multidisciplinary Enviro
 | Categoria | Ferramentas |
 |-----------|-------------|
 | **Core** | [React 18](https://react.dev/), [Vite 6](https://vitejs.dev/) |
-| **Roteamento** | [React Router 6](https://reactrouter.com/) (`createHashRouter`) |
-| **UI / Estilo** | [Chakra UI](https://chakra-ui.com/), [styled-components](https://styled-components.com/), [Framer Motion](https://www.framer.com/motion/) |
+| **Roteamento** | [React Router 7](https://reactrouter.com/) (`createHashRouter`, rotas *lazy*) |
+| **UI / Estilo** | [Tailwind CSS 4](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/) sobre [Radix](https://www.radix-ui.com/) |
+| **Animação** | [Motion](https://motion.dev/) (gestos, layout, `AnimatePresence`), [GSAP + ScrollTrigger](https://gsap.com/) (cenas dirigidas pela rolagem: tinta de seção, traçado do mitogenoma, pin da metodologia, fita de sequência, réguas dos títulos) |
 | **Gráficos** | [Plotly.js](https://plotly.com/javascript/) (bundle `cartesian`, carregado sob demanda) |
-| **Zoom de imagem** | [react-medium-image-zoom](https://github.com/rpearce/react-medium-image-zoom) |
-| **Ícones / UX** | [react-icons](https://react-icons.github.io/react-icons/), [react-countup](https://github.com/glennreyes/react-countup), [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) |
+| **Mapa** | [Leaflet](https://leafletjs.com/) + [react-leaflet](https://react-leaflet.js.org/), ladrilhos do OpenStreetMap |
+| **Tipografia** | Space Grotesk · Inter · JetBrains Mono, via [Fontsource](https://fontsource.org/) (variáveis, `woff2`) |
+| **Imagens** | [sharp](https://sharp.pixelplumbing.com/) gerando AVIF/WebP em várias larguras |
+| **Ícones** | [lucide-react](https://lucide.dev/) (interface) e [react-icons](https://react-icons.github.io/react-icons/) (marcas) |
 | **Formulário** | [@emailjs/browser](https://www.emailjs.com/) |
-| **Qualidade / Deploy** | [ESLint](https://eslint.org/), [gh-pages](https://github.com/tschaub/gh-pages) |
+| **Qualidade / Deploy** | [ESLint 9](https://eslint.org/) (config plana), [gh-pages](https://github.com/tschaub/gh-pages) |
+
+---
+
+### 🎨 De onde vem a paleta
+
+As cores não foram inventadas na refatoração: são as do site anterior,
+recuperadas do código e promovidas a escalas completas em
+[`src/styles/tokens.css`](src/styles/tokens.css).
+
+| Âncora | Origem no site antigo | Virou |
+|---|---|---|
+| `#365B6D` | a cor mais usada (20 ocorrências): faixas de seção, cabeçalho | escala **ardósia** — superfícies |
+| `#037373` | acento (13×): legendas da galeria, botões dos gráficos | escala **river** — primária |
+| `#5A7302` | a faixa da galeria | escala **oliva** — acento de seção |
+| `#B2EBF2` | hover do menu, comentado como "tom aquático suave" | escala **aqua** — bioluminescência |
+| `#061721` · `#080412` | fim do gradiente de fundo | escala **abismo** — fundo |
+
+O gradiente de profundidade preserva as quatro paradas do original
+(`0% / 20% / 80% / 100%`), que é o que dá a leitura de mergulho — a luz da
+superfície some rápido e o fundo é longo.
+
+O site antigo também alternava a cor de fundo **por seção**. Isso não sumiu:
+virou atmosfera. `TintaDeSecao` faz a aurora do fundo assumir a cor da seção que
+está sendo lida, com a travessia acontecendo durante a rolagem — o oliva da
+galeria continua lá.
+
+Todos os pares texto/fundo dos dois temas passam WCAG AA (≥ 4.5:1).
 
 ---
 
 ## 📂 Estrutura do projeto
 
+Nomes de pastas estruturais em inglês (convenção React); **termos de domínio
+permanecem em português**, porque as chaves dos JSON gerados pelo `pipeline/`
+são PT (`especie`, `amostras`, `comprimento`, `rotulos`) e renomeá-las quebraria
+o contrato com os scripts Python.
+
 ```
 Amazon_Aquabio/
-├── index.html                  # HTML raiz (favicons, manifest, #root)
-├── vite.config.js              # Config do Vite (base: "/Amazon_Aquabio/")
-├── package.json                # Dependências e scripts
-├── public/                     # Assets estáticos servidos diretamente
-│   ├── mapa_peixes.html        # Mapa interativo da bacia amazônica (iframe)
-│   ├── images/                 # Imagens (b2..b8, logos, peixes, padrões)
-│   │   └── b8/                 # Análises geradas por amostra:
-│   │       ├── circularized/   #   mitogenoma circularizado
-│   │       ├── trna/           #   estrutura de tRNA
-│   │       ├── circos/         #   gráfico Circos
-│   │       └── coverage/       #   análise de cobertura
-│   ├── data/                   # 📊 Dados das análises interativas (gerados)
+├── index.html                  # HTML raiz (meta, OG, favicons, manifest)
+├── vite.config.js              # base "/Amazon_Aquabio/", alias @/, chunk do Plotly
+├── eslint.config.js            # ESLint 9, config plana
+├── components.json             # shadcn/ui (registries do Cult UI e Skiper UI)
+├── .env.example                # chaves do EmailJS (copie para .env.local)
+├── scripts/
+│   ├── otimizar-imagens.mjs    # PNG/JPG -> AVIF/WebP + manifesto (roda no prebuild)
+│   ├── fluxograma-metodologia.mjs # exports do draw.io -> as 5 imagens de etapa (alinhadas + véu)
+│   ├── extrair-ocorrencias.mjs # mapa_peixes.html -> data/ocorrencias.json
+│   └── conferir-arquivos.mjs   # acusa caminhos citados em especies.json e ausentes
+├── public/
+│   ├── data/                   # 📊 buscado em tempo de execução
 │   │   ├── sintenia.json       #   ordem e coordenadas gênicas, 100 amostras
 │   │   ├── rscu.json           #   RSCU por amostra + consensos por grupo
-│   │   └── tandem_repeats.json #   repetições da região controle, 32 espécies
-│   ├── docs/b8/                # Arquivos para download
-│   │   ├── fasta/              #   mitogenomas (.fa)
-│   │   ├── gens_fasta/         #   genes (.fa)
-│   │   └── NCBI/               #   metadados NCBI (.txt)
-│   ├── icons/                  # Ícones e favicons
-│   └── Fonts/                  # Fontes customizadas
-├── pipeline/                   # ⚙️ Geração dos JSON de análise (Python, stdlib)
-│   ├── build_all.py            #   roda os três builds
-│   ├── build_sintenia.py       #   *_genes.fa  -> sintenia.json
-│   ├── build_rscu.py           #   *_genes.fa  -> rscu.json
-│   ├── build_tandem_repeats.py #   tsv_tr/     -> tandem_repeats.json
-│   ├── vendor/                 #   sintenia_io / sintenia_theme (cópia marcada)
-│   └── dados_entrada/          #   TSVs de TRF e consensos de RSCU
+│   │   ├── tandem_repeats.json #   repetições da região controle, 32 espécies
+│   │   ├── ocorrencias.json    #   1136 pontos de ocorrência, 30 espécies
+│   │   └── atribuicoes.json    #   comprovantes de licença (fora do bundle JS)
+│   ├── images/                 # originais + variantes AVIF/WebP (estas, ignoradas no git)
+│   └── docs/b8/                # FASTA, genes e metadados NCBI para download
+├── pipeline/                   # ⚙️ geração dos JSON de análise (Python, stdlib)
 └── src/
-    ├── main.jsx                # Entry point: HashRouter + ChakraProvider + tema
-    ├── App.jsx                 # Layout: cabeçalho fixo, fundo, footer, LanguageProvider
-    ├── theme.js                # Tema do Chakra UI (fontes)
-    ├── fotos.json              # 🗄️ Dataset principal (34 espécies / 100 amostras)
-    ├── by_links.json           # Imagens de atribuição (base64) por espécie
-    ├── routes/
-    │   ├── home.jsx            # Página inicial (monta as seções B1..B8)
-    │   ├── contato.jsx         # Página de contato (EmailJS + mapa)
-    │   └── error-page.jsx      # Página de erro de rota
-    ├── analises/               # 📈 Análises interativas (Plotly, sob demanda)
-    │   ├── SinteniaPlot.jsx    #   posição · ordem gênica · comprimento por gene
-    │   ├── RscuPlot.jsx        #   empilhado · mapa de calor · barras por códon
-    │   ├── TandemRepeatsPlot.jsx#  mapa da região controle · cópias × extensão
-    │   ├── AbasDaAmostra.jsx   #   as 5 análises de uma amostra, em abas
-    │   ├── dados.js            #   busca e cache dos JSON de public/data/
-    │   └── tema.js             #   tinta e layout comuns às figuras
-    ├── componentes/            # Componentes compartilhados
-    │   ├── Cabecalho/          #   Header fixo + navegação + toggle de idioma
-    │   ├── Footer/             #   Rodapé
-    │   ├── LanguageContext/    #   Context de internacionalização (PT/EN)
-    │   ├── ModalZoom/          #   Modal de detalhes da espécie
-    │   ├── ButtonPersonalizado/#   Botão de navegação customizado
-    │   └── EstilosGlobais/     #   Estilos globais
-    ├── Home/                   # Seções da página inicial (blocos B1..B8)
-    │   ├── B1_Apresentacao/    #   Hero / apresentação
-    │   ├── B2_Definicao/       #   "O que é o genoma mitocondrial?"
-    │   ├── B3_Peixes/          #   Destaque de espécies
-    │   ├── B4_Mapa/            #   Mapa de distribuição
-    │   ├── B5_Metodologia/     #   Pipeline (cards + modal)
-    │   ├── B6_Comparador/      #   Ferramenta de comparação + visualizador
-    │   ├── B7_Pesquisadores/   #   Carrossel da equipe
-    │   ├── B8_Galeria/         #   Galeria + filtros
-    │   └── BX_Publicações/     #   Publicações (reservado, não ativo)
-    └── utils/
-        └── iucnUtils.js        # Mapeia status da IUCN → gradiente CSS
+    ├── main.jsx                # entry: Providers + RouterProvider
+    ├── app/                    # router, Layout, providers, secoes.js
+    ├── styles/
+    │   ├── tokens.css          # 🎨 fonte ÚNICA de cor e tipografia ("Águas Escuras")
+    │   └── globals.css         # base do documento, utilitários, movimento reduzido
+    ├── i18n/                   # pt.js · en.js · provider · contexto
+    ├── theme/                  # alternância claro/escuro
+    ├── lib/                    # utils · assets · iucn · especies · format · atribuicoes
+    ├── hooks/                  # useScrollSpy · useReducedMotion
+    ├── data/                   # especies.json · pesquisadores · metodologia · imagens.json
+    ├── components/
+    │   ├── ui/                 #   primitivos shadcn + <Figura>
+    │   ├── motion/             #   Reveal · Marquee · Contador · Caustics
+    │   └── layout/             #   Header · Footer · alternadores
+    ├── features/
+    │   ├── hero/               #   parallax de profundidade
+    │   ├── mitogenome/         #   🧬 mapa circular SVG a partir de sintenia.json
+    │   ├── stats/              #   contadores + faixa infinita de espécies
+    │   ├── map/                #   mapa React (Leaflet), carregado sob demanda
+    │   ├── methodology/        #   cena com pin (GSAP ScrollTrigger)
+    │   ├── gallery/            #   grade filtrável + detalhe em tela cheia
+    │   ├── comparator/         #   seleção de SRAs + ilha flutuante
+    │   ├── researchers/        #   equipe
+    │   └── analises/           #   📈 figuras Plotly (superfície de papel)
+    └── pages/                  # HomePage · ContactPage · ComparisonPage · NotFoundPage
 ```
 
 ---
@@ -226,7 +243,7 @@ cada espécie pelo `id`.
 
 ### Pré-requisitos
 
-- [Node.js](https://nodejs.org/) **18+** (recomendado LTS)
+- [Node.js](https://nodejs.org/) **20+** (recomendado LTS)
 - npm (acompanha o Node) ou outro gerenciador de pacotes
 
 ### Passo a passo
@@ -239,12 +256,22 @@ cd Amazon_Aquabio
 # 2. Instale as dependências
 npm install
 
-# 3. Inicie o servidor de desenvolvimento
+# 3. (Opcional) Configure o formulário de contato
+cp .env.example .env.local   # e preencha as chaves do EmailJS
+
+# 4. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-A aplicação ficará disponível em **http://localhost:5173/Amazon_Aquabio/** (o caminho `/Amazon_Aquabio/` vem do
-`base` configurado em `vite.config.js`).
+A aplicação fica em **http://localhost:5173/Amazon_Aquabio/** — o caminho vem do
+`base` em `vite.config.js`, que existe porque o site é servido de um subcaminho
+do GitHub Pages.
+
+> Sem `.env.local`, tudo funciona: o formulário de contato renderiza e avisa que
+> o envio não está configurado, em vez de falhar em silêncio.
+
+> A **primeira** `npm run build` gera as variantes de imagem (~6 min, uma vez
+> só). Para adiantar isso a qualquer momento: `npm run imagens`.
 
 ---
 
@@ -252,11 +279,20 @@ A aplicação ficará disponível em **http://localhost:5173/Amazon_Aquabio/** (
 
 | Script | Descrição |
 |--------|-----------|
-| `npm run dev` | Inicia o servidor de desenvolvimento (Vite + HMR). |
-| `npm run build` | Gera a *build* de produção em `dist/`. |
-| `npm run preview` | Pré-visualiza localmente a *build* de produção. |
-| `npm run lint` | Executa o ESLint em todo o projeto. |
-| `npm run deploy` | Publica a pasta `dist/` no GitHub Pages (via `gh-pages`). |
+| `npm run dev` | Servidor de desenvolvimento (Vite + HMR). |
+| `npm run build` | *Build* de produção em `dist/`. Dispara `prebuild` antes. |
+| `npm run preview` | Pré-visualiza a *build* localmente, no subcaminho real. |
+| `npm run lint` | ESLint em todo o projeto (zero avisos tolerados). |
+| `npm run imagens` | Gera as variantes AVIF/WebP que faltam e atualiza o manifesto. |
+| `npm run imagens:forcar` | Regera todas as variantes, mesmo as existentes. |
+| `npm run conferir-arquivos` | Acusa caminhos citados em `especies.json` e ausentes em `public/`. |
+| `npm run extrair-ocorrencias` | Reextrai `ocorrencias.json` do mapa antigo do folium. |
+| `npm run deploy` | Publica `dist/` no GitHub Pages (via `gh-pages`). |
+
+> **Sobre o `prebuild`:** ele roda `scripts/otimizar-imagens.mjs`, que converte
+> os 247 originais de `public/images/` em 924 variantes AVIF/WebP. As variantes
+> não são versionadas (55 MB), então a **primeira** *build* após clonar leva
+> ~6 min; as seguintes pulam o que já existe e custam 0,2 s.
 
 ---
 
@@ -292,24 +328,42 @@ O pipeline bioinformático apresentado na seção **Metodologia** do site segue 
 
 ## 🧭 Seções do site
 
-| Bloco | Seção | Descrição |
-|-------|-------|-----------|
-| **B1** | Apresentação | Hero com a proposta do projeto. |
-| **B2** | Definição | O que é o genoma mitocondrial. |
-| **B3** | Peixes | Destaque visual das espécies. |
-| **B4** | Mapa | Distribuição das espécies na bacia amazônica. |
-| **B5** | Metodologia | Pipeline em cards interativos + modal com diagrama. |
-| **B6** | Comparador | Seleção de SRAs e visualização comparativa. |
-| **B7** | Pesquisadores | Carrossel da equipe (Lattes / LinkedIn / ORCID). |
-| **B8** | Galeria | Grade de espécies com busca e filtro por IUCN. |
+Na ordem em que aparecem. Os `id` são os mesmos de
+[`src/app/secoes.js`](src/app/secoes.js), que alimenta o menu e o *scroll-spy*.
+
+| `id` | Seção | Descrição |
+|------|-------|-----------|
+| `apresentacao` | Apresentação | Hero com parallax de profundidade. |
+| `mitogenoma` | O que é o genoma mitocondrial | Mapa circular SVG desenhado a partir de `sintenia.json`: 37 genes com posição real, fita e região controle. |
+| `estatisticas` | Números | Contadores + faixa infinita das 34 espécies. |
+| `mapa` | Mapa | 1136 pontos de ocorrência em Leaflet, com realce por espécie. |
+| `metodologia` | Metodologia | Cena com *pin*: a seção prende a tela e a rolagem percorre as 5 etapas. Cada uma tem o seu recorte do fluxograma, com o resto do diagrama sob um véu; ao fim da quinta a página volta a rolar. |
+| `galeria` | Amostras | Grade filtrável; o cartão cresce até o detalhe em tela cheia. |
+| `comparador` | Comparador | Seleção de SRAs com ilha flutuante; abre a comparação em nova aba. |
+| `pesquisadores` | Pesquisadores | A equipe (Lattes / LinkedIn / ORCID). |
+
+> A numeração `B1`–`B8` das pastas antigas foi aposentada: ela dizia a ordem de
+> criação, não o conteúdo — e já não batia com a ordem da página (a chave
+> `publicacoes` apontava para o Comparador).
 
 ---
 
 ## 🌍 Internacionalização (PT / EN)
 
-A troca de idioma é feita por um **React Context** ([`src/componentes/LanguageContext`](src/componentes/LanguageContext/index.jsx)).
-O idioma padrão é **inglês (`en`)** e cada componente mantém seus próprios textos em um objeto `texts = { pt, en }`.
-Os campos de conteúdo do dataset também são bilíngues (`nome`/`nome_en`, `descricao`/`descricao_en`).
+Todo o texto de interface vive em [`src/i18n/pt.js`](src/i18n/pt.js) e
+[`src/i18n/en.js`](src/i18n/en.js), acessado por `t("chave.pontuada")` — antes
+cada componente carregava seu próprio `texts = { pt, en }`, duplicado ~15 vezes.
+
+O provider detecta o idioma do navegador na primeira visita (português se o
+navegador estiver em português, inglês caso contrário), guarda a escolha em
+`localStorage` e mantém `<html lang>` em dia.
+
+Em desenvolvimento, o provider compara as chaves dos dois dicionários e avisa no
+console o que faltar em cada um. Não entram no i18n: as descrições da
+metodologia (são JSX, em `src/data/metodologia.jsx`), as biografias
+(`src/data/pesquisadores.js`) e os rótulos das figuras Plotly (acoplados ao
+código de cada figura). Os campos do dataset seguem bilíngues no próprio dado
+(`nome`/`nome_en`, `descricao`/`descricao_en`).
 
 ---
 

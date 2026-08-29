@@ -69,87 +69,77 @@ The project is maintained by the **BioME (Bioinformatics Multidisciplinary Envir
 
 ## 🛠️ Tech stack
 
-| Category | Tools |
-|----------|-------|
+| Area | Tools |
+|------|-------|
 | **Core** | [React 18](https://react.dev/), [Vite 6](https://vitejs.dev/) |
-| **Routing** | [React Router 6](https://reactrouter.com/) (`createHashRouter`) |
-| **UI / Styling** | [Chakra UI](https://chakra-ui.com/), [styled-components](https://styled-components.com/), [Framer Motion](https://www.framer.com/motion/) |
-| **Charts** | [Plotly.js](https://plotly.com/javascript/) (`cartesian` bundle, lazy-loaded) |
-| **Image zoom** | [react-medium-image-zoom](https://github.com/rpearce/react-medium-image-zoom) |
-| **Icons / UX** | [react-icons](https://react-icons.github.io/react-icons/), [react-countup](https://github.com/glennreyes/react-countup), [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) |
+| **Routing** | [React Router 7](https://reactrouter.com/) (`createHashRouter`, lazy routes) |
+| **UI / styling** | [Tailwind CSS 4](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/) on [Radix](https://www.radix-ui.com/) |
+| **Animation** | [Motion](https://motion.dev/) (gestures, layout, `AnimatePresence`), [GSAP + ScrollTrigger](https://gsap.com/) (scroll-driven scenes: section tint, mitogenome tracing, pinned methodology, sequence strip, header rules) |
+| **Charts** | [Plotly.js](https://plotly.com/javascript/) (`cartesian` bundle, loaded on demand) |
+| **Map** | [Leaflet](https://leafletjs.com/) + [react-leaflet](https://react-leaflet.js.org/), OpenStreetMap tiles |
+| **Typography** | Space Grotesk · Inter · JetBrains Mono, via [Fontsource](https://fontsource.org/) (variable `woff2`) |
+| **Images** | [sharp](https://sharp.pixelplumbing.com/) generating AVIF/WebP at several widths |
+| **Icons** | [lucide-react](https://lucide.dev/) (interface) and [react-icons](https://react-icons.github.io/react-icons/) (brand marks) |
 | **Form** | [@emailjs/browser](https://www.emailjs.com/) |
-| **Quality / Deploy** | [ESLint](https://eslint.org/), [gh-pages](https://github.com/tschaub/gh-pages) |
+| **Quality / deploy** | [ESLint 9](https://eslint.org/) (flat config), [gh-pages](https://github.com/tschaub/gh-pages) |
 
 ---
 
 ## 📂 Project structure
 
+Structural folders are named in English (React convention); **domain terms stay
+in Portuguese**, because the JSON keys produced by `pipeline/` are Portuguese
+(`especie`, `amostras`, `comprimento`, `rotulos`) and renaming them would break
+the contract with the Python scripts.
+
 ```
 Amazon_Aquabio/
-├── index.html                  # Root HTML (favicons, manifest, #root)
-├── vite.config.js              # Vite config (base: "/Amazon_Aquabio/")
-├── package.json                # Dependencies and scripts
-├── public/                     # Static assets served as-is
-│   ├── mapa_peixes.html        # Interactive Amazon basin map (iframe)
-│   ├── images/                 # Images (b2..b8, logos, fish, patterns)
-│   │   └── b8/                 # Per-sample generated analyses:
-│   │       ├── circularized/   #   circularized mitogenome
-│   │       ├── trna/           #   tRNA structure
-│   │       ├── circos/         #   Circos plot
-│   │       └── coverage/       #   coverage analysis
-│   ├── data/                   # 📊 Interactive analysis data (generated)
+├── index.html                  # root HTML (meta, OG, favicons, manifest)
+├── vite.config.js              # base "/Amazon_Aquabio/", @/ alias, Plotly chunk
+├── eslint.config.js            # ESLint 9, flat config
+├── components.json             # shadcn/ui (Cult UI and Skiper UI registries)
+├── .env.example                # EmailJS keys (copy to .env.local)
+├── scripts/
+│   ├── otimizar-imagens.mjs    # PNG/JPG -> AVIF/WebP + manifest (runs on prebuild)
+│   ├── fluxograma-metodologia.mjs # draw.io exports -> the 5 step images (aligned + veiled)
+│   ├── extrair-ocorrencias.mjs # mapa_peixes.html -> data/ocorrencias.json
+│   └── conferir-arquivos.mjs   # reports paths listed in especies.json but missing
+├── public/
+│   ├── data/                   # 📊 fetched at runtime
 │   │   ├── sintenia.json       #   gene order and coordinates, 100 samples
-│   │   ├── rscu.json           #   per-sample RSCU + per-group consensus
-│   │   └── tandem_repeats.json #   control region repeats, 32 species
-│   ├── docs/b8/                # Downloadable files
-│   │   ├── fasta/              #   mitogenomes (.fa)
-│   │   ├── gens_fasta/         #   genes (.fa)
-│   │   └── NCBI/               #   NCBI metadata (.txt)
-│   ├── icons/                  # Icons and favicons
-│   └── Fonts/                  # Custom fonts
-├── pipeline/                   # ⚙️ Analysis JSON generation (Python, stdlib)
-│   ├── build_all.py            #   runs the three builds
-│   ├── build_sintenia.py       #   *_genes.fa  -> sintenia.json
-│   ├── build_rscu.py           #   *_genes.fa  -> rscu.json
-│   ├── build_tandem_repeats.py #   tsv_tr/     -> tandem_repeats.json
-│   ├── vendor/                 #   sintenia_io / sintenia_theme (marked copy)
-│   └── dados_entrada/          #   TRF TSVs and RSCU consensus tables
+│   │   ├── rscu.json           #   RSCU per sample + group consensuses
+│   │   ├── tandem_repeats.json #   control-region repeats, 32 species
+│   │   ├── ocorrencias.json    #   1,136 occurrence points, 30 species
+│   │   └── atribuicoes.json    #   licence proofs (kept out of the JS bundle)
+│   ├── images/                 # originals + AVIF/WebP variants (variants git-ignored)
+│   └── docs/b8/                # FASTA, genes and NCBI metadata for download
+├── pipeline/                   # ⚙️ analysis JSON generation (Python, stdlib)
 └── src/
-    ├── main.jsx                # Entry point: HashRouter + ChakraProvider + theme
-    ├── App.jsx                 # Layout: fixed header, background, footer, LanguageProvider
-    ├── theme.js                # Chakra UI theme (fonts)
-    ├── fotos.json              # 🗄️ Main dataset (34 species / 100 samples)
-    ├── by_links.json           # Attribution images (base64) per species
-    ├── routes/
-    │   ├── home.jsx            # Home page (assembles sections B1..B8)
-    │   ├── contato.jsx         # Contact page (EmailJS + map)
-    │   └── error-page.jsx      # Route error page
-    ├── analises/               # 📈 Interactive analyses (Plotly, on demand)
-    │   ├── SinteniaPlot.jsx    #   position · gene order · length per gene
-    │   ├── RscuPlot.jsx        #   stacked · heatmap · bars per codon
-    │   ├── TandemRepeatsPlot.jsx#  control region map · copies × span
-    │   ├── AbasDaAmostra.jsx   #   the 5 analyses of one sample, as tabs
-    │   ├── dados.js            #   fetch and cache of public/data/ JSON
-    │   └── tema.js             #   shared ink and layout for the figures
-    ├── componentes/            # Shared components
-    │   ├── Cabecalho/          #   Fixed header + navigation + language toggle
-    │   ├── Footer/             #   Footer
-    │   ├── LanguageContext/    #   Internationalization context (PT/EN)
-    │   ├── ModalZoom/          #   Species detail modal
-    │   ├── ButtonPersonalizado/#   Custom navigation button
-    │   └── EstilosGlobais/     #   Global styles
-    ├── Home/                   # Home page sections (blocks B1..B8)
-    │   ├── B1_Apresentacao/    #   Hero / intro
-    │   ├── B2_Definicao/       #   "What is the mitochondrial genome?"
-    │   ├── B3_Peixes/          #   Species highlight
-    │   ├── B4_Mapa/            #   Distribution map
-    │   ├── B5_Metodologia/     #   Pipeline (cards + modal)
-    │   ├── B6_Comparador/      #   Comparison tool + viewer
-    │   ├── B7_Pesquisadores/   #   Team carousel
-    │   ├── B8_Galeria/         #   Gallery + filters
-    │   └── BX_Publicações/     #   Publications (reserved, not active)
-    └── utils/
-        └── iucnUtils.js        # Maps IUCN status → CSS gradient
+    ├── main.jsx                # entry: Providers + RouterProvider
+    ├── app/                    # router, Layout, providers, secoes.js
+    ├── styles/
+    │   ├── tokens.css          # 🎨 SINGLE source of colour and type ("Dark Waters")
+    │   └── globals.css         # document base, utilities, reduced motion
+    ├── i18n/                   # pt.js · en.js · provider · context
+    ├── theme/                  # light/dark switching
+    ├── lib/                    # utils · assets · iucn · especies · format · atribuicoes
+    ├── hooks/                  # useScrollSpy · useReducedMotion
+    ├── data/                   # especies.json · researchers · methodology · imagens.json
+    ├── components/
+    │   ├── ui/                 #   shadcn primitives + <Figura>
+    │   ├── motion/             #   Reveal · Marquee · Contador · Caustics
+    │   └── layout/             #   Header · Footer · toggles
+    ├── features/
+    │   ├── hero/               #   depth parallax
+    │   ├── mitogenome/         #   🧬 circular SVG map built from sintenia.json
+    │   ├── stats/              #   counters + infinite species marquee
+    │   ├── map/                #   React map (Leaflet), loaded on demand
+    │   ├── methodology/        #   pinned scene (GSAP ScrollTrigger)
+    │   ├── gallery/            #   filterable grid + full-screen detail
+    │   ├── comparator/         #   SRA selection + floating island
+    │   ├── researchers/        #   the team
+    │   └── analises/           #   📈 Plotly figures (paper surface)
+    └── pages/                  # HomePage · ContactPage · ComparisonPage · NotFoundPage
 ```
 
 ---
@@ -224,8 +214,8 @@ species by `id`.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) **18+** (LTS recommended)
-- npm (bundled with Node) or another package manager
+- [Node.js](https://nodejs.org/) **20+** (LTS recommended)
+- npm (ships with Node) or another package manager
 
 ### Steps
 
@@ -237,12 +227,22 @@ cd Amazon_Aquabio
 # 2. Install dependencies
 npm install
 
-# 3. Start the development server
+# 3. (Optional) Configure the contact form
+cp .env.example .env.local   # then fill in the EmailJS keys
+
+# 4. Start the development server
 npm run dev
 ```
 
-The application will be available at **http://localhost:5173/Amazon_Aquabio/** (the `/Amazon_Aquabio/` path comes
-from the `base` configured in `vite.config.js`).
+The app runs at **http://localhost:5173/Amazon_Aquabio/** — the path comes from
+`base` in `vite.config.js`, which exists because the site is served from a
+GitHub Pages sub-path.
+
+> Without `.env.local` everything still works: the contact form renders and says
+> sending is not configured, rather than failing silently.
+
+> The **first** `npm run build` generates the image variants (~6 min, once). To
+> get it out of the way earlier: `npm run imagens`.
 
 ---
 
@@ -250,11 +250,20 @@ from the `base` configured in `vite.config.js`).
 
 | Script | Description |
 |--------|-------------|
-| `npm run dev` | Starts the development server (Vite + HMR). |
-| `npm run build` | Generates the production build into `dist/`. |
-| `npm run preview` | Locally previews the production build. |
-| `npm run lint` | Runs ESLint across the project. |
-| `npm run deploy` | Publishes the `dist/` folder to GitHub Pages (via `gh-pages`). |
+| `npm run dev` | Development server (Vite + HMR). |
+| `npm run build` | Production build into `dist/`. Triggers `prebuild` first. |
+| `npm run preview` | Preview the build locally, under the real sub-path. |
+| `npm run lint` | ESLint across the project (no warnings tolerated). |
+| `npm run imagens` | Generate any missing AVIF/WebP variants and refresh the manifest. |
+| `npm run imagens:forcar` | Regenerate every variant, including existing ones. |
+| `npm run conferir-arquivos` | Report paths listed in `especies.json` but missing from `public/`. |
+| `npm run extrair-ocorrencias` | Re-extract `ocorrencias.json` from the legacy folium map. |
+| `npm run deploy` | Publish `dist/` to GitHub Pages (via `gh-pages`). |
+
+> **About `prebuild`:** it runs `scripts/otimizar-imagens.mjs`, converting the
+> 247 originals in `public/images/` into 924 AVIF/WebP variants. The variants are
+> not committed (55 MB), so the **first** build after cloning takes ~6 min;
+> later ones skip what already exists and cost 0.2 s.
 
 ---
 
@@ -290,24 +299,42 @@ The bioinformatics pipeline shown in the **Methodology** section of the site fol
 
 ## 🧭 Site sections
 
-| Block | Section | Description |
-|-------|---------|-------------|
-| **B1** | Presentation | Hero with the project's purpose. |
-| **B2** | Definition | What the mitochondrial genome is. |
-| **B3** | Fish | Visual highlight of the species. |
-| **B4** | Map | Species distribution across the Amazon basin. |
-| **B5** | Methodology | Pipeline as interactive cards + diagram modal. |
-| **B6** | Comparison tool | SRA selection and comparative visualization. |
-| **B7** | Researchers | Team carousel (Lattes / LinkedIn / ORCID). |
-| **B8** | Gallery | Species grid with search and IUCN filter. |
+In page order. The `id`s are the ones in
+[`src/app/secoes.js`](src/app/secoes.js), which drives both the menu and the
+scroll-spy.
+
+| `id` | Section | Description |
+|------|---------|-------------|
+| `apresentacao` | Hero | Depth parallax intro. |
+| `mitogenoma` | What the mitochondrial genome is | Circular SVG map drawn from `sintenia.json`: 37 genes at their real positions, with strand and control region. |
+| `estatisticas` | Numbers | Counters + infinite marquee of the 34 species. |
+| `mapa` | Map | 1,136 occurrence points in Leaflet, with per-species highlighting. |
+| `metodologia` | Methodology | Pinned scene: the section holds the screen and scrolling walks the 5 steps. Each has its own crop of the flowchart, with the rest of the diagram veiled; after the fifth, the page scrolls on. |
+| `galeria` | Samples | Filterable grid; the card grows into a full-screen detail. |
+| `comparador` | Comparison | SRA selection with a floating island; opens the comparison in a new tab. |
+| `pesquisadores` | Researchers | The team (Lattes / LinkedIn / ORCID). |
+
+> The old `B1`–`B8` folder numbering is gone: it recorded creation order, not
+> content — and no longer matched the page (the `publicacoes` key pointed at the
+> Comparison section).
 
 ---
 
 ## 🌍 Internationalization (PT / EN)
 
-Language switching is handled by a **React Context** ([`src/componentes/LanguageContext`](src/componentes/LanguageContext/index.jsx)).
-The default language is **English (`en`)** and each component keeps its own texts in a `texts = { pt, en }` object.
-The dataset content fields are bilingual as well (`nome`/`nome_en`, `descricao`/`descricao_en`).
+All interface copy lives in [`src/i18n/pt.js`](src/i18n/pt.js) and
+[`src/i18n/en.js`](src/i18n/en.js), read through `t("dotted.key")` — previously
+each component carried its own `texts = { pt, en }`, duplicated ~15 times.
+
+The provider detects the browser language on a first visit (Portuguese if the
+browser is set to Portuguese, English otherwise), stores the choice in
+`localStorage` and keeps `<html lang>` current.
+
+In development it compares the two dictionaries and logs whatever is missing
+from either. Not part of i18n: the methodology descriptions (they are JSX, in
+`src/data/metodologia.jsx`), the biographies (`src/data/pesquisadores.js`) and
+the Plotly figure labels (coupled to each figure's code). Dataset fields stay
+bilingual in the data itself (`nome`/`nome_en`, `descricao`/`descricao_en`).
 
 ---
 
