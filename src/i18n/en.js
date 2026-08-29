@@ -1,0 +1,282 @@
+/**
+ * Interface text in English. Mirrors `pt.js` key for key.
+ *
+ * When adding a key, add it to both files. `provider.jsx` compares the two
+ * shapes in development and logs what is missing — a missing key used to surface
+ * as a blank element in production instead.
+ */
+
+export default {
+    site: {
+        nome: "Amazon Aquabio",
+        descricao:
+            "A platform for exploring the mitogenomic diversity of Amazonian fish: 100 mitogenomes from 34 species.",
+    },
+
+    nav: {
+        inicio: "Start",
+        sobre: "About",
+        mapa: "Map",
+        metodologia: "Methodology",
+        amostras: "Samples",
+        comparador: "Comparison",
+        pesquisadores: "Researchers",
+        contato: "Contact",
+        menu: "Menu",
+        abrirMenu: "Open navigation menu",
+        fecharMenu: "Close menu",
+        irParaConteudo: "Skip to content",
+        idioma: "Language",
+        tema: "Theme",
+        temaClaro: "Light theme",
+        temaEscuro: "Dark theme",
+    },
+
+    hero: {
+        etiqueta: "Mitogenomics of the Amazon",
+        titulo: "Explore the Mitogenomic Diversity of the Amazon",
+        corpo: "Through data mining of public NCBI repositories, we reconstructed 100 mitogenomes from 34 species of Amazonian fish. This dataset provides a solid foundation for exploring the region’s genetic diversity, enabling studies on population structure, sustainable conservation, and more. Discover how these data can illuminate evolutionary relationships and support the development of effective environmental policies.",
+        verAmostras: "Browse the samples",
+        verMetodologia: "How it was done",
+        altLogo: "Amazon Aquabio logo: a DNA strand beside the site name",
+        altPeixes: "Illustration of a school of Amazonian fish",
+
+        rotulos: {
+            mitogenomas: "MITOGENOMES",
+            especies: "SPECIES",
+            ineditos: "NOVEL",
+        },
+    },
+
+    mitogenoma: {
+        etiqueta: "The starting point",
+        titulo: "What Is the Mitochondrial Genome?",
+        corpo1: "The mitochondrial genome in vertebrates is a small, circular molecule consisting of approximately 16,000 to 18,000 base pairs. It contains 13 essential protein-coding genes, 22 transfer RNAs (tRNAs), 2 ribosomal RNAs (rRNAs), and a control region involved in replication and transcription regulation.",
+        corpo2: "Although it evolves faster than the nuclear genome, mitochondrial DNA is widely used for species identification and evolutionary studies. Analyzing these genomes offers valuable insights into taxonomy and evolutionary history—particularly within South America’s aquatic biodiversity.",
+
+        legenda: "Mitogenome map of {especie} — {bp} bp, {genes} genes.",
+        escolherEspecie: "Species",
+        fitaPesada: "Heavy strand (+)",
+        fitaLeve: "Light strand (−)",
+        classes: {
+            pcg: "Protein-coding genes (PCG)",
+            rrna: "Ribosomal RNA",
+            trna: "Transfer RNA",
+            control: "Control region",
+            outro: "Unidentified",
+        },
+        tooltip: {
+            posicao: "{inicio}–{fim} bp",
+            tamanho: "{bp} bp",
+            fita: "{fita} strand",
+        },
+        dicaDloop: "The control region (D-loop) is where the tandem repeats analyzed further down are found.",
+    },
+
+    stats: {
+        titulo: "Amazonian Mitogenomes in Numbers",
+        montados: "assembled mitogenomes",
+        ineditos: "novel mitogenomes",
+        especies: "fish species analyzed",
+        legendaCarrossel: "Species in the collection",
+
+        roleta: {
+            rotulo: "Carousel of the species in the collection",
+            pausar: "Pause the carousel",
+            retomar: "Resume the carousel",
+            anterior: "Previous species",
+            proxima: "Next species",
+            dica: "Drag, use the arrow keys or the buttons",
+            emFoco: "In focus: {especie}",
+        },
+    },
+
+    mapa: {
+        etiqueta: "Distribution",
+        titulo: "Species Distribution in the Amazon Basin",
+        corpo1: "South America is home to approximately 27% of all known fish species, with over 9,100 found across its freshwater and coastal marine environments. The Amazon region stands out, particularly the Amazon Basin, which harbors the greatest freshwater fish biodiversity on the planet, with around 2,400 documented species. However, this remarkable richness is increasingly threatened by human activities impacting aquatic ecosystems.",
+        corpo2: "The map displays the regions of the Amazon Basin where the 34 fish species analyzed in this study have been recorded. This spatial visualization helps in understanding species distribution and its potential links to ecological and evolutionary factors.",
+        titulo_acessivel: "Map of occurrences in the Amazon Basin",
+        todasEspecies: "All species",
+        ocorrencias: "{n} occurrences",
+        ocorrencia: "1 occurrence",
+        carregando: "Loading the map…",
+        erro: "Could not load the occurrence points.",
+    },
+
+    metodologia: {
+        etiqueta: "From raw reads to mitogenome",
+        titulo: "Methodology",
+        verMais: "See more",
+        etapa: "Step {n} of {total}",
+        rolarDica: "Scroll to move through the steps",
+        diagramaAlt: "Methodology flowchart, highlighting the “{etapa}” step",
+        trilho: "Methodology steps",
+    },
+
+    galeria: {
+        etiqueta: "Collection",
+        titulo: "Samples",
+        filtros: "Filters",
+        pesquisar: "Search by name, species, or SRA…",
+        limparBusca: "Clear search",
+        status: "IUCN status",
+        todosValores: "All statuses",
+        resultados: "{n} species",
+        resultado: "1 species",
+        nenhumResultado: "No species matches these filters.",
+        limparFiltros: "Clear filters",
+        expandir: "See details for {especie}",
+    },
+
+    especie: {
+        amostra: "Sample",
+        statusIucn: "The IUCN Red List Status",
+        desconhecido: "Unknown",
+        nomePopular: "Common name",
+        semNomePopular: "No common name",
+        fechar: "Close",
+        verNoSra: "View {sra} on NCBI SRA",
+        baixarFasta: "Mito FASTA",
+        baixarNcbi: "NCBI",
+        baixarGens: "Genes FASTA",
+        indisponivel: "File unavailable",
+        atribuicao: "Image by {autor}, licensed CC BY-NC-SA",
+        verLicenca: "View the original attribution",
+        descricaoBiologica: "Biological description",
+        semAmostras: "No genomic samples linked to this species at the moment.",
+    },
+
+    comparador: {
+        etiqueta: "Side by side",
+        titulo: "Comparison Tool",
+        info: "Select the samples (SRAs) you want to compare.",
+        gerar: "Generate",
+        verOpcoes: "View options",
+        recolher: "Collapse",
+        selecionadas: "{n} samples selected",
+        selecionada: "1 sample selected",
+        nenhumaSelecionada: "No samples selected",
+        limpar: "Clear selection",
+        selecionarTodasDa: "Select every sample of {especie}",
+    },
+
+    visualizador: {
+        titulo: "Analysis comparison",
+        nenhuma: "No samples selected. Go back to the comparison tool and pick at least one.",
+        voltar: "Back to the comparison tool",
+        amostras: "samples",
+        amostra: "sample",
+        especies: "species",
+        especie: "species",
+        interativo: "interactive",
+        imagem: "image",
+        subSintenia: "Every sample on the same axis, aligned gene by gene.",
+        subRscu: "Synonymous codon usage of the selected samples, side by side.",
+        subDloop: "Control region to scale. The analysis is per species, so samples of the same species appear only once.",
+        subImagem: "Figures generated outside the site, one per sample.",
+        anterior: "Previous",
+        proximo: "Next",
+    },
+
+    abas: {
+        circular: "Mitogenome",
+        trna: "tRNA",
+        sintenia: "Synteny",
+        rscu: "RSCU",
+        dloop: "D-loop (repeats)",
+    },
+
+    analise: {
+        carregandoGrafico: "Loading chart…",
+        carregandoAnalise: "Loading analysis…",
+        erroTitulo: "Could not load the analysis data.",
+    },
+
+    pesquisadores: {
+        etiqueta: "The team",
+        titulo: "Researchers",
+        subtitulo: "Meet the multidisciplinary team of researchers, bioinformaticians, and developers behind Amazon Aquabio.",
+        lattes: "Lattes",
+        linkedin: "LinkedIn",
+        orcid: "ORCID",
+        anterior: "Previous researcher",
+        proximo: "Next researcher",
+        verPerfil: "View full profile",
+        biografiaCompleta: "Academic Biography",
+        areasAtuacao: "Research Focus",
+        afiliacao: "Institution & Affiliation",
+        fechar: "Close",
+        fonteLattes: "Lattes Curriculum / CNPq",
+        contagem: "{total} researchers",
+        contagemFiltrada: "{filtrado} of {total} researchers",
+        filtros: {
+            todos: "All",
+            docentes: "Faculty & Leadership",
+            posGraduacao: "Graduate Studies",
+            pesquisa: "Research & Genomics",
+            ti: "IT & Bioinformatics",
+        },
+        buscar: "Search researcher, field, or institution…",
+        nenhumEncontrado: "No researchers found for this search.",
+        limparBusca: "Clear search",
+    },
+
+    contato: {
+        titulo: "Send us your message!",
+        nome: "Name",
+        email: "Email address",
+        instituicao: "Institution",
+        instituicaoOpcional: "Institution (optional)",
+        mensagem: "Type your message",
+        enviar: "Send",
+        enviando: "Sending…",
+        sucesso: "Message sent successfully!",
+        erro: "Error sending the message. Try again.",
+        naoConfigurado: "Message sending is not configured in this environment.",
+        autor: "Jorge Estefano Santana de Souza",
+        funcao: "(corresponding author)",
+        rotuloAfiliacao: "Affiliation",
+        afiliacao: "Bioinformatics Multidisciplinary Environment (BioME), Digital Metropolis Institute, Federal University of Rio Grande do Norte (UFRN), Rio Grande do Norte, Brazil.",
+        rotuloEmails: "Emails",
+        emails: ["jorge@imd.ufrn.br"],
+        rotuloEnderecoInstitucional: "Institutional address",
+        enderecoInstitucional: "Federal University of Rio Grande do Norte, Digital Metropolis Institute",
+        endereco: [
+            "Avenida Odilon Gomes de Lima, 1722",
+            "Capim Macio",
+            "59078-400 - Natal, RN - Brazil",
+        ],
+        rotuloTelefone: "Phone",
+        telefone: "+55 (84) 99708-5398",
+        mapaTitulo: "Location of IMD/UFRN on Google Maps",
+    },
+
+    rodape: {
+        apoio: "Institutional Support",
+        apoioDesc: "Institutions and research centers that enable and support the project",
+        criadores: "Developers",
+        direitos: "All Rights Reserved",
+        ultimaAtualizacao: "Last data update",
+        versao: "Version",
+    },
+
+    erro: {
+        titulo: "Oops!",
+        corpo: "Sorry, an unexpected error has occurred.",
+        naoEncontrado: "Page not found.",
+        voltar: "Back to home",
+    },
+
+    iucn: {
+        NE: "Not Evaluated",
+        DD: "Data Deficient",
+        LC: "Least Concern",
+        NT: "Near Threatened",
+        VU: "Vulnerable",
+        EN: "Endangered",
+        CR: "Critically Endangered",
+        EW: "Extinct in the Wild",
+        EX: "Extinct",
+    },
+};
