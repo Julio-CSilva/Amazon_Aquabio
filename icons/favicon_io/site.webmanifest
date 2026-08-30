@@ -1,0 +1,23 @@
+{
+  "name": "Amazon Aquabio",
+  "short_name": "Aquabio",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#041614",
+  "background_color": "#041614",
+  "display": "standalone",
+  "description": "Diversidade mitogenômica de peixes amazônicos",
+  "lang": "pt-BR",
+  "start_url": "/Amazon_Aquabio/",
+  "scope": "/Amazon_Aquabio/"
+}

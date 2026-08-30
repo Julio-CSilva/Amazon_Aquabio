@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+  lang="pt-BR" é o padrão, e o provider de idioma o reescreve quando a pessoa
+  troca. Antes ficava preso em "en": leitores de tela pronunciavam o português
+  com fonemas ingleses o tempo todo.
+-->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Amazon Aquabio</title>
+    <meta
+      name="description"
+      content="Plataforma de exploração da diversidade mitogenômica de peixes amazônicos: 100 mitogenomas reconstruídos de 34 espécies, com análises interativas de sintenia, uso de códons e região controle."
+    />
+    <meta name="author" content="BioME — Instituto Metrópole Digital / UFRN" />
+
+    <!--
+      A cor da barra do navegador acompanha o tema padrão do site (river-950).
+      Sem isto, o topo da tela no mobile fica branco sobre uma página escura.
+    -->
+    <meta name="theme-color" content="#041614" />
+
+    <!--
+      og:image e og:url precisam ser ABSOLUTAS. Rastreadores de rede social
+      (WhatsApp, Facebook, LinkedIn) não resolvem caminho relativo: com
+      "images/..." o card saía sem imagem. Num fork, troque a origem aqui junto
+      com o `base` de vite.config.js.
+    -->
+    <link rel="canonical" href="https://julio-csilva.github.io/Amazon_Aquabio/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Amazon Aquabio" />
+    <meta property="og:url" content="https://julio-csilva.github.io/Amazon_Aquabio/" />
+    <meta property="og:title" content="Amazon Aquabio" />
+    <meta
+      property="og:description"
+      content="100 mitogenomas de 34 espécies de peixes amazônicos, com análises interativas."
+    />
+    <meta
+      property="og:image"
+      content="https://julio-csilva.github.io/Amazon_Aquabio/images/amazon-com-fundo-branco.png"
+    />
+    <meta property="og:image:alt" content="Logotipo do Amazon Aquabio" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://julio-csilva.github.io/Amazon_Aquabio/images/amazon-com-fundo-branco.png"
+    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="icons/favicon_io/site.webmanifest" />
+    <script type="module" crossorigin src="/Amazon_Aquabio/assets/index-BV1xpZQq.js"></script>
+    <link rel="modulepreload" crossorigin href="/Amazon_Aquabio/assets/gsap-BsAFd79h.js">
+    <link rel="stylesheet" crossorigin href="/Amazon_Aquabio/assets/index-CfoQxqSS.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

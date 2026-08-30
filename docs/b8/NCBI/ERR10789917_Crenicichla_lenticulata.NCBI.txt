@@ -1,0 +1,154 @@
+>Feature AG088
+2900	3871	gene
+			gene	ND1
+2900	3871	CDS
+			codon_start	1
+			gene	ND1
+			product	NADH dehydrogenase subunit 1
+			transl_table	2
+4087	5131	gene
+			gene	ND2
+4087	5131	CDS
+			codon_start	1
+			gene	ND2
+			product	NADH dehydrogenase subunit 2
+			note	Incomplete stop codon. Might indicate subsequent polyadenylation
+			transl_table	2
+5517	7082	gene
+			gene	COXI
+5517	7082	CDS
+			codon_start	1
+			gene	COXI
+			product	cytochrome c oxidase subunit I
+			transl_table	2
+7239	7929	gene
+			gene	COXII
+7239	7929	CDS
+			codon_start	1
+			gene	COXII
+			product	cytochrome c oxidase subunit II
+			note	Incomplete stop codon. Might indicate subsequent polyadenylation
+			transl_table	2
+8005	8172	gene
+			gene	ATPase8
+8005	8172	CDS
+			codon_start	1
+			gene	ATPase8
+			product	ATPase subunit 8
+			transl_table	2
+8163	8845	gene
+			gene	ATPase6
+8163	8845	CDS
+			codon_start	1
+			gene	ATPase6
+			product	ATPase subunit 6
+			note	Incomplete stop codon. Might indicate subsequent polyadenylation
+			transl_table	2
+8846	9629	gene
+			gene	COXIII
+8846	9629	CDS
+			codon_start	1
+			gene	COXIII
+			product	cytochrome c oxidase subunit III
+			note	Incomplete stop codon. Might indicate subsequent polyadenylation
+			transl_table	2
+9701	10049	gene
+			gene	ND3
+9701	10049	CDS
+			codon_start	1
+			gene	ND3
+			product	NADH dehydrogenase subunit 3
+			note	Incomplete stop codon. Might indicate subsequent polyadenylation
+			transl_table	2
+10124	10414	gene
+			gene	ND4L
+10124	10414	CDS
+			codon_start	1
+			gene	ND4L
+			product	NADH dehydrogenase subunit 4L
+			transl_table	2
+10408	11788	gene
+			gene	ND4
+10408	11788	CDS
+			codon_start	1
+			gene	ND4
+			product	NADH dehydrogenase subunit 4
+			note	Incomplete stop codon. Might indicate subsequent polyadenylation
+			transl_table	2
+12009	13823	gene
+			gene	ND5
+12009	13823	CDS
+			codon_start	1
+			gene	ND5
+			product	NADH dehydrogenase subunit 5
+			transl_table	2
+14341	13820	gene
+			gene	ND6
+14341	13820	CDS
+			codon_start	1
+			gene	ND6
+			product	NADH dehydrogenase subunit 6
+			transl_table	2
+14417	15553	gene
+			gene	Cytb
+14417	15553	CDS
+			codon_start	1
+			gene	Cytb
+			product	cytochrome b
+			transl_table	2
+70	1033	rRNA
+			product	12S rRNA
+			note	the 5 or 3 end of rRNA has been adjusted
+1105	2825	rRNA
+			product	16S rRNA
+			note	the 5 or 3 end of rRNA has been adjusted
+1	69	tRNA
+			product	tRNA-Phe
+1034	1104	tRNA
+			product	tRNA-Val
+2826	2899	tRNA
+			product	tRNA-Leu
+			note	Anticodon: UAA
+3878	3948	tRNA
+			product	tRNA-Ile
+4018	3948	tRNA
+			product	tRNA-Gln
+4018	4086	tRNA
+			product	tRNA-Met
+5132	5203	tRNA
+			product	tRNA-Trp
+5273	5205	tRNA
+			product	tRNA-Ala
+5347	5275	tRNA
+			product	tRNA-Asn
+5446	5382	tRNA
+			product	tRNA-Cys
+5515	5446	tRNA
+			product	tRNA-Tyr
+7158	7088	tRNA
+			product	tRNA-Ser
+			note	Anticodon: UGA
+7162	7233	tRNA
+			product	tRNA-Asp
+7930	8003	tRNA
+			product	tRNA-Lys
+9630	9700	tRNA
+			product	tRNA-Gly
+10050	10118	tRNA
+			product	tRNA-Arg
+11789	11856	tRNA
+			product	tRNA-His
+11857	11924	tRNA
+			product	tRNA-Ser
+			note	Anticodon: GCU
+11936	12008	tRNA
+			product	tRNA-Leu
+			note	Anticodon: UAG
+14410	14342	tRNA
+			product	tRNA-Glu
+15556	15627	tRNA
+			product	tRNA-Thr
+15695	15627	tRNA
+			product	tRNA-Pro
+15696	15696	D-loop
+			note	control region
