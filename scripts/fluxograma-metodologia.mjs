@@ -98,8 +98,8 @@ const ETAPAS = {
     Dados: "fluxo-selecao",
     Montagem: "fluxo-montagem",
     Anotação: "fluxo-anotacao",
-    Analises: "fluxo-analises",
     Primers: "fluxo-primers",
+    Analises: "fluxo-analises",
 };
 
 /** O export sem destaque. É só referência de alinhamento — não é publicado. */

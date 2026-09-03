@@ -7,7 +7,7 @@
  * taxonômica, não estilo — achatá-los para texto puro perderia informação.
  *
  * O conteúdo acompanha a seção 4 da dissertação (4.1 Seleção de Amostra a 4.5
- * Geração de Primers), na mesma ordem e com os mesmos números de versão. Ao
+ * Análises Bioinformáticas), na mesma ordem e com os mesmos números de versão. Ao
  * atualizar a dissertação, atualize aqui: é a única cópia desses parâmetros que
  * o site publica.
  *
@@ -303,6 +303,67 @@ export const ETAPAS = [
     },
 
     {
+        id: "primers",
+        icone: "icons/b5/validation.png",
+        imagem: "images/b5/fluxo-primers.png",
+        pt: {
+            titulo: "Geração de primers",
+            resumo: "Primers espécie a espécie no Primer-BLAST e primers de família a partir de sequências de consenso.",
+            descricao: (
+                <>
+                    <p>
+                        Os primers foram desenhados no{" "}
+                        <a href={PRIMER_BLAST} target="_blank" rel="noreferrer">
+                            Primer-BLAST
+                        </a>
+                        , que combina o kit de ferramentas C++ do NCBI com a interface de
+                        programação do Primer3, na mesma parametrização adotada por Silva (2025).
+                    </p>
+                    <p>
+                        O produto de PCR foi restringido a um mínimo de 70 pb e um máximo de 250 pb.
+                        A temperatura de fusão (Tm) vai de 57,0 °C a 63,0 °C, com ideal em 60,0 °C.
+                        Cada primer projetado foi atribuído a um organismo específico.
+                    </p>
+                    <p>
+                        Para os primers de família, o caminho é outro: as sequências são alinhadas
+                        com MAFFT v7 e reduzidas a uma sequência de consenso pelo EMBOSS Cons
+                        v6.5.7, e é sobre esse consenso que o desenho é feito — o que produz primers
+                        capazes de amplificar o grupo inteiro, e não uma espécie só.
+                    </p>
+                </>
+            ),
+        },
+        en: {
+            titulo: "Primer design",
+            resumo: "Species-level primers in Primer-BLAST, and family-level primers built from consensus sequences.",
+            descricao: (
+                <>
+                    <p>
+                        Primers were designed in{" "}
+                        <a href={PRIMER_BLAST} target="_blank" rel="noreferrer">
+                            Primer-BLAST
+                        </a>
+                        , which pairs the NCBI C++ toolkit with the Primer3 programming interface,
+                        using the same parameter set adopted by Silva (2025).
+                    </p>
+                    <p>
+                        PCR product size was constrained to a minimum of 70 bp and a maximum of
+                        250 bp. Melting temperature (Tm) ranges from 57.0 °C to 63.0 °C, with an
+                        optimum of 60.0 °C. Every designed primer was assigned to a specific
+                        organism.
+                    </p>
+                    <p>
+                        Family-level primers take a different route: sequences are aligned with
+                        MAFFT v7 and reduced to a consensus with EMBOSS Cons v6.5.7, and the design
+                        is done on that consensus — which yields primers able to amplify the whole
+                        group rather than a single species.
+                    </p>
+                </>
+            ),
+        },
+    },
+
+    {
         id: "analises",
         icone: "icons/b5/analysis.png",
         imagem: "images/b5/fluxo-analises.png",
@@ -422,67 +483,6 @@ export const ETAPAS = [
                             and first features.
                         </li>
                     </ul>
-                </>
-            ),
-        },
-    },
-
-    {
-        id: "primers",
-        icone: "icons/b5/validation.png",
-        imagem: "images/b5/fluxo-primers.png",
-        pt: {
-            titulo: "Geração de primers",
-            resumo: "Primers espécie a espécie no Primer-BLAST e primers de família a partir de sequências de consenso.",
-            descricao: (
-                <>
-                    <p>
-                        Os primers foram desenhados no{" "}
-                        <a href={PRIMER_BLAST} target="_blank" rel="noreferrer">
-                            Primer-BLAST
-                        </a>
-                        , que combina o kit de ferramentas C++ do NCBI com a interface de
-                        programação do Primer3, na mesma parametrização adotada por Silva (2025).
-                    </p>
-                    <p>
-                        O produto de PCR foi restringido a um mínimo de 70 pb e um máximo de 250 pb.
-                        A temperatura de fusão (Tm) vai de 57,0 °C a 63,0 °C, com ideal em 60,0 °C.
-                        Cada primer projetado foi atribuído a um organismo específico.
-                    </p>
-                    <p>
-                        Para os primers de família, o caminho é outro: as sequências são alinhadas
-                        com MAFFT v7 e reduzidas a uma sequência de consenso pelo EMBOSS Cons
-                        v6.5.7, e é sobre esse consenso que o desenho é feito — o que produz primers
-                        capazes de amplificar o grupo inteiro, e não uma espécie só.
-                    </p>
-                </>
-            ),
-        },
-        en: {
-            titulo: "Primer design",
-            resumo: "Species-level primers in Primer-BLAST, and family-level primers built from consensus sequences.",
-            descricao: (
-                <>
-                    <p>
-                        Primers were designed in{" "}
-                        <a href={PRIMER_BLAST} target="_blank" rel="noreferrer">
-                            Primer-BLAST
-                        </a>
-                        , which pairs the NCBI C++ toolkit with the Primer3 programming interface,
-                        using the same parameter set adopted by Silva (2025).
-                    </p>
-                    <p>
-                        PCR product size was constrained to a minimum of 70 bp and a maximum of
-                        250 bp. Melting temperature (Tm) ranges from 57.0 °C to 63.0 °C, with an
-                        optimum of 60.0 °C. Every designed primer was assigned to a specific
-                        organism.
-                    </p>
-                    <p>
-                        Family-level primers take a different route: sequences are aligned with
-                        MAFFT v7 and reduced to a consensus with EMBOSS Cons v6.5.7, and the design
-                        is done on that consensus — which yields primers able to amplify the whole
-                        group rather than a single species.
-                    </p>
                 </>
             ),
         },
