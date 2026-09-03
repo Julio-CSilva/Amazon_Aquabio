@@ -1,0 +1,397 @@
+/**
+ * Base do documento, escala tipográfica e utilitários próprios.
+ *
+ * Substitui o normalize.css que vivia em `componentes/EstilosGlobais` e era
+ * renderizado FORA do provider de tema — brigando com o reset do Chakra. O
+ * preflight do Tailwind faz esse trabalho agora, uma vez só.
+ */
+
+@import "./tokens.css";
+@import "tw-animate-css";
+
+/*
+ * `--tinta-secao` registrada como cor de verdade.
+ *
+ * Custom property comum é só uma string: o navegador não sabe interpolar entre
+ * dois valores dela, então trocar a tinta seria um corte seco. Registrada com
+ * `@property` e sintaxe `<color>`, ela passa a ser um valor tipado — e uma
+ * simples `transition` faz o navegador percorrer o caminho entre as duas cores
+ * no compositor, sem JavaScript por quadro.
+ *
+ * Onde `@property` não existe, a variável continua funcionando; só a troca vira
+ * instantânea em vez de gradual. Degradação aceitável.
+ */
+@property --tinta-secao {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #365b6d;
+}
+
+@layer base {
+    html {
+        /*
+         * NÃO declarar `scroll-behavior: smooth` aqui.
+         *
+         * O GSAP desaconselha explicitamente: com rolagem suave no CSS, toda
+         * mudança de posição vira uma animação do navegador, e as cenas com
+         * `scrub` passam a perseguir um alvo que ainda está se movendo — o
+         * traçado do mitogenoma ficava borrachudo e atrasado em relação à roda
+         * do mouse.
+         *
+         * A suavidade não se perdeu: a navegação por âncora usa
+         * `scrollIntoView({ behavior: "smooth" })`, que é suave só onde
+         * queremos, sem afetar a rolagem manual.
+         */
+        scroll-padding-top: 5.5rem;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    :root {
+        /* A travessia entre as tintas de seção. Longa de propósito: a cor deve
+           mudar sem que se perceba o momento da troca. O bloco de movimento
+           reduzido, no fim do arquivo, zera esta duração. */
+        transition: --tinta-secao 900ms var(--ease-drift);
+    }
+
+    body {
+        background-color: var(--bg);
+        color: var(--fg);
+        font-family: var(--font-sans);
+        font-synthesis-weight: none;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: clip;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: var(--font-display);
+        /* A Space Grotesk tem só o eixo de peso — os `opsz`/`SOFT` daqui eram da
+           Fraunces e agora seriam ignorados. O aperto de tracking permanece:
+           grotescas em tamanho grande abrem demais sem ele. */
+        letter-spacing: -0.03em;
+        text-wrap: balance;
+        color: var(--fg);
+    }
+
+    p {
+        text-wrap: pretty;
+    }
+
+    /* Acessões (ERR10789892), genes (nad1, cox1) e cabeçalhos FASTA. Em
+       proporcional eles viram um borrão; monoespaçado torna-os escaneáveis. */
+    code,
+    kbd,
+    samp,
+    pre,
+    .tabular {
+        font-family: var(--font-mono);
+        font-variant-numeric: tabular-nums;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 2px;
+        border-radius: 2px;
+    }
+
+    ::selection {
+        background: var(--color-river-400);
+        color: var(--color-river-950);
+    }
+
+    /* Scrollbars no tom da água, em vez do cinza do sistema. */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--line-strong) transparent;
+    }
+
+    *::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background: var(--line-strong);
+        border-radius: 999px;
+    }
+
+    *::-webkit-scrollbar-thumb:hover {
+        background: var(--primary);
+    }
+}
+
+@layer components {
+
+    /*
+     * Cartão "papel": a superfície clara onde vivem as figuras Plotly, em ambos
+     * os temas. Ver a nota em tokens.css sobre por que os gráficos não escurecem.
+     */
+    .paper-card {
+        background: var(--paper);
+        color: var(--paper-fg);
+        border-radius: 0.875rem;
+        box-shadow:
+            0 1px 2px rgb(0 0 0 / 0.28),
+            0 12px 32px -12px rgb(0 0 0 / 0.45);
+    }
+}
+
+@layer utilities {
+
+    /* Rótulo de seção: versalete espaçado, o tom "etiqueta de espécime". */
+    .eyebrow {
+        font-size: 0.6875rem;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--fg-subtle);
+    }
+
+    /* Faixa de leitura confortável para as descrições longas de espécie. */
+    .prose-measure {
+        max-width: 68ch;
+    }
+
+    /*
+     * O gradiente de profundidade, com a forma do original.
+     *
+     * O site antigo usava `#2E838C 0% → #037373 20% → #061721 80% → #080412
+     * 100%`: quatro paradas, com a virada para o escuro concentrada entre 20% e
+     * 80%. Essa distribuição é o que dá a leitura de MERGULHO — a luz da
+     * superfície some rápido e o fundo é longo. Um gradiente de duas paradas
+     * escurece de forma linear e perde exatamente isso.
+     *
+     * As porcentagens são as mesmas; os dois tons claros foram escurecidos
+     * porque aqui ficam atrás de texto corrido.
+     */
+    .depth-gradient {
+        background-image: linear-gradient(180deg,
+                var(--depth-0) 0%,
+                var(--depth-1) 20%,
+                var(--depth-2) 80%,
+                var(--depth-3) 100%);
+    }
+
+    /*
+     * Malha técnica: papel milimetrado sob a página.
+     *
+     * Dois gradientes repetidos formam a grade. É o gesto que separa "site com
+     * fundo escuro" de "instrumento": a grade dá referência métrica ao olho,
+     * como o papel de plotagem por trás de uma figura.
+     *
+     * `background-attachment: fixed` faz a malha ficar parada enquanto o
+     * conteúdo rola — o efeito é o de olhar através de uma janela, não o de uma
+     * textura colada no papel.
+     */
+    .malha-tecnica {
+        /*
+         * Duas escalas, como papel milimetrado de verdade: linha fina a cada
+         * 72 px e linha reforçada a cada 360 px (5×). Uma grade de espaçamento
+         * único lê como wireframe de protótipo; a hierarquia de duas escalas é
+         * o que dá a leitura de instrumento de medida — o olho ancora nas
+         * linhas fortes e usa as finas para subdividir.
+         *
+         * As reforçadas vêm primeiro na lista para ficarem POR CIMA das finas:
+         * em `background-image`, a primeira camada é a mais alta.
+         */
+        background-image:
+            linear-gradient(to right, var(--malha-forte) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--malha-forte) 1px, transparent 1px),
+            linear-gradient(to right, var(--malha) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--malha) 1px, transparent 1px);
+        background-size:
+            360px 360px,
+            360px 360px,
+            72px 72px,
+            72px 72px;
+    }
+
+    /* Halo de bioluminescência atrás de um elemento. */
+    .halo {
+        position: relative;
+    }
+
+    .halo::before {
+        content: "";
+        position: absolute;
+        inset: -30%;
+        z-index: -1;
+        background: radial-gradient(circle at 50% 50%, var(--glow-suave), transparent 65%);
+        filter: blur(48px);
+        pointer-events: none;
+    }
+
+    /* Texto com a luz do dado vivo. Use com moderação — é a cor mais alta da paleta. */
+    .texto-luz {
+        color: var(--glow);
+        text-shadow: 0 0 24px var(--glow-suave);
+    }
+
+    /* Borda que acende no hover, sem mexer no layout. */
+    .borda-viva {
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .borda-viva:hover {
+        border-color: var(--glow-suave);
+        box-shadow: 0 0 0 1px var(--glow-tenue), 0 8px 32px -12px var(--glow-suave);
+    }
+
+    /*
+     * Foco que segue o cursor.
+     *
+     * Vive como pseudo-elemento, e não como um <span> irmão, por dois motivos:
+     * o invólucro que seria necessário para empilhar os filhos acima da luz
+     * colocaria conteúdo de bloco dentro de um <span> (inválido) ou um <div>
+     * dentro de um <button> (idem); e o ::after já fica acima do fundo e abaixo
+     * do conteúdo sem que ninguém precise declarar z-index.
+     *
+     * `--foco-x` e `--foco-y` são escritas pelo JS a cada movimento do mouse.
+     * Como são custom properties, a atualização não passa pelo React — só o
+     * gradiente é repintado.
+     */
+    .foco-cursor::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s;
+        /* A intensidade é aplicada como OPACIDADE do pseudo-elemento, e não
+           misturada na cor. `color-mix` com um percentual vindo de custom
+           property não tem fallback confiável, e opacidade tem suporte
+           universal — além de ser mais barata de animar. */
+        background: radial-gradient(340px circle at var(--foco-x, 50%) var(--foco-y, 50%),
+                var(--glow),
+                transparent 70%);
+    }
+
+    .foco-cursor:hover::after {
+        opacity: var(--foco-intensidade, 0.09);
+    }
+
+    /* Numeração de seção: o "01 —" monoespaçado que dá índice à página. */
+    .indice {
+        font-family: var(--font-mono);
+        font-size: 0.6875rem;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.1em;
+        color: var(--glow);
+    }
+}
+
+/* ---- movimento ---- */
+
+@keyframes drift {
+
+    0%,
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(0, -0.75rem, 0);
+    }
+}
+
+@keyframes marquee {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    /* Metade, porque a faixa renderiza a lista duplicada — o ponto médio é onde
+       a segunda cópia se alinha exatamente sobre a primeira, sem salto. */
+    to {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+/*
+ * Aurora: massas de cor que derivam devagar, como correntes de água profunda.
+ *
+ * Períodos primos entre si (19s, 23s, 29s) de propósito — se fossem múltiplos,
+ * as três camadas voltariam a se alinhar em ciclo curto e o olho reconheceria o
+ * loop. Com períodos que não coincidem, o padrão só se repete depois de minutos.
+ */
+@keyframes deriva-a {
+
+    0%,
+    100% {
+        transform: translate3d(-8%, -4%, 0) scale(1);
+    }
+
+    50% {
+        transform: translate3d(6%, 5%, 0) scale(1.15);
+    }
+}
+
+@keyframes deriva-b {
+
+    0%,
+    100% {
+        transform: translate3d(7%, 6%, 0) scale(1.1);
+    }
+
+    50% {
+        transform: translate3d(-5%, -7%, 0) scale(0.95);
+    }
+}
+
+@keyframes deriva-c {
+
+    0%,
+    100% {
+        transform: translate3d(3%, -6%, 0) scale(0.95);
+    }
+
+    50% {
+        transform: translate3d(-7%, 4%, 0) scale(1.2);
+    }
+}
+
+/* Varredura de sonda: o traço que percorre a fita de sequência. */
+@keyframes varredura {
+    from {
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    to {
+        transform: translate3d(100%, 0, 0);
+    }
+}
+
+@keyframes shimmer {
+    from {
+        background-position: 200% 0;
+    }
+
+    to {
+        background-position: -200% 0;
+    }
+}
+
+/*
+ * Interruptor geral de movimento.
+ *
+ * Sem isto, as cáusticas do fundo, o pin da metodologia, o marquee e o traçado
+ * do mitogenoma tornam o site hostil para quem tem sensibilidade vestibular. As
+ * animações não são desligadas de todo — são reduzidas a um passo instantâneo,
+ * que preserva a mudança de estado sem o percurso.
+ *
+ * O JS lê a mesma media query (`useReducedMotion`) para não montar
+ * ScrollTriggers nem timelines do GSAP — CSS sozinho não alcança aquilo.
+ */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

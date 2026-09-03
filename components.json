@@ -1,0 +1,25 @@
+{
+    "$schema": "https://ui.shadcn.com/schema.json",
+    "style": "new-york",
+    "rsc": false,
+    "tsx": false,
+    "tailwind": {
+        "config": "",
+        "css": "src/styles/globals.css",
+        "baseColor": "neutral",
+        "cssVariables": true,
+        "prefix": ""
+    },
+    "aliases": {
+        "components": "@/components",
+        "utils": "@/lib/utils",
+        "ui": "@/components/ui",
+        "lib": "@/lib",
+        "hooks": "@/hooks"
+    },
+    "iconLibrary": "lucide",
+    "registries": {
+        "@cult-ui": "https://www.cult-ui.com/r/{name}.json",
+        "@skiper-ui": "https://skiper-ui.com/r/{name}.json"
+    }
+}
