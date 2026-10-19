@@ -44,8 +44,10 @@ const ComparadorB6 = () => {
     if (selecionados.length === 0) return;
 
     const params = new URLSearchParams({ sras: selecionados.join(",") });
-    const base =
-      window.location.origin + window.location.pathname.replace(/\/$/, "");
+    // `BASE_URL` do Vite ("/Amazon_Aquabio/"), não o pathname atual: o pathname
+    // vinha com a barra final removida, e o servidor — que serve a partir de
+    // "/Amazon_Aquabio/" — respondia com a página de aviso em vez do app.
+    const base = `${window.location.origin}${import.meta.env.BASE_URL}`;
     const url = `${base}#/comparador-visual?${params.toString()}`;
     window.open(url, "_blank");
   };

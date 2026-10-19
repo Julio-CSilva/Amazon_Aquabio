@@ -24,13 +24,8 @@ import {
   Link,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import AbasDaAmostra from "../../analises/AbasDaAmostra";
 import links from "../../by_links.json";
 import { useLanguage } from "../LanguageContext";
 import { getIucnGradient } from "../../utils/iucnUtils";
@@ -265,41 +260,10 @@ const ModalZoom = ({ foto, aoFechar }) => {
                           </Link>
                         </HStack>
                       </Flex>
-                      <Swiper
-                        modules={[Navigation, Pagination]}
-                        navigation
-                        pagination={{ clickable: true }}
-                        spaceBetween={30}
-                        slidesPerView={1}
-                        style={{ width: "100%", height: "auto" }}
-                      >
-                        {Object.entries(amostra)
-                          .filter(([key]) => key.startsWith("path_"))
-                          .slice(0, 5)
-                          .map(([key, path]) => (
-                            <SwiperSlide key={key}>
-                              <Box
-                                borderRadius="lg"
-                                overflow="hidden"
-                                boxShadow="lg"
-                                maxW="100%"
-                              >
-                                <Zoom>
-                                  <Image
-                                    src={path}
-                                    objectFit="contain"
-                                    w="100%"
-                                    maxH={{ base: "200px", md: "600px" }}
-                                    mx="auto"
-                                    alt={`Imagem ${key}`}
-                                    cursor="zoom-in"
-                                    borderRadius="lg"
-                                  />
-                                </Zoom>
-                              </Box>
-                            </SwiperSlide>
-                          ))}
-                      </Swiper>
+                      <AbasDaAmostra
+                        amostra={amostra}
+                        especie={foto.especie}
+                      />
                     </TabPanel>
                   ))}
                 </TabPanels>
